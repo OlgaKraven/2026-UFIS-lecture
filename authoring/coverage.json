@@ -10,24 +10,100 @@
       "s05-system-boundary-literature",
       "s05-system-boundary-additional",
       "s05-system-boundary-materials",
+      "s05-system-boundary-agenda",
       "s05-system-boundary-question",
       "s05-system-boundary-content-1",
+      "s05-system-boundary-purpose-2",
+      "s05-system-boundary-purpose-3",
+      "s05-system-boundary-purpose-3-view",
       "s05-system-boundary-content-2",
       "s05-system-boundary-diagram-2",
+      "s05-system-boundary-purpose-check",
+      "s05-system-boundary-question-technical",
+      "s05-system-boundary-technical-1",
+      "s05-system-boundary-technical-2",
+      "s05-system-boundary-technical-3",
+      "s05-system-boundary-technical-check",
+      "s05-system-boundary-question-software",
+      "s05-system-boundary-software-1",
+      "s05-system-boundary-software-2",
+      "s05-system-boundary-software-2-view",
+      "s05-system-boundary-software-3",
+      "s05-system-boundary-software-check",
+      "s05-system-boundary-question-information",
+      "s05-system-boundary-information-1",
+      "s05-system-boundary-information-2",
+      "s05-system-boundary-information-3",
+      "s05-system-boundary-information-check",
+      "s05-system-boundary-question-responsibility",
+      "s05-system-boundary-responsibility-1",
+      "s05-system-boundary-responsibility-2",
+      "s05-system-boundary-responsibility-3",
+      "s05-system-boundary-responsibility-4",
+      "s05-system-boundary-responsibility-4-view",
+      "s05-system-boundary-responsibility-check",
+      "s05-system-boundary-question-boundary",
       "s05-system-boundary-content-3",
       "s05-system-boundary-diagram-3",
+      "s05-system-boundary-boundary-2",
+      "s05-system-boundary-boundary-3",
+      "s05-system-boundary-boundary-check",
+      "s05-system-boundary-question-operation",
       "s05-system-boundary-content-4",
+      "s05-system-boundary-operation-2",
+      "s05-system-boundary-operation-3",
+      "s05-system-boundary-operation-check",
       "s05-system-boundary-case",
       "s05-system-boundary-test",
       "s05-system-boundary-transfer",
-      "s05-system-boundary-summary"
+      "s05-system-boundary-summary",
+      "s05-system-boundary-summary-2",
+      "s05-system-boundary-independent",
+      "s05-system-boundary-audience"
     ],
     "caseIds": [
       "s05-system-boundary-case"
     ],
     "taskIds": [
+      "s05-system-boundary-task-purpose-check",
+      "s05-system-boundary-task-technical-check",
+      "s05-system-boundary-task-software-check",
+      "s05-system-boundary-task-information-check",
+      "s05-system-boundary-task-responsibility-check",
+      "s05-system-boundary-task-boundary-check",
+      "s05-system-boundary-task-operation-check",
       "s05-system-boundary-test-single",
       "s05-system-boundary-test-short"
+    ],
+    "questions": [
+      {
+        "title": "Назначение и результат ИС",
+        "outcome": "Работоспособность ИС подтверждают результатом функции, а не наличием программы."
+      },
+      {
+        "title": "Техническое обеспечение",
+        "outcome": "Техническую схему проверяют по ролям оборудования и общим зависимостям."
+      },
+      {
+        "title": "Программное обеспечение",
+        "outcome": "Программный путь включает ОС, драйверы, сервисы и СУБД с согласованными интерфейсами."
+      },
+      {
+        "title": "Информационное обеспечение",
+        "outcome": "Информационное обеспечение включает смысл, структуру, справочники и правила качества данных."
+      },
+      {
+        "title": "Организационное и правовое обеспечение",
+        "outcome": "Роль, регламент и основание доступа рассматривают раздельно и согласуют между собой."
+      },
+      {
+        "title": "Граница системы и интерфейсы",
+        "outcome": "Граница фиксирует функцию, окружение, интерфейсы и распределение ответственности."
+      },
+      {
+        "title": "Проверка системы как целого",
+        "outcome": "После изменения проверяют всю функцию и документируют фактический результат."
+      }
     ]
   },
   {
@@ -41,23 +117,85 @@
       "s05-structure-literature",
       "s05-structure-additional",
       "s05-structure-materials",
+      "s05-structure-agenda",
       "s05-structure-question",
       "s05-structure-content-1",
+      "s05-structure-workplace-2",
+      "s05-structure-workplace-3",
+      "s05-structure-workplace-check",
+      "s05-structure-question-servers",
+      "s05-structure-servers-1",
+      "s05-structure-servers-2",
+      "s05-structure-servers-3",
+      "s05-structure-servers-3-view",
+      "s05-structure-servers-check",
+      "s05-structure-question-data-path",
       "s05-structure-content-2",
       "s05-structure-diagram-2",
-      "s05-structure-content-3",
+      "s05-structure-data-path-2",
+      "s05-structure-data-path-3",
+      "s05-structure-data-path-check",
+      "s05-structure-question-storage",
+      "s05-structure-storage-1",
+      "s05-structure-storage-2",
+      "s05-structure-storage-3",
+      "s05-structure-storage-check",
+      "s05-structure-question-peripherals",
+      "s05-structure-peripherals-1",
       "s05-structure-content-4",
+      "s05-structure-peripherals-3",
+      "s05-structure-peripherals-check",
+      "s05-structure-question-power",
+      "s05-structure-content-3",
+      "s05-structure-power-2",
+      "s05-structure-power-3",
+      "s05-structure-power-check",
       "s05-structure-case",
       "s05-structure-test",
       "s05-structure-transfer",
-      "s05-structure-summary"
+      "s05-structure-summary",
+      "s05-structure-summary-2",
+      "s05-structure-independent",
+      "s05-structure-audience"
     ],
     "caseIds": [
       "s05-structure-case"
     ],
     "taskIds": [
+      "s05-structure-task-workplace-check",
+      "s05-structure-task-servers-check",
+      "s05-structure-task-data-path-check",
+      "s05-structure-task-storage-check",
+      "s05-structure-task-peripherals-check",
+      "s05-structure-task-power-check",
       "s05-structure-test-single",
       "s05-structure-test-short"
+    ],
+    "questions": [
+      {
+        "title": "Рабочее место и клиент",
+        "outcome": "Рабочее место обеспечивает ввод и показ, а сохранение проверяют отдельно."
+      },
+      {
+        "title": "Серверные роли",
+        "outcome": "Серверную роль связывают с конкретным процессом и физическими зависимостями."
+      },
+      {
+        "title": "Сеть и маршрут запроса",
+        "outcome": "Маршрут запроса проверяют по уровням от соединения до результата приложения."
+      },
+      {
+        "title": "Хранилище и сохранность",
+        "outcome": "Надёжность хранения, версия копии и проверка восстановления — разные задачи."
+      },
+      {
+        "title": "Периферийное оборудование",
+        "outcome": "Периферийный тест должен подтверждать смысл полученного кода или изображения."
+      },
+      {
+        "title": "Питание и общие зависимости",
+        "outcome": "Схема структуры должна показывать питание и общие точки отказа."
+      }
     ]
   },
   {
@@ -71,23 +209,75 @@
       "s05-classification-literature",
       "s05-classification-additional",
       "s05-classification-materials",
+      "s05-classification-agenda",
       "s05-classification-question",
       "s05-classification-content-1",
+      "s05-classification-purpose-2",
+      "s05-classification-purpose-3",
+      "s05-classification-purpose-3-view",
+      "s05-classification-purpose-check",
+      "s05-classification-question-scale",
+      "s05-classification-scale-1",
+      "s05-classification-scale-2",
       "s05-classification-content-2",
       "s05-classification-diagram-2",
+      "s05-classification-scale-check",
+      "s05-classification-question-placement",
       "s05-classification-content-3",
+      "s05-classification-placement-2",
+      "s05-classification-placement-3",
+      "s05-classification-placement-check",
+      "s05-classification-question-comparison",
+      "s05-classification-comparison-1",
+      "s05-classification-comparison-2",
+      "s05-classification-comparison-3",
+      "s05-classification-comparison-check",
+      "s05-classification-question-selection",
       "s05-classification-content-4",
+      "s05-classification-selection-2",
+      "s05-classification-selection-3",
+      "s05-classification-selection-check",
       "s05-classification-case",
       "s05-classification-test",
       "s05-classification-transfer",
-      "s05-classification-summary"
+      "s05-classification-summary",
+      "s05-classification-summary-2",
+      "s05-classification-independent",
+      "s05-classification-audience"
     ],
     "caseIds": [
       "s05-classification-case"
     ],
     "taskIds": [
+      "s05-classification-task-purpose-check",
+      "s05-classification-task-scale-check",
+      "s05-classification-task-placement-check",
+      "s05-classification-task-comparison-check",
+      "s05-classification-task-selection-check",
       "s05-classification-test-single",
       "s05-classification-test-short"
+    ],
+    "questions": [
+      {
+        "title": "Классификация по назначению",
+        "outcome": "Назначение определяют по функции и её результату; функции могут сочетаться."
+      },
+      {
+        "title": "Классификация по масштабу",
+        "outcome": "Масштаб фиксируют через участников, подразделения, процессы и общие данные."
+      },
+      {
+        "title": "Локальное, облачное и гибридное размещение",
+        "outcome": "Размещение описывает места выполнения и хранения, а автономность проверяют сквозной операцией."
+      },
+      {
+        "title": "Критерии сравнения одного назначения",
+        "outcome": "Сравнение требует общих критериев, горизонта и состава затрат."
+      },
+      {
+        "title": "Выбор и проверка вывода",
+        "outcome": "Решение связывают с подтверждёнными требованиями и пересматривают при изменении условий."
+      }
     ]
   },
   {
@@ -101,24 +291,86 @@
       "s05-accounting-supply-literature",
       "s05-accounting-supply-additional",
       "s05-accounting-supply-materials",
+      "s05-accounting-supply-agenda",
       "s05-accounting-supply-question",
       "s05-accounting-supply-content-1",
+      "s05-accounting-supply-objects-2",
+      "s05-accounting-supply-objects-3",
+      "s05-accounting-supply-objects-check",
+      "s05-accounting-supply-question-documents",
       "s05-accounting-supply-content-2",
       "s05-accounting-supply-diagram-2",
+      "s05-accounting-supply-documents-2",
+      "s05-accounting-supply-documents-3",
+      "s05-accounting-supply-documents-3-view",
+      "s05-accounting-supply-documents-check",
+      "s05-accounting-supply-question-stock",
       "s05-accounting-supply-content-3",
+      "s05-accounting-supply-stock-2",
+      "s05-accounting-supply-stock-3",
+      "s05-accounting-supply-stock-check",
+      "s05-accounting-supply-question-planning",
       "s05-accounting-supply-content-4",
+      "s05-accounting-supply-planning-2",
+      "s05-accounting-supply-planning-3",
+      "s05-accounting-supply-planning-check",
+      "s05-accounting-supply-question-integration",
+      "s05-accounting-supply-integration-1",
+      "s05-accounting-supply-integration-2",
+      "s05-accounting-supply-integration-3",
+      "s05-accounting-supply-integration-3-view",
+      "s05-accounting-supply-integration-check",
+      "s05-accounting-supply-question-exploitation",
       "s05-accounting-supply-content-5",
+      "s05-accounting-supply-exploitation-2",
+      "s05-accounting-supply-exploitation-3",
+      "s05-accounting-supply-exploitation-check",
       "s05-accounting-supply-case",
       "s05-accounting-supply-test",
       "s05-accounting-supply-transfer",
-      "s05-accounting-supply-summary"
+      "s05-accounting-supply-summary",
+      "s05-accounting-supply-summary-2",
+      "s05-accounting-supply-independent",
+      "s05-accounting-supply-audience"
     ],
     "caseIds": [
       "s05-accounting-supply-case"
     ],
     "taskIds": [
+      "s05-accounting-supply-task-objects-check",
+      "s05-accounting-supply-task-documents-check",
+      "s05-accounting-supply-task-stock-check",
+      "s05-accounting-supply-task-planning-check",
+      "s05-accounting-supply-task-integration-check",
+      "s05-accounting-supply-task-exploitation-check",
       "s05-accounting-supply-test-single",
       "s05-accounting-supply-test-short"
+    ],
+    "questions": [
+      {
+        "title": "Назначение и объекты учёта",
+        "outcome": "Доступность материала зависит от номенклатуры, места, партии и состояния."
+      },
+      {
+        "title": "Документы и движение материала",
+        "outcome": "Плановый документ, факт поступления и доступный запас имеют разные основания."
+      },
+      {
+        "title": "Остаток, резерв и доступность",
+        "outcome": "Резерв изменяет доступность; физическое движение и изменение обязательств отражают раздельно."
+      },
+      {
+        "title": "Расчёт потребности и закупки",
+        "outcome": "Закупку рассчитывают по одинаковой дате и непересекающимся составляющим потребности."
+      },
+      {
+        "title": "Обмен между закупкой, складом и учётом",
+        "outcome": "Обмен проверяют по идентификаторам событий, единицам и сверке итогового состояния."
+      },
+      {
+        "title": "Эксплуатация и инвентаризация",
+        "outcome": "Эксплуатация поддерживает согласованность документов, факта, резервов и обмена."
+      }
     ]
   },
   {
@@ -132,24 +384,86 @@
       "s05-production-quality-literature",
       "s05-production-quality-additional",
       "s05-production-quality-materials",
+      "s05-production-quality-agenda",
       "s05-production-quality-question",
       "s05-production-quality-content-1",
+      "s05-production-quality-levels-2",
+      "s05-production-quality-levels-3",
+      "s05-production-quality-levels-3-view",
+      "s05-production-quality-levels-check",
+      "s05-production-quality-question-routing",
+      "s05-production-quality-routing-1",
+      "s05-production-quality-routing-2",
+      "s05-production-quality-routing-3",
+      "s05-production-quality-routing-3-view",
+      "s05-production-quality-routing-check",
+      "s05-production-quality-question-trace",
       "s05-production-quality-content-2",
       "s05-production-quality-diagram-2",
+      "s05-production-quality-trace-2",
+      "s05-production-quality-trace-3",
+      "s05-production-quality-trace-check",
+      "s05-production-quality-question-measurement",
       "s05-production-quality-content-3",
+      "s05-production-quality-measurement-2",
+      "s05-production-quality-measurement-3",
+      "s05-production-quality-measurement-check",
+      "s05-production-quality-question-nonconformity",
       "s05-production-quality-content-4",
+      "s05-production-quality-nonconformity-2",
+      "s05-production-quality-nonconformity-3",
+      "s05-production-quality-nonconformity-check",
+      "s05-production-quality-question-service",
       "s05-production-quality-content-5",
+      "s05-production-quality-service-2",
+      "s05-production-quality-service-3",
+      "s05-production-quality-service-check",
       "s05-production-quality-case",
       "s05-production-quality-test",
       "s05-production-quality-transfer",
-      "s05-production-quality-summary"
+      "s05-production-quality-summary",
+      "s05-production-quality-summary-2",
+      "s05-production-quality-independent",
+      "s05-production-quality-audience"
     ],
     "caseIds": [
       "s05-production-quality-case"
     ],
     "taskIds": [
+      "s05-production-quality-task-levels-check",
+      "s05-production-quality-task-routing-check",
+      "s05-production-quality-task-trace-check",
+      "s05-production-quality-task-measurement-check",
+      "s05-production-quality-task-nonconformity-check",
+      "s05-production-quality-task-service-check",
       "s05-production-quality-test-single",
       "s05-production-quality-test-short"
+    ],
+    "questions": [
+      {
+        "title": "Планирование и исполнение производства",
+        "outcome": "План, исполнение и годность подтверждают разные события."
+      },
+      {
+        "title": "Маршрут, операция и ресурсы",
+        "outcome": "Маршрут связывает операции с условиями переходов и актуальными исходными документами."
+      },
+      {
+        "title": "Партии и прослеживаемость",
+        "outcome": "Прослеживаемость связывает конкретный выпуск с материалом, операциями и контролем."
+      },
+      {
+        "title": "Измерение и достоверность результата",
+        "outcome": "Решение контроля требует значения, единицы, правила и пригодных исходных условий."
+      },
+      {
+        "title": "Несоответствие и решение по партии",
+        "outcome": "Несоответствие сохраняют как проверяемый объект с отдельным решением и повторным контролем."
+      },
+      {
+        "title": "Особенности эксплуатации",
+        "outcome": "Эксплуатация согласует состояние ИС с фактическими партиями и незавершёнными операциями."
+      }
     ]
   },
   {
@@ -163,24 +477,75 @@
       "s05-reference-library-literature",
       "s05-reference-library-additional",
       "s05-reference-library-materials",
+      "s05-reference-library-agenda",
       "s05-reference-library-question",
       "s05-reference-library-content-1",
+      "s05-reference-library-records-2",
+      "s05-reference-library-records-3",
+      "s05-reference-library-records-3-view",
+      "s05-reference-library-records-check",
+      "s05-reference-library-question-search",
+      "s05-reference-library-search-1",
+      "s05-reference-library-content-4",
+      "s05-reference-library-search-3",
+      "s05-reference-library-search-check",
+      "s05-reference-library-question-circulation",
       "s05-reference-library-content-2",
       "s05-reference-library-diagram-2",
+      "s05-reference-library-circulation-2",
+      "s05-reference-library-circulation-3",
+      "s05-reference-library-circulation-check",
+      "s05-reference-library-question-access",
       "s05-reference-library-content-3",
-      "s05-reference-library-content-4",
+      "s05-reference-library-access-2",
+      "s05-reference-library-access-3",
+      "s05-reference-library-access-check",
+      "s05-reference-library-question-maintenance",
       "s05-reference-library-content-5",
+      "s05-reference-library-maintenance-2",
+      "s05-reference-library-maintenance-3",
+      "s05-reference-library-maintenance-check",
       "s05-reference-library-case",
       "s05-reference-library-test",
       "s05-reference-library-transfer",
-      "s05-reference-library-summary"
+      "s05-reference-library-summary",
+      "s05-reference-library-summary-2",
+      "s05-reference-library-independent",
+      "s05-reference-library-audience"
     ],
     "caseIds": [
       "s05-reference-library-case"
     ],
     "taskIds": [
+      "s05-reference-library-task-records-check",
+      "s05-reference-library-task-search-check",
+      "s05-reference-library-task-circulation-check",
+      "s05-reference-library-task-access-check",
+      "s05-reference-library-task-maintenance-check",
       "s05-reference-library-test-single",
       "s05-reference-library-test-short"
+    ],
+    "questions": [
+      {
+        "title": "Библиографическая запись и экземпляр",
+        "outcome": "Описание отвечает на вопрос «что это за издание», экземпляр — «какая конкретно единица и где она». "
+      },
+      {
+        "title": "Поиск и индексирование",
+        "outcome": "Диагностика поиска различает исходную запись, индекс, запрос и правила совпадения."
+      },
+      {
+        "title": "Выдача, возврат и резервирование",
+        "outcome": "Выдача и возврат изменяют состояние экземпляра в рамках правил и резервов."
+      },
+      {
+        "title": "Доступ и особенности ресурсов",
+        "outcome": "Доступ к описанию, содержимому и служебным операциям разграничивают."
+      },
+      {
+        "title": "Эксплуатация и целостность фонда",
+        "outcome": "Эксплуатация поддерживает связи описаний, экземпляров, читателей, выдач и поискового представления."
+      }
     ]
   },
   {
@@ -194,24 +559,86 @@
       "s05-building-media-literature",
       "s05-building-media-additional",
       "s05-building-media-materials",
+      "s05-building-media-agenda",
       "s05-building-media-question",
       "s05-building-media-content-1",
+      "s05-building-media-field-2",
+      "s05-building-media-field-3",
+      "s05-building-media-field-check",
+      "s05-building-media-question-controllers",
+      "s05-building-media-controllers-1",
+      "s05-building-media-controllers-2",
+      "s05-building-media-controllers-3",
+      "s05-building-media-controllers-3-view",
+      "s05-building-media-controllers-check",
+      "s05-building-media-question-media",
       "s05-building-media-content-2",
       "s05-building-media-diagram-2",
+      "s05-building-media-media-2",
+      "s05-building-media-media-3",
+      "s05-building-media-media-3-view",
+      "s05-building-media-media-check",
+      "s05-building-media-question-zones",
       "s05-building-media-content-3",
+      "s05-building-media-zones-2",
+      "s05-building-media-zones-3",
+      "s05-building-media-zones-check",
+      "s05-building-media-question-diagnostics",
       "s05-building-media-content-4",
+      "s05-building-media-diagnostics-2",
+      "s05-building-media-diagnostics-3",
+      "s05-building-media-diagnostics-check",
+      "s05-building-media-question-maintenance",
       "s05-building-media-content-5",
+      "s05-building-media-maintenance-2",
+      "s05-building-media-maintenance-3",
+      "s05-building-media-maintenance-check",
       "s05-building-media-case",
       "s05-building-media-test",
       "s05-building-media-transfer",
-      "s05-building-media-summary"
+      "s05-building-media-summary",
+      "s05-building-media-summary-2",
+      "s05-building-media-independent",
+      "s05-building-media-audience"
     ],
     "caseIds": [
       "s05-building-media-case"
     ],
     "taskIds": [
+      "s05-building-media-task-field-check",
+      "s05-building-media-task-controllers-check",
+      "s05-building-media-task-media-check",
+      "s05-building-media-task-zones-check",
+      "s05-building-media-task-diagnostics-check",
+      "s05-building-media-task-maintenance-check",
       "s05-building-media-test-single",
       "s05-building-media-test-short"
+    ],
+    "questions": [
+      {
+        "title": "Полевой уровень автоматизации",
+        "outcome": "Полевой контур различает измерение, команду и подтверждённое физическое состояние."
+      },
+      {
+        "title": "Контроллер, диспетчеризация и события",
+        "outcome": "Диспетчеризация показывает локальные контуры вместе с качеством и временем данных."
+      },
+      {
+        "title": "Состав мультимедийного тракта",
+        "outcome": "Медиасигнал и управление описывают как связанные, но разные тракты."
+      },
+      {
+        "title": "Зоны, приоритеты и уровни",
+        "outcome": "Зонный сценарий проверяют по входу, приоритету, выходу и восстановлению состояния."
+      },
+      {
+        "title": "Диагностика сигнального тракта",
+        "outcome": "Диагностика опирается на контрольные точки и изменение одного условия."
+      },
+      {
+        "title": "Эксплуатация и конфигурация",
+        "outcome": "Эксплуатация сохраняет конфигурацию, ответственность и проверенные сценарии всех зон."
+      }
     ]
   },
   {
@@ -225,24 +652,92 @@
       "s05-integration-literature",
       "s05-integration-additional",
       "s05-integration-materials",
+      "s05-integration-agenda",
       "s05-integration-question",
       "s05-integration-content-1",
+      "s05-integration-groups-2",
+      "s05-integration-groups-3",
+      "s05-integration-groups-check",
+      "s05-integration-question-switching",
+      "s05-integration-switching-1",
+      "s05-integration-switching-2",
+      "s05-integration-content-4",
+      "s05-integration-switching-check",
+      "s05-integration-question-display",
+      "s05-integration-display-1",
+      "s05-integration-display-2",
+      "s05-integration-display-check",
+      "s05-integration-question-audio",
+      "s05-integration-audio-1",
+      "s05-integration-audio-2",
+      "s05-integration-audio-3",
+      "s05-integration-audio-check",
+      "s05-integration-question-surveillance",
+      "s05-integration-surveillance-1",
+      "s05-integration-surveillance-2",
+      "s05-integration-content-5",
+      "s05-integration-surveillance-check",
+      "s05-integration-question-ports",
+      "s05-integration-content-3",
+      "s05-integration-ports-2",
       "s05-integration-content-2",
       "s05-integration-diagram-2",
-      "s05-integration-content-3",
-      "s05-integration-content-4",
-      "s05-integration-content-5",
+      "s05-integration-ports-check",
+      "s05-integration-question-acceptance",
+      "s05-integration-acceptance-1",
+      "s05-integration-acceptance-2",
+      "s05-integration-acceptance-check",
       "s05-integration-case",
       "s05-integration-test",
       "s05-integration-transfer",
-      "s05-integration-summary"
+      "s05-integration-summary",
+      "s05-integration-summary-2",
+      "s05-integration-independent",
+      "s05-integration-audience"
     ],
     "caseIds": [
       "s05-integration-case"
     ],
     "taskIds": [
+      "s05-integration-task-groups-check",
+      "s05-integration-task-switching-check",
+      "s05-integration-task-display-check",
+      "s05-integration-task-audio-check",
+      "s05-integration-task-surveillance-check",
+      "s05-integration-task-ports-check",
+      "s05-integration-task-acceptance-check",
       "s05-integration-test-single",
       "s05-integration-test-short"
+    ],
+    "questions": [
+      {
+        "title": "Роли оборудования интеграции",
+        "outcome": "Оборудование классифицируют по роли, типу сигнала и направлению интерфейса."
+      },
+      {
+        "title": "Коммутация и распределение",
+        "outcome": "Для коммутации проверяют маршрут данных; для PoE — совместимость, порт и общий бюджет."
+      },
+      {
+        "title": "Отображение информации",
+        "outcome": "Проверка отображения включает вход, режим, сигнал и читаемость в месте использования."
+      },
+      {
+        "title": "Звуковое оборудование",
+        "outcome": "Звук проверяют по назначению портов, уровням и месту возникновения перегрузки."
+      },
+      {
+        "title": "Камеры, регистратор и архив",
+        "outcome": "Видеонаблюдение принимают по живому потоку и воспроизведению нужного фрагмента архива."
+      },
+      {
+        "title": "Интерфейсы и схема соединений",
+        "outcome": "Схема подключения должна быть воспроизводима по портам, направлениям и назначению линий."
+      },
+      {
+        "title": "Проверка интегрированного комплекса",
+        "outcome": "Приёмка фиксирует фактически проверенные тракты и сквозные сценарии."
+      }
     ]
   },
   {
@@ -256,24 +751,93 @@
       "s05-lan-literature",
       "s05-lan-additional",
       "s05-lan-materials",
+      "s05-lan-agenda",
       "s05-lan-question",
       "s05-lan-content-1",
+      "s05-lan-topology-2",
+      "s05-lan-topology-3",
+      "s05-lan-topology-check",
+      "s05-lan-question-switches",
+      "s05-lan-switches-1",
+      "s05-lan-switches-2",
+      "s05-lan-switches-3",
+      "s05-lan-switches-check",
+      "s05-lan-question-address",
       "s05-lan-content-2",
       "s05-lan-diagram-2",
+      "s05-lan-address-2",
+      "s05-lan-address-3",
+      "s05-lan-address-check",
+      "s05-lan-question-services",
+      "s05-lan-services-1",
+      "s05-lan-services-2",
+      "s05-lan-services-3",
+      "s05-lan-services-check",
+      "s05-lan-question-checks",
       "s05-lan-content-3",
+      "s05-lan-checks-2",
+      "s05-lan-checks-3",
+      "s05-lan-checks-check",
+      "s05-lan-question-faults",
       "s05-lan-content-4",
       "s05-lan-content-5",
+      "s05-lan-faults-3",
+      "s05-lan-faults-check",
+      "s05-lan-question-records",
+      "s05-lan-records-1",
+      "s05-lan-records-2",
+      "s05-lan-records-check",
       "s05-lan-case",
       "s05-lan-test",
       "s05-lan-transfer",
-      "s05-lan-summary"
+      "s05-lan-summary",
+      "s05-lan-summary-2",
+      "s05-lan-independent",
+      "s05-lan-audience"
     ],
     "caseIds": [
       "s05-lan-case"
     ],
     "taskIds": [
+      "s05-lan-task-topology-check",
+      "s05-lan-task-switches-check",
+      "s05-lan-task-address-check",
+      "s05-lan-task-services-check",
+      "s05-lan-task-checks-check",
+      "s05-lan-task-faults-check",
+      "s05-lan-task-records-check",
       "s05-lan-test-single",
       "s05-lan-test-short"
+    ],
+    "questions": [
+      {
+        "title": "Топология и границы локальной сети",
+        "outcome": "Топология показывает связи и общие элементы, а логическая схема — условия обмена."
+      },
+      {
+        "title": "Активное оборудование",
+        "outcome": "Функции активных устройств и логическое назначение портов учитывают раздельно."
+      },
+      {
+        "title": "IP-адрес и префикс",
+        "outcome": "Префикс определяет сетевую часть адреса и выбор локального либо маршрутизируемого пути."
+      },
+      {
+        "title": "Шлюз, DNS и получение адреса",
+        "outcome": "Адрес, префикс, шлюз, DNS и DHCP имеют разные роли и проверяются по назначению."
+      },
+      {
+        "title": "Состав проверок персонала",
+        "outcome": "Каждая команда подтверждает определённый уровень; итог проверяют приложением."
+      },
+      {
+        "title": "Типовые неисправности и проверка гипотез",
+        "outcome": "Гипотезу проверяют наблюдением до и после одного обоснованного изменения."
+      },
+      {
+        "title": "Регламент и документирование сети",
+        "outcome": "Эксплуатационная запись связывает разрешённое изменение с планом сети и конечной проверкой."
+      }
     ]
   },
   {
@@ -287,24 +851,85 @@
       "s05-documentation-literature",
       "s05-documentation-additional",
       "s05-documentation-materials",
+      "s05-documentation-agenda",
       "s05-documentation-question",
       "s05-documentation-content-1",
+      "s05-documentation-set-2",
+      "s05-documentation-set-3",
+      "s05-documentation-set-check",
+      "s05-documentation-question-passport",
       "s05-documentation-content-2",
       "s05-documentation-diagram-2",
+      "s05-documentation-passport-2",
+      "s05-documentation-passport-3",
+      "s05-documentation-passport-3-view",
+      "s05-documentation-passport-check",
+      "s05-documentation-question-schemes",
       "s05-documentation-content-3",
+      "s05-documentation-schemes-2",
+      "s05-documentation-schemes-3",
+      "s05-documentation-schemes-check",
+      "s05-documentation-question-instructions",
+      "s05-documentation-instructions-1",
+      "s05-documentation-instructions-2",
+      "s05-documentation-instructions-3",
+      "s05-documentation-instructions-check",
+      "s05-documentation-question-changes",
       "s05-documentation-content-4",
+      "s05-documentation-changes-2",
+      "s05-documentation-changes-3",
+      "s05-documentation-changes-check",
+      "s05-documentation-question-usability",
       "s05-documentation-content-5",
+      "s05-documentation-usability-2",
+      "s05-documentation-usability-3",
+      "s05-documentation-usability-check",
       "s05-documentation-case",
       "s05-documentation-test",
       "s05-documentation-transfer",
-      "s05-documentation-summary"
+      "s05-documentation-summary",
+      "s05-documentation-summary-2",
+      "s05-documentation-independent",
+      "s05-documentation-audience"
     ],
     "caseIds": [
       "s05-documentation-case"
     ],
     "taskIds": [
+      "s05-documentation-task-set-check",
+      "s05-documentation-task-passport-check",
+      "s05-documentation-task-schemes-check",
+      "s05-documentation-task-instructions-check",
+      "s05-documentation-task-changes-check",
+      "s05-documentation-task-usability-check",
       "s05-documentation-test-single",
       "s05-documentation-test-short"
+    ],
+    "questions": [
+      {
+        "title": "Назначение и комплект документации",
+        "outcome": "Документы различают по вопросу, на который они дают проверяемый ответ."
+      },
+      {
+        "title": "Паспорт информационной системы",
+        "outcome": "Паспорт отражает фактические объекты, параметры и статус подтверждения сведений."
+      },
+      {
+        "title": "Структурные и соединительные схемы",
+        "outcome": "Виды схем дополняют друг друга и используют согласованную маркировку."
+      },
+      {
+        "title": "Инструкция как воспроизводимая процедура",
+        "outcome": "Инструкция задаёт исходное состояние, действие, результат, отказ и конечную проверку."
+      },
+      {
+        "title": "Изменения и актуальность",
+        "outcome": "Актуализация опирается на утверждённую цель, факт и подтверждённое выполнение."
+      },
+      {
+        "title": "Проверка комплектности действием",
+        "outcome": "Комплектность подтверждают поиском объектов и выполнением описанных процедур."
+      }
     ]
   },
   {
@@ -318,24 +943,86 @@
       "s06-reliability-foundations-literature",
       "s06-reliability-foundations-additional",
       "s06-reliability-foundations-materials",
+      "s06-reliability-foundations-agenda",
       "s06-reliability-foundations-question",
       "s06-reliability-foundations-content-1",
-      "s06-reliability-foundations-content-2",
+      "s06-reliability-foundations-object-2",
+      "s06-reliability-foundations-object-3",
+      "s06-reliability-foundations-object-check",
+      "s06-reliability-foundations-question-conditions",
+      "s06-reliability-foundations-conditions-1",
+      "s06-reliability-foundations-conditions-2",
+      "s06-reliability-foundations-conditions-3",
+      "s06-reliability-foundations-conditions-check",
+      "s06-reliability-foundations-question-events",
+      "s06-reliability-foundations-content-4",
+      "s06-reliability-foundations-events-2",
+      "s06-reliability-foundations-events-3",
+      "s06-reliability-foundations-events-3-view",
+      "s06-reliability-foundations-events-check",
+      "s06-reliability-foundations-question-restoration",
+      "s06-reliability-foundations-restoration-1",
+      "s06-reliability-foundations-restoration-2",
+      "s06-reliability-foundations-restoration-3",
+      "s06-reliability-foundations-restoration-check",
+      "s06-reliability-foundations-question-journal",
       "s06-reliability-foundations-content-3",
       "s06-reliability-foundations-diagram-3",
-      "s06-reliability-foundations-content-4",
+      "s06-reliability-foundations-journal-2",
+      "s06-reliability-foundations-journal-3",
+      "s06-reliability-foundations-journal-check",
+      "s06-reliability-foundations-question-exposure",
+      "s06-reliability-foundations-content-2",
       "s06-reliability-foundations-content-5",
+      "s06-reliability-foundations-exposure-3",
+      "s06-reliability-foundations-exposure-4",
+      "s06-reliability-foundations-exposure-check",
       "s06-reliability-foundations-case",
       "s06-reliability-foundations-test",
       "s06-reliability-foundations-transfer",
-      "s06-reliability-foundations-summary"
+      "s06-reliability-foundations-summary",
+      "s06-reliability-foundations-summary-2",
+      "s06-reliability-foundations-independent",
+      "s06-reliability-foundations-audience"
     ],
     "caseIds": [
       "s06-reliability-foundations-case"
     ],
     "taskIds": [
+      "s06-reliability-foundations-task-object-check",
+      "s06-reliability-foundations-task-conditions-check",
+      "s06-reliability-foundations-task-events-check",
+      "s06-reliability-foundations-task-restoration-check",
+      "s06-reliability-foundations-task-journal-check",
+      "s06-reliability-foundations-task-exposure-check",
       "s06-reliability-foundations-test-single",
       "s06-reliability-foundations-test-short"
+    ],
+    "questions": [
+      {
+        "title": "Объект и требуемая функция",
+        "outcome": "Надёжность связывают с объектом, функцией и наблюдаемым критерием."
+      },
+      {
+        "title": "Условия и критерий работоспособности",
+        "outcome": "Критерий отказа задают до наблюдения вместе с условиями нагрузки и работы."
+      },
+      {
+        "title": "Отказ, сообщение и эпизод",
+        "outcome": "Отказы считают по эпизодам состояния, а не по строкам уведомлений."
+      },
+      {
+        "title": "Восстановление и его состав",
+        "outcome": "Границы времени восстановления и его составляющие определяют явно."
+      },
+      {
+        "title": "Журнал состояний и интервалы",
+        "outcome": "Журнал расчёта содержит согласованные состояния и проверенную сумму интервалов."
+      },
+      {
+        "title": "Наработка и основания расчёта",
+        "outcome": "Основание расчёта включает наработку, критерии, полноту и обработку незавершённых наблюдений."
+      }
     ]
   },
   {
@@ -349,24 +1036,95 @@
       "s06-single-metrics-literature",
       "s06-single-metrics-additional",
       "s06-single-metrics-materials",
+      "s06-single-metrics-agenda",
       "s06-single-metrics-question",
       "s06-single-metrics-content-1",
+      "s06-single-metrics-probability-2",
+      "s06-single-metrics-probability-3",
+      "s06-single-metrics-probability-check",
+      "s06-single-metrics-question-operating-mean",
       "s06-single-metrics-content-2",
+      "s06-single-metrics-operating-mean-2",
+      "s06-single-metrics-operating-mean-3",
+      "s06-single-metrics-operating-mean-check",
+      "s06-single-metrics-question-repair-mean",
+      "s06-single-metrics-repair-mean-1",
+      "s06-single-metrics-repair-mean-2",
+      "s06-single-metrics-repair-mean-3",
+      "s06-single-metrics-repair-mean-check",
+      "s06-single-metrics-question-rate",
+      "s06-single-metrics-rate-1",
+      "s06-single-metrics-rate-2",
+      "s06-single-metrics-rate-3",
+      "s06-single-metrics-rate-check",
+      "s06-single-metrics-question-exponential",
       "s06-single-metrics-content-3",
+      "s06-single-metrics-exponential-2",
+      "s06-single-metrics-exponential-3",
+      "s06-single-metrics-exponential-3-view",
+      "s06-single-metrics-exponential-check",
+      "s06-single-metrics-question-calculation",
       "s06-single-metrics-content-4",
       "s06-single-metrics-diagram-4",
+      "s06-single-metrics-calculation-2",
+      "s06-single-metrics-calculation-3",
+      "s06-single-metrics-calculation-check",
+      "s06-single-metrics-question-limits",
       "s06-single-metrics-content-5",
+      "s06-single-metrics-limits-2",
+      "s06-single-metrics-limits-3",
+      "s06-single-metrics-limits-check",
       "s06-single-metrics-case",
       "s06-single-metrics-test",
       "s06-single-metrics-transfer",
-      "s06-single-metrics-summary"
+      "s06-single-metrics-summary",
+      "s06-single-metrics-summary-2",
+      "s06-single-metrics-independent",
+      "s06-single-metrics-audience"
     ],
     "caseIds": [
       "s06-single-metrics-case"
     ],
     "taskIds": [
+      "s06-single-metrics-task-probability-check",
+      "s06-single-metrics-task-operating-mean-check",
+      "s06-single-metrics-task-repair-mean-check",
+      "s06-single-metrics-task-rate-check",
+      "s06-single-metrics-task-exponential-check",
+      "s06-single-metrics-task-calculation-check",
+      "s06-single-metrics-task-limits-check",
       "s06-single-metrics-test-single",
       "s06-single-metrics-test-short"
+    ],
+    "questions": [
+      {
+        "title": "Вероятность безотказной работы",
+        "outcome": "Вероятность безотказной работы всегда связывают с горизонтом и условиями."
+      },
+      {
+        "title": "Средняя наработка на отказ",
+        "outcome": "Среднюю наработку оценивают по фактической работе и согласованному числу отказов."
+      },
+      {
+        "title": "Среднее время восстановления",
+        "outcome": "Среднее восстановление считают по завершённым эпизодам с одинаковыми границами."
+      },
+      {
+        "title": "Интенсивность и частота событий",
+        "outcome": "Частоту событий интерпретируют с единицей, экспозицией и ограничениями модели."
+      },
+      {
+        "title": "Экспоненциальная модель",
+        "outcome": "Экспоненциальную формулу применяют с постоянной интенсивностью и согласованными единицами."
+      },
+      {
+        "title": "Полный порядок расчёта",
+        "outcome": "Расчёт оформляют как переход от исходных данных через единицы и модель к подписанному результату."
+      },
+      {
+        "title": "Проверка смысла и границ",
+        "outcome": "Итоговый показатель сохраняет смысл исходной выборки и принятых допущений."
+      }
     ]
   },
   {
@@ -380,24 +1138,85 @@
       "s06-availability-literature",
       "s06-availability-additional",
       "s06-availability-materials",
+      "s06-availability-agenda",
       "s06-availability-question",
       "s06-availability-content-1",
+      "s06-availability-readiness-2",
+      "s06-availability-readiness-3",
+      "s06-availability-readiness-check",
+      "s06-availability-question-utilization",
       "s06-availability-content-2",
+      "s06-availability-utilization-2",
+      "s06-availability-utilization-3",
+      "s06-availability-utilization-check",
+      "s06-availability-question-fund",
       "s06-availability-content-3",
       "s06-availability-diagram-3",
+      "s06-availability-fund-2",
+      "s06-availability-fund-3",
+      "s06-availability-fund-check",
+      "s06-availability-question-effect",
       "s06-availability-content-4",
+      "s06-availability-effect-2",
+      "s06-availability-effect-3",
+      "s06-availability-effect-check",
+      "s06-availability-question-comparison",
+      "s06-availability-comparison-1",
+      "s06-availability-comparison-2",
+      "s06-availability-comparison-2-view",
+      "s06-availability-comparison-3",
+      "s06-availability-comparison-check",
+      "s06-availability-question-procedure",
       "s06-availability-content-5",
+      "s06-availability-procedure-2",
+      "s06-availability-procedure-3",
+      "s06-availability-procedure-check",
       "s06-availability-case",
       "s06-availability-test",
       "s06-availability-transfer",
-      "s06-availability-summary"
+      "s06-availability-summary",
+      "s06-availability-summary-2",
+      "s06-availability-independent",
+      "s06-availability-audience"
     ],
     "caseIds": [
       "s06-availability-case"
     ],
     "taskIds": [
+      "s06-availability-task-readiness-check",
+      "s06-availability-task-utilization-check",
+      "s06-availability-task-fund-check",
+      "s06-availability-task-effect-check",
+      "s06-availability-task-comparison-check",
+      "s06-availability-task-procedure-check",
       "s06-availability-test-single",
       "s06-availability-test-short"
+    ],
+    "questions": [
+      {
+        "title": "Готовность восстанавливаемой системы",
+        "outcome": "Готовность учитывает длительность восстановления и отличается от безотказности."
+      },
+      {
+        "title": "Техническое использование",
+        "outcome": "Техническое использование связывает работу с явно заданным полным фондом."
+      },
+      {
+        "title": "Подготовка фонда времени",
+        "outcome": "Баланс фонда проверяют до расчёта и не заменяют неизвестные интервалы удобным состоянием."
+      },
+      {
+        "title": "Изменение показателя и его причина",
+        "outcome": "Эффект меры объясняют изменением конкретных времён и последствий, а не одним коэффициентом."
+      },
+      {
+        "title": "Проценты и процентные пункты",
+        "outcome": "Сравнение сохраняет определение показателя, фонд и основание изменения."
+      },
+      {
+        "title": "Порядок расчёта и проверка",
+        "outcome": "Расчёт заканчивается проверкой границ и выводом по конкретному требованию."
+      }
     ]
   },
   {
@@ -411,24 +1230,85 @@
       "s06-system-reliability-literature",
       "s06-system-reliability-additional",
       "s06-system-reliability-materials",
+      "s06-system-reliability-agenda",
       "s06-system-reliability-question",
+      "s06-system-reliability-success-1",
+      "s06-system-reliability-success-2",
+      "s06-system-reliability-success-3",
+      "s06-system-reliability-success-check",
+      "s06-system-reliability-question-series",
       "s06-system-reliability-content-1",
+      "s06-system-reliability-series-2",
+      "s06-system-reliability-series-3",
+      "s06-system-reliability-series-check",
+      "s06-system-reliability-question-parallel",
       "s06-system-reliability-content-2",
+      "s06-system-reliability-parallel-2",
+      "s06-system-reliability-parallel-3",
+      "s06-system-reliability-parallel-check",
+      "s06-system-reliability-question-mixed",
       "s06-system-reliability-content-3",
       "s06-system-reliability-diagram-3",
+      "s06-system-reliability-mixed-2",
+      "s06-system-reliability-mixed-2-view",
+      "s06-system-reliability-mixed-3",
+      "s06-system-reliability-mixed-check",
+      "s06-system-reliability-question-dependence",
       "s06-system-reliability-content-4",
+      "s06-system-reliability-dependence-2",
+      "s06-system-reliability-dependence-3",
+      "s06-system-reliability-dependence-check",
+      "s06-system-reliability-question-decision",
       "s06-system-reliability-content-5",
+      "s06-system-reliability-decision-2",
+      "s06-system-reliability-decision-3",
+      "s06-system-reliability-decision-check",
       "s06-system-reliability-case",
       "s06-system-reliability-test",
       "s06-system-reliability-transfer",
-      "s06-system-reliability-summary"
+      "s06-system-reliability-summary",
+      "s06-system-reliability-summary-2",
+      "s06-system-reliability-independent",
+      "s06-system-reliability-audience"
     ],
     "caseIds": [
       "s06-system-reliability-case"
     ],
     "taskIds": [
+      "s06-system-reliability-task-success-check",
+      "s06-system-reliability-task-series-check",
+      "s06-system-reliability-task-parallel-check",
+      "s06-system-reliability-task-mixed-check",
+      "s06-system-reliability-task-dependence-check",
+      "s06-system-reliability-task-decision-check",
       "s06-system-reliability-test-single",
       "s06-system-reliability-test-short"
+    ],
+    "questions": [
+      {
+        "title": "Условие успеха и структурная модель",
+        "outcome": "Структурную модель выбирают после функции, общего горизонта и логики успеха."
+      },
+      {
+        "title": "Последовательное условие",
+        "outcome": "Для обязательных независимых элементов используется произведение, не превышающее слабейший элемент."
+      },
+      {
+        "title": "Параллельное резервирование",
+        "outcome": "Идеальный резерв считают через отказ всех каналов, предварительно подтвердив их достаточность."
+      },
+      {
+        "title": "Последовательно-параллельная структура",
+        "outcome": "Смешанную структуру рассчитывают от внутренних групп к общим обязательным элементам."
+      },
+      {
+        "title": "Зависимости и общая причина",
+        "outcome": "Резервирование оценивают по конкретным причинам отказа и общим зависимостям."
+      },
+      {
+        "title": "Эффект резерва и эксплуатационная проверка",
+        "outcome": "Эффект резерва подписывают по модели и подтверждают отдельным испытанием каждого пути и возврата."
+      }
     ]
   },
   {
@@ -442,24 +1322,86 @@
       "s06-information-integrity-literature",
       "s06-information-integrity-additional",
       "s06-information-integrity-materials",
+      "s06-information-integrity-agenda",
       "s06-information-integrity-question",
       "s06-information-integrity-content-1",
+      "s06-information-integrity-distortion-2",
+      "s06-information-integrity-distortion-3",
+      "s06-information-integrity-distortion-check",
+      "s06-information-integrity-question-denominator",
       "s06-information-integrity-content-2",
+      "s06-information-integrity-content-4",
+      "s06-information-integrity-denominator-3",
+      "s06-information-integrity-denominator-4",
+      "s06-information-integrity-denominator-4-view",
+      "s06-information-integrity-denominator-check",
+      "s06-information-integrity-question-validation",
       "s06-information-integrity-content-3",
       "s06-information-integrity-diagram-3",
-      "s06-information-integrity-content-4",
+      "s06-information-integrity-validation-2",
+      "s06-information-integrity-validation-3",
+      "s06-information-integrity-validation-check",
+      "s06-information-integrity-question-representation",
+      "s06-information-integrity-representation-1",
+      "s06-information-integrity-representation-2",
+      "s06-information-integrity-representation-3",
+      "s06-information-integrity-representation-check",
+      "s06-information-integrity-question-reconciliation",
+      "s06-information-integrity-reconciliation-1",
+      "s06-information-integrity-reconciliation-2",
+      "s06-information-integrity-reconciliation-3",
+      "s06-information-integrity-reconciliation-check",
+      "s06-information-integrity-question-correction",
       "s06-information-integrity-content-5",
+      "s06-information-integrity-correction-2",
+      "s06-information-integrity-correction-3",
+      "s06-information-integrity-correction-check",
       "s06-information-integrity-case",
       "s06-information-integrity-test",
       "s06-information-integrity-transfer",
-      "s06-information-integrity-summary"
+      "s06-information-integrity-summary",
+      "s06-information-integrity-summary-2",
+      "s06-information-integrity-independent",
+      "s06-information-integrity-audience"
     ],
     "caseIds": [
       "s06-information-integrity-case"
     ],
     "taskIds": [
+      "s06-information-integrity-task-distortion-check",
+      "s06-information-integrity-task-denominator-check",
+      "s06-information-integrity-task-validation-check",
+      "s06-information-integrity-task-representation-check",
+      "s06-information-integrity-task-reconciliation-check",
+      "s06-information-integrity-task-correction-check",
       "s06-information-integrity-test-single",
       "s06-information-integrity-test-short"
+    ],
+    "questions": [
+      {
+        "title": "Источники искажений",
+        "outcome": "Искажения различают по месту возникновения и смыслу затронутого значения."
+      },
+      {
+        "title": "Показатели по записям и полям",
+        "outcome": "Знаменатель и правило ошибки фиксируют отдельно для записей и полей."
+      },
+      {
+        "title": "Проверки формата и связей",
+        "outcome": "Формат, диапазон, связи и подтверждение факта образуют разные уровни контроля."
+      },
+      {
+        "title": "Контроль представления при передаче",
+        "outcome": "Метод контроля представления выбирают с учётом обнаруживаемых ошибок и доверенного эталона."
+      },
+      {
+        "title": "Сверка и выборка",
+        "outcome": "Сверка проверяет состав, ключи, поля и границы выборки, а не только общий итог."
+      },
+      {
+        "title": "Исправление и повторный контроль",
+        "outcome": "Исправление подтверждают повторной сверкой с тем же составом и эталоном."
+      }
     ]
   },
   {
@@ -473,24 +1415,95 @@
       "s06-performance-literature",
       "s06-performance-additional",
       "s06-performance-materials",
+      "s06-performance-agenda",
       "s06-performance-question",
       "s06-performance-content-1",
+      "s06-performance-measures-2",
+      "s06-performance-measures-3",
+      "s06-performance-measures-check",
+      "s06-performance-question-latency",
+      "s06-performance-latency-1",
+      "s06-performance-latency-2",
+      "s06-performance-latency-2-view",
+      "s06-performance-latency-3",
+      "s06-performance-latency-check",
+      "s06-performance-question-statistics",
       "s06-performance-content-2",
       "s06-performance-diagram-2",
+      "s06-performance-statistics-2",
+      "s06-performance-statistics-3",
+      "s06-performance-statistics-check",
+      "s06-performance-question-load",
+      "s06-performance-load-1",
+      "s06-performance-load-2",
+      "s06-performance-load-3",
+      "s06-performance-load-check",
+      "s06-performance-question-resources",
       "s06-performance-content-3",
+      "s06-performance-resources-2",
+      "s06-performance-resources-3",
+      "s06-performance-resources-check",
+      "s06-performance-question-experiment",
       "s06-performance-content-4",
+      "s06-performance-experiment-2",
+      "s06-performance-experiment-3",
+      "s06-performance-experiment-check",
+      "s06-performance-question-report",
       "s06-performance-content-5",
+      "s06-performance-report-2",
+      "s06-performance-report-3",
+      "s06-performance-report-check",
       "s06-performance-case",
       "s06-performance-test",
       "s06-performance-transfer",
-      "s06-performance-summary"
+      "s06-performance-summary",
+      "s06-performance-summary-2",
+      "s06-performance-independent",
+      "s06-performance-audience"
     ],
     "caseIds": [
       "s06-performance-case"
     ],
     "taskIds": [
+      "s06-performance-task-measures-check",
+      "s06-performance-task-latency-check",
+      "s06-performance-task-statistics-check",
+      "s06-performance-task-load-check",
+      "s06-performance-task-resources-check",
+      "s06-performance-task-experiment-check",
+      "s06-performance-task-report-check",
       "s06-performance-test-single",
       "s06-performance-test-short"
+    ],
+    "questions": [
+      {
+        "title": "Показатели и граница измерения",
+        "outcome": "Границы измерения и определение успешного завершения задают до нагрузки."
+      },
+      {
+        "title": "Измерение задержки",
+        "outcome": "Задержку разбирают на участки и ожидания с согласованными границами."
+      },
+      {
+        "title": "Среднее, распределение и процентиль",
+        "outcome": "Среднее и процентили интерпретируют вместе с рядом, размером выборки и методом."
+      },
+      {
+        "title": "Нагрузка и воспроизводимость прогона",
+        "outcome": "Профиль нагрузки и исходное состояние являются частью измеряемого эксперимента."
+      },
+      {
+        "title": "Ресурсы и насыщение",
+        "outcome": "Узкое место подтверждают связью ресурса, ожидания и эффекта контролируемого изменения."
+      },
+      {
+        "title": "Сравнение вариантов и проверка эффекта",
+        "outcome": "Эффект оценивают по сопоставимым прогонам вместе с успешностью и повторяемостью."
+      },
+      {
+        "title": "Измерение и вывод о расширении",
+        "outcome": "Предложение об улучшении опирается на воспроизводимый протокол и подтверждённое ограничение."
+      }
     ]
   },
   {
@@ -504,24 +1517,85 @@
       "s06-improvement-literature",
       "s06-improvement-additional",
       "s06-improvement-materials",
+      "s06-improvement-agenda",
       "s06-improvement-question",
+      "s06-improvement-baseline-1",
+      "s06-improvement-baseline-2",
+      "s06-improvement-baseline-3",
+      "s06-improvement-baseline-check",
+      "s06-improvement-question-methods",
       "s06-improvement-content-1",
+      "s06-improvement-methods-2",
+      "s06-improvement-methods-3",
+      "s06-improvement-methods-check",
+      "s06-improvement-question-recovery",
+      "s06-improvement-recovery-1",
+      "s06-improvement-recovery-2",
+      "s06-improvement-recovery-3",
+      "s06-improvement-recovery-check",
+      "s06-improvement-question-maintenance",
       "s06-improvement-content-2",
       "s06-improvement-diagram-2",
+      "s06-improvement-maintenance-2",
+      "s06-improvement-maintenance-3",
+      "s06-improvement-maintenance-check",
+      "s06-improvement-question-justification",
       "s06-improvement-content-3",
       "s06-improvement-content-4",
+      "s06-improvement-justification-3",
+      "s06-improvement-justification-4",
+      "s06-improvement-justification-check",
+      "s06-improvement-question-verification",
       "s06-improvement-content-5",
+      "s06-improvement-verification-2",
+      "s06-improvement-verification-3",
+      "s06-improvement-verification-check",
       "s06-improvement-case",
       "s06-improvement-test",
       "s06-improvement-transfer",
-      "s06-improvement-summary"
+      "s06-improvement-summary",
+      "s06-improvement-summary-2",
+      "s06-improvement-independent",
+      "s06-improvement-audience"
     ],
     "caseIds": [
       "s06-improvement-case"
     ],
     "taskIds": [
+      "s06-improvement-task-baseline-check",
+      "s06-improvement-task-methods-check",
+      "s06-improvement-task-recovery-check",
+      "s06-improvement-task-maintenance-check",
+      "s06-improvement-task-justification-check",
+      "s06-improvement-task-verification-check",
       "s06-improvement-test-single",
       "s06-improvement-test-short"
+    ],
+    "questions": [
+      {
+        "title": "Исходное требование и причина потери функции",
+        "outcome": "Мера должна воздействовать на установленную причину и проверяться по конкретному требованию."
+      },
+      {
+        "title": "Резервирование и отказоустойчивость",
+        "outcome": "Резерв оценивают по функции, предусмотренному отказу и общим зависимостям."
+      },
+      {
+        "title": "Резервные копии и время возврата",
+        "outcome": "Версия данных и время восстановления проверяются независимо по заданным пределам."
+      },
+      {
+        "title": "Регламентное обслуживание",
+        "outcome": "Обслуживание связано с конкретной целью, обратимостью и проверкой функции."
+      },
+      {
+        "title": "Расчёт эффекта и выбор меры",
+        "outcome": "Обоснование разделяет обязательные условия, расчётный эффект, стоимость и непроверенные допущения."
+      },
+      {
+        "title": "Испытание выбранной меры",
+        "outcome": "Меру принимают по фактическому испытанию функции, времени, данных и возврата."
+      }
     ]
   },
   {
@@ -542,7 +1616,8 @@
       "s05-lab-system-map-case",
       "s05-lab-system-map-test",
       "s05-lab-system-map-transfer",
-      "s05-lab-system-map-summary"
+      "s05-lab-system-map-summary",
+      "s05-lab-system-map-audience"
     ],
     "caseIds": [
       "s05-lab-system-map-case"
@@ -570,7 +1645,8 @@
       "s05-lab-compare-case",
       "s05-lab-compare-test",
       "s05-lab-compare-transfer",
-      "s05-lab-compare-summary"
+      "s05-lab-compare-summary",
+      "s05-lab-compare-audience"
     ],
     "caseIds": [
       "s05-lab-compare-case"
@@ -599,7 +1675,8 @@
       "s05-lab-display-case",
       "s05-lab-display-test",
       "s05-lab-display-transfer",
-      "s05-lab-display-summary"
+      "s05-lab-display-summary",
+      "s05-lab-display-audience"
     ],
     "caseIds": [
       "s05-lab-display-case"
@@ -628,7 +1705,8 @@
       "s05-lab-cctv-case",
       "s05-lab-cctv-test",
       "s05-lab-cctv-transfer",
-      "s05-lab-cctv-summary"
+      "s05-lab-cctv-summary",
+      "s05-lab-cctv-audience"
     ],
     "caseIds": [
       "s05-lab-cctv-case"
@@ -657,7 +1735,8 @@
       "s05-lab-lan-case",
       "s05-lab-lan-test",
       "s05-lab-lan-transfer",
-      "s05-lab-lan-summary"
+      "s05-lab-lan-summary",
+      "s05-lab-lan-audience"
     ],
     "caseIds": [
       "s05-lab-lan-case"
@@ -686,7 +1765,8 @@
       "s05-lab-expansion-case",
       "s05-lab-expansion-test",
       "s05-lab-expansion-transfer",
-      "s05-lab-expansion-summary"
+      "s05-lab-expansion-summary",
+      "s05-lab-expansion-audience"
     ],
     "caseIds": [
       "s05-lab-expansion-case"
@@ -715,7 +1795,8 @@
       "s05-lab-passport-case",
       "s05-lab-passport-test",
       "s05-lab-passport-transfer",
-      "s05-lab-passport-summary"
+      "s05-lab-passport-summary",
+      "s05-lab-passport-audience"
     ],
     "caseIds": [
       "s05-lab-passport-case"
@@ -743,7 +1824,8 @@
       "s06-lab-single-case",
       "s06-lab-single-test",
       "s06-lab-single-transfer",
-      "s06-lab-single-summary"
+      "s06-lab-single-summary",
+      "s06-lab-single-audience"
     ],
     "caseIds": [
       "s06-lab-single-case"
@@ -771,7 +1853,8 @@
       "s06-lab-availability-case",
       "s06-lab-availability-test",
       "s06-lab-availability-transfer",
-      "s06-lab-availability-summary"
+      "s06-lab-availability-summary",
+      "s06-lab-availability-audience"
     ],
     "caseIds": [
       "s06-lab-availability-case"
@@ -799,7 +1882,8 @@
       "s06-lab-redundancy-case",
       "s06-lab-redundancy-test",
       "s06-lab-redundancy-transfer",
-      "s06-lab-redundancy-summary"
+      "s06-lab-redundancy-summary",
+      "s06-lab-redundancy-audience"
     ],
     "caseIds": [
       "s06-lab-redundancy-case"
@@ -827,7 +1911,8 @@
       "s06-lab-integrity-case",
       "s06-lab-integrity-test",
       "s06-lab-integrity-transfer",
-      "s06-lab-integrity-summary"
+      "s06-lab-integrity-summary",
+      "s06-lab-integrity-audience"
     ],
     "caseIds": [
       "s06-lab-integrity-case"
@@ -856,7 +1941,8 @@
       "s06-lab-performance-case",
       "s06-lab-performance-test",
       "s06-lab-performance-transfer",
-      "s06-lab-performance-summary"
+      "s06-lab-performance-summary",
+      "s06-lab-performance-audience"
     ],
     "caseIds": [
       "s06-lab-performance-case"

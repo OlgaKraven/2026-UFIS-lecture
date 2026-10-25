@@ -1,0 +1,62 @@
+[
+  {
+    "url": "http://127.0.0.1:5193/2026-UFIS-lecture/?mode=presenter&lecture=s05-lab-passport&slide=s05-lab-passport-test&session=55259a48-52d1-428f-bd04-c5caf268c3f3",
+    "width": 1280,
+    "text": "Что записать в поле времени восстановления, если оно не измерялось?\n\nА\n1 минута для красоты\nБ\nТребует проверки; описать план измерения\nВ\n0, потому что отказов не было\nГ\nБесконечная готовность\nПроверить\nError: Банк самопроверки не подключён",
+    "status": [
+      "Синхронизировано"
+    ],
+    "private": "Прочитайте вопрос и выберите один ответ. Перед проверкой объясните, на какое наблюдение или правило вы опираетесь. После попытки обсудим, почему остальные варианты не подтверждают нужный результат.",
+    "inputs": [
+      {
+        "type": "radio",
+        "checked": true,
+        "disabled": false
+      },
+      {
+        "type": "radio",
+        "checked": false,
+        "disabled": false
+      },
+      {
+        "type": "radio",
+        "checked": false,
+        "disabled": false
+      },
+      {
+        "type": "radio",
+        "checked": false,
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "url": "http://127.0.0.1:5193/2026-UFIS-lecture/?mode=audience&lecture=s05-lab-passport&session=55259a48-52d1-428f-bd04-c5caf268c3f3",
+    "width": 1280,
+    "text": "Что записать в поле времени восстановления, если оно не измерялось?\n\nА\n1 минута для красоты\nБ\nТребует проверки; описать план измерения\nВ\n0, потому что отказов не было\nГ\nБесконечная готовность",
+    "status": [],
+    "private": "",
+    "inputs": [
+      {
+        "type": "radio",
+        "checked": true,
+        "disabled": true
+      },
+      {
+        "type": "radio",
+        "checked": false,
+        "disabled": true
+      },
+      {
+        "type": "radio",
+        "checked": false,
+        "disabled": true
+      },
+      {
+        "type": "radio",
+        "checked": false,
+        "disabled": true
+      }
+    ]
+  }
+]

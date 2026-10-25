@@ -1,0 +1,550 @@
+{
+  "count": 68,
+  "results": [
+    {
+      "id": "s06-reliability-foundations-task-object-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-reliability-foundations-task-conditions-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-reliability-foundations-task-events-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-reliability-foundations-task-restoration-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-reliability-foundations-task-journal-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-reliability-foundations-task-exposure-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-reliability-foundations-test-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-reliability-foundations-test-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-single-metrics-task-probability-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-single-metrics-task-operating-mean-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-single-metrics-task-repair-mean-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-single-metrics-task-rate-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-single-metrics-task-exponential-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-single-metrics-task-calculation-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-single-metrics-task-limits-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-single-metrics-test-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-single-metrics-test-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-availability-task-readiness-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-availability-task-utilization-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-availability-task-fund-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-availability-task-effect-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-availability-task-comparison-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-availability-task-procedure-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-availability-test-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-availability-test-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-system-reliability-task-success-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-system-reliability-task-series-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-system-reliability-task-parallel-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-system-reliability-task-mixed-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-system-reliability-task-dependence-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-system-reliability-task-decision-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-system-reliability-test-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-system-reliability-test-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-information-integrity-task-distortion-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-information-integrity-task-denominator-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-information-integrity-task-validation-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-information-integrity-task-representation-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-information-integrity-task-reconciliation-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-information-integrity-task-correction-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-information-integrity-test-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-information-integrity-test-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-performance-task-measures-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-performance-task-latency-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-performance-task-statistics-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-performance-task-load-check",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-performance-task-resources-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-performance-task-experiment-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-performance-task-report-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-performance-test-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-performance-test-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-improvement-task-baseline-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-improvement-task-methods-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-improvement-task-recovery-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-improvement-task-maintenance-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-improvement-task-justification-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-improvement-task-verification-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-improvement-test-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-improvement-test-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-lab-single-test-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-lab-single-test-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-lab-availability-test-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-lab-availability-test-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-lab-redundancy-test-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-lab-redundancy-test-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-lab-integrity-test-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-lab-integrity-test-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-lab-performance-test-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-lab-performance-test-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    }
+  ],
+  "issues": []
+}

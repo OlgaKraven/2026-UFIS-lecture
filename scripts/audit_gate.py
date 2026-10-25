@@ -113,12 +113,12 @@ def inventory(root, course_path, pack_path, runtime):
             if sid in seen or sid not in notes or not isinstance(notes[sid].get("script"), str) or not notes[sid]["script"].strip():
                 raise ValueError(f"Повтор ID или нет речи преподавателя: {sid}")
             seen.add(sid)
-            question = re.search(r"-(Q\d+)$", sid) if slide.get("kind") == "section" else None
-            tail = sid == lecture["id"] + "-experiment"
+            question = slide.get("kind") == "section"
+            tail = (slide.get("kind") in {"summary", "questions"} or sid == lecture["id"] + "-experiment") and current["id"] != lecture["id"] + ":closing"
             if question or tail:
                 if current["slides"]:
                     groups.append(current)
-                current = {"id": lecture["id"] + ":" + (question[1] if question else "closing"), "slides": []}
+                current = {"id": lecture["id"] + ":" + (sid[len(lecture["id"])+1:] if question else "closing"), "slides": []}
             current["slides"].append(slide)
         if current["slides"]:
             groups.append(current)

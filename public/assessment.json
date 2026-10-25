@@ -419,6 +419,747 @@
         "15"
       ],
       "explanation": "900/60=15 оп/с. Для сравнения сохраняем тот же профиль и границы измерения."
+    },
+    "s05-system-boundary-task-purpose-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Наблюдение связано с требуемой функцией, исходными данными и результатом. Открытие формы и загрузка CPU этого не доказывают."
+    },
+    "s05-system-boundary-task-technical-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Общий физический компонент может нарушить работу обоих серверов. Дублирование корпусов не устраняет эту зависимость."
+    },
+    "s05-system-boundary-task-software-check": {
+      "type": "multiple",
+      "correct": [
+        "option-1",
+        "option-2"
+      ],
+      "explanation": "Пара версий и сообщение о формате позволяют проверить гипотезу несовместимости. Внешний вид оборудования не описывает протокол."
+    },
+    "s05-system-boundary-task-information-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Код — идентификатор, а не количество. Правило исправления должно опираться на формат и эталон, а не на догадку о числе нулей."
+    },
+    "s05-system-boundary-task-responsibility-check": {
+      "type": "multiple",
+      "correct": [
+        "option-2",
+        "option-3"
+      ],
+      "explanation": "Роль и журнал должны отражать действующего исполнителя. Обход учёта уничтожает возможность проверить ответственность."
+    },
+    "s05-system-boundary-task-boundary-check": {
+      "type": "single",
+      "correct": [
+        "option-1"
+      ],
+      "explanation": "Место размещения не назначает ответственность за бизнес-данные. Нужны согласованные роли и договорённости."
+    },
+    "s05-system-boundary-task-operation-check": {
+      "type": "single",
+      "correct": [
+        "option-3"
+      ],
+      "explanation": "Именно сквозная операция проверяет требуемый результат всех участвующих обеспечений."
+    },
+    "s05-structure-task-workplace-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Форма может хранить несохранённое состояние; нужна запись, соответствующая операции."
+    },
+    "s05-structure-task-servers-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Виртуализация разделяет программные окружения, но не устраняет общую физическую зависимость."
+    },
+    "s05-structure-task-data-path-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Есть конкретное расхождение имени и адреса; его нужно проверить до несвязанных вмешательств."
+    },
+    "s05-structure-task-storage-check": {
+      "type": "multiple",
+      "correct": [
+        "option-2",
+        "option-3"
+      ],
+      "explanation": "Нужны восстановимость и подходящая версия данных. Сообщение о создании и число дисков сами этого не подтверждают."
+    },
+    "s05-structure-task-peripherals-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Проверка проходит весь путь от печати до предметного объекта."
+    },
+    "s05-structure-task-power-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Защищён один компонент; условие успеха всей функции включает также сеть и клиентов."
+    },
+    "s05-classification-task-purpose-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Назначения могут сочетаться; способ размещения определяется отдельно."
+    },
+    "s05-classification-task-scale-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Масштаб связан с организационным охватом, а не с маркой оборудования."
+    },
+    "s05-classification-task-placement-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Автономность относится к полной функции, включая запись и последующую синхронизацию."
+    },
+    "s05-classification-task-comparison-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Внедрение оплачивается один раз: 40+2×10=60. Для B за тот же период получается 70."
+    },
+    "s05-classification-task-selection-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Отсутствие доказательства нужно обозначить отдельно; для выбора нельзя выдавать его за подтверждённое соответствие."
+    },
+    "s05-accounting-supply-task-objects-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Остаток по предприятию не равен доступному количеству в нужном месте и сроке."
+    },
+    "s05-accounting-supply-task-documents-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Из 60 принятых 5 заблокированы: свободно 55. Недопоставка 40 отвечает на другой вопрос."
+    },
+    "s05-accounting-supply-task-stock-check": {
+      "type": "multiple",
+      "correct": [
+        "option-2",
+        "option-3"
+      ],
+      "explanation": "Изменилось обязательство, а не физическое количество. Снятие резерва освобождает существующий запас."
+    },
+    "s05-accounting-supply-task-planning-check": {
+      "type": "single",
+      "correct": [
+        "option-3"
+      ],
+      "explanation": "70+10−30−20=30. Позднее поступление в этот расчёт не входит."
+    },
+    "s05-accounting-supply-task-integration-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Повтор одного события не должен удваивать движение. Ожидаем 20+15=35."
+    },
+    "s05-accounting-supply-task-exploitation-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Нужно установить судьбу исходной операции, чтобы не создать дубликат."
+    },
+    "s05-production-quality-task-levels-check": {
+      "type": "single",
+      "correct": [
+        "option-1"
+      ],
+      "explanation": "Годность относится к обработанным 80: 80−6=74."
+    },
+    "s05-production-quality-task-routing-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Завершение операции и подтверждение качества — разные условия маршрута."
+    },
+    "s05-production-quality-task-trace-check": {
+      "type": "multiple",
+      "correct": [
+        "option-1",
+        "option-3"
+      ],
+      "explanation": "Прослеживаемость строится по фактическим связям партий, а не по совпадению даты."
+    },
+    "s05-production-quality-task-measurement-check": {
+      "type": "single",
+      "correct": [
+        "option-4"
+      ],
+      "explanation": "10,11 больше 10,10. Предварительное округление может ошибочно скрыть превышение."
+    },
+    "s05-production-quality-task-nonconformity-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Правило задано для каждого изделия. Среднее отвечает на другой вопрос."
+    },
+    "s05-production-quality-task-service-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Повтор передачи одного факта не является новым физическим выпуском."
+    },
+    "s05-reference-library-task-records-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Нужно различать описание и экземпляры с их статусами."
+    },
+    "s05-reference-library-task-search-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Есть подтверждённая запись и расхождение поискового представления; дублирование создаст новый дефект."
+    },
+    "s05-reference-library-task-circulation-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Возврат завершает прежнюю выдачу, но не отменяет действующих обязательств."
+    },
+    "s05-reference-library-task-access-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Поиск описания и право чтения полного текста являются разными функциями."
+    },
+    "s05-reference-library-task-maintenance-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Удаление общего описания затрагивает другие единицы и связи; утрата одного экземпляра не является достаточным основанием."
+    },
+    "s05-building-media-task-field-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Выдача команды и обратная связь — независимые наблюдения; причина ещё не локализована."
+    },
+    "s05-building-media-task-controllers-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Температура между порогами; сохраняется предыдущее состояние."
+    },
+    "s05-building-media-task-media-check": {
+      "type": "single",
+      "correct": [
+        "option-1"
+      ],
+      "explanation": "Команда выбора относится к управлению; измерение входа проверяет медиатракт."
+    },
+    "s05-building-media-task-zones-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Сценарий включает и приоритетное воздействие, и возврат, и отсутствие изменения соседней зоны."
+    },
+    "s05-building-media-task-diagnostics-check": {
+      "type": "single",
+      "correct": [
+        "option-1"
+      ],
+      "explanation": "Наблюдение локализует конкретное состояние A; несвязанные изменения пока не обоснованы."
+    },
+    "s05-building-media-task-maintenance-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Адресная доступность не подтверждает правильный медиатракт и зонную логику."
+    },
+    "s05-integration-task-groups-check": {
+      "type": "single",
+      "correct": [
+        "option-1"
+      ],
+      "explanation": "Механическая совместимость не гарантирует согласованный режим и корректный тракт."
+    },
+    "s05-integration-task-switching-check": {
+      "type": "single",
+      "correct": [
+        "option-1"
+      ],
+      "explanation": "Сумма 4×12=48 Вт больше 45 Вт. Ограничения портов и совместимость проверяются дополнительно."
+    },
+    "s05-integration-task-display-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Встроенное меню не проходит через внешний кабель и источник."
+    },
+    "s05-integration-task-audio-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Позднее ослабление делает искажённый сигнал тише, но не восстанавливает утраченную форму."
+    },
+    "s05-integration-task-surveillance-check": {
+      "type": "single",
+      "correct": [
+        "option-1"
+      ],
+      "explanation": "8 Мбит/с ÷ 8 = 1 МБ/с. Накладные расходы в учебной оценке не учитываются."
+    },
+    "s05-integration-task-ports-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Запись задаёт оба порта, направление и тип сигнала."
+    },
+    "s05-integration-task-acceptance-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Объём вывода должен соответствовать выполненным действиям."
+    },
+    "s05-lan-task-topology-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Локальный обмен и общий отказ удалённого ресурса выделяют общий участок, но причина требует проверки."
+    },
+    "s05-lan-task-switches-check": {
+      "type": "single",
+      "correct": [
+        "option-1"
+      ],
+      "explanation": "Доступ к интернету и внутреннему ресурсу использует разные условия и пути."
+    },
+    "s05-lan-task-address-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "При /24 различается третий октет сети: 10 и 11. Нужен маршрут между сетями."
+    },
+    "s05-lan-task-services-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Шлюз требуется для соответствующего нелокального пути, а не для всякого обращения внутри подсети."
+    },
+    "s05-lan-task-checks-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "TCP-проверка не выполняет авторизацию и предметную операцию."
+    },
+    "s05-lan-task-faults-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Проверка продвинулась на один уровень; требуемая функция пока не подтверждена."
+    },
+    "s05-lan-task-records-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Отсутствие ответа ping не доказывает, что адрес свободен; назначение должно быть согласовано."
+    },
+    "s05-documentation-task-set-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Журнал фиксирует событие, исполнителя и результат. План не доказывает выполнение."
+    },
+    "s05-documentation-task-passport-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Честно обозначенный пробел позволяет его закрыть, а выдуманный адрес делает документ опасно недостоверным."
+    },
+    "s05-documentation-task-schemes-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Единые идентификаторы позволяют сопоставить уровни документации."
+    },
+    "s05-documentation-task-instructions-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Неописанный обязательный ресурс делает первое действие невыполнимым."
+    },
+    "s05-documentation-task-changes-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Решение о правке документа или системы зависит от целевого состояния и основания изменения."
+    },
+    "s05-documentation-task-usability-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Цель документации — позволить выполнить действие; число файлов этого не доказывает."
+    },
+    "s06-reliability-foundations-task-object-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Уровни наблюдения различаются. Нужен критерий требуемой функции системы."
+    },
+    "s06-reliability-foundations-task-conditions-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Классификация зависит от требуемого поведения: правильное отклонение недопустимого ввода сохраняет функцию."
+    },
+    "s06-reliability-foundations-task-events-check": {
+      "type": "single",
+      "correct": [
+        "option-1"
+      ],
+      "explanation": "Без подтверждённого восстановления повторы относятся к одному непрерывному эпизоду при принятом критерии."
+    },
+    "s06-reliability-foundations-task-restoration-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Нужен весь определённый условием интервал, а не только активное действие."
+    },
+    "s06-reliability-foundations-task-journal-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Обслуживание целиком находится внутри простоя; длина объединения равна 60 минутам."
+    },
+    "s06-reliability-foundations-task-exposure-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Полное время неизвестно. Ноль или подстановка другого значения выдумывают наблюдение."
+    },
+    "s06-single-metrics-task-probability-check": {
+      "type": "single",
+      "correct": [
+        "option-1"
+      ],
+      "explanation": "Знаменатель — испытания с общим горизонтом, а не календарное время работы."
+    },
+    "s06-single-metrics-task-operating-mean-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Числитель уже является временем работы. Повторное вычитание изменит его смысл."
+    },
+    "s06-single-metrics-task-repair-mean-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "(30+60+90)/3=60 минут=1 час. Сначала суммируют одинаковые единицы."
+    },
+    "s06-single-metrics-task-rate-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Нужно нормировать на одинаковую единицу работы; абсолютные числа несопоставимы без экспозиции."
+    },
+    "s06-single-metrics-task-exponential-check": {
+      "type": "single",
+      "correct": [
+        "option-3"
+      ],
+      "explanation": "Отношение t/Tн=1, поэтому R=exp(−1). Среднее не является гарантированным сроком."
+    },
+    "s06-single-metrics-task-calculation-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "30 минут = 0,5 часа. Единицы числителя и знаменателя должны совпадать."
+    },
+    "s06-single-metrics-task-limits-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Формула требует отдельного параметра восстановления. Его нельзя выдумывать."
+    },
+    "s06-availability-task-readiness-check": {
+      "type": "single",
+      "correct": [
+        "option-1"
+      ],
+      "explanation": "Меняется доля готовности; частота отказов и вероятность безотказного интервала не изменяются только из-за Tв."
+    },
+    "s06-availability-task-utilization-check": {
+      "type": "single",
+      "correct": [
+        "option-1"
+      ],
+      "explanation": "Полный фонд 1000 ч, доля работы 900/1000=0,9."
+    },
+    "s06-availability-task-fund-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Неизвестное время является пробелом данных; оно не должно незаметно менять определение показателя."
+    },
+    "s06-availability-task-effect-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Отношение двух параметров не определяет каждый параметр и максимум эпизодов."
+    },
+    "s06-availability-task-comparison-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "96%→98% даёт 2 процентных пункта; разность долей равна 0,02."
+    },
+    "s06-availability-task-procedure-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Доля работы в её полном неперекрывающемся фонде не может превышать единицу."
+    },
+    "s06-system-reliability-task-success-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Параллельность задаётся условием успеха и допущениями, а не геометрией рисунка."
+    },
+    "s06-system-reliability-task-series-check": {
+      "type": "single",
+      "correct": [
+        "option-1"
+      ],
+      "explanation": "Нужны оба: 0,9×0,8=0,72. Среднее не является совместной вероятностью."
+    },
+    "s06-system-reliability-task-parallel-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Параллельная модель требует, чтобы оставшийся путь обеспечивал нужную функцию в заданных пределах."
+    },
+    "s06-system-reliability-task-mixed-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "При необходимости сервера общий успех является подмножеством события его работы."
+    },
+    "s06-system-reliability-task-dependence-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "При отказе коммутатора оба пути могут исчезнуть. Общая зависимость должна присутствовать в условии успеха."
+    },
+    "s06-system-reliability-task-decision-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Покрытие вывода ограничено фактически выполненными сценариями."
+    },
+    "s06-information-integrity-task-distortion-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Представление числа сохранно, но изменён смысл. Техническая контрольная сумма этого не устанавливает."
+    },
+    "s06-information-integrity-task-denominator-check": {
+      "type": "single",
+      "correct": [
+        "option-1"
+      ],
+      "explanation": "Единица счёта — запись; несколько полевых дефектов одной записи не создают новые записи."
+    },
+    "s06-information-integrity-task-validation-check": {
+      "type": "single",
+      "correct": [
+        "option-1"
+      ],
+      "explanation": "Проверки формата и существования объекта имеют разный смысл."
+    },
+    "s06-information-integrity-task-representation-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Контроль имеет пределы обнаружения; совпавший признак не гарантирует отсутствие любого изменения."
+    },
+    "s06-information-integrity-task-reconciliation-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Агрегат скрывает взаимную компенсацию ошибок отдельных объектов."
+    },
+    "s06-information-integrity-task-correction-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Стало три правильные записи из четырёх; второй дефект ещё остаётся."
+    },
+    "s06-performance-task-measures-check": {
+      "type": "single",
+      "correct": [
+        "option-1"
+      ],
+      "explanation": "В числителе завершённые успешные операции: 1200/60=20."
+    },
+    "s06-performance-task-latency-check": {
+      "type": "single",
+      "correct": [
+        "option-3"
+      ],
+      "explanation": "200−40+20=180 мс. Нельзя переносить ускорение одного участка на весь запрос."
+    },
+    "s06-performance-task-statistics-check": {
+      "type": "single",
+      "correct": [
+        "option-3"
+      ],
+      "explanation": "ceil(0,95×10)=ceil(9,5)=10. При другой методике результат может вычисляться иначе."
+    },
+    "s06-performance-task-load-check": {
+      "type": "multiple",
+      "correct": [
+        "option-1",
+        "option-2"
+      ],
+      "explanation": "Сопоставимость требует контролировать остальные условия, иначе причина различия не выделена."
+    },
+    "s06-performance-task-resources-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Нужно связать ресурс с нужной функцией и проверить влияние, а не выбрать показатель по внешнему впечатлению."
+    },
+    "s06-performance-task-experiment-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Пользовательская функция требует результата; уменьшение времени с ростом ошибок не доказывает улучшения услуги."
+    },
+    "s06-performance-task-report-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Без ряда и метода нельзя проверить, какое значение соответствует принятому процентилю."
+    },
+    "s06-improvement-task-baseline-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Процедура воздействует на выявленную задержку. Покупка оборудования требует отдельного основания."
+    },
+    "s06-improvement-task-methods-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Эффекты относятся к разным механизмам; их нельзя подменять одним словом «резерв»."
+    },
+    "s06-improvement-task-recovery-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "От 02:00 до 20:00 прошло 18 ч. Длительность фактического восстановления считается отдельно."
+    },
+    "s06-improvement-task-maintenance-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Установщик проверяет свой процесс, а не всю предметную функцию."
+    },
+    "s06-improvement-task-justification-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Улучшение относительно прошлого не заменяет выполнение обязательного текущего требования."
+    },
+    "s06-improvement-task-verification-check": {
+      "type": "single",
+      "correct": [
+        "option-2"
+      ],
+      "explanation": "Окончание определяется контрольной функцией: от 10:00 до 10:50 прошло 50 минут."
     }
   }
 }

@@ -1,0 +1,77 @@
+{
+  "results": [
+    {
+      "id": "s06-reliability-foundations",
+      "checked": 45,
+      "notes": true,
+      "audience": true
+    },
+    {
+      "id": "s06-single-metrics",
+      "checked": 49,
+      "notes": true,
+      "audience": true
+    },
+    {
+      "id": "s06-availability",
+      "checked": 44,
+      "notes": true,
+      "audience": true
+    },
+    {
+      "id": "s06-system-reliability",
+      "checked": 44,
+      "notes": true,
+      "audience": true
+    },
+    {
+      "id": "s06-information-integrity",
+      "checked": 45,
+      "notes": true,
+      "audience": true
+    },
+    {
+      "id": "s06-performance",
+      "checked": 49,
+      "notes": true,
+      "audience": true
+    },
+    {
+      "id": "s06-improvement",
+      "checked": 44,
+      "notes": true,
+      "audience": true
+    },
+    {
+      "id": "s06-lab-single",
+      "checked": 13,
+      "notes": true,
+      "audience": true
+    },
+    {
+      "id": "s06-lab-availability",
+      "checked": 13,
+      "notes": true,
+      "audience": true
+    },
+    {
+      "id": "s06-lab-redundancy",
+      "checked": 13,
+      "notes": true,
+      "audience": true
+    },
+    {
+      "id": "s06-lab-integrity",
+      "checked": 13,
+      "notes": true,
+      "audience": true
+    },
+    {
+      "id": "s06-lab-performance",
+      "checked": 14,
+      "notes": true,
+      "audience": true
+    }
+  ],
+  "issues": []
+}

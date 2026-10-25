@@ -1,0 +1,107 @@
+{
+  "results": [
+    {
+      "id": "s05-system-boundary",
+      "checked": 54,
+      "notes": true,
+      "audience": true
+    },
+    {
+      "id": "s05-structure",
+      "checked": 44,
+      "notes": true,
+      "audience": true
+    },
+    {
+      "id": "s05-classification",
+      "checked": 39,
+      "notes": true,
+      "audience": true
+    },
+    {
+      "id": "s05-accounting-supply",
+      "checked": 45,
+      "notes": true,
+      "audience": true
+    },
+    {
+      "id": "s05-production-quality",
+      "checked": 45,
+      "notes": true,
+      "audience": true
+    },
+    {
+      "id": "s05-reference-library",
+      "checked": 39,
+      "notes": true,
+      "audience": true
+    },
+    {
+      "id": "s05-building-media",
+      "checked": 45,
+      "notes": true,
+      "audience": true
+    },
+    {
+      "id": "s05-integration",
+      "checked": 46,
+      "notes": true,
+      "audience": true
+    },
+    {
+      "id": "s05-lan",
+      "checked": 47,
+      "notes": true,
+      "audience": true
+    },
+    {
+      "id": "s05-documentation",
+      "checked": 44,
+      "notes": true,
+      "audience": true
+    },
+    {
+      "id": "s05-lab-system-map",
+      "checked": 13,
+      "notes": true,
+      "audience": true
+    },
+    {
+      "id": "s05-lab-compare",
+      "checked": 13,
+      "notes": true,
+      "audience": true
+    },
+    {
+      "id": "s05-lab-display",
+      "checked": 14,
+      "notes": true,
+      "audience": true
+    },
+    {
+      "id": "s05-lab-cctv",
+      "checked": 14,
+      "notes": true,
+      "audience": true
+    },
+    {
+      "id": "s05-lab-lan",
+      "checked": 14,
+      "notes": true,
+      "audience": true
+    },
+    {
+      "id": "s05-lab-expansion",
+      "checked": 14,
+      "notes": true,
+      "audience": true
+    },
+    {
+      "id": "s05-lab-passport",
+      "checked": 14,
+      "notes": true,
+      "audience": true
+    }
+  ],
+  "issues": []
+}

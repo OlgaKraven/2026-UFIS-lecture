@@ -7,7 +7,6 @@ import { read, save } from './storage'
 import { evaluate,shuffle } from './scoring'
 import type { Answer, Key, Result } from './scoring'
 import { Modal } from './Modal'
-import { useMobile } from './responsive'
 export type Attempt = {
   draft: Answer
   submitted?: Answer
@@ -64,7 +63,7 @@ export function AssessmentProvider({
   const load = async () => {
     if (!course.assessment) throw Error('Банк самопроверки не подключён')
     if (!request.current)
-      request.current = fetch(assetUrl(course.assessment.url, base))
+      request.current = fetch(assetUrl(course.assessment.url, base), {cache:'no-store'})
         .then((r) => {
           if (!r.ok) throw Error('Не удалось загрузить банк ответов')
           return r.json()
@@ -141,7 +140,6 @@ export function AssessmentProvider({
   )
 }
 export function TaskView({ task: t }: { task: Task }) {
-  const mobile = useMobile()
   const ctx = useContext(AssessmentContext)!
   const a = ctx.attempts[t.id]
   const options = shuffle(t.options || [],a?.seed||0)
@@ -228,7 +226,7 @@ export function TaskView({ task: t }: { task: Task }) {
       <div className="task-actions">
         {ctx.readonly ? (
           <>
-            {!mobile && done && (
+            {done && (
               <span className={`task-status ${a!.result!.status}`}>
                 {a!.result!.status === 'correct' ? 'Правильно' : 'Есть ошибка'} ·{' '}
                 {a!.result!.score.toLocaleString('ru-RU')} / 1
@@ -243,19 +241,15 @@ export function TaskView({ task: t }: { task: Task }) {
           >
             {ctx.busy === t.id ? 'Проверяем…' : 'Проверить'}
           </button>
-        ) : mobile ? (
-          <span role="status">Ответ сохранён</span>
         ) : (
           <>
             <span className={`task-status ${a!.result!.status}`} role="status">
               {a!.result!.status === 'correct' ? 'Правильно' : 'Есть ошибка'} ·{' '}
               {a!.result!.score.toLocaleString('ru-RU')} / 1
             </span>
-            {!mobile && (
-              <button className="button ghost" onClick={() => ctx.reveal(t, true)}>
-                Разбор ответа
-              </button>
-            )}
+            <button className="button ghost" onClick={() => ctx.reveal(t, true)}>
+              Разбор ответа
+            </button>
             <button className="button ghost" onClick={() => ctx.retry(t)}>
               Ещё попытка
             </button>
@@ -267,14 +261,14 @@ export function TaskView({ task: t }: { task: Task }) {
           </span>
         )}
       </div>
-      {!mobile && show && a?.result && ctx.readonly && (
+      {show && a?.result && ctx.readonly && (
         <aside className="audience-answer">
           <strong>Разбор ответа</strong>
           <p>{a.result.solution}</p>
           <p>{a.result.explanation}</p>
         </aside>
       )}
-      {!mobile && show && a?.result && !ctx.readonly && (
+      {show && a?.result && !ctx.readonly && (
         <Modal title="Разбор ответа" onClose={() => ctx.reveal(t, false)}>
           <p>{a.result.explanation}</p>
           <h3>Правильный ответ</h3>

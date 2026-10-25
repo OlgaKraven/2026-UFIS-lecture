@@ -1,0 +1,766 @@
+{
+  "count": 95,
+  "results": [
+    {
+      "id": "s05-system-boundary-task-purpose-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-system-boundary-task-technical-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-system-boundary-task-software-check",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-system-boundary-task-information-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-system-boundary-task-responsibility-check",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-system-boundary-task-boundary-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-system-boundary-task-operation-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-system-boundary-test-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-system-boundary-test-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-structure-task-workplace-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-structure-task-servers-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-structure-task-data-path-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-structure-task-storage-check",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-structure-task-peripherals-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-structure-task-power-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-structure-test-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-structure-test-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-classification-task-purpose-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-classification-task-scale-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-classification-task-placement-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-classification-task-comparison-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-classification-task-selection-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-classification-test-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-classification-test-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-accounting-supply-task-objects-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-accounting-supply-task-documents-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-accounting-supply-task-stock-check",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-accounting-supply-task-planning-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-accounting-supply-task-integration-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-accounting-supply-task-exploitation-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-accounting-supply-test-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-accounting-supply-test-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-production-quality-task-levels-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-production-quality-task-routing-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-production-quality-task-trace-check",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-production-quality-task-measurement-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-production-quality-task-nonconformity-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-production-quality-task-service-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-production-quality-test-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-production-quality-test-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-reference-library-task-records-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-reference-library-task-search-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-reference-library-task-circulation-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-reference-library-task-access-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-reference-library-task-maintenance-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-reference-library-test-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-reference-library-test-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-building-media-task-field-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-building-media-task-controllers-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-building-media-task-media-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-building-media-task-zones-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-building-media-task-diagnostics-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-building-media-task-maintenance-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-building-media-test-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-building-media-test-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-integration-task-groups-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-integration-task-switching-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-integration-task-display-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-integration-task-audio-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-integration-task-surveillance-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-integration-task-ports-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-integration-task-acceptance-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-integration-test-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-integration-test-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-lan-task-topology-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-lan-task-switches-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-lan-task-address-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-lan-task-services-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-lan-task-checks-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-lan-task-faults-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-lan-task-records-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-lan-test-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-lan-test-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-documentation-task-set-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-documentation-task-passport-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-documentation-task-schemes-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-documentation-task-instructions-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-documentation-task-changes-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-documentation-task-usability-check",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-documentation-test-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-documentation-test-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-lab-system-map-test-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-lab-system-map-test-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-lab-compare-test-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-lab-compare-test-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-lab-display-test-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-lab-display-test-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-lab-cctv-test-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-lab-cctv-test-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-lab-lan-test-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-lab-lan-test-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-lab-expansion-test-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-lab-expansion-test-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-lab-passport-test-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-lab-passport-test-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    }
+  ],
+  "issues": []
+}

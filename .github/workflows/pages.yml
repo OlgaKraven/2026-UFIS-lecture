@@ -21,6 +21,7 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run build
+      - run: python3 scripts/check-audit-groups.py
       - run: python3 scripts/audit_gate.py check --root . --inventory reports/audit-inventory.json --reviews authoring/audit-reviews.json --out reports/audit-gate.json
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

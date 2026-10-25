@@ -48,6 +48,7 @@ SOURCE_TOPICS=[
 
 course=dict(schemaVersion=1,contentVersion='1.0.0',id='ufis',code='МДК.06.03',discipline='Устройство и функционирование информационной системы',heroTitle='Устройство и функционирование',heroAccent='информационной системы',slogan='МДК.06.03',mascot='brand/rhino-ufis.png',mascotAlt='Носорог проверяет соединение коммутатора и серверного оборудования',logo='brand/synergy-wordmark.jpg',mark='brand/synergy-mark.png',ornament='brand/side-ornament.png',font='fonts/raleway-cyrillic.woff2',materialsUrl='https://disk.yandex.ru/d/2vxjVFzQ5k5NdQ',topicArrow='brand/topic-arrow.webp',demo=False,semesters=[5,6],lectures=[],literature=dict(primary=[ARCH,SYSTEMS],additional=[QUALITY,NIST]))
 notes={};keys={};models={};explanations={};coverage=[];source_index=0
+course['assessment']=dict(mode='autonomous',url='assessment.json')
 for n,t in enumerate(TOPICS):
     lab=t.get('category')=='laboratory'
     lid=f"s{t['semester']:02d}-{'lab-' if lab else ''}{t['slug'].removeprefix('lab-')}"
@@ -81,9 +82,9 @@ for n,t in enumerate(TOPICS):
             solution_id=lid+'-report-solution';extra['practice']=dict(solutionId=solution_id);explanations[solution_id]=answer
         if visual:
             # Explanatory prose is a separate readable screen immediately before its diagram.
-            add(f'content-{i+1}','theory',title,body+' Здесь задаются объекты и правило сопоставления. На следующем экране рассмотрим связи и данные схемы, чтобы проверить это правило на конкретном составе.',body=body,notebook=notebook,answer=answer,**extra)
+            add(f'content-{i+1}','theory',title,body,body=body,notebook=notebook,answer=answer,**extra)
             add(f'diagram-{i+1}','example',title+' — схема',speech,visual=visual)
-        else:add(f'content-{i+1}','theory',title,speech,body=body,notebook=notebook,answer=answer,**extra)
+        else:add(f'content-{i+1}','example' if not lab and title.startswith('Разбор:') else 'theory',title,speech,body=body,notebook=notebook,answer=answer,**extra)
     case=t['case'];mid=lid+'-case'
     variants=[]
     for vi,v in enumerate(case['variants']):
@@ -116,12 +117,19 @@ for n,t in enumerate(TOPICS):
         answer=v['result']+'. '+v['review'],task=task2)
     summary=q['explanation'] if not lab else 'Сопоставьте результат с исходным заданием. Укажите фактические наблюдения, проверенные выводы и то, что потребует дополнительного стенда или данных.'
     if t['slug']=='improvement':summary+=' Промежуточная аттестация — зачёт с оценкой. Для подготовки решите расчётные задачи по надёжности и объясните условия применения формул.'
-    add('summary','summary','Итог и самостоятельная работа',
+    add('summary','summary','Отчёт и итоговая проверка' if lab else 'Итог и самостоятельная работа',
         ('Завершите отчёт и подготовьтесь объяснить каждый переход от исходных данных к выводу. При анализе без оборудования отметьте ограничение практической проверки.' if lab else 'Ответ на главный вопрос темы опирается на следующие основания. '+q['explanation']+' В самостоятельном случае изменились условия: '+v['given']+' Объясните, почему при этих условиях получается другое решение или число.')+' Свяжите вывод с вопросом темы и приведите случай, при котором он перестаёт быть применимым.',
         body=summary,bullets=['Перечитайте определения и разберите изменённые условия.','Обоснуйте вывод исходными данными и наблюдениями.'] if not lab else ['Подготовьте отчёт по выполненной работе.','Сохраните исходные данные и доказательство конечной проверки.'])
+    if lab:
+        add('audience','questions','Вопросы к аудитории',
+            'Объясните цель выполненной работы и приведите конкретное свидетельство результата. Затем сравните исходный и изменённый случаи, сохраняя их данные и ограничения.',
+            bullets=[t['question'],'Какие наблюдения подтверждают результат этой работы?','Как изменяется решение во втором случае разбора?'],
+            answer=t['question']+'\n'+q['explanation']+'\n\nИзменённый случай: '+v['given']+'\n'+v['review'])
     course['lectures'].append(lecture)
     coverage.append(dict(lectureId=lid,category='laboratory' if lab else 'lecture',semester=t['semester'],sourceTitle=source,outcome=t['question'],slideIds=[s['id'] for s in lecture['slides']],caseIds=[mid],taskIds=[tid,tid2]))
 course['lectures'].sort(key=lambda l:(l['semester'],'-lab-' in l['id']))
+from expansion import expand
+expand(course,notes,keys,models,coverage)
 course['curriculum']=[dict(topic=c['sourceTitle'],outcome=c['outcome'],source='Программа тем и лабораторных работ, предоставленная пользователем.',slideIds=c['slideIds'],taskIds=c['taskIds']) for c in coverage]
 put(Path('public/course.json'),course)
 put(Path('public/teacher-pack.json'),dict(schemaVersion=1,courseId=course['id'],contentVersion=course['contentVersion'],notes=notes))

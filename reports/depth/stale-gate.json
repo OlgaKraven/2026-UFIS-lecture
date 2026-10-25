@@ -1,0 +1,716 @@
+{
+  "schemaVersion": 1,
+  "courseId": "ufis",
+  "contentVersion": "1.0.0",
+  "scope": "full",
+  "inventorySha256": "ba4c9e2ce412d47eedca8859e263cde8bc84b5c00a51e8f995e99b986f586a84",
+  "counts": {
+    "lectures": 29,
+    "slides": 930,
+    "units": 175
+  },
+  "checked": [],
+  "failures": [
+    {
+      "id": "s05-system-boundary:intro",
+      "reason": "Изменились слайды, заметки, артефакты или реализация"
+    },
+    {
+      "id": "s05-system-boundary:question",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-system-boundary:question-technical",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-system-boundary:question-software",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-system-boundary:question-information",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-system-boundary:question-responsibility",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-system-boundary:question-boundary",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-system-boundary:question-operation",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-system-boundary:closing",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-structure:intro",
+      "reason": "Изменились слайды, заметки, артефакты или реализация"
+    },
+    {
+      "id": "s05-structure:question",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-structure:question-servers",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-structure:question-data-path",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-structure:question-storage",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-structure:question-peripherals",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-structure:question-power",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-structure:closing",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-classification:intro",
+      "reason": "Изменились слайды, заметки, артефакты или реализация"
+    },
+    {
+      "id": "s05-classification:question",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-classification:question-scale",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-classification:question-placement",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-classification:question-comparison",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-classification:question-selection",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-classification:closing",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-accounting-supply:intro",
+      "reason": "Изменились слайды, заметки, артефакты или реализация"
+    },
+    {
+      "id": "s05-accounting-supply:question",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-accounting-supply:question-documents",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-accounting-supply:question-stock",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-accounting-supply:question-planning",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-accounting-supply:question-integration",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-accounting-supply:question-exploitation",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-accounting-supply:closing",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-production-quality:intro",
+      "reason": "Изменились слайды, заметки, артефакты или реализация"
+    },
+    {
+      "id": "s05-production-quality:question",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-production-quality:question-routing",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-production-quality:question-trace",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-production-quality:question-measurement",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-production-quality:question-nonconformity",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-production-quality:question-service",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-production-quality:closing",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-reference-library:intro",
+      "reason": "Изменились слайды, заметки, артефакты или реализация"
+    },
+    {
+      "id": "s05-reference-library:question",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-reference-library:question-search",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-reference-library:question-circulation",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-reference-library:question-access",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-reference-library:question-maintenance",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-reference-library:closing",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-building-media:intro",
+      "reason": "Изменились слайды, заметки, артефакты или реализация"
+    },
+    {
+      "id": "s05-building-media:question",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-building-media:question-controllers",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-building-media:question-media",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-building-media:question-zones",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-building-media:question-diagnostics",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-building-media:question-maintenance",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-building-media:closing",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-integration:intro",
+      "reason": "Изменились слайды, заметки, артефакты или реализация"
+    },
+    {
+      "id": "s05-integration:question",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-integration:question-switching",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-integration:question-display",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-integration:question-audio",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-integration:question-surveillance",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-integration:question-ports",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-integration:question-acceptance",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-integration:closing",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-lan:intro",
+      "reason": "Изменились слайды, заметки, артефакты или реализация"
+    },
+    {
+      "id": "s05-lan:question",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-lan:question-switches",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-lan:question-address",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-lan:question-services",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-lan:question-checks",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-lan:question-faults",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-lan:question-records",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-lan:closing",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-documentation:intro",
+      "reason": "Изменились слайды, заметки, артефакты или реализация"
+    },
+    {
+      "id": "s05-documentation:question",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-documentation:question-passport",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-documentation:question-schemes",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-documentation:question-instructions",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-documentation:question-changes",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-documentation:question-usability",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-documentation:closing",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-lab-system-map:intro",
+      "reason": "Изменились слайды, заметки, артефакты или реализация"
+    },
+    {
+      "id": "s05-lab-system-map:question",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-lab-system-map:closing",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-lab-compare:intro",
+      "reason": "Изменились слайды, заметки, артефакты или реализация"
+    },
+    {
+      "id": "s05-lab-compare:question",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-lab-compare:closing",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-lab-display:intro",
+      "reason": "Изменились слайды, заметки, артефакты или реализация"
+    },
+    {
+      "id": "s05-lab-display:question",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-lab-display:closing",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-lab-cctv:intro",
+      "reason": "Изменились слайды, заметки, артефакты или реализация"
+    },
+    {
+      "id": "s05-lab-cctv:question",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-lab-cctv:closing",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-lab-lan:intro",
+      "reason": "Изменились слайды, заметки, артефакты или реализация"
+    },
+    {
+      "id": "s05-lab-lan:question",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-lab-lan:closing",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-lab-expansion:intro",
+      "reason": "Изменились слайды, заметки, артефакты или реализация"
+    },
+    {
+      "id": "s05-lab-expansion:question",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-lab-expansion:closing",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-lab-passport:intro",
+      "reason": "Изменились слайды, заметки, артефакты или реализация"
+    },
+    {
+      "id": "s05-lab-passport:question",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s05-lab-passport:closing",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s06-reliability-foundations:intro",
+      "reason": "Изменились слайды, заметки, артефакты или реализация"
+    },
+    {
+      "id": "s06-reliability-foundations:question",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s06-reliability-foundations:question-conditions",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s06-reliability-foundations:question-events",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s06-reliability-foundations:question-restoration",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s06-reliability-foundations:question-journal",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s06-reliability-foundations:question-exposure",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s06-reliability-foundations:closing",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s06-single-metrics:intro",
+      "reason": "Изменились слайды, заметки, артефакты или реализация"
+    },
+    {
+      "id": "s06-single-metrics:question",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s06-single-metrics:question-operating-mean",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s06-single-metrics:question-repair-mean",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s06-single-metrics:question-rate",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s06-single-metrics:question-exponential",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s06-single-metrics:question-calculation",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s06-single-metrics:question-limits",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s06-single-metrics:closing",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s06-availability:intro",
+      "reason": "Изменились слайды, заметки, артефакты или реализация"
+    },
+    {
+      "id": "s06-availability:question",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s06-availability:question-utilization",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s06-availability:question-fund",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s06-availability:question-effect",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s06-availability:question-comparison",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s06-availability:question-procedure",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s06-availability:closing",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s06-system-reliability:intro",
+      "reason": "Изменились слайды, заметки, артефакты или реализация"
+    },
+    {
+      "id": "s06-system-reliability:question",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s06-system-reliability:question-series",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s06-system-reliability:question-parallel",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s06-system-reliability:question-mixed",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s06-system-reliability:question-dependence",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s06-system-reliability:question-decision",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s06-system-reliability:closing",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s06-information-integrity:intro",
+      "reason": "Изменились слайды, заметки, артефакты или реализация"
+    },
+    {
+      "id": "s06-information-integrity:question",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s06-information-integrity:question-denominator",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s06-information-integrity:question-validation",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s06-information-integrity:question-representation",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s06-information-integrity:question-reconciliation",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s06-information-integrity:question-correction",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s06-information-integrity:closing",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s06-performance:intro",
+      "reason": "Изменились слайды, заметки, артефакты или реализация"
+    },
+    {
+      "id": "s06-performance:question",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s06-performance:question-latency",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s06-performance:question-statistics",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s06-performance:question-load",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s06-performance:question-resources",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s06-performance:question-experiment",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s06-performance:question-report",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s06-performance:closing",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s06-improvement:intro",
+      "reason": "Изменились слайды, заметки, артефакты или реализация"
+    },
+    {
+      "id": "s06-improvement:question",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s06-improvement:question-methods",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s06-improvement:question-recovery",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s06-improvement:question-maintenance",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s06-improvement:question-justification",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s06-improvement:question-verification",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s06-improvement:closing",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s06-lab-single:intro",
+      "reason": "Изменились слайды, заметки, артефакты или реализация"
+    },
+    {
+      "id": "s06-lab-single:question",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s06-lab-single:closing",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s06-lab-availability:intro",
+      "reason": "Изменились слайды, заметки, артефакты или реализация"
+    },
+    {
+      "id": "s06-lab-availability:question",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s06-lab-availability:closing",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s06-lab-redundancy:intro",
+      "reason": "Изменились слайды, заметки, артефакты или реализация"
+    },
+    {
+      "id": "s06-lab-redundancy:question",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s06-lab-redundancy:closing",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s06-lab-integrity:intro",
+      "reason": "Изменились слайды, заметки, артефакты или реализация"
+    },
+    {
+      "id": "s06-lab-integrity:question",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s06-lab-integrity:closing",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s06-lab-performance:intro",
+      "reason": "Изменились слайды, заметки, артефакты или реализация"
+    },
+    {
+      "id": "s06-lab-performance:question",
+      "reason": "Блок не проверен"
+    },
+    {
+      "id": "s06-lab-performance:closing",
+      "reason": "Блок не проверен"
+    }
+  ],
+  "status": "incomplete"
+}

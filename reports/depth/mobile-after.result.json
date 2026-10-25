@@ -1,0 +1,54 @@
+[
+  {
+    "width": 390,
+    "type": "single",
+    "result": true,
+    "review": true,
+    "retry": true
+  },
+  {
+    "width": 390,
+    "type": "multiple",
+    "result": true,
+    "review": true,
+    "retry": true
+  },
+  {
+    "width": 390,
+    "type": "short",
+    "result": true,
+    "review": true,
+    "retry": true
+  },
+  {
+    "width": 390,
+    "summary": true,
+    "groups": 7
+  },
+  {
+    "width": 1280,
+    "type": "single",
+    "result": true,
+    "review": true,
+    "retry": true
+  },
+  {
+    "width": 1280,
+    "type": "multiple",
+    "result": true,
+    "review": true,
+    "retry": true
+  },
+  {
+    "width": 1280,
+    "type": "short",
+    "result": true,
+    "review": true,
+    "retry": true
+  },
+  {
+    "width": 1280,
+    "summary": true,
+    "groups": 7
+  }
+]

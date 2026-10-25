@@ -443,7 +443,7 @@ export function LectureSite({ course, base = '/' }: { course: Course; base?: str
           </button>
         </Modal>
       )}
-      {!mobile && modal === 'results' && lecture && (
+        {modal === 'results' && lecture && (
         <Modal title="Самопроверка" onClose={() => setModal('')}>
           <AssessmentResults
             lecture={lecture}
