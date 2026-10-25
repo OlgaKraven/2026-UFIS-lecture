@@ -1,10 +1,7 @@
+* text=auto eol=lf
 public/*.json text eol=lf
 authoring/*.json text eol=lf
 *.png -text
 *.jpg -text
 *.webp -text
 *.woff2 -text
-src/** -text
-authoring/*.py -text
-scripts/*.py -text
-public/fonts/** -text

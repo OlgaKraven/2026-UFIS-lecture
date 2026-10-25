@@ -9,7 +9,7 @@ import reliability,labs
 def load(name):return json.loads((ROOT/name).read_text(encoding='utf-8'))
 def put(name,data):
     p=ROOT/name;p.parent.mkdir(parents=True,exist_ok=True)
-    p.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+    p.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
 def book(citation,url):return dict(citation=citation,url=url)
 ARCH=book('Алексахин А. Н., Вершинина Н. М., Джебилов А. В. и др. Архитектура вычислительных систем и компьютерных сетей / под ред. А. М. Нечаева, Н. М. Вершининой, Е. В. Устинова. Москва: Университет «Синергия», 2025. 436 с. ISBN 978-5-4257-0681-2.','https://www.iprbookshop.ru/books/156708/details')
 SYSTEMS=book('Цехановский В. В., Водяхо А. И. Проектирование информационных систем: архитектуры и платформы. Москва: Ай Пи Ар Медиа, 2023. 240 с. ISBN 978-5-4497-1786-3.','https://www.iprbookshop.ru/books/123568/details')

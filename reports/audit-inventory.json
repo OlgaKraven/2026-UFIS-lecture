@@ -19,54 +19,54 @@
     ]
   },
   "runtimeHashes": {
-    "src/author-notes.ts": "b9707d117b9f7758491bd86128fdca3979d6e0a2b01f1d5a010bbd20b45bad28",
-    "src/course-catalog.css": "c29c8e84cee7fc6aba9e5be221f8ecc584d63bd0b617fd095e35fefd42fd5023",
-    "src/CourseCatalog.tsx": "5654c9c5d89efdd06d2bd6693016fb9214ff673ca305cfe4a304b458ee3ed278",
-    "src/engine/assessment.css": "a9bbce45fbf86ea4ad13dda7a2c0405cc73427baabb490f3ae43a2a3fdd63e46",
-    "src/engine/Assessment.tsx": "7e111fc5d4d97305cc4fae6cc4120d24b1b6a7d3f7ddc9cf88b9c0ff573ef5f5",
-    "src/engine/backup.ts": "529cb884eb77fa39446f8f335d954395df3013a93f990dbda0e45d64ec26b307",
-    "src/engine/CourseCatalog.tsx": "806e8170dc899c03d146aafd1e9ba61785708e1cadd6088e5c3976d4928e5d59",
-    "src/engine/CourseEditor.tsx": "ff52a5314d5e19739e9e6b2a41cd9ae02e1394ccbf22fc7de0f254b6f359d65d",
-    "src/engine/CourseTools.tsx": "8c5588c8b6fa6e9be4925b063320f95c1c14256506f647a75a9cdb9a752b0a87",
-    "src/engine/diagram-layout.tsx": "b88ceab20330b22891785798a1d687c68a1dd7aeeab31e2bcf2376abf024cb0b",
-    "src/engine/editor-history.ts": "dbfd55d5f3f1d6dfd6386f7ab474cc8bb86be4137f0b157f9902dfc84ce80dc9",
-    "src/engine/EditorLogin.tsx": "2bb617342b1754bfacebb85bb80b43729d5e978600bca27683227a77769a33f4",
-    "src/engine/features.css": "7ded9ed4f69a39cdafbc6056ccabe7c902ee618a89da4d68cf164153c9773c8f",
-    "src/engine/ImageEditor.tsx": "c42c671fe72178da99bf55ad8994d9da15b3dd55a7006468528b4753e4435f57",
-    "src/engine/index.ts": "cf20f8aef34b77c1913ebfdf08ea5e5c692760927209801683ac1ab96e9a0b55",
-    "src/engine/Infographic.tsx": "d7e84468c244d920c87411bfd7cbdfcad26fc0ef17a0a1e28798681db91a045b",
-    "src/engine/InfographicMobile.tsx": "c328607645922c0f496b333dbac0bb6e425d0220e7356d4919e0a74dbde958b5",
-    "src/engine/infographics.css": "eecdbef10de02e5067e97552ebb375af2b7a596f58795d712fa98a24b14d12a3",
-    "src/engine/layout-final.css": "a7dab28417aba8e86569f9cdce8afe1c1d9c00b7cfa98e6d3e818ce363181984",
-    "src/engine/LectureSite.tsx": "ce02d764a0e22c443c67ff5961f352fc1a132052b41067620e2150e704da81e5",
-    "src/engine/Modal.tsx": "a98adff697c2ab3e645a99415176898b806b32188aafdb712f13c0b48800882c",
-    "src/engine/model.ts": "c2f9c85dd37ede03aebf6a4467d6125a91fabdfbfe199279278d442563a735aa",
+    "src/author-notes.ts": "c0c1f9d36c58d4cac8b2e67b112701b749e89e5ee1c8109b5bd613d75fc45792",
+    "src/course-catalog.css": "3542e11b71f4bbb5c0c6b702978908263d57d5bb68a35b88ea0fe7b66f976a06",
+    "src/CourseCatalog.tsx": "1b1e910b5ddfd3e4c8840452b56a4b5057bd0b8fcaf8154adfc55004c62d7ae6",
+    "src/engine/assessment.css": "02b428c63358b7180e82a884b9376f71d43a9a9acb69ed1a98dccf16cfe46a1f",
+    "src/engine/Assessment.tsx": "7e4fa533969a523685d6e4b870664da83fb36682cdfb85630a05c11cd575865e",
+    "src/engine/backup.ts": "6c8100f1788c6921b83aa842be3a491791661d3dba0d7844494b58fa5bf8f7dd",
+    "src/engine/CourseCatalog.tsx": "fd04f0e3bdf4ff903265631330300d1ff44bdd5f286ac8de4e73a97892f5a428",
+    "src/engine/CourseEditor.tsx": "dd12d7ed4be3f751a6bf67603813c9acfb18ed75e83d86cdda3fd53b1bdeb174",
+    "src/engine/CourseTools.tsx": "f0728e811b868d5594bec9f2ec9b9ab5138836403955028e5fe24dfa3f93bb27",
+    "src/engine/diagram-layout.tsx": "0a608764e5f7b78b78e0af758a39a4da56aa7fc15cf7ed94327f5f60eae506e3",
+    "src/engine/editor-history.ts": "02b02753944644f787ed93d8f0f3dcbf489e61a912bff96a0008b0ec2bd37de6",
+    "src/engine/EditorLogin.tsx": "0af668011320c8d5200f742080b2ebd80eca44568b6bdf1ac4ff48b64caa6e66",
+    "src/engine/features.css": "4d6cc3029d7adedf492b141d0516cfd83e191ca62bfe281328e0015679842e0d",
+    "src/engine/ImageEditor.tsx": "360916fec24c49a50d5eaa3ce0ee86fb4b4c2f2c13d956c09ea00e66615ad48c",
+    "src/engine/index.ts": "3f90eb5358b497b3c632d25c7364b7708cc2955ea9064290de3d47a9094aee71",
+    "src/engine/Infographic.tsx": "2ca947e6d30697750dc35528ff641b76bd9acba0672231ea72e37a92611b3f62",
+    "src/engine/InfographicMobile.tsx": "a675ec7f2e6c9fc78ffdca26ce51bbe2828c1ebc3a1cef69eb2da0559e675c22",
+    "src/engine/infographics.css": "70cf5a55371301225ef87f2e5e1009d15362f1e0025fb49e79610982bfafe876",
+    "src/engine/layout-final.css": "ab015c89f335380b8cae26f6a62e05ad02599c03ee3e5a28d438377b68df0757",
+    "src/engine/LectureSite.tsx": "d9ac1af06fbc1613893f73711da0e85edf494bd48376d9e163d3861d21cdbb7b",
+    "src/engine/Modal.tsx": "c2a0cb90675dd0f4ef60c73b415a0b3a7c953790bd260b87690e09d18f755f51",
+    "src/engine/model.ts": "3f6e7f4c86eb5c48c3cb4cd0002395a1c2abe86755d0876493cc668411d82a39",
     "src/engine/NetworkDiagram.tsx": "d0e62a10333149f22b59f8ec5d8659ae6eee2466c86d20a24fd98644987bc05a",
-    "src/engine/offline.ts": "944e1a2c68576aac46dd76bf5e65f8e4608776aac41063b7ac108f08b24b97e9",
-    "src/engine/PanelLayout.tsx": "ee4e74846d4b454e69e5ada8f01551cdacb059925f48c26e7778037db2f65d9e",
-    "src/engine/presentation-pirip.css": "45647abb72b7798290c8d8fc7bc6df056f537d19f8227cbda25c21ab3683cd53",
-    "src/engine/ReadableDiagram.tsx": "4b568968b3db8c4c54d7cc35917b6002401547f13b51f14337e6e161966a3e62",
-    "src/engine/Recovery.tsx": "90386a15282035ccd67ff80fa06ac7a30594b6a92040fc6a748716ad45acc946",
-    "src/engine/reference.css": "f7f6a3af1a8927192f7d86657f57bb0f41637868c961a85183ac74114ba15134",
-    "src/engine/Resources.tsx": "b9dc35e4d0b389f4394a6682bedbf1f12fddbcac2044dcc55b610119081b1554",
-    "src/engine/responsive.ts": "688c19487385fea837eedb754f009d8ec5fa9176aa0ffa4829442691eac07451",
-    "src/engine/scoring.ts": "6703ee27eab10e6550dd4488d9c06dcf38d8a98708feac800190c923720ac73a",
-    "src/engine/session.ts": "ed3109e549b0ffb803805cccc68ebcb0e804257ef7e6e7bf52594fc9a79eca3c",
-    "src/engine/SlideView.tsx": "aacf41ea9d10f8eaab262aa2dba96aa071987d5325a95da2edd54c92254985a1",
-    "src/engine/storage.ts": "d011e84e59769431b457d894eed37e91c00bd0294d365c153f9578979a56155f",
-    "src/engine/Teaching.tsx": "c0dd10568cd3df263f498454343d19ca68542f38d7139fbb6d502dca3f91ced9",
-    "src/engine/template.css": "bb7f6d8e9cb28ade75c2ff583cfc419851ce6e7867e8ae876e79c43c68890f28",
-    "src/engine/TimingPlan.tsx": "56dd7acfea4150ec984df8a986623e4721aa332917b8c1d5425e43cff9b9b0c1",
-    "src/engine/validation.ts": "5d3325dee38e49fba2cf293f672c5678b579ce2e254b31b1dcb4282f8bddd1a8",
-    "src/learning-workbench.css": "0f0c3eb2013a140f28a2fc23f653ee0708d004ec891b6a3bb3b159b77aa3042c",
-    "src/learning-workbench.tsx": "0b0740178949fc216149ecf799dfd5dc2e3604d25587eabff49d1b51d51cdde5",
-    "src/main.tsx": "2bf1f15d659c471b6b84302c151b1a4d553777bb49dd4498c8ccba1b155e2f89",
-    "src/practice.tsx": "688b3363ab483f757f7faad51b677178b5267310b1a14daa42ef946b2cf5e0ee",
-    "src/question-title.tsx": "be9de5e713391af6669678b579268dc2aaf616e9650c75da2a7148114c50f442",
-    "src/ufis.css": "3462428702d75d83565b84cc5a82cf981b11cc4020c00ae067bb5e1f57c4c8e4",
-    "public/workbenches.json": "49507bf151e52fd6cad1a840ec93feb1ba3bb0c2ee9ca58993a1cc7f9516ce83",
-    "public/assessment.json": "32538c1663bdb0dc1db68141b53cac27573845ef37714bb7ac9ea09ed10440e7",
-    "public/explanations.json": "b417fc7ff9cc8397088033dbe20278c93a693433b6bf87ecfd3ff65ee88f5cfe",
+    "src/engine/offline.ts": "5f08d4aaa448e11e0aa1a0eadb6aa7a6570ac2a9283583b8833756b179d71dd7",
+    "src/engine/PanelLayout.tsx": "911e47c071e7b781878f17e20c1aa435f34eafb8fd757669f17a802f882ff657",
+    "src/engine/presentation-pirip.css": "41672d1083fb87d7f92c3b6f9442a61f464f309523a80ac9a61625746489ad85",
+    "src/engine/ReadableDiagram.tsx": "9904a31356c6019fc2627116ccd4bc649c19371c23220af544194490281d3565",
+    "src/engine/Recovery.tsx": "caa024009b4d6a2b615fa6f9a0ed9b0f69c87a1e6558784b3557194be3e7532e",
+    "src/engine/reference.css": "f7618aaf6125c8dcdec7ea4d50dc6edc0c395c1547a8c6193daadb780505d3a5",
+    "src/engine/Resources.tsx": "6cbc2761fca3c12ff0790e259ed358a2faada9b1605d10202efd6bff71aaf7a7",
+    "src/engine/responsive.ts": "1f5082f89d919f2535c586f2b7b9b5346c0d68f5258a9fa182b47e70424bfcea",
+    "src/engine/scoring.ts": "eb20dff9962ac1de35228627f5dc833dba9b1513c7f3a9794ba4cee0e53aee5f",
+    "src/engine/session.ts": "d9f2c202e27480608cbc1a3e4485a39d3a71c7b0304d9e123fe76f5a88ef0475",
+    "src/engine/SlideView.tsx": "4f620fc92911a44f6e374d3f6be1942d98574877b6a698b9383e87c0476f3471",
+    "src/engine/storage.ts": "601621b8711e249d5d91c556192e482f5eef29d5fc430656b632b3da6ed2b388",
+    "src/engine/Teaching.tsx": "32d592128194f17d69fe3747f18549021fd4c242b8cb570e4c82c270c88c5687",
+    "src/engine/template.css": "e891fce84a47f6463587a7c95d22797fb5e958384e896e951fbe1343f9f9509a",
+    "src/engine/TimingPlan.tsx": "69d6f038f485502bd538abe03fba81207867a025203f36f80b8e2efeb43f4018",
+    "src/engine/validation.ts": "64e76677cd76e0b3b1b0b9adab6d3b257e0c7b2fcf117033035bbc2e66f26ec1",
+    "src/learning-workbench.css": "825819fcf3a1f6be7bc9db1b78f18011d5d8e231118832eabd810b9de096b9e4",
+    "src/learning-workbench.tsx": "5ae49139344db9bdbaba505a7ce16eb623cd60b88817e8dca6275d984b38e1fd",
+    "src/main.tsx": "00abcba56184faa76a864478005deb65e04bab91f86f3face683b0578b2a489d",
+    "src/practice.tsx": "6f49c09a30322b57f564855b6f29cb43222efba5589c9d24752356cd3274707c",
+    "src/question-title.tsx": "d344fef4d79d6c8e497eb33fe1f5c13a17d82a37354de9942fdd2de165bbd309",
+    "src/ufis.css": "ef6be740fd61441039ef0602b57318299452c4511448d62eca9da409d0445cf6",
+    "public/workbenches.json": "754299390e884b30c4b121db52f80f00a34903e44fe451b243711e2627f858a0",
+    "public/assessment.json": "0b1773e089c0add1a2e936c793ddea75f14fc1d54d53c816a7faed0855d20af2",
+    "public/explanations.json": "b66b79a821882a8506bd7b14557ba8e4e446d8e3e6136c895718e8acbd5cca55",
     "public/brand/rhino-ufis.png": "c5568867296553608b02457f88e9798b5df4fcb8c3d143ad3c13b19a6bf1f061",
     "public/brand/side-ornament.png": "bd69f172225f9a547ee399e768d54b812fcda7145bb6b31289f26fa52f19c5a1",
     "public/brand/synergy-mark.png": "f34cfbd179d8a192cbd609dc424ea8babbcad53a3afe9b4e2ac987d6c4881dc7",
@@ -74,9 +74,9 @@
     "public/brand/topic-arrow.webp": "87d8009bc3c69e4d7a79c6932c0a92bbd89e66e967ef14e256049825b2678bb3",
     "public/fonts/OFL.txt": "c62d0f4b78825cbf2d99ac7ea3dd163f645210efa032243731184c9f86a6eab6",
     "public/fonts/raleway-cyrillic.woff2": "ac99ad1c437b60ef445a7c13c958d4d574ef98050de2ccf182ba6ccdb3bfbdfd",
-    "scripts/generate.py": "9d26a4d2d3292353fcb84234280da482d9143ca2f3314558952bfebb0482e75f",
-    "authoring/topics.py": "65e4db2b667cdd10de4a0e8c45351bd9f97ae96164239e9cb63d00f8e578da14",
-    "authoring/reliability.py": "8a9895b9d065f3e034beba8ea482a5832d3677b467280cb572463606c2b8000e",
+    "scripts/generate.py": "66519c987c1e23ae4d754dea8ecabff42f932536be5d9dfecbd5212487bc260c",
+    "authoring/topics.py": "67c2bc2dd5eb5a6cf6adc574a18760bcd5c06e4f919adf8fed7be9bbda5431ca",
+    "authoring/reliability.py": "0eeef2adf2deabf4887b87062fc82491f8749dd0ac22547a859e0d98205f66bb",
     "authoring/labs.py": "e7fa7037ac8150077089c361ad49d1f6267700aa91fb3058470ccd3a66b8f433"
   },
   "units": [
@@ -107,7 +107,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "7de40067dcf1ef779501d8029f6cd0009c403c12036d5e1f9544c2b628b33f8f"
+      "fingerprint": "3bcfa85238e43dad7c030421b3f9d11f1cb2d07c2db24235a3328a6dc427e532"
     },
     {
       "id": "s05-structure:intro",
@@ -135,7 +135,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "838bb4d53eaaac758a30e7c088493f0568aa4c94bb1726effdc32c608c14d4e8"
+      "fingerprint": "e3671dae94cbcbd82d1dfd765e28c058534b4b1bd0365f57537161f481e1e3e8"
     },
     {
       "id": "s05-classification:intro",
@@ -163,7 +163,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "e4811f2b9f624166e3d280b0200fa63b14319722fcaffb0ed096659b654698ad"
+      "fingerprint": "4cc025e7680f46440132c693656980499650bde595499ff073de246dc03749f9"
     },
     {
       "id": "s05-accounting-supply:intro",
@@ -192,7 +192,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "a621ff7f0cee2f3aeadffd4e8f813e111f31e78e3d2224527d72554f033a637b"
+      "fingerprint": "6dbbe9417ee74404261fea8f961240425708ecf35111db13ed24bf0f9867fd2a"
     },
     {
       "id": "s05-production-quality:intro",
@@ -221,7 +221,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "dfe4d17d2bdba037790ce649c18bfabb5cc9149054e3c1b72719e634f870b6d5"
+      "fingerprint": "9f6b6960808926c8663c4feeccd191c6c92f03c8cd06a93ca098a1b3545d0144"
     },
     {
       "id": "s05-reference-library:intro",
@@ -250,7 +250,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "e80e4f26c81d5932b8213203dcd2349a09502c6f19fdc93de7ad067361818130"
+      "fingerprint": "15a3ce4ac319d859042320e5f063c47b7bd3cccd0b1116f34904589c6b6bebfe"
     },
     {
       "id": "s05-building-media:intro",
@@ -279,7 +279,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "c0754e6b5590b3ce7455d1cb862b526277e2068aaaa127f368be6882f7132e46"
+      "fingerprint": "340b39da9ec540c3128f350d5ffaf5c8873974cac420e3489038fc708eea4db1"
     },
     {
       "id": "s05-integration:intro",
@@ -308,7 +308,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "002f806965640838fb15341b83e29ab5f5904fc6e05da5087c649a3b9fd240ca"
+      "fingerprint": "61388848ad64faf7fc542dffc99ae5ab350ab4dc3a2a0f266631e22934d26a13"
     },
     {
       "id": "s05-lan:intro",
@@ -337,7 +337,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "afc3a3a21a760a42a40b6b91416d5a2a160d3fb27f516d452ffde7f0a4618ddd"
+      "fingerprint": "92e5a310ec055db35ab1a93bba93965c53cc3ce0e408a65b85b99a66088b8c7e"
     },
     {
       "id": "s05-documentation:intro",
@@ -366,7 +366,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "f221a6f6b3538f7a9617cda916d88711cf7bf97ffbfdc0c6e80624667cbca5d1"
+      "fingerprint": "aa39be81aad3ea3b2410ce67ab835f904fffef92df40b90a55b5aa66cbf79ac6"
     },
     {
       "id": "s05-lab-system-map:intro",
@@ -391,7 +391,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "d716d129aef0384cc8c1c0b92113bc4e2f1d1ed3d171164dfa0dc8560e276748"
+      "fingerprint": "d611fa27870c0ceb9ed82c3c4580860839f2b9e8f4a51a25d61672d77b340699"
     },
     {
       "id": "s05-lab-compare:intro",
@@ -416,7 +416,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "b850143cd43fcd410c289bcb7d73f71fc93f2962809390c2dcf7d5b5e538f3c4"
+      "fingerprint": "57513c3fe6e7219c73bdc86fa4bf12899a277366b6151599dea76108fe795bdc"
     },
     {
       "id": "s05-lab-display:intro",
@@ -442,7 +442,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "fdb150d336852ef949de685d690b89e8b45351111c49cad676fd4bc0a1373940"
+      "fingerprint": "d7b5168d59e8fede67afe9a228916723aa674ba769bc9e8c2286b86eaf20ae8d"
     },
     {
       "id": "s05-lab-cctv:intro",
@@ -468,7 +468,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "32fcd07f7aa20bf384c346554e54ad32f4557df4a4872ae381f45013239123c3"
+      "fingerprint": "e8989694f879de8cf6fceacd1d925bd58a27c1f6ac7d7410b7d73723769f1bdf"
     },
     {
       "id": "s05-lab-lan:intro",
@@ -494,7 +494,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "b2bc8de2dd3615e393c1a5116a7ed38ae554bea019ab54a3d8a4058262bbfde2"
+      "fingerprint": "c7b5d76524d71034cd78e4c49c6cf025aa5f0b24a877b31f03e1570398273c15"
     },
     {
       "id": "s05-lab-expansion:intro",
@@ -520,7 +520,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "a10bd57442c13d11f5d0a30c42f90111edb5e84a79b039cceb9fbd92abe2faf1"
+      "fingerprint": "8c221a0cd29e1432d466992e0ed47126f5e395eb56a0b154048eefdc48ca1625"
     },
     {
       "id": "s05-lab-passport:intro",
@@ -546,7 +546,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "f43a85e0cda675461684de31d1b2a55bd8b9b7ea11ea56892a0ae58ba74a07f1"
+      "fingerprint": "8c8d5dec67a23587eae9716460c901efa6f0cff4af0d4708b8cb9e2abae9ccea"
     },
     {
       "id": "s06-reliability-foundations:intro",
@@ -575,7 +575,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "b585c926ac64ea4563a4a799297a7e6379c7e2cb633eea5fa7c1d9ef75caf7cd"
+      "fingerprint": "bf41ca17a65c85bcab2ec1c5f5b5ba51774fd45e92b05e92a20898c640685be0"
     },
     {
       "id": "s06-single-metrics:intro",
@@ -604,7 +604,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "4b4d539e7a209e41900fddc3da14cee0d9559a1b2b48b9a5a0cb1c5b42234ebf"
+      "fingerprint": "8bd7efff91da19cb500c8706205e00eabaad9347320a4263d66c227b5f7da4c2"
     },
     {
       "id": "s06-availability:intro",
@@ -633,7 +633,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "86ae5cc5f16956b4124c077d58a8420d65df2373b546dc9de5dcc087d3c296f3"
+      "fingerprint": "ebd5cd50f00952bdf7aea9d96cad96a9f3f4a380a2acbed1e24e96afb85f84a8"
     },
     {
       "id": "s06-system-reliability:intro",
@@ -662,7 +662,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "b44e12b46b3c3787d64feba126cd0137b0d93d6e79022bdbd62242f185da6c45"
+      "fingerprint": "a0b6198cec1a24876db871f0ac7b80514977421c7d8e3988f875e47db4238f9d"
     },
     {
       "id": "s06-information-integrity:intro",
@@ -691,7 +691,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "d61ccde2c39dc884ed0fd7e0162c9ccbe0537a454a02cea5488186479b7c129d"
+      "fingerprint": "f9d130dc807a681768614baef31288e72227db210880a29e9d2959045f133d92"
     },
     {
       "id": "s06-performance:intro",
@@ -720,7 +720,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "bbe15a5812a2b5d8b3a1a1da8076e2e5ccdce232344b169ea1fbe2d0429ca13c"
+      "fingerprint": "9096199d5206c758eb29723e9401aff8978a36d3998e62179f54788ac654fc4f"
     },
     {
       "id": "s06-improvement:intro",
@@ -749,7 +749,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "a9297a4743a73f4c4b9f383e917af80718d4a3dc05e7d240fa4a66fee938ac66"
+      "fingerprint": "9e4c848d91e365b255d036774534c718c2a862c36b68b1229d797ebc90701477"
     },
     {
       "id": "s06-lab-single:intro",
@@ -774,7 +774,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "e7aa53e05c70af1e05a9599be44a989b8034b78f1335d500c6aae62acedeb005"
+      "fingerprint": "6945c63476abe69c841b0e73736e50f553dad87f3a98bb5b2b3adac812ff42d8"
     },
     {
       "id": "s06-lab-availability:intro",
@@ -799,7 +799,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "0a4683ce97e4f36b8e555aa707ad5f88d357b1b5e838d137e9186bcf906e5b75"
+      "fingerprint": "a680c589992be319d5ae98082b12d06326a401dfcf8e80f14c8dc47aa3116626"
     },
     {
       "id": "s06-lab-redundancy:intro",
@@ -824,7 +824,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "5830fd36497ea688922499b88e1dcec263e48a2a605e91b4c166148774d7e1ca"
+      "fingerprint": "9d7a60ecf17a787703d672f9306dcbba68c84c34c142e07d349b53a9cf100975"
     },
     {
       "id": "s06-lab-integrity:intro",
@@ -849,7 +849,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "90ff7faca7e155fe9f9ce5c595b3669aee0ebe054235040ce628c15cc18e2473"
+      "fingerprint": "75c05545bfbfb125134323fbe5941b48053c6830052e3871f5fd87f094185814"
     },
     {
       "id": "s06-lab-performance:intro",
@@ -875,7 +875,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "7725f69d1b57ec1a879f4a971d4915d9557b46e413d6e7adb86fe9e3e8f68fac"
+      "fingerprint": "8c7632fbd77e4b3b5fabde36f02dc6129474418d6c21658987ebad9179a1b112"
     }
   ],
   "counts": {
