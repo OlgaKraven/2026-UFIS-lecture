@@ -3,7 +3,7 @@
   "courseId": "ufis",
   "contentVersion": "1.0.0",
   "scope": "full",
-  "inventorySha256": "798f773f35cec6488b2c838ea3b9306c98ef3e4492a5499209cd4e6f50b21320",
+  "inventorySha256": "f9238d60912aca14980c4b9e268009b47ca6a6a73bba614aa3b201c52b4ad870",
   "counts": {
     "lectures": 29,
     "slides": 403,

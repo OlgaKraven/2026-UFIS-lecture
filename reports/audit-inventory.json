@@ -63,7 +63,7 @@
     "src/learning-workbench.tsx": "e6d6d1bbddbceb27c56da6708c653eaa0dd3e184fa7c59b270ef5ea73d27b854",
     "src/main.tsx": "06d73f873bfa242db8269002bb67b962a12b027e7ee75735467ff4dd8854b7a4",
     "src/practice.tsx": "6f49c09a30322b57f564855b6f29cb43222efba5589c9d24752356cd3274707c",
-    "src/presentation-design.css": "818981e6a9e99d0cdb13eb4417837dfc77620b6fa38066f9e3e757d9a099d2af",
+    "src/presentation-design.css": "17aac4ebcc60da14b81203c2f0fd558738619934be942d9bb68289596491c9c2",
     "src/question-title.tsx": "d344fef4d79d6c8e497eb33fe1f5c13a17d82a37354de9942fdd2de165bbd309",
     "src/reference-adapter.css": "9a564c5213e20f05e12450dbd317df3c9ec6464e33c2a76ae86c0aa54b1c9965",
     "src/typography.css": "03c9cfbd0a8c6d4540b12633451270a790500f8372972be61d052004176e1193",
@@ -111,7 +111,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "225996d0eb80f28ea030ea41b7df8727f4f82f015dff0b2ec313ade674b352f7"
+      "fingerprint": "809562521c2e9c5112506d0d283279686cab97173877ec38501a2f0e8683296b"
     },
     {
       "id": "s05-structure:intro",
@@ -139,7 +139,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "d8e732f926622156194e0718e9b59005895d38d67543297007842642692ec5e7"
+      "fingerprint": "b86963619a827fb9db04239cb88d6b089e2b5a90dab474737bcadac705a52dc1"
     },
     {
       "id": "s05-classification:intro",
@@ -167,7 +167,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "5cf85b3d387856997a57ddf74634d8ab05e3079f7720678a4cb1d6261b67e403"
+      "fingerprint": "c9c319fb4e9cafada16689d66aedc4dc64ddcb641b191e8bb3039278dc9f9e98"
     },
     {
       "id": "s05-accounting-supply:intro",
@@ -196,7 +196,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "e4e4ca7d4bd39a876dd7afc1bfec38cabb9115979176330687e122e6b9234a9b"
+      "fingerprint": "8c0cd1856450f44f6572c9e461290fadb74dc65a185c1521ce1efece756a17ea"
     },
     {
       "id": "s05-production-quality:intro",
@@ -225,7 +225,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "7bf2a2eb5c161f240a68d8d54100d1e9f55e87df4954dcd6781b8c09805fff37"
+      "fingerprint": "d0c33290cb37cf26f7fa690868b13d1331ee388a0f633ce00c7b3378414cf785"
     },
     {
       "id": "s05-reference-library:intro",
@@ -254,7 +254,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "4390f4729c05898ef39b07bc3c88791abc45cff80db5d93efc710c0694245bee"
+      "fingerprint": "871ca32497a2302764e2b84ee4773c82ff1e726b36cebe5ca07986b113226fae"
     },
     {
       "id": "s05-building-media:intro",
@@ -283,7 +283,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "200de020a5a607a43ec786cf2b8f024be44b8d701efd315a629159bebd1841ff"
+      "fingerprint": "83d63d3a635bc69c316b6fff44e060ec52c480a6a7e48f4e372856538e009d2d"
     },
     {
       "id": "s05-integration:intro",
@@ -312,7 +312,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "48b570c3edb9ec6436a55fc4f4ce0b7bace4693097b5034b533cc5430c76a057"
+      "fingerprint": "2a63dcdef714bb07105db8bd56efd08c6d82b0a13584ca742e03542f2857f829"
     },
     {
       "id": "s05-lan:intro",
@@ -341,7 +341,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "62ae22dbdc97413b6b181c30f5f21c72f7cfe603743450ce90392f63aa41a417"
+      "fingerprint": "68f5af9436e2b1a6d8146b1695b014d035c61195c1483154240ee9806ac2bfeb"
     },
     {
       "id": "s05-documentation:intro",
@@ -370,7 +370,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "7a6d40c98d4ab581fbcafd4e5aae17201d5fe4ae8d0b70d31f9212016cc880e6"
+      "fingerprint": "8930dbe0427ab600f8c66e3de4d78e41b835e9847906fa309e16db826a0844ba"
     },
     {
       "id": "s05-lab-system-map:intro",
@@ -395,7 +395,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "c9d368faf18f94cc42af00826924729f8c5f2b1df005a7f942ead4928ea9c106"
+      "fingerprint": "f6b10fabd534bda457204db12463bed29a4abeff3ea3d427d90b042e4c1ebbc0"
     },
     {
       "id": "s05-lab-compare:intro",
@@ -420,7 +420,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "625d5c8ee228934617f7d61ee30068a903e535b4616915b638a6f119fb87750f"
+      "fingerprint": "47dbbd7250fb408ae40dc16f1c584b7bbc67d93817943c4121c91db6d6cac382"
     },
     {
       "id": "s05-lab-display:intro",
@@ -446,7 +446,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "63bb6b4e7210e4c38043301105965b8eb82e3ddc62d501953820b44f218495e4"
+      "fingerprint": "7823c8dab07cd52830212ba81074314ffb81e99890c8c7420ddbb6818c3d0ac2"
     },
     {
       "id": "s05-lab-cctv:intro",
@@ -472,7 +472,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "7682ac34267017289fd8350d6167bbafba4b5e5a3cb7aba04b764b449f30f009"
+      "fingerprint": "30e2dee7a6928c21bdf6bb78ee14c4052e966260f5b00cce7e6aa7137198808e"
     },
     {
       "id": "s05-lab-lan:intro",
@@ -498,7 +498,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "23f404df5256100f820aec6f64730ba0986176c331a4c651b5cf06d5fcf8c59f"
+      "fingerprint": "eee36050b83d4c282e556e9a8b55f0d5945b8f507c74cc533c9c06ea2be293a0"
     },
     {
       "id": "s05-lab-expansion:intro",
@@ -524,7 +524,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "caead9b241eb519fbc46167286ffa326c79a671c8e3fd34f37091ee6a81f27b6"
+      "fingerprint": "67715e20a2b93f7cd5df6fad1acc4cd2e50aa1e3bc19c07a4059dde3649ea371"
     },
     {
       "id": "s05-lab-passport:intro",
@@ -550,7 +550,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "a616d6b6c32ec1753ad7130c03178edee7a2e3fda243ab0b35589301646042e9"
+      "fingerprint": "f71982ea6bc754c933aea5e910102538e7d39fa150bb4490c7a5e4ad271eed8c"
     },
     {
       "id": "s06-reliability-foundations:intro",
@@ -579,7 +579,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "ab87e6ab36ad41183d28c052f0f190675ece11be15b37dde9014c38f72b90d0f"
+      "fingerprint": "eb20302fbb59c896e65fe787ae674256c82204c2cd78ef2e9457d565b0157a9a"
     },
     {
       "id": "s06-single-metrics:intro",
@@ -608,7 +608,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "a2ba5907fcb75b90c20f7ecd28a76675a60662b91d98cb88acbfaa8d744b38a6"
+      "fingerprint": "9551f77cfabb3cb194ec8e3426ee60d7e6b790cb4fdc443bc4464b5fab4b3661"
     },
     {
       "id": "s06-availability:intro",
@@ -637,7 +637,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "64e4c3f8c4c1ef6ca8c8368895dfc2997ff272b6fb660dda2d9b39e6bbe6b3aa"
+      "fingerprint": "0ff1aebd9a2078225cfb5a738b1fc2f822b5b6302ec8cfacd51044407e6b7848"
     },
     {
       "id": "s06-system-reliability:intro",
@@ -666,7 +666,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "914ca6d8eb9d0adf0447a887cc8f5be962a3959c6cf3754651f2458a4bc21449"
+      "fingerprint": "1663e30d0d29bc8825bc69ff1bc4a0317e5adb0d5a45201dd89a8f8c950bb199"
     },
     {
       "id": "s06-information-integrity:intro",
@@ -695,7 +695,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "2c9bd3b867d2f490ab483f27fa1b2f1ac83ac99a08e7bcfff481ca74719595de"
+      "fingerprint": "5d142176947d005d56322a8a77e2f884bbaec99172ede4c6e91c62ba09eedfb6"
     },
     {
       "id": "s06-performance:intro",
@@ -724,7 +724,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "b97fc4fe404208a38c7567489f9b370ced4a628a43673223f959c235f640e06d"
+      "fingerprint": "38a59f6819749e55423e88f24980b34d2cb695265c04804e81ed08f9a56079fe"
     },
     {
       "id": "s06-improvement:intro",
@@ -753,7 +753,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "fd37930b2957f2b01749697d2121f84320a747c742353c81fd2ffab5dbcffc4f"
+      "fingerprint": "9c7b3597132cce119eb1f7488dc2da6188fdbad86772d0a3fb0bfda8284a8dfc"
     },
     {
       "id": "s06-lab-single:intro",
@@ -778,7 +778,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "6be146c371d84e3c823c5424e97cf4f68af57ebd138a25c8788c279d6343586b"
+      "fingerprint": "ef73e415041aebe25323e3f6ce1465a5f75236ef47fd6785c1b02d5eb7e67539"
     },
     {
       "id": "s06-lab-availability:intro",
@@ -803,7 +803,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "4ad476cf34651d57fec223d786b9d17c21b2fc552e84f19d250d37191ad92556"
+      "fingerprint": "7986c9c4c8e77b3c5adc677d16a53f1759f19bb21eff2e553be7d5e04b192bca"
     },
     {
       "id": "s06-lab-redundancy:intro",
@@ -828,7 +828,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "4bd7fd5643ebc85f903b8874918af178d35860971298841b1927600efe6a4f3c"
+      "fingerprint": "acc7f7f7af314cf288ce4c149f94fe84326ec9f9262a3b12f710596b5ed8f2e8"
     },
     {
       "id": "s06-lab-integrity:intro",
@@ -853,7 +853,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "178f7b986a9e49cb2efd2a905cbc4f95c819ea989195a5e2e0a6d42f0d48b941"
+      "fingerprint": "93f972f501f67736e1b3b8ed0def274abc76b336d4df619e55ddac978bd1eee9"
     },
     {
       "id": "s06-lab-performance:intro",
@@ -879,7 +879,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "f9afa5aec676d1c6881bb216dd12f705741cfeece1437dd7df56f8e3e640ba27"
+      "fingerprint": "542a11633b07b69be6f1338acf4c92d0bb0fc695c9a4d57729eb11a9a90b26da"
     }
   ],
   "counts": {
