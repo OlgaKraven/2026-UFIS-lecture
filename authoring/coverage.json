@@ -1,0 +1,869 @@
+[
+  {
+    "lectureId": "s05-system-boundary",
+    "category": "lecture",
+    "semester": 5,
+    "sourceTitle": "Информационная система как комплекс: техническое, программное, информационное, организационное и правовое обеспечение. Границы системы",
+    "outcome": "Что включить в систему, чтобы отвечать за результат её работы?",
+    "slideIds": [
+      "s05-system-boundary-title",
+      "s05-system-boundary-literature",
+      "s05-system-boundary-additional",
+      "s05-system-boundary-materials",
+      "s05-system-boundary-question",
+      "s05-system-boundary-content-1",
+      "s05-system-boundary-content-2",
+      "s05-system-boundary-diagram-2",
+      "s05-system-boundary-content-3",
+      "s05-system-boundary-diagram-3",
+      "s05-system-boundary-content-4",
+      "s05-system-boundary-case",
+      "s05-system-boundary-test",
+      "s05-system-boundary-transfer",
+      "s05-system-boundary-summary"
+    ],
+    "caseIds": [
+      "s05-system-boundary-case"
+    ],
+    "taskIds": [
+      "s05-system-boundary-test-single",
+      "s05-system-boundary-test-short"
+    ]
+  },
+  {
+    "lectureId": "s05-structure",
+    "category": "lecture",
+    "semester": 5,
+    "sourceTitle": "Базовая структура информационной системы: рабочие места, сеть, серверы, хранилище, периферийное оборудование",
+    "outcome": "Как рабочее место получает и сохраняет данные?",
+    "slideIds": [
+      "s05-structure-title",
+      "s05-structure-literature",
+      "s05-structure-additional",
+      "s05-structure-materials",
+      "s05-structure-question",
+      "s05-structure-content-1",
+      "s05-structure-content-2",
+      "s05-structure-diagram-2",
+      "s05-structure-content-3",
+      "s05-structure-content-4",
+      "s05-structure-case",
+      "s05-structure-test",
+      "s05-structure-transfer",
+      "s05-structure-summary"
+    ],
+    "caseIds": [
+      "s05-structure-case"
+    ],
+    "taskIds": [
+      "s05-structure-test-single",
+      "s05-structure-test-short"
+    ]
+  },
+  {
+    "lectureId": "s05-classification",
+    "category": "lecture",
+    "semester": 5,
+    "sourceTitle": "Классификация информационных систем по назначению, масштабу и способу размещения",
+    "outcome": "Как описать одну систему по нескольким независимым основаниям?",
+    "slideIds": [
+      "s05-classification-title",
+      "s05-classification-literature",
+      "s05-classification-additional",
+      "s05-classification-materials",
+      "s05-classification-question",
+      "s05-classification-content-1",
+      "s05-classification-content-2",
+      "s05-classification-diagram-2",
+      "s05-classification-content-3",
+      "s05-classification-content-4",
+      "s05-classification-case",
+      "s05-classification-test",
+      "s05-classification-transfer",
+      "s05-classification-summary"
+    ],
+    "caseIds": [
+      "s05-classification-case"
+    ],
+    "taskIds": [
+      "s05-classification-test-single",
+      "s05-classification-test-short"
+    ]
+  },
+  {
+    "lectureId": "s05-accounting-supply",
+    "category": "lecture",
+    "semester": 5,
+    "sourceTitle": "Информационные системы учёта и материально-технического снабжения: назначение, состав, особенности эксплуатации",
+    "outcome": "Как документы превращаются в остатки и решение о закупке?",
+    "slideIds": [
+      "s05-accounting-supply-title",
+      "s05-accounting-supply-literature",
+      "s05-accounting-supply-additional",
+      "s05-accounting-supply-materials",
+      "s05-accounting-supply-question",
+      "s05-accounting-supply-content-1",
+      "s05-accounting-supply-content-2",
+      "s05-accounting-supply-diagram-2",
+      "s05-accounting-supply-content-3",
+      "s05-accounting-supply-content-4",
+      "s05-accounting-supply-content-5",
+      "s05-accounting-supply-case",
+      "s05-accounting-supply-test",
+      "s05-accounting-supply-transfer",
+      "s05-accounting-supply-summary"
+    ],
+    "caseIds": [
+      "s05-accounting-supply-case"
+    ],
+    "taskIds": [
+      "s05-accounting-supply-test-single",
+      "s05-accounting-supply-test-short"
+    ]
+  },
+  {
+    "lectureId": "s05-production-quality",
+    "category": "lecture",
+    "semester": 5,
+    "sourceTitle": "Информационные системы управления производством и качеством: назначение, состав, особенности эксплуатации",
+    "outcome": "Как связать план, исполнение и доказательство качества партии?",
+    "slideIds": [
+      "s05-production-quality-title",
+      "s05-production-quality-literature",
+      "s05-production-quality-additional",
+      "s05-production-quality-materials",
+      "s05-production-quality-question",
+      "s05-production-quality-content-1",
+      "s05-production-quality-content-2",
+      "s05-production-quality-diagram-2",
+      "s05-production-quality-content-3",
+      "s05-production-quality-content-4",
+      "s05-production-quality-content-5",
+      "s05-production-quality-case",
+      "s05-production-quality-test",
+      "s05-production-quality-transfer",
+      "s05-production-quality-summary"
+    ],
+    "caseIds": [
+      "s05-production-quality-case"
+    ],
+    "taskIds": [
+      "s05-production-quality-test-single",
+      "s05-production-quality-test-short"
+    ]
+  },
+  {
+    "lectureId": "s05-reference-library",
+    "category": "lecture",
+    "semester": 5,
+    "sourceTitle": "Справочно-информационные и библиотечные системы: назначение, состав, особенности эксплуатации",
+    "outcome": "Чем поиск описания отличается от выдачи конкретного экземпляра?",
+    "slideIds": [
+      "s05-reference-library-title",
+      "s05-reference-library-literature",
+      "s05-reference-library-additional",
+      "s05-reference-library-materials",
+      "s05-reference-library-question",
+      "s05-reference-library-content-1",
+      "s05-reference-library-content-2",
+      "s05-reference-library-diagram-2",
+      "s05-reference-library-content-3",
+      "s05-reference-library-content-4",
+      "s05-reference-library-content-5",
+      "s05-reference-library-case",
+      "s05-reference-library-test",
+      "s05-reference-library-transfer",
+      "s05-reference-library-summary"
+    ],
+    "caseIds": [
+      "s05-reference-library-case"
+    ],
+    "taskIds": [
+      "s05-reference-library-test-single",
+      "s05-reference-library-test-short"
+    ]
+  },
+  {
+    "lectureId": "s05-building-media",
+    "category": "lecture",
+    "semester": 5,
+    "sourceTitle": "Системы управления зданием и многозонным мультимедийным пространством: состав оборудования, особенности эксплуатации",
+    "outcome": "Как команды, измерения и медиасигналы проходят между зонами?",
+    "slideIds": [
+      "s05-building-media-title",
+      "s05-building-media-literature",
+      "s05-building-media-additional",
+      "s05-building-media-materials",
+      "s05-building-media-question",
+      "s05-building-media-content-1",
+      "s05-building-media-content-2",
+      "s05-building-media-diagram-2",
+      "s05-building-media-content-3",
+      "s05-building-media-content-4",
+      "s05-building-media-content-5",
+      "s05-building-media-case",
+      "s05-building-media-test",
+      "s05-building-media-transfer",
+      "s05-building-media-summary"
+    ],
+    "caseIds": [
+      "s05-building-media-case"
+    ],
+    "taskIds": [
+      "s05-building-media-test-single",
+      "s05-building-media-test-short"
+    ]
+  },
+  {
+    "lectureId": "s05-integration",
+    "category": "lecture",
+    "semester": 5,
+    "sourceTitle": "Оборудование системной интеграции: коммутационное, отображающее, звуковое, видеонаблюдения. Схема подключения",
+    "outcome": "Как по схеме отличить путь сигнала, управления и питания?",
+    "slideIds": [
+      "s05-integration-title",
+      "s05-integration-literature",
+      "s05-integration-additional",
+      "s05-integration-materials",
+      "s05-integration-question",
+      "s05-integration-content-1",
+      "s05-integration-content-2",
+      "s05-integration-diagram-2",
+      "s05-integration-content-3",
+      "s05-integration-content-4",
+      "s05-integration-content-5",
+      "s05-integration-case",
+      "s05-integration-test",
+      "s05-integration-transfer",
+      "s05-integration-summary"
+    ],
+    "caseIds": [
+      "s05-integration-case"
+    ],
+    "taskIds": [
+      "s05-integration-test-single",
+      "s05-integration-test-short"
+    ]
+  },
+  {
+    "lectureId": "s05-lan",
+    "category": "lecture",
+    "semester": 5,
+    "sourceTitle": "Локальная сеть информационной системы: топология, активное оборудование, адресация. Состав проверок, выполняемых эксплуатирующим персоналом",
+    "outcome": "Как последовательно проверить связность, адресацию и прикладной доступ?",
+    "slideIds": [
+      "s05-lan-title",
+      "s05-lan-literature",
+      "s05-lan-additional",
+      "s05-lan-materials",
+      "s05-lan-question",
+      "s05-lan-content-1",
+      "s05-lan-content-2",
+      "s05-lan-diagram-2",
+      "s05-lan-content-3",
+      "s05-lan-content-4",
+      "s05-lan-content-5",
+      "s05-lan-case",
+      "s05-lan-test",
+      "s05-lan-transfer",
+      "s05-lan-summary"
+    ],
+    "caseIds": [
+      "s05-lan-case"
+    ],
+    "taskIds": [
+      "s05-lan-test-single",
+      "s05-lan-test-short"
+    ]
+  },
+  {
+    "lectureId": "s05-documentation",
+    "category": "lecture",
+    "semester": 5,
+    "sourceTitle": "Документация на информационную систему: состав комплекта, паспорт системы, схемы, инструкции",
+    "outcome": "Какой комплект позволяет другому специалисту обслужить систему?",
+    "slideIds": [
+      "s05-documentation-title",
+      "s05-documentation-literature",
+      "s05-documentation-additional",
+      "s05-documentation-materials",
+      "s05-documentation-question",
+      "s05-documentation-content-1",
+      "s05-documentation-content-2",
+      "s05-documentation-diagram-2",
+      "s05-documentation-content-3",
+      "s05-documentation-content-4",
+      "s05-documentation-content-5",
+      "s05-documentation-case",
+      "s05-documentation-test",
+      "s05-documentation-transfer",
+      "s05-documentation-summary"
+    ],
+    "caseIds": [
+      "s05-documentation-case"
+    ],
+    "taskIds": [
+      "s05-documentation-test-single",
+      "s05-documentation-test-short"
+    ]
+  },
+  {
+    "lectureId": "s06-reliability-foundations",
+    "category": "lecture",
+    "semester": 6,
+    "sourceTitle": "Надёжность информационной системы: основные понятия, отказ, восстановление, наработка. Основания для расчёта надёжности",
+    "outcome": "Какие события и интервалы нужно зафиксировать до вычисления показателя?",
+    "slideIds": [
+      "s06-reliability-foundations-title",
+      "s06-reliability-foundations-literature",
+      "s06-reliability-foundations-additional",
+      "s06-reliability-foundations-materials",
+      "s06-reliability-foundations-question",
+      "s06-reliability-foundations-content-1",
+      "s06-reliability-foundations-content-2",
+      "s06-reliability-foundations-content-3",
+      "s06-reliability-foundations-diagram-3",
+      "s06-reliability-foundations-content-4",
+      "s06-reliability-foundations-content-5",
+      "s06-reliability-foundations-case",
+      "s06-reliability-foundations-test",
+      "s06-reliability-foundations-transfer",
+      "s06-reliability-foundations-summary"
+    ],
+    "caseIds": [
+      "s06-reliability-foundations-case"
+    ],
+    "taskIds": [
+      "s06-reliability-foundations-test-single",
+      "s06-reliability-foundations-test-short"
+    ]
+  },
+  {
+    "lectureId": "s06-single-metrics",
+    "category": "lecture",
+    "semester": 6,
+    "sourceTitle": "Единичные показатели надёжности: вероятность безотказной работы, наработка на отказ, среднее время восстановления. Порядок расчёта",
+    "outcome": "Что именно оценивают вероятность безотказной работы, наработка на отказ и время восстановления?",
+    "slideIds": [
+      "s06-single-metrics-title",
+      "s06-single-metrics-literature",
+      "s06-single-metrics-additional",
+      "s06-single-metrics-materials",
+      "s06-single-metrics-question",
+      "s06-single-metrics-content-1",
+      "s06-single-metrics-content-2",
+      "s06-single-metrics-content-3",
+      "s06-single-metrics-content-4",
+      "s06-single-metrics-diagram-4",
+      "s06-single-metrics-content-5",
+      "s06-single-metrics-case",
+      "s06-single-metrics-test",
+      "s06-single-metrics-transfer",
+      "s06-single-metrics-summary"
+    ],
+    "caseIds": [
+      "s06-single-metrics-case"
+    ],
+    "taskIds": [
+      "s06-single-metrics-test-single",
+      "s06-single-metrics-test-short"
+    ]
+  },
+  {
+    "lectureId": "s06-availability",
+    "category": "lecture",
+    "semester": 6,
+    "sourceTitle": "Комплексные показатели: коэффициент готовности, коэффициент технического использования. Порядок расчёта",
+    "outcome": "Почему готовность и техническое использование дают разные числа?",
+    "slideIds": [
+      "s06-availability-title",
+      "s06-availability-literature",
+      "s06-availability-additional",
+      "s06-availability-materials",
+      "s06-availability-question",
+      "s06-availability-content-1",
+      "s06-availability-content-2",
+      "s06-availability-content-3",
+      "s06-availability-diagram-3",
+      "s06-availability-content-4",
+      "s06-availability-content-5",
+      "s06-availability-case",
+      "s06-availability-test",
+      "s06-availability-transfer",
+      "s06-availability-summary"
+    ],
+    "caseIds": [
+      "s06-availability-case"
+    ],
+    "taskIds": [
+      "s06-availability-test-single",
+      "s06-availability-test-short"
+    ]
+  },
+  {
+    "lectureId": "s06-system-reliability",
+    "category": "lecture",
+    "semester": 6,
+    "sourceTitle": "Надёжность системы из нескольких элементов: последовательное и параллельное соединение, резервирование. Порядок расчёта",
+    "outcome": "Как логика выполнения функции определяет формулу надёжности?",
+    "slideIds": [
+      "s06-system-reliability-title",
+      "s06-system-reliability-literature",
+      "s06-system-reliability-additional",
+      "s06-system-reliability-materials",
+      "s06-system-reliability-question",
+      "s06-system-reliability-content-1",
+      "s06-system-reliability-content-2",
+      "s06-system-reliability-content-3",
+      "s06-system-reliability-diagram-3",
+      "s06-system-reliability-content-4",
+      "s06-system-reliability-content-5",
+      "s06-system-reliability-case",
+      "s06-system-reliability-test",
+      "s06-system-reliability-transfer",
+      "s06-system-reliability-summary"
+    ],
+    "caseIds": [
+      "s06-system-reliability-case"
+    ],
+    "taskIds": [
+      "s06-system-reliability-test-single",
+      "s06-system-reliability-test-short"
+    ]
+  },
+  {
+    "lectureId": "s06-information-integrity",
+    "category": "lecture",
+    "semester": 6,
+    "sourceTitle": "Достоверность информации в системе: источники искажений, показатели достоверности, методы контроля",
+    "outcome": "Как отличить обнаружение искажения от подтверждения правильности сведений?",
+    "slideIds": [
+      "s06-information-integrity-title",
+      "s06-information-integrity-literature",
+      "s06-information-integrity-additional",
+      "s06-information-integrity-materials",
+      "s06-information-integrity-question",
+      "s06-information-integrity-content-1",
+      "s06-information-integrity-content-2",
+      "s06-information-integrity-content-3",
+      "s06-information-integrity-diagram-3",
+      "s06-information-integrity-content-4",
+      "s06-information-integrity-content-5",
+      "s06-information-integrity-case",
+      "s06-information-integrity-test",
+      "s06-information-integrity-transfer",
+      "s06-information-integrity-summary"
+    ],
+    "caseIds": [
+      "s06-information-integrity-case"
+    ],
+    "taskIds": [
+      "s06-information-integrity-test-single",
+      "s06-information-integrity-test-short"
+    ]
+  },
+  {
+    "lectureId": "s06-performance",
+    "category": "lecture",
+    "semester": 6,
+    "sourceTitle": "Производительность информационной системы: показатели, порядок измерения, выявление узкого места",
+    "outcome": "Как измерение связывает время ответа, нагрузку и узкое место?",
+    "slideIds": [
+      "s06-performance-title",
+      "s06-performance-literature",
+      "s06-performance-additional",
+      "s06-performance-materials",
+      "s06-performance-question",
+      "s06-performance-content-1",
+      "s06-performance-content-2",
+      "s06-performance-diagram-2",
+      "s06-performance-content-3",
+      "s06-performance-content-4",
+      "s06-performance-content-5",
+      "s06-performance-case",
+      "s06-performance-test",
+      "s06-performance-transfer",
+      "s06-performance-summary"
+    ],
+    "caseIds": [
+      "s06-performance-case"
+    ],
+    "taskIds": [
+      "s06-performance-test-single",
+      "s06-performance-test-short"
+    ]
+  },
+  {
+    "lectureId": "s06-improvement",
+    "category": "lecture",
+    "semester": 6,
+    "sourceTitle": "Повышение надёжности: резервирование, отказоустойчивость, регламентное обслуживание. Обоснование выбора меры по результатам расчёта",
+    "outcome": "Как выбрать меру по расчёту и последствиям отказа?",
+    "slideIds": [
+      "s06-improvement-title",
+      "s06-improvement-literature",
+      "s06-improvement-additional",
+      "s06-improvement-materials",
+      "s06-improvement-question",
+      "s06-improvement-content-1",
+      "s06-improvement-content-2",
+      "s06-improvement-diagram-2",
+      "s06-improvement-content-3",
+      "s06-improvement-content-4",
+      "s06-improvement-content-5",
+      "s06-improvement-case",
+      "s06-improvement-test",
+      "s06-improvement-transfer",
+      "s06-improvement-summary"
+    ],
+    "caseIds": [
+      "s06-improvement-case"
+    ],
+    "taskIds": [
+      "s06-improvement-test-single",
+      "s06-improvement-test-short"
+    ]
+  },
+  {
+    "lectureId": "s05-lab-system-map",
+    "category": "laboratory",
+    "semester": 5,
+    "sourceTitle": "Лабораторная работа № 1. Составление схемы состава информационной системы предприятия",
+    "outcome": "Как получить проверяемую схему из исходного описания?",
+    "slideIds": [
+      "s05-lab-system-map-title",
+      "s05-lab-system-map-literature",
+      "s05-lab-system-map-additional",
+      "s05-lab-system-map-materials",
+      "s05-lab-system-map-question",
+      "s05-lab-system-map-content-1",
+      "s05-lab-system-map-content-2",
+      "s05-lab-system-map-content-3",
+      "s05-lab-system-map-case",
+      "s05-lab-system-map-test",
+      "s05-lab-system-map-transfer",
+      "s05-lab-system-map-summary"
+    ],
+    "caseIds": [
+      "s05-lab-system-map-case"
+    ],
+    "taskIds": [
+      "s05-lab-system-map-test-single",
+      "s05-lab-system-map-test-short"
+    ]
+  },
+  {
+    "lectureId": "s05-lab-compare",
+    "category": "laboratory",
+    "semester": 5,
+    "sourceTitle": "Лабораторная работа № 2. Сравнительный анализ информационных систем одного назначения",
+    "outcome": "Как отделить обязательное условие от предпочтения?",
+    "slideIds": [
+      "s05-lab-compare-title",
+      "s05-lab-compare-literature",
+      "s05-lab-compare-additional",
+      "s05-lab-compare-materials",
+      "s05-lab-compare-question",
+      "s05-lab-compare-content-1",
+      "s05-lab-compare-content-2",
+      "s05-lab-compare-content-3",
+      "s05-lab-compare-case",
+      "s05-lab-compare-test",
+      "s05-lab-compare-transfer",
+      "s05-lab-compare-summary"
+    ],
+    "caseIds": [
+      "s05-lab-compare-case"
+    ],
+    "taskIds": [
+      "s05-lab-compare-test-single",
+      "s05-lab-compare-test-short"
+    ]
+  },
+  {
+    "lectureId": "s05-lab-display",
+    "category": "laboratory",
+    "semester": 5,
+    "sourceTitle": "Лабораторная работа № 3. Обслуживание системы отображения информации",
+    "outcome": "Как локализовать отсутствие изображения без случайной смены всех настроек?",
+    "slideIds": [
+      "s05-lab-display-title",
+      "s05-lab-display-literature",
+      "s05-lab-display-additional",
+      "s05-lab-display-materials",
+      "s05-lab-display-question",
+      "s05-lab-display-content-1",
+      "s05-lab-display-content-2",
+      "s05-lab-display-content-3",
+      "s05-lab-display-content-4",
+      "s05-lab-display-case",
+      "s05-lab-display-test",
+      "s05-lab-display-transfer",
+      "s05-lab-display-summary"
+    ],
+    "caseIds": [
+      "s05-lab-display-case"
+    ],
+    "taskIds": [
+      "s05-lab-display-test-single",
+      "s05-lab-display-test-short"
+    ]
+  },
+  {
+    "lectureId": "s05-lab-cctv",
+    "category": "laboratory",
+    "semester": 5,
+    "sourceTitle": "Лабораторная работа № 4. Обслуживание системы видеонаблюдения",
+    "outcome": "Как подтвердить запись и воспроизведение, а не только живое видео?",
+    "slideIds": [
+      "s05-lab-cctv-title",
+      "s05-lab-cctv-literature",
+      "s05-lab-cctv-additional",
+      "s05-lab-cctv-materials",
+      "s05-lab-cctv-question",
+      "s05-lab-cctv-content-1",
+      "s05-lab-cctv-content-2",
+      "s05-lab-cctv-content-3",
+      "s05-lab-cctv-content-4",
+      "s05-lab-cctv-case",
+      "s05-lab-cctv-test",
+      "s05-lab-cctv-transfer",
+      "s05-lab-cctv-summary"
+    ],
+    "caseIds": [
+      "s05-lab-cctv-case"
+    ],
+    "taskIds": [
+      "s05-lab-cctv-test-single",
+      "s05-lab-cctv-test-short"
+    ]
+  },
+  {
+    "lectureId": "s05-lab-lan",
+    "category": "laboratory",
+    "semester": 5,
+    "sourceTitle": "Лабораторная работа № 5. Обслуживание локальной сети информационной системы",
+    "outcome": "Как локализовать неисправность по наблюдениям разных уровней?",
+    "slideIds": [
+      "s05-lab-lan-title",
+      "s05-lab-lan-literature",
+      "s05-lab-lan-additional",
+      "s05-lab-lan-materials",
+      "s05-lab-lan-question",
+      "s05-lab-lan-content-1",
+      "s05-lab-lan-content-2",
+      "s05-lab-lan-content-3",
+      "s05-lab-lan-content-4",
+      "s05-lab-lan-case",
+      "s05-lab-lan-test",
+      "s05-lab-lan-transfer",
+      "s05-lab-lan-summary"
+    ],
+    "caseIds": [
+      "s05-lab-lan-case"
+    ],
+    "taskIds": [
+      "s05-lab-lan-test-single",
+      "s05-lab-lan-test-short"
+    ]
+  },
+  {
+    "lectureId": "s05-lab-expansion",
+    "category": "laboratory",
+    "semester": 5,
+    "sourceTitle": "Лабораторная работа № 6. Разработка предложений о расширении информационной системы",
+    "outcome": "Какие ограничения проверяют до закупки новых рабочих мест?",
+    "slideIds": [
+      "s05-lab-expansion-title",
+      "s05-lab-expansion-literature",
+      "s05-lab-expansion-additional",
+      "s05-lab-expansion-materials",
+      "s05-lab-expansion-question",
+      "s05-lab-expansion-content-1",
+      "s05-lab-expansion-content-2",
+      "s05-lab-expansion-content-3",
+      "s05-lab-expansion-content-4",
+      "s05-lab-expansion-case",
+      "s05-lab-expansion-test",
+      "s05-lab-expansion-transfer",
+      "s05-lab-expansion-summary"
+    ],
+    "caseIds": [
+      "s05-lab-expansion-case"
+    ],
+    "taskIds": [
+      "s05-lab-expansion-test-single",
+      "s05-lab-expansion-test-short"
+    ]
+  },
+  {
+    "lectureId": "s05-lab-passport",
+    "category": "laboratory",
+    "semester": 5,
+    "sourceTitle": "Лабораторная работа № 7. Составление паспорта информационной системы",
+    "outcome": "Как связать паспорт с фактическим составом и инструкцией?",
+    "slideIds": [
+      "s05-lab-passport-title",
+      "s05-lab-passport-literature",
+      "s05-lab-passport-additional",
+      "s05-lab-passport-materials",
+      "s05-lab-passport-question",
+      "s05-lab-passport-content-1",
+      "s05-lab-passport-content-2",
+      "s05-lab-passport-content-3",
+      "s05-lab-passport-content-4",
+      "s05-lab-passport-case",
+      "s05-lab-passport-test",
+      "s05-lab-passport-transfer",
+      "s05-lab-passport-summary"
+    ],
+    "caseIds": [
+      "s05-lab-passport-case"
+    ],
+    "taskIds": [
+      "s05-lab-passport-test-single",
+      "s05-lab-passport-test-short"
+    ]
+  },
+  {
+    "lectureId": "s06-lab-single",
+    "category": "laboratory",
+    "semester": 6,
+    "sourceTitle": "Лабораторная работа № 1. Расчёт единичных показателей надёжности",
+    "outcome": "Как из журнала получить три разных показателя?",
+    "slideIds": [
+      "s06-lab-single-title",
+      "s06-lab-single-literature",
+      "s06-lab-single-additional",
+      "s06-lab-single-materials",
+      "s06-lab-single-question",
+      "s06-lab-single-content-1",
+      "s06-lab-single-content-2",
+      "s06-lab-single-content-3",
+      "s06-lab-single-case",
+      "s06-lab-single-test",
+      "s06-lab-single-transfer",
+      "s06-lab-single-summary"
+    ],
+    "caseIds": [
+      "s06-lab-single-case"
+    ],
+    "taskIds": [
+      "s06-lab-single-test-single",
+      "s06-lab-single-test-short"
+    ]
+  },
+  {
+    "lectureId": "s06-lab-availability",
+    "category": "laboratory",
+    "semester": 6,
+    "sourceTitle": "Лабораторная работа № 2. Расчёт комплексных показателей надёжности",
+    "outcome": "Как согласовать коэффициент готовности с фондом времени?",
+    "slideIds": [
+      "s06-lab-availability-title",
+      "s06-lab-availability-literature",
+      "s06-lab-availability-additional",
+      "s06-lab-availability-materials",
+      "s06-lab-availability-question",
+      "s06-lab-availability-content-1",
+      "s06-lab-availability-content-2",
+      "s06-lab-availability-content-3",
+      "s06-lab-availability-case",
+      "s06-lab-availability-test",
+      "s06-lab-availability-transfer",
+      "s06-lab-availability-summary"
+    ],
+    "caseIds": [
+      "s06-lab-availability-case"
+    ],
+    "taskIds": [
+      "s06-lab-availability-test-single",
+      "s06-lab-availability-test-short"
+    ]
+  },
+  {
+    "lectureId": "s06-lab-redundancy",
+    "category": "laboratory",
+    "semester": 6,
+    "sourceTitle": "Лабораторная работа № 3. Расчёт надёжности системы и эффекта резервирования",
+    "outcome": "Как пересчитать систему после резервирования одного звена?",
+    "slideIds": [
+      "s06-lab-redundancy-title",
+      "s06-lab-redundancy-literature",
+      "s06-lab-redundancy-additional",
+      "s06-lab-redundancy-materials",
+      "s06-lab-redundancy-question",
+      "s06-lab-redundancy-content-1",
+      "s06-lab-redundancy-content-2",
+      "s06-lab-redundancy-content-3",
+      "s06-lab-redundancy-case",
+      "s06-lab-redundancy-test",
+      "s06-lab-redundancy-transfer",
+      "s06-lab-redundancy-summary"
+    ],
+    "caseIds": [
+      "s06-lab-redundancy-case"
+    ],
+    "taskIds": [
+      "s06-lab-redundancy-test-single",
+      "s06-lab-redundancy-test-short"
+    ]
+  },
+  {
+    "lectureId": "s06-lab-integrity",
+    "category": "laboratory",
+    "semester": 6,
+    "sourceTitle": "Лабораторная работа № 4. Определение показателей достоверности информации",
+    "outcome": "Как посчитать ошибки, не смешивая записи и поля?",
+    "slideIds": [
+      "s06-lab-integrity-title",
+      "s06-lab-integrity-literature",
+      "s06-lab-integrity-additional",
+      "s06-lab-integrity-materials",
+      "s06-lab-integrity-question",
+      "s06-lab-integrity-content-1",
+      "s06-lab-integrity-content-2",
+      "s06-lab-integrity-content-3",
+      "s06-lab-integrity-case",
+      "s06-lab-integrity-test",
+      "s06-lab-integrity-transfer",
+      "s06-lab-integrity-summary"
+    ],
+    "caseIds": [
+      "s06-lab-integrity-case"
+    ],
+    "taskIds": [
+      "s06-lab-integrity-test-single",
+      "s06-lab-integrity-test-short"
+    ]
+  },
+  {
+    "lectureId": "s06-lab-performance",
+    "category": "laboratory",
+    "semester": 6,
+    "sourceTitle": "Лабораторная работа № 5. Измерение производительности и выявление узкого места",
+    "outcome": "Как воспроизвести сравнение и проверить гипотезу ограничения?",
+    "slideIds": [
+      "s06-lab-performance-title",
+      "s06-lab-performance-literature",
+      "s06-lab-performance-additional",
+      "s06-lab-performance-materials",
+      "s06-lab-performance-question",
+      "s06-lab-performance-content-1",
+      "s06-lab-performance-content-2",
+      "s06-lab-performance-content-3",
+      "s06-lab-performance-content-4",
+      "s06-lab-performance-case",
+      "s06-lab-performance-test",
+      "s06-lab-performance-transfer",
+      "s06-lab-performance-summary"
+    ],
+    "caseIds": [
+      "s06-lab-performance-case"
+    ],
+    "taskIds": [
+      "s06-lab-performance-test-single",
+      "s06-lab-performance-test-short"
+    ]
+  }
+]

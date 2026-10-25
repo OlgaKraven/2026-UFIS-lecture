@@ -1,0 +1,124 @@
+{
+  "count": 34,
+  "results": [
+    {
+      "id": "s05-system-boundary",
+      "scenarios": 2,
+      "synchronized": true,
+      "review": true,
+      "focus": true
+    },
+    {
+      "id": "s05-structure",
+      "scenarios": 2,
+      "synchronized": true,
+      "review": true,
+      "focus": true
+    },
+    {
+      "id": "s05-classification",
+      "scenarios": 2,
+      "synchronized": true,
+      "review": true,
+      "focus": true
+    },
+    {
+      "id": "s05-accounting-supply",
+      "scenarios": 2,
+      "synchronized": true,
+      "review": true,
+      "focus": true
+    },
+    {
+      "id": "s05-production-quality",
+      "scenarios": 2,
+      "synchronized": true,
+      "review": true,
+      "focus": true
+    },
+    {
+      "id": "s05-reference-library",
+      "scenarios": 2,
+      "synchronized": true,
+      "review": true,
+      "focus": true
+    },
+    {
+      "id": "s05-building-media",
+      "scenarios": 2,
+      "synchronized": true,
+      "review": true,
+      "focus": true
+    },
+    {
+      "id": "s05-integration",
+      "scenarios": 2,
+      "synchronized": true,
+      "review": true,
+      "focus": true
+    },
+    {
+      "id": "s05-lan",
+      "scenarios": 2,
+      "synchronized": true,
+      "review": true,
+      "focus": true
+    },
+    {
+      "id": "s05-documentation",
+      "scenarios": 2,
+      "synchronized": true,
+      "review": true,
+      "focus": true
+    },
+    {
+      "id": "s05-lab-system-map",
+      "scenarios": 2,
+      "synchronized": true,
+      "review": true,
+      "focus": true
+    },
+    {
+      "id": "s05-lab-compare",
+      "scenarios": 2,
+      "synchronized": true,
+      "review": true,
+      "focus": true
+    },
+    {
+      "id": "s05-lab-display",
+      "scenarios": 2,
+      "synchronized": true,
+      "review": true,
+      "focus": true
+    },
+    {
+      "id": "s05-lab-cctv",
+      "scenarios": 2,
+      "synchronized": true,
+      "review": true,
+      "focus": true
+    },
+    {
+      "id": "s05-lab-lan",
+      "scenarios": 2,
+      "synchronized": true,
+      "review": true,
+      "focus": true
+    },
+    {
+      "id": "s05-lab-expansion",
+      "scenarios": 2,
+      "synchronized": true,
+      "review": true,
+      "focus": true
+    },
+    {
+      "id": "s05-lab-passport",
+      "scenarios": 2,
+      "synchronized": true,
+      "review": true,
+      "focus": true
+    }
+  ]
+}

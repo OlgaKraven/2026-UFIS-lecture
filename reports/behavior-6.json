@@ -1,0 +1,89 @@
+{
+  "count": 24,
+  "results": [
+    {
+      "id": "s06-reliability-foundations",
+      "scenarios": 2,
+      "synchronized": true,
+      "review": true,
+      "focus": true
+    },
+    {
+      "id": "s06-single-metrics",
+      "scenarios": 2,
+      "synchronized": true,
+      "review": true,
+      "focus": true
+    },
+    {
+      "id": "s06-availability",
+      "scenarios": 2,
+      "synchronized": true,
+      "review": true,
+      "focus": true
+    },
+    {
+      "id": "s06-system-reliability",
+      "scenarios": 2,
+      "synchronized": true,
+      "review": true,
+      "focus": true
+    },
+    {
+      "id": "s06-information-integrity",
+      "scenarios": 2,
+      "synchronized": true,
+      "review": true,
+      "focus": true
+    },
+    {
+      "id": "s06-performance",
+      "scenarios": 2,
+      "synchronized": true,
+      "review": true,
+      "focus": true
+    },
+    {
+      "id": "s06-improvement",
+      "scenarios": 2,
+      "synchronized": true,
+      "review": true,
+      "focus": true
+    },
+    {
+      "id": "s06-lab-single",
+      "scenarios": 2,
+      "synchronized": true,
+      "review": true,
+      "focus": true
+    },
+    {
+      "id": "s06-lab-availability",
+      "scenarios": 2,
+      "synchronized": true,
+      "review": true,
+      "focus": true
+    },
+    {
+      "id": "s06-lab-redundancy",
+      "scenarios": 2,
+      "synchronized": true,
+      "review": true,
+      "focus": true
+    },
+    {
+      "id": "s06-lab-integrity",
+      "scenarios": 2,
+      "synchronized": true,
+      "review": true,
+      "focus": true
+    },
+    {
+      "id": "s06-lab-performance",
+      "scenarios": 2,
+      "synchronized": true,
+      "review": true,
+      "focus": true
+    }
+  ]
+}

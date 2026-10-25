@@ -1,0 +1,886 @@
+{
+  "schemaVersion": 1,
+  "courseId": "ufis",
+  "contentVersion": "1.0.0",
+  "inputs": {
+    "course": "public/course.json",
+    "pack": "public/teacher-pack.json",
+    "runtime": [
+      "src",
+      "public/workbenches.json",
+      "public/assessment.json",
+      "public/explanations.json",
+      "public/brand",
+      "public/fonts",
+      "scripts/generate.py",
+      "authoring/topics.py",
+      "authoring/reliability.py",
+      "authoring/labs.py"
+    ]
+  },
+  "runtimeHashes": {
+    "src/author-notes.ts": "b9707d117b9f7758491bd86128fdca3979d6e0a2b01f1d5a010bbd20b45bad28",
+    "src/course-catalog.css": "c29c8e84cee7fc6aba9e5be221f8ecc584d63bd0b617fd095e35fefd42fd5023",
+    "src/CourseCatalog.tsx": "5654c9c5d89efdd06d2bd6693016fb9214ff673ca305cfe4a304b458ee3ed278",
+    "src/engine/assessment.css": "a9bbce45fbf86ea4ad13dda7a2c0405cc73427baabb490f3ae43a2a3fdd63e46",
+    "src/engine/Assessment.tsx": "7e111fc5d4d97305cc4fae6cc4120d24b1b6a7d3f7ddc9cf88b9c0ff573ef5f5",
+    "src/engine/backup.ts": "529cb884eb77fa39446f8f335d954395df3013a93f990dbda0e45d64ec26b307",
+    "src/engine/CourseCatalog.tsx": "806e8170dc899c03d146aafd1e9ba61785708e1cadd6088e5c3976d4928e5d59",
+    "src/engine/CourseEditor.tsx": "ff52a5314d5e19739e9e6b2a41cd9ae02e1394ccbf22fc7de0f254b6f359d65d",
+    "src/engine/CourseTools.tsx": "8c5588c8b6fa6e9be4925b063320f95c1c14256506f647a75a9cdb9a752b0a87",
+    "src/engine/diagram-layout.tsx": "b88ceab20330b22891785798a1d687c68a1dd7aeeab31e2bcf2376abf024cb0b",
+    "src/engine/editor-history.ts": "dbfd55d5f3f1d6dfd6386f7ab474cc8bb86be4137f0b157f9902dfc84ce80dc9",
+    "src/engine/EditorLogin.tsx": "2bb617342b1754bfacebb85bb80b43729d5e978600bca27683227a77769a33f4",
+    "src/engine/features.css": "7ded9ed4f69a39cdafbc6056ccabe7c902ee618a89da4d68cf164153c9773c8f",
+    "src/engine/ImageEditor.tsx": "c42c671fe72178da99bf55ad8994d9da15b3dd55a7006468528b4753e4435f57",
+    "src/engine/index.ts": "cf20f8aef34b77c1913ebfdf08ea5e5c692760927209801683ac1ab96e9a0b55",
+    "src/engine/Infographic.tsx": "d7e84468c244d920c87411bfd7cbdfcad26fc0ef17a0a1e28798681db91a045b",
+    "src/engine/InfographicMobile.tsx": "c328607645922c0f496b333dbac0bb6e425d0220e7356d4919e0a74dbde958b5",
+    "src/engine/infographics.css": "eecdbef10de02e5067e97552ebb375af2b7a596f58795d712fa98a24b14d12a3",
+    "src/engine/layout-final.css": "a7dab28417aba8e86569f9cdce8afe1c1d9c00b7cfa98e6d3e818ce363181984",
+    "src/engine/LectureSite.tsx": "ce02d764a0e22c443c67ff5961f352fc1a132052b41067620e2150e704da81e5",
+    "src/engine/Modal.tsx": "a98adff697c2ab3e645a99415176898b806b32188aafdb712f13c0b48800882c",
+    "src/engine/model.ts": "c2f9c85dd37ede03aebf6a4467d6125a91fabdfbfe199279278d442563a735aa",
+    "src/engine/NetworkDiagram.tsx": "d0e62a10333149f22b59f8ec5d8659ae6eee2466c86d20a24fd98644987bc05a",
+    "src/engine/offline.ts": "944e1a2c68576aac46dd76bf5e65f8e4608776aac41063b7ac108f08b24b97e9",
+    "src/engine/PanelLayout.tsx": "ee4e74846d4b454e69e5ada8f01551cdacb059925f48c26e7778037db2f65d9e",
+    "src/engine/presentation-pirip.css": "45647abb72b7798290c8d8fc7bc6df056f537d19f8227cbda25c21ab3683cd53",
+    "src/engine/ReadableDiagram.tsx": "4b568968b3db8c4c54d7cc35917b6002401547f13b51f14337e6e161966a3e62",
+    "src/engine/Recovery.tsx": "90386a15282035ccd67ff80fa06ac7a30594b6a92040fc6a748716ad45acc946",
+    "src/engine/reference.css": "f7f6a3af1a8927192f7d86657f57bb0f41637868c961a85183ac74114ba15134",
+    "src/engine/Resources.tsx": "b9dc35e4d0b389f4394a6682bedbf1f12fddbcac2044dcc55b610119081b1554",
+    "src/engine/responsive.ts": "688c19487385fea837eedb754f009d8ec5fa9176aa0ffa4829442691eac07451",
+    "src/engine/scoring.ts": "6703ee27eab10e6550dd4488d9c06dcf38d8a98708feac800190c923720ac73a",
+    "src/engine/session.ts": "ed3109e549b0ffb803805cccc68ebcb0e804257ef7e6e7bf52594fc9a79eca3c",
+    "src/engine/SlideView.tsx": "aacf41ea9d10f8eaab262aa2dba96aa071987d5325a95da2edd54c92254985a1",
+    "src/engine/storage.ts": "d011e84e59769431b457d894eed37e91c00bd0294d365c153f9578979a56155f",
+    "src/engine/Teaching.tsx": "c0dd10568cd3df263f498454343d19ca68542f38d7139fbb6d502dca3f91ced9",
+    "src/engine/template.css": "bb7f6d8e9cb28ade75c2ff583cfc419851ce6e7867e8ae876e79c43c68890f28",
+    "src/engine/TimingPlan.tsx": "56dd7acfea4150ec984df8a986623e4721aa332917b8c1d5425e43cff9b9b0c1",
+    "src/engine/validation.ts": "5d3325dee38e49fba2cf293f672c5678b579ce2e254b31b1dcb4282f8bddd1a8",
+    "src/learning-workbench.css": "0f0c3eb2013a140f28a2fc23f653ee0708d004ec891b6a3bb3b159b77aa3042c",
+    "src/learning-workbench.tsx": "0b0740178949fc216149ecf799dfd5dc2e3604d25587eabff49d1b51d51cdde5",
+    "src/main.tsx": "2bf1f15d659c471b6b84302c151b1a4d553777bb49dd4498c8ccba1b155e2f89",
+    "src/practice.tsx": "688b3363ab483f757f7faad51b677178b5267310b1a14daa42ef946b2cf5e0ee",
+    "src/question-title.tsx": "be9de5e713391af6669678b579268dc2aaf616e9650c75da2a7148114c50f442",
+    "src/ufis.css": "3462428702d75d83565b84cc5a82cf981b11cc4020c00ae067bb5e1f57c4c8e4",
+    "public/workbenches.json": "49507bf151e52fd6cad1a840ec93feb1ba3bb0c2ee9ca58993a1cc7f9516ce83",
+    "public/assessment.json": "32538c1663bdb0dc1db68141b53cac27573845ef37714bb7ac9ea09ed10440e7",
+    "public/explanations.json": "b417fc7ff9cc8397088033dbe20278c93a693433b6bf87ecfd3ff65ee88f5cfe",
+    "public/brand/rhino-ufis.png": "c5568867296553608b02457f88e9798b5df4fcb8c3d143ad3c13b19a6bf1f061",
+    "public/brand/side-ornament.png": "bd69f172225f9a547ee399e768d54b812fcda7145bb6b31289f26fa52f19c5a1",
+    "public/brand/synergy-mark.png": "f34cfbd179d8a192cbd609dc424ea8babbcad53a3afe9b4e2ac987d6c4881dc7",
+    "public/brand/synergy-wordmark.jpg": "a3ab46cfef56f312010355c803dc607fa330db408619e0f642901d0a99b831a4",
+    "public/brand/topic-arrow.webp": "87d8009bc3c69e4d7a79c6932c0a92bbd89e66e967ef14e256049825b2678bb3",
+    "public/fonts/OFL.txt": "c62d0f4b78825cbf2d99ac7ea3dd163f645210efa032243731184c9f86a6eab6",
+    "public/fonts/raleway-cyrillic.woff2": "ac99ad1c437b60ef445a7c13c958d4d574ef98050de2ccf182ba6ccdb3bfbdfd",
+    "scripts/generate.py": "9d26a4d2d3292353fcb84234280da482d9143ca2f3314558952bfebb0482e75f",
+    "authoring/topics.py": "65e4db2b667cdd10de4a0e8c45351bd9f97ae96164239e9cb63d00f8e578da14",
+    "authoring/reliability.py": "8a9895b9d065f3e034beba8ea482a5832d3677b467280cb572463606c2b8000e",
+    "authoring/labs.py": "e7fa7037ac8150077089c361ad49d1f6267700aa91fb3058470ccd3a66b8f433"
+  },
+  "units": [
+    {
+      "id": "s05-system-boundary:intro",
+      "lectureId": "s05-system-boundary",
+      "slideIds": [
+        "s05-system-boundary-title",
+        "s05-system-boundary-literature",
+        "s05-system-boundary-additional",
+        "s05-system-boundary-materials",
+        "s05-system-boundary-question",
+        "s05-system-boundary-content-1",
+        "s05-system-boundary-content-2",
+        "s05-system-boundary-diagram-2",
+        "s05-system-boundary-content-3",
+        "s05-system-boundary-diagram-3",
+        "s05-system-boundary-content-4",
+        "s05-system-boundary-case",
+        "s05-system-boundary-test",
+        "s05-system-boundary-transfer",
+        "s05-system-boundary-summary"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "7de40067dcf1ef779501d8029f6cd0009c403c12036d5e1f9544c2b628b33f8f"
+    },
+    {
+      "id": "s05-structure:intro",
+      "lectureId": "s05-structure",
+      "slideIds": [
+        "s05-structure-title",
+        "s05-structure-literature",
+        "s05-structure-additional",
+        "s05-structure-materials",
+        "s05-structure-question",
+        "s05-structure-content-1",
+        "s05-structure-content-2",
+        "s05-structure-diagram-2",
+        "s05-structure-content-3",
+        "s05-structure-content-4",
+        "s05-structure-case",
+        "s05-structure-test",
+        "s05-structure-transfer",
+        "s05-structure-summary"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "838bb4d53eaaac758a30e7c088493f0568aa4c94bb1726effdc32c608c14d4e8"
+    },
+    {
+      "id": "s05-classification:intro",
+      "lectureId": "s05-classification",
+      "slideIds": [
+        "s05-classification-title",
+        "s05-classification-literature",
+        "s05-classification-additional",
+        "s05-classification-materials",
+        "s05-classification-question",
+        "s05-classification-content-1",
+        "s05-classification-content-2",
+        "s05-classification-diagram-2",
+        "s05-classification-content-3",
+        "s05-classification-content-4",
+        "s05-classification-case",
+        "s05-classification-test",
+        "s05-classification-transfer",
+        "s05-classification-summary"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "e4811f2b9f624166e3d280b0200fa63b14319722fcaffb0ed096659b654698ad"
+    },
+    {
+      "id": "s05-accounting-supply:intro",
+      "lectureId": "s05-accounting-supply",
+      "slideIds": [
+        "s05-accounting-supply-title",
+        "s05-accounting-supply-literature",
+        "s05-accounting-supply-additional",
+        "s05-accounting-supply-materials",
+        "s05-accounting-supply-question",
+        "s05-accounting-supply-content-1",
+        "s05-accounting-supply-content-2",
+        "s05-accounting-supply-diagram-2",
+        "s05-accounting-supply-content-3",
+        "s05-accounting-supply-content-4",
+        "s05-accounting-supply-content-5",
+        "s05-accounting-supply-case",
+        "s05-accounting-supply-test",
+        "s05-accounting-supply-transfer",
+        "s05-accounting-supply-summary"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "a621ff7f0cee2f3aeadffd4e8f813e111f31e78e3d2224527d72554f033a637b"
+    },
+    {
+      "id": "s05-production-quality:intro",
+      "lectureId": "s05-production-quality",
+      "slideIds": [
+        "s05-production-quality-title",
+        "s05-production-quality-literature",
+        "s05-production-quality-additional",
+        "s05-production-quality-materials",
+        "s05-production-quality-question",
+        "s05-production-quality-content-1",
+        "s05-production-quality-content-2",
+        "s05-production-quality-diagram-2",
+        "s05-production-quality-content-3",
+        "s05-production-quality-content-4",
+        "s05-production-quality-content-5",
+        "s05-production-quality-case",
+        "s05-production-quality-test",
+        "s05-production-quality-transfer",
+        "s05-production-quality-summary"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "dfe4d17d2bdba037790ce649c18bfabb5cc9149054e3c1b72719e634f870b6d5"
+    },
+    {
+      "id": "s05-reference-library:intro",
+      "lectureId": "s05-reference-library",
+      "slideIds": [
+        "s05-reference-library-title",
+        "s05-reference-library-literature",
+        "s05-reference-library-additional",
+        "s05-reference-library-materials",
+        "s05-reference-library-question",
+        "s05-reference-library-content-1",
+        "s05-reference-library-content-2",
+        "s05-reference-library-diagram-2",
+        "s05-reference-library-content-3",
+        "s05-reference-library-content-4",
+        "s05-reference-library-content-5",
+        "s05-reference-library-case",
+        "s05-reference-library-test",
+        "s05-reference-library-transfer",
+        "s05-reference-library-summary"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "e80e4f26c81d5932b8213203dcd2349a09502c6f19fdc93de7ad067361818130"
+    },
+    {
+      "id": "s05-building-media:intro",
+      "lectureId": "s05-building-media",
+      "slideIds": [
+        "s05-building-media-title",
+        "s05-building-media-literature",
+        "s05-building-media-additional",
+        "s05-building-media-materials",
+        "s05-building-media-question",
+        "s05-building-media-content-1",
+        "s05-building-media-content-2",
+        "s05-building-media-diagram-2",
+        "s05-building-media-content-3",
+        "s05-building-media-content-4",
+        "s05-building-media-content-5",
+        "s05-building-media-case",
+        "s05-building-media-test",
+        "s05-building-media-transfer",
+        "s05-building-media-summary"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "c0754e6b5590b3ce7455d1cb862b526277e2068aaaa127f368be6882f7132e46"
+    },
+    {
+      "id": "s05-integration:intro",
+      "lectureId": "s05-integration",
+      "slideIds": [
+        "s05-integration-title",
+        "s05-integration-literature",
+        "s05-integration-additional",
+        "s05-integration-materials",
+        "s05-integration-question",
+        "s05-integration-content-1",
+        "s05-integration-content-2",
+        "s05-integration-diagram-2",
+        "s05-integration-content-3",
+        "s05-integration-content-4",
+        "s05-integration-content-5",
+        "s05-integration-case",
+        "s05-integration-test",
+        "s05-integration-transfer",
+        "s05-integration-summary"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "002f806965640838fb15341b83e29ab5f5904fc6e05da5087c649a3b9fd240ca"
+    },
+    {
+      "id": "s05-lan:intro",
+      "lectureId": "s05-lan",
+      "slideIds": [
+        "s05-lan-title",
+        "s05-lan-literature",
+        "s05-lan-additional",
+        "s05-lan-materials",
+        "s05-lan-question",
+        "s05-lan-content-1",
+        "s05-lan-content-2",
+        "s05-lan-diagram-2",
+        "s05-lan-content-3",
+        "s05-lan-content-4",
+        "s05-lan-content-5",
+        "s05-lan-case",
+        "s05-lan-test",
+        "s05-lan-transfer",
+        "s05-lan-summary"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "afc3a3a21a760a42a40b6b91416d5a2a160d3fb27f516d452ffde7f0a4618ddd"
+    },
+    {
+      "id": "s05-documentation:intro",
+      "lectureId": "s05-documentation",
+      "slideIds": [
+        "s05-documentation-title",
+        "s05-documentation-literature",
+        "s05-documentation-additional",
+        "s05-documentation-materials",
+        "s05-documentation-question",
+        "s05-documentation-content-1",
+        "s05-documentation-content-2",
+        "s05-documentation-diagram-2",
+        "s05-documentation-content-3",
+        "s05-documentation-content-4",
+        "s05-documentation-content-5",
+        "s05-documentation-case",
+        "s05-documentation-test",
+        "s05-documentation-transfer",
+        "s05-documentation-summary"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "f221a6f6b3538f7a9617cda916d88711cf7bf97ffbfdc0c6e80624667cbca5d1"
+    },
+    {
+      "id": "s05-lab-system-map:intro",
+      "lectureId": "s05-lab-system-map",
+      "slideIds": [
+        "s05-lab-system-map-title",
+        "s05-lab-system-map-literature",
+        "s05-lab-system-map-additional",
+        "s05-lab-system-map-materials",
+        "s05-lab-system-map-question",
+        "s05-lab-system-map-content-1",
+        "s05-lab-system-map-content-2",
+        "s05-lab-system-map-content-3",
+        "s05-lab-system-map-case",
+        "s05-lab-system-map-test",
+        "s05-lab-system-map-transfer",
+        "s05-lab-system-map-summary"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "d716d129aef0384cc8c1c0b92113bc4e2f1d1ed3d171164dfa0dc8560e276748"
+    },
+    {
+      "id": "s05-lab-compare:intro",
+      "lectureId": "s05-lab-compare",
+      "slideIds": [
+        "s05-lab-compare-title",
+        "s05-lab-compare-literature",
+        "s05-lab-compare-additional",
+        "s05-lab-compare-materials",
+        "s05-lab-compare-question",
+        "s05-lab-compare-content-1",
+        "s05-lab-compare-content-2",
+        "s05-lab-compare-content-3",
+        "s05-lab-compare-case",
+        "s05-lab-compare-test",
+        "s05-lab-compare-transfer",
+        "s05-lab-compare-summary"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "b850143cd43fcd410c289bcb7d73f71fc93f2962809390c2dcf7d5b5e538f3c4"
+    },
+    {
+      "id": "s05-lab-display:intro",
+      "lectureId": "s05-lab-display",
+      "slideIds": [
+        "s05-lab-display-title",
+        "s05-lab-display-literature",
+        "s05-lab-display-additional",
+        "s05-lab-display-materials",
+        "s05-lab-display-question",
+        "s05-lab-display-content-1",
+        "s05-lab-display-content-2",
+        "s05-lab-display-content-3",
+        "s05-lab-display-content-4",
+        "s05-lab-display-case",
+        "s05-lab-display-test",
+        "s05-lab-display-transfer",
+        "s05-lab-display-summary"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "fdb150d336852ef949de685d690b89e8b45351111c49cad676fd4bc0a1373940"
+    },
+    {
+      "id": "s05-lab-cctv:intro",
+      "lectureId": "s05-lab-cctv",
+      "slideIds": [
+        "s05-lab-cctv-title",
+        "s05-lab-cctv-literature",
+        "s05-lab-cctv-additional",
+        "s05-lab-cctv-materials",
+        "s05-lab-cctv-question",
+        "s05-lab-cctv-content-1",
+        "s05-lab-cctv-content-2",
+        "s05-lab-cctv-content-3",
+        "s05-lab-cctv-content-4",
+        "s05-lab-cctv-case",
+        "s05-lab-cctv-test",
+        "s05-lab-cctv-transfer",
+        "s05-lab-cctv-summary"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "32fcd07f7aa20bf384c346554e54ad32f4557df4a4872ae381f45013239123c3"
+    },
+    {
+      "id": "s05-lab-lan:intro",
+      "lectureId": "s05-lab-lan",
+      "slideIds": [
+        "s05-lab-lan-title",
+        "s05-lab-lan-literature",
+        "s05-lab-lan-additional",
+        "s05-lab-lan-materials",
+        "s05-lab-lan-question",
+        "s05-lab-lan-content-1",
+        "s05-lab-lan-content-2",
+        "s05-lab-lan-content-3",
+        "s05-lab-lan-content-4",
+        "s05-lab-lan-case",
+        "s05-lab-lan-test",
+        "s05-lab-lan-transfer",
+        "s05-lab-lan-summary"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "b2bc8de2dd3615e393c1a5116a7ed38ae554bea019ab54a3d8a4058262bbfde2"
+    },
+    {
+      "id": "s05-lab-expansion:intro",
+      "lectureId": "s05-lab-expansion",
+      "slideIds": [
+        "s05-lab-expansion-title",
+        "s05-lab-expansion-literature",
+        "s05-lab-expansion-additional",
+        "s05-lab-expansion-materials",
+        "s05-lab-expansion-question",
+        "s05-lab-expansion-content-1",
+        "s05-lab-expansion-content-2",
+        "s05-lab-expansion-content-3",
+        "s05-lab-expansion-content-4",
+        "s05-lab-expansion-case",
+        "s05-lab-expansion-test",
+        "s05-lab-expansion-transfer",
+        "s05-lab-expansion-summary"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "a10bd57442c13d11f5d0a30c42f90111edb5e84a79b039cceb9fbd92abe2faf1"
+    },
+    {
+      "id": "s05-lab-passport:intro",
+      "lectureId": "s05-lab-passport",
+      "slideIds": [
+        "s05-lab-passport-title",
+        "s05-lab-passport-literature",
+        "s05-lab-passport-additional",
+        "s05-lab-passport-materials",
+        "s05-lab-passport-question",
+        "s05-lab-passport-content-1",
+        "s05-lab-passport-content-2",
+        "s05-lab-passport-content-3",
+        "s05-lab-passport-content-4",
+        "s05-lab-passport-case",
+        "s05-lab-passport-test",
+        "s05-lab-passport-transfer",
+        "s05-lab-passport-summary"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "f43a85e0cda675461684de31d1b2a55bd8b9b7ea11ea56892a0ae58ba74a07f1"
+    },
+    {
+      "id": "s06-reliability-foundations:intro",
+      "lectureId": "s06-reliability-foundations",
+      "slideIds": [
+        "s06-reliability-foundations-title",
+        "s06-reliability-foundations-literature",
+        "s06-reliability-foundations-additional",
+        "s06-reliability-foundations-materials",
+        "s06-reliability-foundations-question",
+        "s06-reliability-foundations-content-1",
+        "s06-reliability-foundations-content-2",
+        "s06-reliability-foundations-content-3",
+        "s06-reliability-foundations-diagram-3",
+        "s06-reliability-foundations-content-4",
+        "s06-reliability-foundations-content-5",
+        "s06-reliability-foundations-case",
+        "s06-reliability-foundations-test",
+        "s06-reliability-foundations-transfer",
+        "s06-reliability-foundations-summary"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "b585c926ac64ea4563a4a799297a7e6379c7e2cb633eea5fa7c1d9ef75caf7cd"
+    },
+    {
+      "id": "s06-single-metrics:intro",
+      "lectureId": "s06-single-metrics",
+      "slideIds": [
+        "s06-single-metrics-title",
+        "s06-single-metrics-literature",
+        "s06-single-metrics-additional",
+        "s06-single-metrics-materials",
+        "s06-single-metrics-question",
+        "s06-single-metrics-content-1",
+        "s06-single-metrics-content-2",
+        "s06-single-metrics-content-3",
+        "s06-single-metrics-content-4",
+        "s06-single-metrics-diagram-4",
+        "s06-single-metrics-content-5",
+        "s06-single-metrics-case",
+        "s06-single-metrics-test",
+        "s06-single-metrics-transfer",
+        "s06-single-metrics-summary"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "4b4d539e7a209e41900fddc3da14cee0d9559a1b2b48b9a5a0cb1c5b42234ebf"
+    },
+    {
+      "id": "s06-availability:intro",
+      "lectureId": "s06-availability",
+      "slideIds": [
+        "s06-availability-title",
+        "s06-availability-literature",
+        "s06-availability-additional",
+        "s06-availability-materials",
+        "s06-availability-question",
+        "s06-availability-content-1",
+        "s06-availability-content-2",
+        "s06-availability-content-3",
+        "s06-availability-diagram-3",
+        "s06-availability-content-4",
+        "s06-availability-content-5",
+        "s06-availability-case",
+        "s06-availability-test",
+        "s06-availability-transfer",
+        "s06-availability-summary"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "86ae5cc5f16956b4124c077d58a8420d65df2373b546dc9de5dcc087d3c296f3"
+    },
+    {
+      "id": "s06-system-reliability:intro",
+      "lectureId": "s06-system-reliability",
+      "slideIds": [
+        "s06-system-reliability-title",
+        "s06-system-reliability-literature",
+        "s06-system-reliability-additional",
+        "s06-system-reliability-materials",
+        "s06-system-reliability-question",
+        "s06-system-reliability-content-1",
+        "s06-system-reliability-content-2",
+        "s06-system-reliability-content-3",
+        "s06-system-reliability-diagram-3",
+        "s06-system-reliability-content-4",
+        "s06-system-reliability-content-5",
+        "s06-system-reliability-case",
+        "s06-system-reliability-test",
+        "s06-system-reliability-transfer",
+        "s06-system-reliability-summary"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "b44e12b46b3c3787d64feba126cd0137b0d93d6e79022bdbd62242f185da6c45"
+    },
+    {
+      "id": "s06-information-integrity:intro",
+      "lectureId": "s06-information-integrity",
+      "slideIds": [
+        "s06-information-integrity-title",
+        "s06-information-integrity-literature",
+        "s06-information-integrity-additional",
+        "s06-information-integrity-materials",
+        "s06-information-integrity-question",
+        "s06-information-integrity-content-1",
+        "s06-information-integrity-content-2",
+        "s06-information-integrity-content-3",
+        "s06-information-integrity-diagram-3",
+        "s06-information-integrity-content-4",
+        "s06-information-integrity-content-5",
+        "s06-information-integrity-case",
+        "s06-information-integrity-test",
+        "s06-information-integrity-transfer",
+        "s06-information-integrity-summary"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "d61ccde2c39dc884ed0fd7e0162c9ccbe0537a454a02cea5488186479b7c129d"
+    },
+    {
+      "id": "s06-performance:intro",
+      "lectureId": "s06-performance",
+      "slideIds": [
+        "s06-performance-title",
+        "s06-performance-literature",
+        "s06-performance-additional",
+        "s06-performance-materials",
+        "s06-performance-question",
+        "s06-performance-content-1",
+        "s06-performance-content-2",
+        "s06-performance-diagram-2",
+        "s06-performance-content-3",
+        "s06-performance-content-4",
+        "s06-performance-content-5",
+        "s06-performance-case",
+        "s06-performance-test",
+        "s06-performance-transfer",
+        "s06-performance-summary"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "bbe15a5812a2b5d8b3a1a1da8076e2e5ccdce232344b169ea1fbe2d0429ca13c"
+    },
+    {
+      "id": "s06-improvement:intro",
+      "lectureId": "s06-improvement",
+      "slideIds": [
+        "s06-improvement-title",
+        "s06-improvement-literature",
+        "s06-improvement-additional",
+        "s06-improvement-materials",
+        "s06-improvement-question",
+        "s06-improvement-content-1",
+        "s06-improvement-content-2",
+        "s06-improvement-diagram-2",
+        "s06-improvement-content-3",
+        "s06-improvement-content-4",
+        "s06-improvement-content-5",
+        "s06-improvement-case",
+        "s06-improvement-test",
+        "s06-improvement-transfer",
+        "s06-improvement-summary"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "visual",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "a9297a4743a73f4c4b9f383e917af80718d4a3dc05e7d240fa4a66fee938ac66"
+    },
+    {
+      "id": "s06-lab-single:intro",
+      "lectureId": "s06-lab-single",
+      "slideIds": [
+        "s06-lab-single-title",
+        "s06-lab-single-literature",
+        "s06-lab-single-additional",
+        "s06-lab-single-materials",
+        "s06-lab-single-question",
+        "s06-lab-single-content-1",
+        "s06-lab-single-content-2",
+        "s06-lab-single-content-3",
+        "s06-lab-single-case",
+        "s06-lab-single-test",
+        "s06-lab-single-transfer",
+        "s06-lab-single-summary"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "e7aa53e05c70af1e05a9599be44a989b8034b78f1335d500c6aae62acedeb005"
+    },
+    {
+      "id": "s06-lab-availability:intro",
+      "lectureId": "s06-lab-availability",
+      "slideIds": [
+        "s06-lab-availability-title",
+        "s06-lab-availability-literature",
+        "s06-lab-availability-additional",
+        "s06-lab-availability-materials",
+        "s06-lab-availability-question",
+        "s06-lab-availability-content-1",
+        "s06-lab-availability-content-2",
+        "s06-lab-availability-content-3",
+        "s06-lab-availability-case",
+        "s06-lab-availability-test",
+        "s06-lab-availability-transfer",
+        "s06-lab-availability-summary"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "0a4683ce97e4f36b8e555aa707ad5f88d357b1b5e838d137e9186bcf906e5b75"
+    },
+    {
+      "id": "s06-lab-redundancy:intro",
+      "lectureId": "s06-lab-redundancy",
+      "slideIds": [
+        "s06-lab-redundancy-title",
+        "s06-lab-redundancy-literature",
+        "s06-lab-redundancy-additional",
+        "s06-lab-redundancy-materials",
+        "s06-lab-redundancy-question",
+        "s06-lab-redundancy-content-1",
+        "s06-lab-redundancy-content-2",
+        "s06-lab-redundancy-content-3",
+        "s06-lab-redundancy-case",
+        "s06-lab-redundancy-test",
+        "s06-lab-redundancy-transfer",
+        "s06-lab-redundancy-summary"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "5830fd36497ea688922499b88e1dcec263e48a2a605e91b4c166148774d7e1ca"
+    },
+    {
+      "id": "s06-lab-integrity:intro",
+      "lectureId": "s06-lab-integrity",
+      "slideIds": [
+        "s06-lab-integrity-title",
+        "s06-lab-integrity-literature",
+        "s06-lab-integrity-additional",
+        "s06-lab-integrity-materials",
+        "s06-lab-integrity-question",
+        "s06-lab-integrity-content-1",
+        "s06-lab-integrity-content-2",
+        "s06-lab-integrity-content-3",
+        "s06-lab-integrity-case",
+        "s06-lab-integrity-test",
+        "s06-lab-integrity-transfer",
+        "s06-lab-integrity-summary"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "90ff7faca7e155fe9f9ce5c595b3669aee0ebe054235040ce628c15cc18e2473"
+    },
+    {
+      "id": "s06-lab-performance:intro",
+      "lectureId": "s06-lab-performance",
+      "slideIds": [
+        "s06-lab-performance-title",
+        "s06-lab-performance-literature",
+        "s06-lab-performance-additional",
+        "s06-lab-performance-materials",
+        "s06-lab-performance-question",
+        "s06-lab-performance-content-1",
+        "s06-lab-performance-content-2",
+        "s06-lab-performance-content-3",
+        "s06-lab-performance-content-4",
+        "s06-lab-performance-case",
+        "s06-lab-performance-test",
+        "s06-lab-performance-transfer",
+        "s06-lab-performance-summary"
+      ],
+      "needs": [
+        "student",
+        "teacher",
+        "behavior"
+      ],
+      "artifacts": {},
+      "fingerprint": "7725f69d1b57ec1a879f4a971d4915d9557b46e413d6e7adb86fe9e3e8f68fac"
+    }
+  ],
+  "counts": {
+    "lectures": 29,
+    "slides": 403,
+    "units": 29
+  }
+}
