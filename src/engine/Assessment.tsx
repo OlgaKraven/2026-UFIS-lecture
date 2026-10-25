@@ -293,98 +293,22 @@ export function TaskView({ task: t }: { task: Task }) {
     </section>
   )
 }
-export function AssessmentResults({
-  lecture,
-  onGo,
-}: {
-  lecture: Lecture
-  onGo: (index: number) => void
-}) {
-  const mobile = useMobile()
-  const ctx = useContext(AssessmentContext)!
-  const [confirm, setConfirm] = useState(false)
-  if (mobile) return null
-  const tasks = lecture.slides.map((s, index) => ({ task: s.task, index })).filter((x) => x.task)
-  const correct = tasks.filter((x) => ctx.attempts[x.task!.id]?.result?.status === 'correct').length
-  const wrong = tasks.filter((x) => ctx.attempts[x.task!.id]?.result?.status === 'incorrect').length
-  const score = tasks.reduce((sum, x) => sum + (ctx.attempts[x.task!.id]?.result?.score || 0), 0)
-  return (
-    <>
-      <div className="result-summary">
-        <div>
-          <b>{correct}</b>
-          <span>Правильно</span>
-        </div>
-        <div>
-          <b>{wrong}</b>
-          <span>С ошибкой</span>
-        </div>
-        <div>
-          <b>{tasks.length - correct - wrong}</b>
-          <span>Без проверки</span>
-        </div>
-      </div>
-      <p>
-        <strong>
-          Баллы: {score.toLocaleString('ru-RU')} из {tasks.length}.
-        </strong>{' '}
-        Четыре задания одного вопроса — максимум 4 балла. Каждая пара соответствия — 0,25 балла.
-      </p>
-      <ol className="result-list">
-        {tasks.map(({ task: t, index }) => {
-          const a = ctx.attempts[t!.id]
-          return (
-            <li key={t!.id}>
-              <button className="text-button" onClick={() => onGo(index)}>
-                {t!.prompt}
-              </button>
-              <p className={a?.result?.status || ''}>
-                {!a?.result
-                  ? 'Ответ ещё не проверен'
-                  : a.result.status === 'correct'
-                    ? 'Правильно'
-                    : 'Есть ошибка'}
-              </p>
-              {!mobile && a?.result && (
-                <details>
-                  <summary>Ответ и объяснение</summary>
-                  <p>
-                    <strong>Ваш ответ:</strong> {formatAnswer(t!, a.submitted!)}
-                  </p>
-                  <p>
-                    <strong>Правильный ответ:</strong>
-                  </p>
-                  <p className="preserve-lines">{a.result.solution}</p>
-                  <p>{a.result.explanation}</p>
-                </details>
-              )}
-            </li>
-          )
-        })}
-      </ol>
-      {confirm ? (
-        <div className="dialog-actions">
-          <span>Сбросить все попытки курса на этом устройстве?</span>
-          <button
-            className="button primary"
-            onClick={() => {
-              ctx.reset()
-              setConfirm(false)
-            }}
-          >
-            Сбросить
-          </button>
-          <button className="button ghost" onClick={() => setConfirm(false)}>
-            Отмена
-          </button>
-        </div>
-      ) : (
-        <button className="button ghost" onClick={() => setConfirm(true)}>
-          Начать самопроверку заново
-        </button>
-      )}
-    </>
-  )
+export function AssessmentResults({lecture,onGo}:{lecture:Lecture;onGo:(index:number)=>void}){
+ const ctx=useContext(AssessmentContext)!;const [confirm,setConfirm]=useState(false)
+ let question={id:'lecture',title:'Задания лекции',label:''}
+ const tasks=lecture.slides.flatMap((s,index)=>{if(s.kind==='section')question={id:s.id,title:s.title,label:s.kicker};return s.task?[{task:s.task,index,question}]:[]})
+ const groups=[...new Map(tasks.map(x=>[x.question.id,x.question])).values()]
+ const correct=tasks.filter(x=>ctx.attempts[x.task.id]?.result?.status==='correct').length
+ const wrong=tasks.filter(x=>ctx.attempts[x.task.id]?.result?.status==='incorrect').length
+ const checked=correct+wrong,score=tasks.reduce((sum,x)=>sum+(ctx.attempts[x.task.id]?.result?.score||0),0)
+ const pending=tasks.find(x=>!ctx.attempts[x.task.id]?.result)
+ const types={single:'Один ответ',multiple:'Несколько ответов',short:'Краткий ответ',matching:'Сопоставление'}
+ return <div className="assessment-overview">
+  <div className="assessment-progress"><div><span className="assessment-eyebrow">Прогресс по лекции</span><h3>{checked?`Проверено ${checked} из ${tasks.length}`:'Начните с первого задания'}</h3><p>{checked?`Правильно: ${correct} · С ошибкой: ${wrong} · Осталось: ${tasks.length-checked}`:`Вопросов: ${groups.length} · заданий: ${tasks.length}. Результаты появятся после проверки ответа.`}</p></div><div className="assessment-score"><strong>{score.toLocaleString('ru-RU')}</strong><span>из {tasks.length} баллов</span></div><progress aria-label="Проверенные задания" value={checked} max={tasks.length}/>{pending&&<button className="button primary" onClick={()=>onGo(pending.index)}>{checked?'Продолжить самопроверку':'Начать самопроверку'} →</button>}</div>
+  <div className="assessment-groups">{groups.map(group=>{const list=tasks.filter(x=>x.question.id===group.id),done=list.filter(x=>ctx.attempts[x.task.id]?.result).length,errors=list.filter(x=>ctx.attempts[x.task.id]?.result?.status==='incorrect').length,points=list.reduce((sum,x)=>sum+(ctx.attempts[x.task.id]?.result?.score||0),0);return <details className="assessment-group" key={group.id}><summary><span className="assessment-group-title"><small>{group.label||'Самопроверка'}</small><strong>{group.title}</strong></span><span className="assessment-group-status"><b>{points.toLocaleString('ru-RU')} / {list.length}</b><span>{done?`Проверено ${done} из ${list.length}${errors?` · С ошибкой: ${errors}`:''}`:'Не начато'}</span></span></summary><ol className="assessment-task-list">{list.map(({task:t,index},i)=>{const a=ctx.attempts[t.id];return <li key={t.id}><div className="assessment-task-heading"><span>{i+1}. {types[t.type]}</span><span className={`assessment-badge ${a?.result?.status||'pending'}`}>{!a?.result?'Не проверено':a.result.status==='correct'?'Правильно':'Есть ошибка'}</span></div><p>{t.prompt}</p><button className="button secondary" onClick={()=>onGo(index)}>{a?.result?'Открыть задание':'Ответить'} →</button>{a?.result&&<details className="assessment-answer"><summary>Ответ и объяснение · {a.result.score.toLocaleString('ru-RU')} / 1</summary><p><strong>Ваш ответ:</strong> {formatAnswer(t,a.submitted!)}</p><p><strong>Правильный ответ:</strong></p><p className="preserve-lines">{a.result.solution}</p><p>{a.result.explanation}</p></details>}</li>})}</ol></details>})}</div>
+  <p className="assessment-scoring">За задание — до 1 балла. В сопоставлении балл складывается из верных пар.</p>
+  {confirm?<div className="dialog-actions"><span>Сбросить все попытки курса на этом устройстве?</span><button className="button primary" onClick={()=>{ctx.reset();setConfirm(false)}}>Сбросить</button><button className="button ghost" onClick={()=>setConfirm(false)}>Отмена</button></div>:<button className="button ghost assessment-reset" onClick={()=>setConfirm(true)}>Сбросить результаты курса</button>}
+ </div>
 }
 function formatAnswer(t: Task, a: Answer) {
   if (typeof a === 'string') return a

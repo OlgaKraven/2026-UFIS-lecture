@@ -97,7 +97,7 @@ for n,t in enumerate(TOPICS):
         variants.append(dict(id=f'case-{vi+1}',title=v['title'],given=v['given'],frames=frames,review=review,accepted=v['accepted'],hint='Проверьте исходные условия, единицы и последнее выполненное действие. Полный разбор доступен отдельной кнопкой.'))
     models[mid]=dict(id=mid,title=re.sub(r'^Лабораторная работа № \d+\. ','',t['title']),mode='table',task=case['task'],output=case['output'],scenarios=variants)
     case_answer='\n\n'.join(v['title']+'. '+v['given']+'\n'+'\n'.join(f'{j+1}. {a}: {b}.' for j,(a,b) in enumerate(v['steps']))+'\nИтог: '+v['result']+'. '+v['review'] for v in case['variants'])
-    add('case','example','Самостоятельный разбор',
+    add('case','example',models[mid]['title'],
         'Откройте задачу. Прочитайте условия выбранного случая, запишите решение и обоснование до показа полного разбора. Сравните оба случая и укажите, какое изменение данных повлияло на ответ.',
         answer=case_answer,learning=dict(id=mid,passport=True))
     q=t['quiz'];tid=lid+'-test-single'

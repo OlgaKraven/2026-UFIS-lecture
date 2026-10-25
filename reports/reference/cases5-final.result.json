@@ -1,0 +1,19 @@
+{
+  "count": 4,
+  "results": [
+    {
+      "id": "s05-lab-expansion",
+      "scenarios": 2,
+      "synchronized": true,
+      "review": true,
+      "focus": true
+    },
+    {
+      "id": "s05-lab-passport",
+      "scenarios": 2,
+      "synchronized": true,
+      "review": true,
+      "focus": true
+    }
+  ]
+}

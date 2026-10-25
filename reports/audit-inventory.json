@@ -23,7 +23,7 @@
     "src/course-catalog.css": "3542e11b71f4bbb5c0c6b702978908263d57d5bb68a35b88ea0fe7b66f976a06",
     "src/CourseCatalog.tsx": "1b1e910b5ddfd3e4c8840452b56a4b5057bd0b8fcaf8154adfc55004c62d7ae6",
     "src/engine/assessment.css": "02b428c63358b7180e82a884b9376f71d43a9a9acb69ed1a98dccf16cfe46a1f",
-    "src/engine/Assessment.tsx": "7e4fa533969a523685d6e4b870664da83fb36682cdfb85630a05c11cd575865e",
+    "src/engine/Assessment.tsx": "8ab1eb6923c92a7cf1210b56888aeab762b365731cfdb8cd2d8ebb10be0e14bb",
     "src/engine/backup.ts": "6c8100f1788c6921b83aa842be3a491791661d3dba0d7844494b58fa5bf8f7dd",
     "src/engine/CourseCatalog.tsx": "fd04f0e3bdf4ff903265631330300d1ff44bdd5f286ac8de4e73a97892f5a428",
     "src/engine/CourseEditor.tsx": "dd12d7ed4be3f751a6bf67603813c9acfb18ed75e83d86cdda3fd53b1bdeb174",
@@ -38,13 +38,14 @@
     "src/engine/InfographicMobile.tsx": "a675ec7f2e6c9fc78ffdca26ce51bbe2828c1ebc3a1cef69eb2da0559e675c22",
     "src/engine/infographics.css": "70cf5a55371301225ef87f2e5e1009d15362f1e0025fb49e79610982bfafe876",
     "src/engine/layout-final.css": "ab015c89f335380b8cae26f6a62e05ad02599c03ee3e5a28d438377b68df0757",
-    "src/engine/LectureSite.tsx": "d9ac1af06fbc1613893f73711da0e85edf494bd48376d9e163d3861d21cdbb7b",
-    "src/engine/Modal.tsx": "c2a0cb90675dd0f4ef60c73b415a0b3a7c953790bd260b87690e09d18f755f51",
+    "src/engine/LectureSite.tsx": "4acf17aefa1e3568c31679b587fbbefac0a3a57fbe67885bbc4972d21aa647e7",
+    "src/engine/Modal.tsx": "73ff1c22154978a2c2c10d33d9108dcc51ccae4a1b32606a796d2e74a9ce817d",
     "src/engine/model.ts": "3f6e7f4c86eb5c48c3cb4cd0002395a1c2abe86755d0876493cc668411d82a39",
     "src/engine/NetworkDiagram.tsx": "d0e62a10333149f22b59f8ec5d8659ae6eee2466c86d20a24fd98644987bc05a",
     "src/engine/offline.ts": "5f08d4aaa448e11e0aa1a0eadb6aa7a6570ac2a9283583b8833756b179d71dd7",
     "src/engine/PanelLayout.tsx": "911e47c071e7b781878f17e20c1aa435f34eafb8fd757669f17a802f882ff657",
     "src/engine/presentation-pirip.css": "41672d1083fb87d7f92c3b6f9442a61f464f309523a80ac9a61625746489ad85",
+    "src/engine/PresentationChrome.tsx": "a2c73aef11ede24cb69aea22aa5d5a2c5ff9449863ea4c71fb62778c9c7f9b22",
     "src/engine/ReadableDiagram.tsx": "9904a31356c6019fc2627116ccd4bc649c19371c23220af544194490281d3565",
     "src/engine/Recovery.tsx": "caa024009b4d6a2b615fa6f9a0ed9b0f69c87a1e6558784b3557194be3e7532e",
     "src/engine/reference.css": "f7618aaf6125c8dcdec7ea4d50dc6edc0c395c1547a8c6193daadb780505d3a5",
@@ -52,17 +53,20 @@
     "src/engine/responsive.ts": "1f5082f89d919f2535c586f2b7b9b5346c0d68f5258a9fa182b47e70424bfcea",
     "src/engine/scoring.ts": "eb20dff9962ac1de35228627f5dc833dba9b1513c7f3a9794ba4cee0e53aee5f",
     "src/engine/session.ts": "d9f2c202e27480608cbc1a3e4485a39d3a71c7b0304d9e123fe76f5a88ef0475",
-    "src/engine/SlideView.tsx": "4f620fc92911a44f6e374d3f6be1942d98574877b6a698b9383e87c0476f3471",
+    "src/engine/SlideView.tsx": "4d4bab6745b111e8c10605ddaabab32a1ae99468d9a23920015fa5d700612ea1",
     "src/engine/storage.ts": "601621b8711e249d5d91c556192e482f5eef29d5fc430656b632b3da6ed2b388",
-    "src/engine/Teaching.tsx": "32d592128194f17d69fe3747f18549021fd4c242b8cb570e4c82c270c88c5687",
+    "src/engine/Teaching.tsx": "2777a54c0906ebc2266e5b9dd90e3fc187d3711a5acc1ea4c54c738172b38d3c",
     "src/engine/template.css": "e891fce84a47f6463587a7c95d22797fb5e958384e896e951fbe1343f9f9509a",
     "src/engine/TimingPlan.tsx": "69d6f038f485502bd538abe03fba81207867a025203f36f80b8e2efeb43f4018",
     "src/engine/validation.ts": "64e76677cd76e0b3b1b0b9adab6d3b257e0c7b2fcf117033035bbc2e66f26ec1",
     "src/learning-workbench.css": "825819fcf3a1f6be7bc9db1b78f18011d5d8e231118832eabd810b9de096b9e4",
-    "src/learning-workbench.tsx": "5ae49139344db9bdbaba505a7ce16eb623cd60b88817e8dca6275d984b38e1fd",
-    "src/main.tsx": "00abcba56184faa76a864478005deb65e04bab91f86f3face683b0578b2a489d",
+    "src/learning-workbench.tsx": "e6d6d1bbddbceb27c56da6708c653eaa0dd3e184fa7c59b270ef5ea73d27b854",
+    "src/main.tsx": "06d73f873bfa242db8269002bb67b962a12b027e7ee75735467ff4dd8854b7a4",
     "src/practice.tsx": "6f49c09a30322b57f564855b6f29cb43222efba5589c9d24752356cd3274707c",
+    "src/presentation-design.css": "818981e6a9e99d0cdb13eb4417837dfc77620b6fa38066f9e3e757d9a099d2af",
     "src/question-title.tsx": "d344fef4d79d6c8e497eb33fe1f5c13a17d82a37354de9942fdd2de165bbd309",
+    "src/reference-adapter.css": "9a564c5213e20f05e12450dbd317df3c9ec6464e33c2a76ae86c0aa54b1c9965",
+    "src/typography.css": "03c9cfbd0a8c6d4540b12633451270a790500f8372972be61d052004176e1193",
     "src/ufis.css": "ef6be740fd61441039ef0602b57318299452c4511448d62eca9da409d0445cf6",
     "public/workbenches.json": "754299390e884b30c4b121db52f80f00a34903e44fe451b243711e2627f858a0",
     "public/assessment.json": "0b1773e089c0add1a2e936c793ddea75f14fc1d54d53c816a7faed0855d20af2",
@@ -74,7 +78,7 @@
     "public/brand/topic-arrow.webp": "87d8009bc3c69e4d7a79c6932c0a92bbd89e66e967ef14e256049825b2678bb3",
     "public/fonts/OFL.txt": "c62d0f4b78825cbf2d99ac7ea3dd163f645210efa032243731184c9f86a6eab6",
     "public/fonts/raleway-cyrillic.woff2": "ac99ad1c437b60ef445a7c13c958d4d574ef98050de2ccf182ba6ccdb3bfbdfd",
-    "scripts/generate.py": "66519c987c1e23ae4d754dea8ecabff42f932536be5d9dfecbd5212487bc260c",
+    "scripts/generate.py": "658055faf6eef678150f01e7274f6c76d91614cdc81fc12338b1d4e7b7b9cf0c",
     "authoring/topics.py": "67c2bc2dd5eb5a6cf6adc574a18760bcd5c06e4f919adf8fed7be9bbda5431ca",
     "authoring/reliability.py": "0eeef2adf2deabf4887b87062fc82491f8749dd0ac22547a859e0d98205f66bb",
     "authoring/labs.py": "e7fa7037ac8150077089c361ad49d1f6267700aa91fb3058470ccd3a66b8f433"
@@ -107,7 +111,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "3bcfa85238e43dad7c030421b3f9d11f1cb2d07c2db24235a3328a6dc427e532"
+      "fingerprint": "225996d0eb80f28ea030ea41b7df8727f4f82f015dff0b2ec313ade674b352f7"
     },
     {
       "id": "s05-structure:intro",
@@ -135,7 +139,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "e3671dae94cbcbd82d1dfd765e28c058534b4b1bd0365f57537161f481e1e3e8"
+      "fingerprint": "d8e732f926622156194e0718e9b59005895d38d67543297007842642692ec5e7"
     },
     {
       "id": "s05-classification:intro",
@@ -163,7 +167,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "4cc025e7680f46440132c693656980499650bde595499ff073de246dc03749f9"
+      "fingerprint": "5cf85b3d387856997a57ddf74634d8ab05e3079f7720678a4cb1d6261b67e403"
     },
     {
       "id": "s05-accounting-supply:intro",
@@ -192,7 +196,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "6dbbe9417ee74404261fea8f961240425708ecf35111db13ed24bf0f9867fd2a"
+      "fingerprint": "e4e4ca7d4bd39a876dd7afc1bfec38cabb9115979176330687e122e6b9234a9b"
     },
     {
       "id": "s05-production-quality:intro",
@@ -221,7 +225,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "9f6b6960808926c8663c4feeccd191c6c92f03c8cd06a93ca098a1b3545d0144"
+      "fingerprint": "7bf2a2eb5c161f240a68d8d54100d1e9f55e87df4954dcd6781b8c09805fff37"
     },
     {
       "id": "s05-reference-library:intro",
@@ -250,7 +254,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "15a3ce4ac319d859042320e5f063c47b7bd3cccd0b1116f34904589c6b6bebfe"
+      "fingerprint": "4390f4729c05898ef39b07bc3c88791abc45cff80db5d93efc710c0694245bee"
     },
     {
       "id": "s05-building-media:intro",
@@ -279,7 +283,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "340b39da9ec540c3128f350d5ffaf5c8873974cac420e3489038fc708eea4db1"
+      "fingerprint": "200de020a5a607a43ec786cf2b8f024be44b8d701efd315a629159bebd1841ff"
     },
     {
       "id": "s05-integration:intro",
@@ -308,7 +312,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "61388848ad64faf7fc542dffc99ae5ab350ab4dc3a2a0f266631e22934d26a13"
+      "fingerprint": "48b570c3edb9ec6436a55fc4f4ce0b7bace4693097b5034b533cc5430c76a057"
     },
     {
       "id": "s05-lan:intro",
@@ -337,7 +341,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "92e5a310ec055db35ab1a93bba93965c53cc3ce0e408a65b85b99a66088b8c7e"
+      "fingerprint": "62ae22dbdc97413b6b181c30f5f21c72f7cfe603743450ce90392f63aa41a417"
     },
     {
       "id": "s05-documentation:intro",
@@ -366,7 +370,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "aa39be81aad3ea3b2410ce67ab835f904fffef92df40b90a55b5aa66cbf79ac6"
+      "fingerprint": "7a6d40c98d4ab581fbcafd4e5aae17201d5fe4ae8d0b70d31f9212016cc880e6"
     },
     {
       "id": "s05-lab-system-map:intro",
@@ -391,7 +395,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "d611fa27870c0ceb9ed82c3c4580860839f2b9e8f4a51a25d61672d77b340699"
+      "fingerprint": "c9d368faf18f94cc42af00826924729f8c5f2b1df005a7f942ead4928ea9c106"
     },
     {
       "id": "s05-lab-compare:intro",
@@ -416,7 +420,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "57513c3fe6e7219c73bdc86fa4bf12899a277366b6151599dea76108fe795bdc"
+      "fingerprint": "625d5c8ee228934617f7d61ee30068a903e535b4616915b638a6f119fb87750f"
     },
     {
       "id": "s05-lab-display:intro",
@@ -442,7 +446,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "d7b5168d59e8fede67afe9a228916723aa674ba769bc9e8c2286b86eaf20ae8d"
+      "fingerprint": "63bb6b4e7210e4c38043301105965b8eb82e3ddc62d501953820b44f218495e4"
     },
     {
       "id": "s05-lab-cctv:intro",
@@ -468,7 +472,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "e8989694f879de8cf6fceacd1d925bd58a27c1f6ac7d7410b7d73723769f1bdf"
+      "fingerprint": "7682ac34267017289fd8350d6167bbafba4b5e5a3cb7aba04b764b449f30f009"
     },
     {
       "id": "s05-lab-lan:intro",
@@ -494,7 +498,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "c7b5d76524d71034cd78e4c49c6cf025aa5f0b24a877b31f03e1570398273c15"
+      "fingerprint": "23f404df5256100f820aec6f64730ba0986176c331a4c651b5cf06d5fcf8c59f"
     },
     {
       "id": "s05-lab-expansion:intro",
@@ -520,7 +524,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "8c221a0cd29e1432d466992e0ed47126f5e395eb56a0b154048eefdc48ca1625"
+      "fingerprint": "caead9b241eb519fbc46167286ffa326c79a671c8e3fd34f37091ee6a81f27b6"
     },
     {
       "id": "s05-lab-passport:intro",
@@ -546,7 +550,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "8c8d5dec67a23587eae9716460c901efa6f0cff4af0d4708b8cb9e2abae9ccea"
+      "fingerprint": "a616d6b6c32ec1753ad7130c03178edee7a2e3fda243ab0b35589301646042e9"
     },
     {
       "id": "s06-reliability-foundations:intro",
@@ -575,7 +579,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "bf41ca17a65c85bcab2ec1c5f5b5ba51774fd45e92b05e92a20898c640685be0"
+      "fingerprint": "ab87e6ab36ad41183d28c052f0f190675ece11be15b37dde9014c38f72b90d0f"
     },
     {
       "id": "s06-single-metrics:intro",
@@ -604,7 +608,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "8bd7efff91da19cb500c8706205e00eabaad9347320a4263d66c227b5f7da4c2"
+      "fingerprint": "a2ba5907fcb75b90c20f7ecd28a76675a60662b91d98cb88acbfaa8d744b38a6"
     },
     {
       "id": "s06-availability:intro",
@@ -633,7 +637,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "ebd5cd50f00952bdf7aea9d96cad96a9f3f4a380a2acbed1e24e96afb85f84a8"
+      "fingerprint": "64e4c3f8c4c1ef6ca8c8368895dfc2997ff272b6fb660dda2d9b39e6bbe6b3aa"
     },
     {
       "id": "s06-system-reliability:intro",
@@ -662,7 +666,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "a0b6198cec1a24876db871f0ac7b80514977421c7d8e3988f875e47db4238f9d"
+      "fingerprint": "914ca6d8eb9d0adf0447a887cc8f5be962a3959c6cf3754651f2458a4bc21449"
     },
     {
       "id": "s06-information-integrity:intro",
@@ -691,7 +695,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "f9d130dc807a681768614baef31288e72227db210880a29e9d2959045f133d92"
+      "fingerprint": "2c9bd3b867d2f490ab483f27fa1b2f1ac83ac99a08e7bcfff481ca74719595de"
     },
     {
       "id": "s06-performance:intro",
@@ -720,7 +724,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "9096199d5206c758eb29723e9401aff8978a36d3998e62179f54788ac654fc4f"
+      "fingerprint": "b97fc4fe404208a38c7567489f9b370ced4a628a43673223f959c235f640e06d"
     },
     {
       "id": "s06-improvement:intro",
@@ -749,7 +753,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "9e4c848d91e365b255d036774534c718c2a862c36b68b1229d797ebc90701477"
+      "fingerprint": "fd37930b2957f2b01749697d2121f84320a747c742353c81fd2ffab5dbcffc4f"
     },
     {
       "id": "s06-lab-single:intro",
@@ -774,7 +778,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "6945c63476abe69c841b0e73736e50f553dad87f3a98bb5b2b3adac812ff42d8"
+      "fingerprint": "6be146c371d84e3c823c5424e97cf4f68af57ebd138a25c8788c279d6343586b"
     },
     {
       "id": "s06-lab-availability:intro",
@@ -799,7 +803,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "a680c589992be319d5ae98082b12d06326a401dfcf8e80f14c8dc47aa3116626"
+      "fingerprint": "4ad476cf34651d57fec223d786b9d17c21b2fc552e84f19d250d37191ad92556"
     },
     {
       "id": "s06-lab-redundancy:intro",
@@ -824,7 +828,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "9d7a60ecf17a787703d672f9306dcbba68c84c34c142e07d349b53a9cf100975"
+      "fingerprint": "4bd7fd5643ebc85f903b8874918af178d35860971298841b1927600efe6a4f3c"
     },
     {
       "id": "s06-lab-integrity:intro",
@@ -849,7 +853,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "75c05545bfbfb125134323fbe5941b48053c6830052e3871f5fd87f094185814"
+      "fingerprint": "178f7b986a9e49cb2efd2a905cbc4f95c819ea989195a5e2e0a6d42f0d48b941"
     },
     {
       "id": "s06-lab-performance:intro",
@@ -875,7 +879,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "8c7632fbd77e4b3b5fabde36f02dc6129474418d6c21658987ebad9179a1b112"
+      "fingerprint": "f9afa5aec676d1c6881bb216dd12f705741cfeece1437dd7df56f8e3e640ba27"
     }
   ],
   "counts": {

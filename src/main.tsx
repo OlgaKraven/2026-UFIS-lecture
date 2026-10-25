@@ -1,6 +1,9 @@
 import {createRoot} from 'react-dom/client';
 import {LectureSite,validateCourse,validateTeacherPack} from './engine';
 import './ufis.css';
+import './presentation-design.css';
+import './reference-adapter.css';
+import './typography.css';
 import {setLearningModels} from './learning-workbench';
 import {setAuthorNotes,noteOverrides,noteFingerprint} from './author-notes';
 

@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-26",
+  "reference": {
+    "repository": "OlgaKraven/2026-OKFKS-lecture",
+    "commit": "e36d01992be97c09335527583de04eaad303402d"
+  },
+  "scope": "Оформление и поведение оболочки UFIS относительно ОКФКС. Предметные данные и ответы сохранены.",
+  "slides": 403,
+  "caseScenarios": 58,
+  "layout": "Полный проход 237+166 слайдов выявил два длинных вопроса. После исправления повторно проверены все шесть длинных вопросов; PDF 237+166 страниц без обрезания.",
+  "behavior": "15 тем семестра 5 завершены до остановки первого прогона; последние 2 повторно пройдены с ожиданием восстановления фокуса. Все 12 тем семестра 6 пройдены. Файлы поведения содержат объединённое покрытие.",
+  "chrome": {
+    "long": [
+      {
+        "id": "s05-lan-question",
+        "overflow": 2,
+        "font": "46.6598px"
+      },
+      {
+        "id": "s05-lab-display-question",
+        "overflow": 0,
+        "font": "46.6598px"
+      },
+      {
+        "id": "s05-lab-cctv-question",
+        "overflow": 0,
+        "font": "46.6598px"
+      },
+      {
+        "id": "s06-reliability-foundations-question",
+        "overflow": 0,
+        "font": "46.6598px"
+      },
+      {
+        "id": "s06-single-metrics-question",
+        "overflow": 2,
+        "font": "46.6598px"
+      },
+      {
+        "id": "s06-information-integrity-question",
+        "overflow": 0,
+        "font": "46.6598px"
+      }
+    ],
+    "autoTheme": true,
+    "assessmentGroups": 1,
+    "nextTask": true,
+    "menuFocus": true,
+    "outlineSync": true,
+    "exitPreservesSlide": true
+  },
+  "mobile": {
+    "filtered": 2,
+    "catalogOverflow": 0,
+    "diagramOverflow": 0,
+    "reducedMotionDisablesAutoplay": true,
+    "focus": true
+  },
+  "print": [
+    {
+      "semester": 5,
+      "pages": 237,
+      "issues": []
+    },
+    {
+      "semester": 6,
+      "pages": 166,
+      "issues": []
+    }
+  ],
+  "courseSha256": "8e60b1e80a3086249f35aef9a787cbd7772a159cb5e0848d8a8fea5986b0536e",
+  "limits": [
+    "Полный содержательный разбор и расчёты сохранены из предыдущей приёмки; эта проверка ограничена переносом оформления и поведения.",
+    "Физическое оборудование не проверялось."
+  ]
+}

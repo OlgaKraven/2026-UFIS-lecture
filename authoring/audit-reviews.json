@@ -3,7 +3,7 @@
   "reviews": [
     {
       "id": "s05-system-boundary:intro",
-      "fingerprint": "3bcfa85238e43dad7c030421b3f9d11f1cb2d07c2db24235a3328a6dc427e532",
+      "fingerprint": "225996d0eb80f28ea030ea41b7df8727f4f82f015dff0b2ec313ade674b352f7",
       "checks": {
         "student": {
           "status": "passed",
@@ -31,11 +31,15 @@
         },
         "visual": {
           "status": "passed",
-          "note": "Содержательный экран просмотрен; проверены читаемые подписи и роль артефакта. Полный экранный проход и PDF отдельно выявляли обрезание; исправлены сети и миниатюра паспорта.",
+          "note": "Сверка с ОКФКС: просмотрены типы экранов и содержательный экран каждой темы; полный проход 403 слайдов, повторный проход длинных вопросов и PDF обоих семестров. Предметные данные сохранены.",
           "evidence": [
             {
               "path": "reports/screens/review-s05-system-boundary.png",
-              "sha256": "5bddfcdd6ac571fba0a10b7a020ce40a4ebe933a344180024a04a1af1fb0e140"
+              "sha256": "20626686864f3dd53b4970f1e906da87ff31ef295416d2e7c3f81dd6404cb161"
+            },
+            {
+              "path": "reports/reference-comparison.json",
+              "sha256": "194a210d93a1461d6235bc2169425eb180832c2ba5453bc59d08470609098f2f"
             }
           ]
         },
@@ -45,7 +49,11 @@
           "evidence": [
             {
               "path": "reports/behavior-5.json",
-              "sha256": "e569b4b2d20b2c301608d9d8577db632a8f16803e7ad9ba2bedc8ed7fe072e01"
+              "sha256": "f8f2a59fd0fe852c4b4f27ed4a3b642b3de4af454ceb1d9260c5bde16b4e287a"
+            },
+            {
+              "path": "reports/reference-comparison.json",
+              "sha256": "194a210d93a1461d6235bc2169425eb180832c2ba5453bc59d08470609098f2f"
             }
           ]
         }
@@ -54,7 +62,7 @@
     },
     {
       "id": "s05-structure:intro",
-      "fingerprint": "e3671dae94cbcbd82d1dfd765e28c058534b4b1bd0365f57537161f481e1e3e8",
+      "fingerprint": "d8e732f926622156194e0718e9b59005895d38d67543297007842642692ec5e7",
       "checks": {
         "student": {
           "status": "passed",
@@ -82,11 +90,15 @@
         },
         "visual": {
           "status": "passed",
-          "note": "Содержательный экран просмотрен; проверены читаемые подписи и роль артефакта. Полный экранный проход и PDF отдельно выявляли обрезание; исправлены сети и миниатюра паспорта.",
+          "note": "Сверка с ОКФКС: просмотрены типы экранов и содержательный экран каждой темы; полный проход 403 слайдов, повторный проход длинных вопросов и PDF обоих семестров. Предметные данные сохранены.",
           "evidence": [
             {
               "path": "reports/screens/review-s05-structure.png",
-              "sha256": "9d21eb7d0184150b4b4669d3fc792cbaff1d3ab89905ccbf17302d8d54f2b0d2"
+              "sha256": "8020c31ded465751633b3816f75c26604a0ad10110f808a8a87a99a3f617da36"
+            },
+            {
+              "path": "reports/reference-comparison.json",
+              "sha256": "194a210d93a1461d6235bc2169425eb180832c2ba5453bc59d08470609098f2f"
             }
           ]
         },
@@ -96,7 +108,11 @@
           "evidence": [
             {
               "path": "reports/behavior-5.json",
-              "sha256": "e569b4b2d20b2c301608d9d8577db632a8f16803e7ad9ba2bedc8ed7fe072e01"
+              "sha256": "f8f2a59fd0fe852c4b4f27ed4a3b642b3de4af454ceb1d9260c5bde16b4e287a"
+            },
+            {
+              "path": "reports/reference-comparison.json",
+              "sha256": "194a210d93a1461d6235bc2169425eb180832c2ba5453bc59d08470609098f2f"
             }
           ]
         }
@@ -105,7 +121,7 @@
     },
     {
       "id": "s05-classification:intro",
-      "fingerprint": "4cc025e7680f46440132c693656980499650bde595499ff073de246dc03749f9",
+      "fingerprint": "5cf85b3d387856997a57ddf74634d8ab05e3079f7720678a4cb1d6261b67e403",
       "checks": {
         "student": {
           "status": "passed",
@@ -133,11 +149,15 @@
         },
         "visual": {
           "status": "passed",
-          "note": "Содержательный экран просмотрен; проверены читаемые подписи и роль артефакта. Полный экранный проход и PDF отдельно выявляли обрезание; исправлены сети и миниатюра паспорта.",
+          "note": "Сверка с ОКФКС: просмотрены типы экранов и содержательный экран каждой темы; полный проход 403 слайдов, повторный проход длинных вопросов и PDF обоих семестров. Предметные данные сохранены.",
           "evidence": [
             {
               "path": "reports/screens/review-s05-classification.png",
-              "sha256": "1cdf78149785c7c0749bc1e061f2718821bee6dfd78b69475131ae15d2146a0d"
+              "sha256": "911bf0f94cc25840fa27a5c88aaf501f62762e285038964042ab47eee6a55618"
+            },
+            {
+              "path": "reports/reference-comparison.json",
+              "sha256": "194a210d93a1461d6235bc2169425eb180832c2ba5453bc59d08470609098f2f"
             }
           ]
         },
@@ -147,7 +167,11 @@
           "evidence": [
             {
               "path": "reports/behavior-5.json",
-              "sha256": "e569b4b2d20b2c301608d9d8577db632a8f16803e7ad9ba2bedc8ed7fe072e01"
+              "sha256": "f8f2a59fd0fe852c4b4f27ed4a3b642b3de4af454ceb1d9260c5bde16b4e287a"
+            },
+            {
+              "path": "reports/reference-comparison.json",
+              "sha256": "194a210d93a1461d6235bc2169425eb180832c2ba5453bc59d08470609098f2f"
             }
           ]
         }
@@ -156,7 +180,7 @@
     },
     {
       "id": "s05-accounting-supply:intro",
-      "fingerprint": "6dbbe9417ee74404261fea8f961240425708ecf35111db13ed24bf0f9867fd2a",
+      "fingerprint": "e4e4ca7d4bd39a876dd7afc1bfec38cabb9115979176330687e122e6b9234a9b",
       "checks": {
         "student": {
           "status": "passed",
@@ -184,11 +208,15 @@
         },
         "visual": {
           "status": "passed",
-          "note": "Содержательный экран просмотрен; проверены читаемые подписи и роль артефакта. Полный экранный проход и PDF отдельно выявляли обрезание; исправлены сети и миниатюра паспорта.",
+          "note": "Сверка с ОКФКС: просмотрены типы экранов и содержательный экран каждой темы; полный проход 403 слайдов, повторный проход длинных вопросов и PDF обоих семестров. Предметные данные сохранены.",
           "evidence": [
             {
               "path": "reports/screens/review-s05-accounting-supply.png",
-              "sha256": "1d3b06f561ff731e9214e8d4d234d875b5c16f751de0e9c1c1dd4d4483ea6a76"
+              "sha256": "60e22fc22efa44bee339b1612f126a123419a62d8eb0fcade0f27e10ac63d97d"
+            },
+            {
+              "path": "reports/reference-comparison.json",
+              "sha256": "194a210d93a1461d6235bc2169425eb180832c2ba5453bc59d08470609098f2f"
             }
           ]
         },
@@ -198,7 +226,11 @@
           "evidence": [
             {
               "path": "reports/behavior-5.json",
-              "sha256": "e569b4b2d20b2c301608d9d8577db632a8f16803e7ad9ba2bedc8ed7fe072e01"
+              "sha256": "f8f2a59fd0fe852c4b4f27ed4a3b642b3de4af454ceb1d9260c5bde16b4e287a"
+            },
+            {
+              "path": "reports/reference-comparison.json",
+              "sha256": "194a210d93a1461d6235bc2169425eb180832c2ba5453bc59d08470609098f2f"
             }
           ]
         }
@@ -207,7 +239,7 @@
     },
     {
       "id": "s05-production-quality:intro",
-      "fingerprint": "9f6b6960808926c8663c4feeccd191c6c92f03c8cd06a93ca098a1b3545d0144",
+      "fingerprint": "7bf2a2eb5c161f240a68d8d54100d1e9f55e87df4954dcd6781b8c09805fff37",
       "checks": {
         "student": {
           "status": "passed",
@@ -235,11 +267,15 @@
         },
         "visual": {
           "status": "passed",
-          "note": "Содержательный экран просмотрен; проверены читаемые подписи и роль артефакта. Полный экранный проход и PDF отдельно выявляли обрезание; исправлены сети и миниатюра паспорта.",
+          "note": "Сверка с ОКФКС: просмотрены типы экранов и содержательный экран каждой темы; полный проход 403 слайдов, повторный проход длинных вопросов и PDF обоих семестров. Предметные данные сохранены.",
           "evidence": [
             {
               "path": "reports/screens/review-s05-production-quality.png",
-              "sha256": "7cf4d936bc86816d316c0b66737e2fa809757bcc199802a059e920d0a2342bf0"
+              "sha256": "8ef16b34ee23b01c78a343687d3c35169c328572b332edc70896e9adb8829801"
+            },
+            {
+              "path": "reports/reference-comparison.json",
+              "sha256": "194a210d93a1461d6235bc2169425eb180832c2ba5453bc59d08470609098f2f"
             }
           ]
         },
@@ -249,7 +285,11 @@
           "evidence": [
             {
               "path": "reports/behavior-5.json",
-              "sha256": "e569b4b2d20b2c301608d9d8577db632a8f16803e7ad9ba2bedc8ed7fe072e01"
+              "sha256": "f8f2a59fd0fe852c4b4f27ed4a3b642b3de4af454ceb1d9260c5bde16b4e287a"
+            },
+            {
+              "path": "reports/reference-comparison.json",
+              "sha256": "194a210d93a1461d6235bc2169425eb180832c2ba5453bc59d08470609098f2f"
             }
           ]
         }
@@ -258,7 +298,7 @@
     },
     {
       "id": "s05-reference-library:intro",
-      "fingerprint": "15a3ce4ac319d859042320e5f063c47b7bd3cccd0b1116f34904589c6b6bebfe",
+      "fingerprint": "4390f4729c05898ef39b07bc3c88791abc45cff80db5d93efc710c0694245bee",
       "checks": {
         "student": {
           "status": "passed",
@@ -286,11 +326,15 @@
         },
         "visual": {
           "status": "passed",
-          "note": "Содержательный экран просмотрен; проверены читаемые подписи и роль артефакта. Полный экранный проход и PDF отдельно выявляли обрезание; исправлены сети и миниатюра паспорта.",
+          "note": "Сверка с ОКФКС: просмотрены типы экранов и содержательный экран каждой темы; полный проход 403 слайдов, повторный проход длинных вопросов и PDF обоих семестров. Предметные данные сохранены.",
           "evidence": [
             {
               "path": "reports/screens/review-s05-reference-library.png",
-              "sha256": "7ba6841eb8e6c94a54f6cf9f4244d9d247160d5328cec107839943dd87b4d2b0"
+              "sha256": "19287aba77100ec037e57d2b36d34899c6a98e3294512963ea6f134a1507411c"
+            },
+            {
+              "path": "reports/reference-comparison.json",
+              "sha256": "194a210d93a1461d6235bc2169425eb180832c2ba5453bc59d08470609098f2f"
             }
           ]
         },
@@ -300,7 +344,11 @@
           "evidence": [
             {
               "path": "reports/behavior-5.json",
-              "sha256": "e569b4b2d20b2c301608d9d8577db632a8f16803e7ad9ba2bedc8ed7fe072e01"
+              "sha256": "f8f2a59fd0fe852c4b4f27ed4a3b642b3de4af454ceb1d9260c5bde16b4e287a"
+            },
+            {
+              "path": "reports/reference-comparison.json",
+              "sha256": "194a210d93a1461d6235bc2169425eb180832c2ba5453bc59d08470609098f2f"
             }
           ]
         }
@@ -309,7 +357,7 @@
     },
     {
       "id": "s05-building-media:intro",
-      "fingerprint": "340b39da9ec540c3128f350d5ffaf5c8873974cac420e3489038fc708eea4db1",
+      "fingerprint": "200de020a5a607a43ec786cf2b8f024be44b8d701efd315a629159bebd1841ff",
       "checks": {
         "student": {
           "status": "passed",
@@ -337,11 +385,15 @@
         },
         "visual": {
           "status": "passed",
-          "note": "Содержательный экран просмотрен; проверены читаемые подписи и роль артефакта. Полный экранный проход и PDF отдельно выявляли обрезание; исправлены сети и миниатюра паспорта.",
+          "note": "Сверка с ОКФКС: просмотрены типы экранов и содержательный экран каждой темы; полный проход 403 слайдов, повторный проход длинных вопросов и PDF обоих семестров. Предметные данные сохранены.",
           "evidence": [
             {
               "path": "reports/screens/review-s05-building-media.png",
-              "sha256": "a32e8c8dd412dfb8a414a82033b75cd3c640b63303bfcd3a1cabd376f8c9812f"
+              "sha256": "dd48f6e30b05e1341be522a6d8069d3b19d53e3e3915f30670a6c485c3349829"
+            },
+            {
+              "path": "reports/reference-comparison.json",
+              "sha256": "194a210d93a1461d6235bc2169425eb180832c2ba5453bc59d08470609098f2f"
             }
           ]
         },
@@ -351,7 +403,11 @@
           "evidence": [
             {
               "path": "reports/behavior-5.json",
-              "sha256": "e569b4b2d20b2c301608d9d8577db632a8f16803e7ad9ba2bedc8ed7fe072e01"
+              "sha256": "f8f2a59fd0fe852c4b4f27ed4a3b642b3de4af454ceb1d9260c5bde16b4e287a"
+            },
+            {
+              "path": "reports/reference-comparison.json",
+              "sha256": "194a210d93a1461d6235bc2169425eb180832c2ba5453bc59d08470609098f2f"
             }
           ]
         }
@@ -360,7 +416,7 @@
     },
     {
       "id": "s05-integration:intro",
-      "fingerprint": "61388848ad64faf7fc542dffc99ae5ab350ab4dc3a2a0f266631e22934d26a13",
+      "fingerprint": "48b570c3edb9ec6436a55fc4f4ce0b7bace4693097b5034b533cc5430c76a057",
       "checks": {
         "student": {
           "status": "passed",
@@ -388,11 +444,15 @@
         },
         "visual": {
           "status": "passed",
-          "note": "Содержательный экран просмотрен; проверены читаемые подписи и роль артефакта. Полный экранный проход и PDF отдельно выявляли обрезание; исправлены сети и миниатюра паспорта.",
+          "note": "Сверка с ОКФКС: просмотрены типы экранов и содержательный экран каждой темы; полный проход 403 слайдов, повторный проход длинных вопросов и PDF обоих семестров. Предметные данные сохранены.",
           "evidence": [
             {
               "path": "reports/screens/review-s05-integration.png",
-              "sha256": "7d0a9087cdd58011cc265fafba6e2faec6db433b4dfceb4bebae29bee6dd3764"
+              "sha256": "80b141e2e11c00963c809cd579afda4e52f3b240960b1d71430ea0b1d7603574"
+            },
+            {
+              "path": "reports/reference-comparison.json",
+              "sha256": "194a210d93a1461d6235bc2169425eb180832c2ba5453bc59d08470609098f2f"
             }
           ]
         },
@@ -402,7 +462,11 @@
           "evidence": [
             {
               "path": "reports/behavior-5.json",
-              "sha256": "e569b4b2d20b2c301608d9d8577db632a8f16803e7ad9ba2bedc8ed7fe072e01"
+              "sha256": "f8f2a59fd0fe852c4b4f27ed4a3b642b3de4af454ceb1d9260c5bde16b4e287a"
+            },
+            {
+              "path": "reports/reference-comparison.json",
+              "sha256": "194a210d93a1461d6235bc2169425eb180832c2ba5453bc59d08470609098f2f"
             }
           ]
         }
@@ -411,7 +475,7 @@
     },
     {
       "id": "s05-lan:intro",
-      "fingerprint": "92e5a310ec055db35ab1a93bba93965c53cc3ce0e408a65b85b99a66088b8c7e",
+      "fingerprint": "62ae22dbdc97413b6b181c30f5f21c72f7cfe603743450ce90392f63aa41a417",
       "checks": {
         "student": {
           "status": "passed",
@@ -439,11 +503,15 @@
         },
         "visual": {
           "status": "passed",
-          "note": "Содержательный экран просмотрен; проверены читаемые подписи и роль артефакта. Полный экранный проход и PDF отдельно выявляли обрезание; исправлены сети и миниатюра паспорта.",
+          "note": "Сверка с ОКФКС: просмотрены типы экранов и содержательный экран каждой темы; полный проход 403 слайдов, повторный проход длинных вопросов и PDF обоих семестров. Предметные данные сохранены.",
           "evidence": [
             {
               "path": "reports/screens/review-s05-lan.png",
-              "sha256": "5cf48046146282716b6f83bfd812b873597868281f617c31338cb20604b6ea02"
+              "sha256": "2b2f7d499baf550ed69abcd2c6b2f49857b2e2b3eef6605914f24943d670fb78"
+            },
+            {
+              "path": "reports/reference-comparison.json",
+              "sha256": "194a210d93a1461d6235bc2169425eb180832c2ba5453bc59d08470609098f2f"
             }
           ]
         },
@@ -453,7 +521,11 @@
           "evidence": [
             {
               "path": "reports/behavior-5.json",
-              "sha256": "e569b4b2d20b2c301608d9d8577db632a8f16803e7ad9ba2bedc8ed7fe072e01"
+              "sha256": "f8f2a59fd0fe852c4b4f27ed4a3b642b3de4af454ceb1d9260c5bde16b4e287a"
+            },
+            {
+              "path": "reports/reference-comparison.json",
+              "sha256": "194a210d93a1461d6235bc2169425eb180832c2ba5453bc59d08470609098f2f"
             }
           ]
         }
@@ -462,7 +534,7 @@
     },
     {
       "id": "s05-documentation:intro",
-      "fingerprint": "aa39be81aad3ea3b2410ce67ab835f904fffef92df40b90a55b5aa66cbf79ac6",
+      "fingerprint": "7a6d40c98d4ab581fbcafd4e5aae17201d5fe4ae8d0b70d31f9212016cc880e6",
       "checks": {
         "student": {
           "status": "passed",
@@ -490,11 +562,15 @@
         },
         "visual": {
           "status": "passed",
-          "note": "Содержательный экран просмотрен; проверены читаемые подписи и роль артефакта. Полный экранный проход и PDF отдельно выявляли обрезание; исправлены сети и миниатюра паспорта.",
+          "note": "Сверка с ОКФКС: просмотрены типы экранов и содержательный экран каждой темы; полный проход 403 слайдов, повторный проход длинных вопросов и PDF обоих семестров. Предметные данные сохранены.",
           "evidence": [
             {
               "path": "reports/screens/review-s05-documentation.png",
-              "sha256": "16b88015be08ba83fd8d1ef00de0df42d209802ba3abe7b93524fe105cd67af3"
+              "sha256": "771b9deea10c2fb0c06ef18e6ad3e7de6c01881ee47ee0b3c1aaf3932e534bd5"
+            },
+            {
+              "path": "reports/reference-comparison.json",
+              "sha256": "194a210d93a1461d6235bc2169425eb180832c2ba5453bc59d08470609098f2f"
             }
           ]
         },
@@ -504,7 +580,11 @@
           "evidence": [
             {
               "path": "reports/behavior-5.json",
-              "sha256": "e569b4b2d20b2c301608d9d8577db632a8f16803e7ad9ba2bedc8ed7fe072e01"
+              "sha256": "f8f2a59fd0fe852c4b4f27ed4a3b642b3de4af454ceb1d9260c5bde16b4e287a"
+            },
+            {
+              "path": "reports/reference-comparison.json",
+              "sha256": "194a210d93a1461d6235bc2169425eb180832c2ba5453bc59d08470609098f2f"
             }
           ]
         }
@@ -513,7 +593,7 @@
     },
     {
       "id": "s05-lab-system-map:intro",
-      "fingerprint": "d611fa27870c0ceb9ed82c3c4580860839f2b9e8f4a51a25d61672d77b340699",
+      "fingerprint": "c9d368faf18f94cc42af00826924729f8c5f2b1df005a7f942ead4928ea9c106",
       "checks": {
         "student": {
           "status": "passed",
@@ -541,11 +621,15 @@
         },
         "visual": {
           "status": "passed",
-          "note": "Содержательный экран просмотрен; проверены читаемые подписи и роль артефакта. Полный экранный проход и PDF отдельно выявляли обрезание; исправлены сети и миниатюра паспорта.",
+          "note": "Сверка с ОКФКС: просмотрены типы экранов и содержательный экран каждой темы; полный проход 403 слайдов, повторный проход длинных вопросов и PDF обоих семестров. Предметные данные сохранены.",
           "evidence": [
             {
               "path": "reports/screens/review-s05-lab-system-map.png",
-              "sha256": "858ea3ae01ad9427b18346d47f3c753f36a47e46b09d5d0390b3a652823ca423"
+              "sha256": "00f0ae16588bf64f731a8ba21daf9f2ba62c0f9cc5ebd59d9fb08ea4ae20fd1a"
+            },
+            {
+              "path": "reports/reference-comparison.json",
+              "sha256": "194a210d93a1461d6235bc2169425eb180832c2ba5453bc59d08470609098f2f"
             }
           ]
         },
@@ -555,7 +639,11 @@
           "evidence": [
             {
               "path": "reports/behavior-5.json",
-              "sha256": "e569b4b2d20b2c301608d9d8577db632a8f16803e7ad9ba2bedc8ed7fe072e01"
+              "sha256": "f8f2a59fd0fe852c4b4f27ed4a3b642b3de4af454ceb1d9260c5bde16b4e287a"
+            },
+            {
+              "path": "reports/reference-comparison.json",
+              "sha256": "194a210d93a1461d6235bc2169425eb180832c2ba5453bc59d08470609098f2f"
             }
           ]
         }
@@ -564,7 +652,7 @@
     },
     {
       "id": "s05-lab-compare:intro",
-      "fingerprint": "57513c3fe6e7219c73bdc86fa4bf12899a277366b6151599dea76108fe795bdc",
+      "fingerprint": "625d5c8ee228934617f7d61ee30068a903e535b4616915b638a6f119fb87750f",
       "checks": {
         "student": {
           "status": "passed",
@@ -592,11 +680,15 @@
         },
         "visual": {
           "status": "passed",
-          "note": "Содержательный экран просмотрен; проверены читаемые подписи и роль артефакта. Полный экранный проход и PDF отдельно выявляли обрезание; исправлены сети и миниатюра паспорта.",
+          "note": "Сверка с ОКФКС: просмотрены типы экранов и содержательный экран каждой темы; полный проход 403 слайдов, повторный проход длинных вопросов и PDF обоих семестров. Предметные данные сохранены.",
           "evidence": [
             {
               "path": "reports/screens/review-s05-lab-compare.png",
-              "sha256": "6bdde88faeaa29ee85ff85d3fc68249701eb967fb1425257e538309b9b9e4d8e"
+              "sha256": "7abcc0409f4612165c817e2179d56f70d8021ab10fdd308422d3ef0270974f1e"
+            },
+            {
+              "path": "reports/reference-comparison.json",
+              "sha256": "194a210d93a1461d6235bc2169425eb180832c2ba5453bc59d08470609098f2f"
             }
           ]
         },
@@ -606,7 +698,11 @@
           "evidence": [
             {
               "path": "reports/behavior-5.json",
-              "sha256": "e569b4b2d20b2c301608d9d8577db632a8f16803e7ad9ba2bedc8ed7fe072e01"
+              "sha256": "f8f2a59fd0fe852c4b4f27ed4a3b642b3de4af454ceb1d9260c5bde16b4e287a"
+            },
+            {
+              "path": "reports/reference-comparison.json",
+              "sha256": "194a210d93a1461d6235bc2169425eb180832c2ba5453bc59d08470609098f2f"
             }
           ]
         }
@@ -615,7 +711,7 @@
     },
     {
       "id": "s05-lab-display:intro",
-      "fingerprint": "d7b5168d59e8fede67afe9a228916723aa674ba769bc9e8c2286b86eaf20ae8d",
+      "fingerprint": "63bb6b4e7210e4c38043301105965b8eb82e3ddc62d501953820b44f218495e4",
       "checks": {
         "student": {
           "status": "passed",
@@ -643,11 +739,15 @@
         },
         "visual": {
           "status": "passed",
-          "note": "Содержательный экран просмотрен; проверены читаемые подписи и роль артефакта. Полный экранный проход и PDF отдельно выявляли обрезание; исправлены сети и миниатюра паспорта.",
+          "note": "Сверка с ОКФКС: просмотрены типы экранов и содержательный экран каждой темы; полный проход 403 слайдов, повторный проход длинных вопросов и PDF обоих семестров. Предметные данные сохранены.",
           "evidence": [
             {
               "path": "reports/screens/review-s05-lab-display.png",
-              "sha256": "8292bad05ebc36b335b85c576da29d2cc0f9511c49b656c4ddd181c880eb57bb"
+              "sha256": "4071c9aa55706c785da6698c0340d3ff31833b52f64353acdec92d9b1eb1a407"
+            },
+            {
+              "path": "reports/reference-comparison.json",
+              "sha256": "194a210d93a1461d6235bc2169425eb180832c2ba5453bc59d08470609098f2f"
             }
           ]
         },
@@ -657,7 +757,11 @@
           "evidence": [
             {
               "path": "reports/behavior-5.json",
-              "sha256": "e569b4b2d20b2c301608d9d8577db632a8f16803e7ad9ba2bedc8ed7fe072e01"
+              "sha256": "f8f2a59fd0fe852c4b4f27ed4a3b642b3de4af454ceb1d9260c5bde16b4e287a"
+            },
+            {
+              "path": "reports/reference-comparison.json",
+              "sha256": "194a210d93a1461d6235bc2169425eb180832c2ba5453bc59d08470609098f2f"
             }
           ]
         }
@@ -666,7 +770,7 @@
     },
     {
       "id": "s05-lab-cctv:intro",
-      "fingerprint": "e8989694f879de8cf6fceacd1d925bd58a27c1f6ac7d7410b7d73723769f1bdf",
+      "fingerprint": "7682ac34267017289fd8350d6167bbafba4b5e5a3cb7aba04b764b449f30f009",
       "checks": {
         "student": {
           "status": "passed",
@@ -694,11 +798,15 @@
         },
         "visual": {
           "status": "passed",
-          "note": "Содержательный экран просмотрен; проверены читаемые подписи и роль артефакта. Полный экранный проход и PDF отдельно выявляли обрезание; исправлены сети и миниатюра паспорта.",
+          "note": "Сверка с ОКФКС: просмотрены типы экранов и содержательный экран каждой темы; полный проход 403 слайдов, повторный проход длинных вопросов и PDF обоих семестров. Предметные данные сохранены.",
           "evidence": [
             {
               "path": "reports/screens/review-s05-lab-cctv.png",
-              "sha256": "da37b0d773f37faa647a281c642cff59af265b19939f2165b36f2a1285fd9778"
+              "sha256": "33526153a2e74727f723b4ddf39e39f963775183ff7afbe6542389550d6aa162"
+            },
+            {
+              "path": "reports/reference-comparison.json",
+              "sha256": "194a210d93a1461d6235bc2169425eb180832c2ba5453bc59d08470609098f2f"
             }
           ]
         },
@@ -708,7 +816,11 @@
           "evidence": [
             {
               "path": "reports/behavior-5.json",
-              "sha256": "e569b4b2d20b2c301608d9d8577db632a8f16803e7ad9ba2bedc8ed7fe072e01"
+              "sha256": "f8f2a59fd0fe852c4b4f27ed4a3b642b3de4af454ceb1d9260c5bde16b4e287a"
+            },
+            {
+              "path": "reports/reference-comparison.json",
+              "sha256": "194a210d93a1461d6235bc2169425eb180832c2ba5453bc59d08470609098f2f"
             }
           ]
         }
@@ -717,7 +829,7 @@
     },
     {
       "id": "s05-lab-lan:intro",
-      "fingerprint": "c7b5d76524d71034cd78e4c49c6cf025aa5f0b24a877b31f03e1570398273c15",
+      "fingerprint": "23f404df5256100f820aec6f64730ba0986176c331a4c651b5cf06d5fcf8c59f",
       "checks": {
         "student": {
           "status": "passed",
@@ -745,11 +857,15 @@
         },
         "visual": {
           "status": "passed",
-          "note": "Содержательный экран просмотрен; проверены читаемые подписи и роль артефакта. Полный экранный проход и PDF отдельно выявляли обрезание; исправлены сети и миниатюра паспорта.",
+          "note": "Сверка с ОКФКС: просмотрены типы экранов и содержательный экран каждой темы; полный проход 403 слайдов, повторный проход длинных вопросов и PDF обоих семестров. Предметные данные сохранены.",
           "evidence": [
             {
               "path": "reports/screens/review-s05-lab-lan.png",
-              "sha256": "d1f90cbc18cc3df82b4cc33a58920404c197233d0f7c371c5803355a0edc673f"
+              "sha256": "9eb55be0c0bd21247455f14ba69b773b17076b861da7d97e3fa364d2ee333faa"
+            },
+            {
+              "path": "reports/reference-comparison.json",
+              "sha256": "194a210d93a1461d6235bc2169425eb180832c2ba5453bc59d08470609098f2f"
             }
           ]
         },
@@ -759,7 +875,11 @@
           "evidence": [
             {
               "path": "reports/behavior-5.json",
-              "sha256": "e569b4b2d20b2c301608d9d8577db632a8f16803e7ad9ba2bedc8ed7fe072e01"
+              "sha256": "f8f2a59fd0fe852c4b4f27ed4a3b642b3de4af454ceb1d9260c5bde16b4e287a"
+            },
+            {
+              "path": "reports/reference-comparison.json",
+              "sha256": "194a210d93a1461d6235bc2169425eb180832c2ba5453bc59d08470609098f2f"
             }
           ]
         }
@@ -768,7 +888,7 @@
     },
     {
       "id": "s05-lab-expansion:intro",
-      "fingerprint": "8c221a0cd29e1432d466992e0ed47126f5e395eb56a0b154048eefdc48ca1625",
+      "fingerprint": "caead9b241eb519fbc46167286ffa326c79a671c8e3fd34f37091ee6a81f27b6",
       "checks": {
         "student": {
           "status": "passed",
@@ -796,11 +916,15 @@
         },
         "visual": {
           "status": "passed",
-          "note": "Содержательный экран просмотрен; проверены читаемые подписи и роль артефакта. Полный экранный проход и PDF отдельно выявляли обрезание; исправлены сети и миниатюра паспорта.",
+          "note": "Сверка с ОКФКС: просмотрены типы экранов и содержательный экран каждой темы; полный проход 403 слайдов, повторный проход длинных вопросов и PDF обоих семестров. Предметные данные сохранены.",
           "evidence": [
             {
               "path": "reports/screens/review-s05-lab-expansion.png",
-              "sha256": "59b0f77c2889e4a1d7b91cc9519ee9084f569941a5334ae70d2a376803cf6774"
+              "sha256": "356e4b0bcf6b52e77a31a6f3673bd59827d24a7c30e16c2f975f68ecbcac2228"
+            },
+            {
+              "path": "reports/reference-comparison.json",
+              "sha256": "194a210d93a1461d6235bc2169425eb180832c2ba5453bc59d08470609098f2f"
             }
           ]
         },
@@ -810,7 +934,11 @@
           "evidence": [
             {
               "path": "reports/behavior-5.json",
-              "sha256": "e569b4b2d20b2c301608d9d8577db632a8f16803e7ad9ba2bedc8ed7fe072e01"
+              "sha256": "f8f2a59fd0fe852c4b4f27ed4a3b642b3de4af454ceb1d9260c5bde16b4e287a"
+            },
+            {
+              "path": "reports/reference-comparison.json",
+              "sha256": "194a210d93a1461d6235bc2169425eb180832c2ba5453bc59d08470609098f2f"
             }
           ]
         }
@@ -819,7 +947,7 @@
     },
     {
       "id": "s05-lab-passport:intro",
-      "fingerprint": "8c8d5dec67a23587eae9716460c901efa6f0cff4af0d4708b8cb9e2abae9ccea",
+      "fingerprint": "a616d6b6c32ec1753ad7130c03178edee7a2e3fda243ab0b35589301646042e9",
       "checks": {
         "student": {
           "status": "passed",
@@ -847,11 +975,15 @@
         },
         "visual": {
           "status": "passed",
-          "note": "Содержательный экран просмотрен; проверены читаемые подписи и роль артефакта. Полный экранный проход и PDF отдельно выявляли обрезание; исправлены сети и миниатюра паспорта.",
+          "note": "Сверка с ОКФКС: просмотрены типы экранов и содержательный экран каждой темы; полный проход 403 слайдов, повторный проход длинных вопросов и PDF обоих семестров. Предметные данные сохранены.",
           "evidence": [
             {
               "path": "reports/screens/review-s05-lab-passport.png",
-              "sha256": "7309878ec42363c1724ccb62c3ad567971942fea75b029b7ba78c0a1632c9ad3"
+              "sha256": "259826d3a5b5dfd670bf5de9b6984448fea05e8916d13631bec5cc347de9b904"
+            },
+            {
+              "path": "reports/reference-comparison.json",
+              "sha256": "194a210d93a1461d6235bc2169425eb180832c2ba5453bc59d08470609098f2f"
             }
           ]
         },
@@ -861,7 +993,11 @@
           "evidence": [
             {
               "path": "reports/behavior-5.json",
-              "sha256": "e569b4b2d20b2c301608d9d8577db632a8f16803e7ad9ba2bedc8ed7fe072e01"
+              "sha256": "f8f2a59fd0fe852c4b4f27ed4a3b642b3de4af454ceb1d9260c5bde16b4e287a"
+            },
+            {
+              "path": "reports/reference-comparison.json",
+              "sha256": "194a210d93a1461d6235bc2169425eb180832c2ba5453bc59d08470609098f2f"
             }
           ]
         }
@@ -870,7 +1006,7 @@
     },
     {
       "id": "s06-reliability-foundations:intro",
-      "fingerprint": "bf41ca17a65c85bcab2ec1c5f5b5ba51774fd45e92b05e92a20898c640685be0",
+      "fingerprint": "ab87e6ab36ad41183d28c052f0f190675ece11be15b37dde9014c38f72b90d0f",
       "checks": {
         "student": {
           "status": "passed",
@@ -898,11 +1034,15 @@
         },
         "visual": {
           "status": "passed",
-          "note": "Содержательный экран просмотрен; проверены читаемые подписи и роль артефакта. Полный экранный проход и PDF отдельно выявляли обрезание; исправлены сети и миниатюра паспорта.",
+          "note": "Сверка с ОКФКС: просмотрены типы экранов и содержательный экран каждой темы; полный проход 403 слайдов, повторный проход длинных вопросов и PDF обоих семестров. Предметные данные сохранены.",
           "evidence": [
             {
               "path": "reports/screens/review-s06-reliability-foundations.png",
-              "sha256": "1e0b9639b34ed662ddb096bbcf64b5062e890baa6a8f3a485779e1d20958ce3f"
+              "sha256": "7013df78af8e62f20ebdb84a7267e7505e2a775df8170075e1f26a4fe5637492"
+            },
+            {
+              "path": "reports/reference-comparison.json",
+              "sha256": "194a210d93a1461d6235bc2169425eb180832c2ba5453bc59d08470609098f2f"
             }
           ]
         },
@@ -913,6 +1053,10 @@
             {
               "path": "reports/behavior-6.json",
               "sha256": "41c0b2688c0a1fb0661a41bf5cb737c86c03c8afb848cb5950cdbcccc9640110"
+            },
+            {
+              "path": "reports/reference-comparison.json",
+              "sha256": "194a210d93a1461d6235bc2169425eb180832c2ba5453bc59d08470609098f2f"
             }
           ]
         }
@@ -921,7 +1065,7 @@
     },
     {
       "id": "s06-single-metrics:intro",
-      "fingerprint": "8bd7efff91da19cb500c8706205e00eabaad9347320a4263d66c227b5f7da4c2",
+      "fingerprint": "a2ba5907fcb75b90c20f7ecd28a76675a60662b91d98cb88acbfaa8d744b38a6",
       "checks": {
         "student": {
           "status": "passed",
@@ -949,11 +1093,15 @@
         },
         "visual": {
           "status": "passed",
-          "note": "Содержательный экран просмотрен; проверены читаемые подписи и роль артефакта. Полный экранный проход и PDF отдельно выявляли обрезание; исправлены сети и миниатюра паспорта.",
+          "note": "Сверка с ОКФКС: просмотрены типы экранов и содержательный экран каждой темы; полный проход 403 слайдов, повторный проход длинных вопросов и PDF обоих семестров. Предметные данные сохранены.",
           "evidence": [
             {
               "path": "reports/screens/review-s06-single-metrics.png",
-              "sha256": "a40a9584bf54746fd4413a5eaf704a3f283f9f704bd19039edf1ced5b5e50e0c"
+              "sha256": "54ac21ea5d92f2549f171de62db3806f1d8b8b6dd81a4fa846aa147fc4706d94"
+            },
+            {
+              "path": "reports/reference-comparison.json",
+              "sha256": "194a210d93a1461d6235bc2169425eb180832c2ba5453bc59d08470609098f2f"
             }
           ]
         },
@@ -964,6 +1112,10 @@
             {
               "path": "reports/behavior-6.json",
               "sha256": "41c0b2688c0a1fb0661a41bf5cb737c86c03c8afb848cb5950cdbcccc9640110"
+            },
+            {
+              "path": "reports/reference-comparison.json",
+              "sha256": "194a210d93a1461d6235bc2169425eb180832c2ba5453bc59d08470609098f2f"
             }
           ]
         }
@@ -972,7 +1124,7 @@
     },
     {
       "id": "s06-availability:intro",
-      "fingerprint": "ebd5cd50f00952bdf7aea9d96cad96a9f3f4a380a2acbed1e24e96afb85f84a8",
+      "fingerprint": "64e4c3f8c4c1ef6ca8c8368895dfc2997ff272b6fb660dda2d9b39e6bbe6b3aa",
       "checks": {
         "student": {
           "status": "passed",
@@ -1000,11 +1152,15 @@
         },
         "visual": {
           "status": "passed",
-          "note": "Содержательный экран просмотрен; проверены читаемые подписи и роль артефакта. Полный экранный проход и PDF отдельно выявляли обрезание; исправлены сети и миниатюра паспорта.",
+          "note": "Сверка с ОКФКС: просмотрены типы экранов и содержательный экран каждой темы; полный проход 403 слайдов, повторный проход длинных вопросов и PDF обоих семестров. Предметные данные сохранены.",
           "evidence": [
             {
               "path": "reports/screens/review-s06-availability.png",
-              "sha256": "910baa7b77da1fcfbaaa118f450c55fa039e1470ae8cb7e6881b975384754b15"
+              "sha256": "fc88672d8c2242e4ea3cbbfde0548addde8323b938a112621628d62425f89191"
+            },
+            {
+              "path": "reports/reference-comparison.json",
+              "sha256": "194a210d93a1461d6235bc2169425eb180832c2ba5453bc59d08470609098f2f"
             }
           ]
         },
@@ -1015,6 +1171,10 @@
             {
               "path": "reports/behavior-6.json",
               "sha256": "41c0b2688c0a1fb0661a41bf5cb737c86c03c8afb848cb5950cdbcccc9640110"
+            },
+            {
+              "path": "reports/reference-comparison.json",
+              "sha256": "194a210d93a1461d6235bc2169425eb180832c2ba5453bc59d08470609098f2f"
             }
           ]
         }
@@ -1023,7 +1183,7 @@
     },
     {
       "id": "s06-system-reliability:intro",
-      "fingerprint": "a0b6198cec1a24876db871f0ac7b80514977421c7d8e3988f875e47db4238f9d",
+      "fingerprint": "914ca6d8eb9d0adf0447a887cc8f5be962a3959c6cf3754651f2458a4bc21449",
       "checks": {
         "student": {
           "status": "passed",
@@ -1051,11 +1211,15 @@
         },
         "visual": {
           "status": "passed",
-          "note": "Содержательный экран просмотрен; проверены читаемые подписи и роль артефакта. Полный экранный проход и PDF отдельно выявляли обрезание; исправлены сети и миниатюра паспорта.",
+          "note": "Сверка с ОКФКС: просмотрены типы экранов и содержательный экран каждой темы; полный проход 403 слайдов, повторный проход длинных вопросов и PDF обоих семестров. Предметные данные сохранены.",
           "evidence": [
             {
               "path": "reports/screens/review-s06-system-reliability.png",
-              "sha256": "39ab297656674a6c23b8d2703324aba5043642a8932e8e243d9f6e3ab3c8780d"
+              "sha256": "4588a1d2371d48f08db208fe5280af3ad63af371e89e438177def5dabdc8d97e"
+            },
+            {
+              "path": "reports/reference-comparison.json",
+              "sha256": "194a210d93a1461d6235bc2169425eb180832c2ba5453bc59d08470609098f2f"
             }
           ]
         },
@@ -1066,6 +1230,10 @@
             {
               "path": "reports/behavior-6.json",
               "sha256": "41c0b2688c0a1fb0661a41bf5cb737c86c03c8afb848cb5950cdbcccc9640110"
+            },
+            {
+              "path": "reports/reference-comparison.json",
+              "sha256": "194a210d93a1461d6235bc2169425eb180832c2ba5453bc59d08470609098f2f"
             }
           ]
         }
@@ -1074,7 +1242,7 @@
     },
     {
       "id": "s06-information-integrity:intro",
-      "fingerprint": "f9d130dc807a681768614baef31288e72227db210880a29e9d2959045f133d92",
+      "fingerprint": "2c9bd3b867d2f490ab483f27fa1b2f1ac83ac99a08e7bcfff481ca74719595de",
       "checks": {
         "student": {
           "status": "passed",
@@ -1102,11 +1270,15 @@
         },
         "visual": {
           "status": "passed",
-          "note": "Содержательный экран просмотрен; проверены читаемые подписи и роль артефакта. Полный экранный проход и PDF отдельно выявляли обрезание; исправлены сети и миниатюра паспорта.",
+          "note": "Сверка с ОКФКС: просмотрены типы экранов и содержательный экран каждой темы; полный проход 403 слайдов, повторный проход длинных вопросов и PDF обоих семестров. Предметные данные сохранены.",
           "evidence": [
             {
               "path": "reports/screens/review-s06-information-integrity.png",
-              "sha256": "96774efa2d954afa23faec8f3969387c9c0a3a9639fc100aa723a6b5a4eed5bc"
+              "sha256": "98ef16ac5487464d23d049368e0bba82f8a53c7d92e7feaf96dcb170a6d9e258"
+            },
+            {
+              "path": "reports/reference-comparison.json",
+              "sha256": "194a210d93a1461d6235bc2169425eb180832c2ba5453bc59d08470609098f2f"
             }
           ]
         },
@@ -1117,6 +1289,10 @@
             {
               "path": "reports/behavior-6.json",
               "sha256": "41c0b2688c0a1fb0661a41bf5cb737c86c03c8afb848cb5950cdbcccc9640110"
+            },
+            {
+              "path": "reports/reference-comparison.json",
+              "sha256": "194a210d93a1461d6235bc2169425eb180832c2ba5453bc59d08470609098f2f"
             }
           ]
         }
@@ -1125,7 +1301,7 @@
     },
     {
       "id": "s06-performance:intro",
-      "fingerprint": "9096199d5206c758eb29723e9401aff8978a36d3998e62179f54788ac654fc4f",
+      "fingerprint": "b97fc4fe404208a38c7567489f9b370ced4a628a43673223f959c235f640e06d",
       "checks": {
         "student": {
           "status": "passed",
@@ -1153,11 +1329,15 @@
         },
         "visual": {
           "status": "passed",
-          "note": "Содержательный экран просмотрен; проверены читаемые подписи и роль артефакта. Полный экранный проход и PDF отдельно выявляли обрезание; исправлены сети и миниатюра паспорта.",
+          "note": "Сверка с ОКФКС: просмотрены типы экранов и содержательный экран каждой темы; полный проход 403 слайдов, повторный проход длинных вопросов и PDF обоих семестров. Предметные данные сохранены.",
           "evidence": [
             {
               "path": "reports/screens/review-s06-performance.png",
-              "sha256": "3710a717a5361ccfdc51bb0bf3b25faa754580d174270faf04317a95ceefe9e7"
+              "sha256": "b79b443d6b0403f897eb97a4084fd3284ba3a0fe4b78d5404af6cd931ad37b8e"
+            },
+            {
+              "path": "reports/reference-comparison.json",
+              "sha256": "194a210d93a1461d6235bc2169425eb180832c2ba5453bc59d08470609098f2f"
             }
           ]
         },
@@ -1168,6 +1348,10 @@
             {
               "path": "reports/behavior-6.json",
               "sha256": "41c0b2688c0a1fb0661a41bf5cb737c86c03c8afb848cb5950cdbcccc9640110"
+            },
+            {
+              "path": "reports/reference-comparison.json",
+              "sha256": "194a210d93a1461d6235bc2169425eb180832c2ba5453bc59d08470609098f2f"
             }
           ]
         }
@@ -1176,7 +1360,7 @@
     },
     {
       "id": "s06-improvement:intro",
-      "fingerprint": "9e4c848d91e365b255d036774534c718c2a862c36b68b1229d797ebc90701477",
+      "fingerprint": "fd37930b2957f2b01749697d2121f84320a747c742353c81fd2ffab5dbcffc4f",
       "checks": {
         "student": {
           "status": "passed",
@@ -1204,11 +1388,15 @@
         },
         "visual": {
           "status": "passed",
-          "note": "Содержательный экран просмотрен; проверены читаемые подписи и роль артефакта. Полный экранный проход и PDF отдельно выявляли обрезание; исправлены сети и миниатюра паспорта.",
+          "note": "Сверка с ОКФКС: просмотрены типы экранов и содержательный экран каждой темы; полный проход 403 слайдов, повторный проход длинных вопросов и PDF обоих семестров. Предметные данные сохранены.",
           "evidence": [
             {
               "path": "reports/screens/review-s06-improvement.png",
-              "sha256": "fd85e27d4d694d905218fcabc18cd04915209b07cfc8f9637dd7cbf292306cf7"
+              "sha256": "819c2cf8e92f97675cf5f6173b7b5186d95eb6023e22c881064d6bdb8342525f"
+            },
+            {
+              "path": "reports/reference-comparison.json",
+              "sha256": "194a210d93a1461d6235bc2169425eb180832c2ba5453bc59d08470609098f2f"
             }
           ]
         },
@@ -1219,6 +1407,10 @@
             {
               "path": "reports/behavior-6.json",
               "sha256": "41c0b2688c0a1fb0661a41bf5cb737c86c03c8afb848cb5950cdbcccc9640110"
+            },
+            {
+              "path": "reports/reference-comparison.json",
+              "sha256": "194a210d93a1461d6235bc2169425eb180832c2ba5453bc59d08470609098f2f"
             }
           ]
         }
@@ -1227,7 +1419,7 @@
     },
     {
       "id": "s06-lab-single:intro",
-      "fingerprint": "6945c63476abe69c841b0e73736e50f553dad87f3a98bb5b2b3adac812ff42d8",
+      "fingerprint": "6be146c371d84e3c823c5424e97cf4f68af57ebd138a25c8788c279d6343586b",
       "checks": {
         "student": {
           "status": "passed",
@@ -1255,11 +1447,15 @@
         },
         "visual": {
           "status": "passed",
-          "note": "Содержательный экран просмотрен; проверены читаемые подписи и роль артефакта. Полный экранный проход и PDF отдельно выявляли обрезание; исправлены сети и миниатюра паспорта.",
+          "note": "Сверка с ОКФКС: просмотрены типы экранов и содержательный экран каждой темы; полный проход 403 слайдов, повторный проход длинных вопросов и PDF обоих семестров. Предметные данные сохранены.",
           "evidence": [
             {
               "path": "reports/screens/review-s06-lab-single.png",
-              "sha256": "baa1e66bf4a69ed84f24a266c7dc56a5c62dd4a0af92c9504ff91964eb878971"
+              "sha256": "1cc053e3789b855f101ce0bd74b8bd2aef5909a345d0b47e3f3c9b920b09faa8"
+            },
+            {
+              "path": "reports/reference-comparison.json",
+              "sha256": "194a210d93a1461d6235bc2169425eb180832c2ba5453bc59d08470609098f2f"
             }
           ]
         },
@@ -1270,6 +1466,10 @@
             {
               "path": "reports/behavior-6.json",
               "sha256": "41c0b2688c0a1fb0661a41bf5cb737c86c03c8afb848cb5950cdbcccc9640110"
+            },
+            {
+              "path": "reports/reference-comparison.json",
+              "sha256": "194a210d93a1461d6235bc2169425eb180832c2ba5453bc59d08470609098f2f"
             }
           ]
         }
@@ -1278,7 +1478,7 @@
     },
     {
       "id": "s06-lab-availability:intro",
-      "fingerprint": "a680c589992be319d5ae98082b12d06326a401dfcf8e80f14c8dc47aa3116626",
+      "fingerprint": "4ad476cf34651d57fec223d786b9d17c21b2fc552e84f19d250d37191ad92556",
       "checks": {
         "student": {
           "status": "passed",
@@ -1306,11 +1506,15 @@
         },
         "visual": {
           "status": "passed",
-          "note": "Содержательный экран просмотрен; проверены читаемые подписи и роль артефакта. Полный экранный проход и PDF отдельно выявляли обрезание; исправлены сети и миниатюра паспорта.",
+          "note": "Сверка с ОКФКС: просмотрены типы экранов и содержательный экран каждой темы; полный проход 403 слайдов, повторный проход длинных вопросов и PDF обоих семестров. Предметные данные сохранены.",
           "evidence": [
             {
               "path": "reports/screens/review-s06-lab-availability.png",
-              "sha256": "5a48d59ded1cdffaa88d6a0e8f9f03fe2eeaf926c8002a7bafa2bf089c0d7742"
+              "sha256": "f713baed720d7dc7c59dc98387d3c911b3dd9d1cd177f38435a7c48797aa6507"
+            },
+            {
+              "path": "reports/reference-comparison.json",
+              "sha256": "194a210d93a1461d6235bc2169425eb180832c2ba5453bc59d08470609098f2f"
             }
           ]
         },
@@ -1321,6 +1525,10 @@
             {
               "path": "reports/behavior-6.json",
               "sha256": "41c0b2688c0a1fb0661a41bf5cb737c86c03c8afb848cb5950cdbcccc9640110"
+            },
+            {
+              "path": "reports/reference-comparison.json",
+              "sha256": "194a210d93a1461d6235bc2169425eb180832c2ba5453bc59d08470609098f2f"
             }
           ]
         }
@@ -1329,7 +1537,7 @@
     },
     {
       "id": "s06-lab-redundancy:intro",
-      "fingerprint": "9d7a60ecf17a787703d672f9306dcbba68c84c34c142e07d349b53a9cf100975",
+      "fingerprint": "4bd7fd5643ebc85f903b8874918af178d35860971298841b1927600efe6a4f3c",
       "checks": {
         "student": {
           "status": "passed",
@@ -1357,11 +1565,15 @@
         },
         "visual": {
           "status": "passed",
-          "note": "Содержательный экран просмотрен; проверены читаемые подписи и роль артефакта. Полный экранный проход и PDF отдельно выявляли обрезание; исправлены сети и миниатюра паспорта.",
+          "note": "Сверка с ОКФКС: просмотрены типы экранов и содержательный экран каждой темы; полный проход 403 слайдов, повторный проход длинных вопросов и PDF обоих семестров. Предметные данные сохранены.",
           "evidence": [
             {
               "path": "reports/screens/review-s06-lab-redundancy.png",
-              "sha256": "6874597842fe5fce66145db49bf86cfc5730e43d22af476fa7fe33511cd4d78a"
+              "sha256": "060762d32654b8c8841bcb28860b1e1d2f908378aa6f775015d9598f362a562c"
+            },
+            {
+              "path": "reports/reference-comparison.json",
+              "sha256": "194a210d93a1461d6235bc2169425eb180832c2ba5453bc59d08470609098f2f"
             }
           ]
         },
@@ -1372,6 +1584,10 @@
             {
               "path": "reports/behavior-6.json",
               "sha256": "41c0b2688c0a1fb0661a41bf5cb737c86c03c8afb848cb5950cdbcccc9640110"
+            },
+            {
+              "path": "reports/reference-comparison.json",
+              "sha256": "194a210d93a1461d6235bc2169425eb180832c2ba5453bc59d08470609098f2f"
             }
           ]
         }
@@ -1380,7 +1596,7 @@
     },
     {
       "id": "s06-lab-integrity:intro",
-      "fingerprint": "75c05545bfbfb125134323fbe5941b48053c6830052e3871f5fd87f094185814",
+      "fingerprint": "178f7b986a9e49cb2efd2a905cbc4f95c819ea989195a5e2e0a6d42f0d48b941",
       "checks": {
         "student": {
           "status": "passed",
@@ -1408,11 +1624,15 @@
         },
         "visual": {
           "status": "passed",
-          "note": "Содержательный экран просмотрен; проверены читаемые подписи и роль артефакта. Полный экранный проход и PDF отдельно выявляли обрезание; исправлены сети и миниатюра паспорта.",
+          "note": "Сверка с ОКФКС: просмотрены типы экранов и содержательный экран каждой темы; полный проход 403 слайдов, повторный проход длинных вопросов и PDF обоих семестров. Предметные данные сохранены.",
           "evidence": [
             {
               "path": "reports/screens/review-s06-lab-integrity.png",
-              "sha256": "a5510fc56fe4659d5f0df1c6090f276c0e0a9e4b912f1710a79a3d7c61ed4158"
+              "sha256": "4542447458b96e3a5a7a39678216c6e940d2fc41c51c96427fd133e022debfdf"
+            },
+            {
+              "path": "reports/reference-comparison.json",
+              "sha256": "194a210d93a1461d6235bc2169425eb180832c2ba5453bc59d08470609098f2f"
             }
           ]
         },
@@ -1423,6 +1643,10 @@
             {
               "path": "reports/behavior-6.json",
               "sha256": "41c0b2688c0a1fb0661a41bf5cb737c86c03c8afb848cb5950cdbcccc9640110"
+            },
+            {
+              "path": "reports/reference-comparison.json",
+              "sha256": "194a210d93a1461d6235bc2169425eb180832c2ba5453bc59d08470609098f2f"
             }
           ]
         }
@@ -1431,7 +1655,7 @@
     },
     {
       "id": "s06-lab-performance:intro",
-      "fingerprint": "8c7632fbd77e4b3b5fabde36f02dc6129474418d6c21658987ebad9179a1b112",
+      "fingerprint": "f9afa5aec676d1c6881bb216dd12f705741cfeece1437dd7df56f8e3e640ba27",
       "checks": {
         "student": {
           "status": "passed",
@@ -1459,11 +1683,15 @@
         },
         "visual": {
           "status": "passed",
-          "note": "Содержательный экран просмотрен; проверены читаемые подписи и роль артефакта. Полный экранный проход и PDF отдельно выявляли обрезание; исправлены сети и миниатюра паспорта.",
+          "note": "Сверка с ОКФКС: просмотрены типы экранов и содержательный экран каждой темы; полный проход 403 слайдов, повторный проход длинных вопросов и PDF обоих семестров. Предметные данные сохранены.",
           "evidence": [
             {
               "path": "reports/screens/review-s06-lab-performance.png",
-              "sha256": "54f09d1318d9c93a23082ec33c7cb6224c841d0225c73f599683d3a461adab16"
+              "sha256": "3f9349ff013ed7bdc4bee4c5226d200dbdfe9b3f8777034d6055ee9aab6cf681"
+            },
+            {
+              "path": "reports/reference-comparison.json",
+              "sha256": "194a210d93a1461d6235bc2169425eb180832c2ba5453bc59d08470609098f2f"
             }
           ]
         },
@@ -1474,6 +1702,10 @@
             {
               "path": "reports/behavior-6.json",
               "sha256": "41c0b2688c0a1fb0661a41bf5cb737c86c03c8afb848cb5950cdbcccc9640110"
+            },
+            {
+              "path": "reports/reference-comparison.json",
+              "sha256": "194a210d93a1461d6235bc2169425eb180832c2ba5453bc59d08470609098f2f"
             }
           ]
         }

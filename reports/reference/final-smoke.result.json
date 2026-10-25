@@ -1,0 +1,41 @@
+{
+  "materials": true,
+  "qr": 1,
+  "fonts": {
+    "heading": "Raleway, Arial, sans-serif",
+    "weight": "700",
+    "ready": true
+  },
+  "captured": 29,
+  "files": [
+    "output/playwright/ufis/review-s05-system-boundary.png",
+    "output/playwright/ufis/review-s05-structure.png",
+    "output/playwright/ufis/review-s05-classification.png",
+    "output/playwright/ufis/review-s05-accounting-supply.png",
+    "output/playwright/ufis/review-s05-production-quality.png",
+    "output/playwright/ufis/review-s05-reference-library.png",
+    "output/playwright/ufis/review-s05-building-media.png",
+    "output/playwright/ufis/review-s05-integration.png",
+    "output/playwright/ufis/review-s05-lan.png",
+    "output/playwright/ufis/review-s05-documentation.png",
+    "output/playwright/ufis/review-s05-lab-system-map.png",
+    "output/playwright/ufis/review-s05-lab-compare.png",
+    "output/playwright/ufis/review-s05-lab-display.png",
+    "output/playwright/ufis/review-s05-lab-cctv.png",
+    "output/playwright/ufis/review-s05-lab-lan.png",
+    "output/playwright/ufis/review-s05-lab-expansion.png",
+    "output/playwright/ufis/review-s05-lab-passport.png",
+    "output/playwright/ufis/review-s06-reliability-foundations.png",
+    "output/playwright/ufis/review-s06-single-metrics.png",
+    "output/playwright/ufis/review-s06-availability.png",
+    "output/playwright/ufis/review-s06-system-reliability.png",
+    "output/playwright/ufis/review-s06-information-integrity.png",
+    "output/playwright/ufis/review-s06-performance.png",
+    "output/playwright/ufis/review-s06-improvement.png",
+    "output/playwright/ufis/review-s06-lab-single.png",
+    "output/playwright/ufis/review-s06-lab-availability.png",
+    "output/playwright/ufis/review-s06-lab-redundancy.png",
+    "output/playwright/ufis/review-s06-lab-integrity.png",
+    "output/playwright/ufis/review-s06-lab-performance.png"
+  ]
+}

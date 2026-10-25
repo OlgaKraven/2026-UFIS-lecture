@@ -1,0 +1,15 @@
+{
+  "checked": 166,
+  "issues": [
+    {
+      "id": "s06-single-metrics-question",
+      "width": 978.078125,
+      "copyOverflow": 20,
+      "contentOverflow": 8,
+      "footerBottom": 657.1875,
+      "window": 720,
+      "bodyOverflow": 0
+    }
+  ],
+  "errors": []
+}

@@ -10,10 +10,12 @@ import {
   Pause,
   Play,
   Square,
-  X,
+  List,
 } from 'lucide-react'
 import type { Course, Lecture, Note, Profile, TeacherPack } from './model'
-import { usePanelLayout } from './PanelLayout'
+import {Modal} from './Modal'
+import {PresentationMenu,ThemePicker} from './PresentationChrome'
+import type {ThemeMode} from './PresentationChrome'
 import { emptyNote } from './model'
 import { validateTeacherPack } from './validation'
 import { TimingPlan } from './TimingPlan'
@@ -22,7 +24,7 @@ import { SlideView } from './SlideView'
 import { DiagramControl, type DiagramView } from './Infographic'
 import { createBus, newer } from './session'
 import type { PublicState } from './session'
-import { AssessmentProvider, AssessmentSync } from './Assessment'
+import { AssessmentProvider, AssessmentSync, AssessmentResults } from './Assessment'
 import type { Attempt } from './Assessment'
 import { downloadJson, read, save } from './storage'
 import {mergeAuthorNotes,noteOverrides} from '../author-notes'
@@ -34,7 +36,11 @@ type Props = {
   mode: 'presenter' | 'audience'
   session: string
   initialSlide: string
-  onExit: () => void
+  onExit: (slideId?:string) => void
+  onCatalog: () => void
+  themeMode: ThemeMode
+  onThemeChange: (mode:ThemeMode)=>void
+  onProfileChange: (profile:Profile)=>void
 }
 export default function Teaching(props: Props) {
   useEffect(()=>{const key=`lecture:${props.base}:${props.course.id}:theme`;const update=()=>{document.documentElement.dataset.theme=read(key,'light')};update();const listener=(event:StorageEvent)=>{if(event.key===key)update()};window.addEventListener('storage',listener);return()=>window.removeEventListener('storage',listener)},[props.base,props.course.id])
@@ -153,9 +159,10 @@ function Audience({ course, lecture, base, session, profile }: Props) {
     </main>
   )
 }
-function Presenter({ course, lecture, base, profile, session, initialSlide, onExit }: Props) {
+function Presenter({ course, lecture, base, profile, session, initialSlide, onExit, onCatalog, themeMode, onThemeChange, onProfileChange }: Props) {
   const storageKey = `lecture:${base}:${course.id}:private:${course.contentVersion}`
-  const layout = usePanelLayout(`lecture:${base}:${course.id}:panel-layout`)
+  const [outlineOpen,setOutlineOpen]=useState(false)
+  const [resultsOpen,setResultsOpen]=useState(false)
   const sessionKey = `lecture-session:${session}`
   const [pendingNotes, setPendingNotes] = useState<{
     notes: Record<string, Note>
@@ -185,7 +192,7 @@ function Presenter({ course, lecture, base, profile, session, initialSlide, onEx
   const [status, setStatus] = useState('Ожидание окна аудитории')
   const [locked, setLocked] = useState(false)
   const [notice, setNotice] = useState('')
-  const [fontSize, setFontSize] = useState(19)
+  const fontSize = 17
   const [edit, setEdit] = useState(false)
   const [search, setSearch] = useState('')
   const [tab, setTab] = useState<'script' | 'preparation' | 'notebook' | 'questions' | 'answer'>(
@@ -322,7 +329,7 @@ function Presenter({ course, lecture, base, profile, session, initialSlide, onEx
       if (
         !locked ||
         document.querySelector('dialog[open]') ||
-        (e.target as HTMLElement).closest('input,textarea,select,[contenteditable],.ufis-practice,.readable-diagram') ||
+        (e.target as HTMLElement).closest('input,textarea,select,[contenteditable],.ufis-practice,.readable-diagram,.pd-more') ||
         ((e.target as HTMLElement).closest('button') && (!(e.target as HTMLElement).closest('.presenter-controls') || e.key === ' '))
       )
         return
@@ -401,37 +408,41 @@ function Presenter({ course, lecture, base, profile, session, initialSlide, onEx
       setNotice(String(e))
     }
   }
-  const end = () => {
+  const end = (catalog=false) => {
     if (!notesSaved && !window.confirm('Заметки не сохранены. Завершить занятие?')) return
     busRef.current?.send({ type: 'END' })
     popup.current?.close()
-    onExit()
+    if(catalog)onCatalog();else onExit(shown.slideId)
   }
   const tabNames = {
     script: 'Сценарий',
-    preparation: 'Подготовка',
-    notebook: 'Запись',
+    notebook: 'Запишите',
     questions: 'Вопросы',
-    answer: 'Ответы',
+    answer: 'Ответ',
+    preparation: 'Заметки',
   }
   return (
     <main className="presenter-shell">
       <AssessmentSync task={lecture.slides[shownIndex].task} onChange={receiveAssessment} />
-      <header className="presenter-header">
-        <div>
-          <p className="eyebrow">Панель преподавателя</p>
-          <h1>{lecture.title}</h1>
+      <header className="presenter-header pd-toolbar">
+        <button className="button ghost" onClick={()=>end(true)}><ArrowLeft size={18}/>Каталог</button>
+        <div className="pd-brand"><small>{course.code} · {lecture.semester} семестр</small><strong>{lecture.title}</strong></div>
+        <span className="sr-only" role="status">{status}</span>
+        <div className="pd-tools">
+          <button className="icon-button" aria-label="Содержание" aria-expanded={outlineOpen} onClick={()=>setOutlineOpen(!outlineOpen)}><List size={18}/></button>
+          <button className="icon-button" aria-label="Указка" aria-pressed={pointerEnabled} onClick={()=>{setPointerEnabled(!pointerEnabled);setPointer(null)}}><MousePointer2 size={18}/></button>
+          <button className="icon-button" aria-label="Экран аудитории во весь экран" onClick={async()=>{try{if(!popup.current||popup.current.closed){reopen();return}await popup.current.document.documentElement.requestFullscreen()}catch{setNotice('Нажмите «На весь экран» в окне аудитории.')}}}><Maximize size={18}/></button>
+          <PresentationMenu><ThemePicker value={themeMode} onChange={onThemeChange}/>
+            <label className="pd-profile">ФИО преподавателя<input autoComplete="name" value={profile.fullName} onChange={e=>onProfileChange({...profile,fullName:e.target.value})}/></label>
+            <label className="pd-profile">Должность<input value={profile.position} onChange={e=>onProfileChange({...profile,position:e.target.value})}/></label>
+            <label className="pd-profile">Кафедра / лаборатория<input value={profile.department} onChange={e=>onProfileChange({...profile,department:e.target.value})}/></label>
+            <button className="button ghost" onClick={()=>setResultsOpen(true)}>Самопроверка</button>
+            <button className="button ghost" onClick={reopen}>Открыть аудиторию</button>
+            <button className="button ghost" onClick={copyAudience}>Скопировать ссылку аудитории</button>
+            <button className="button ghost" aria-pressed={black} onClick={()=>setBlack(!black)}><Square size={16}/>{black?'Вернуть слайд':'Чёрный экран'}</button>
+          </PresentationMenu>
+          <button className="button primary" onClick={()=>end()}>Завершить показ</button>
         </div>
-        <span
-          className={`connection ${status === 'Синхронизировано' ? 'connected' : ''}`}
-          role="status"
-        >
-          {status}
-        </span>
-        <button className="button ghost" onClick={end}>
-          <X size={18} />
-          Завершить
-        </button>
       </header>
       {notice && (
         <div className="notice" role="status">
@@ -475,16 +486,7 @@ function Presenter({ course, lecture, base, profile, session, initialSlide, onEx
           </button>
         </section>
       )}
-      <div className="presenter-layout-help">
-        <span>
-          Перетащите границы между панелями, чтобы изменить ширину. Аудиторию можно вынести из
-          вкладки на второй монитор.
-        </span>
-        <button className="text-button" onClick={layout.reset}>
-          Сбросить размеры
-        </button>
-      </div>
-      <div className="presenter-grid" ref={layout.grid} style={layout.style}>
+      <div className="presenter-grid">
         <section className="presenter-preview">
           <div className="preview-label">
             <strong>Сейчас у аудитории</strong>
@@ -574,27 +576,6 @@ function Presenter({ course, lecture, base, profile, session, initialSlide, onEx
               />
             </div>
           )}
-          <div className="session-tools">
-            <button
-              className="button ghost"
-              aria-pressed={pointerEnabled}
-              onClick={() => {
-                setPointerEnabled(!pointerEnabled)
-                setPointer(null)
-              }}
-            >
-              <MousePointer2 size={17} />
-              Указка
-            </button>
-            <button className="button ghost" disabled={!locked} onClick={reopen}>
-              <MonitorPlay size={17} />
-              Открыть аудиторию
-            </button>
-            <button className="button ghost" onClick={()=>{const key=`lecture:${base}:${course.id}:theme`;const next=document.documentElement.dataset.theme==='dark'?'light':'dark';document.documentElement.dataset.theme=next;save(key,next)}}>Сменить тему</button>
-            <button className="button ghost" onClick={copyAudience}>
-              Скопировать ссылку аудитории
-            </button>
-          </div>
           <div className="timer">
             <strong>
               {String(Math.floor(elapsed / 60000)).padStart(2, '0')}:
@@ -623,7 +604,6 @@ function Presenter({ course, lecture, base, profile, session, initialSlide, onEx
             }}
           />
         </section>
-        {layout.separator(0)}
         <section className="presenter-notes">
           <div className="notes-heading">
             <div>
@@ -654,16 +634,6 @@ function Presenter({ course, lecture, base, profile, session, initialSlide, onEx
               </button>
             ))}
           </div>
-          <label className="note-font">
-            Размер текста
-            <input
-              type="range"
-              min="16"
-              max="30"
-              value={fontSize}
-              onChange={(e) => setFontSize(Number(e.target.value))}
-            />
-          </label>
           {edit ? (
             <textarea
               className="note-editor"
@@ -727,8 +697,9 @@ function Presenter({ course, lecture, base, profile, session, initialSlide, onEx
             />
           </label>
         </section>
-        {layout.separator(1)}
-        <aside className="presenter-outline">
+
+      </div>
+      {outlineOpen&&<Modal title="Содержание лекции" onClose={()=>setOutlineOpen(false)}>        <div className="presenter-outline">
           <label className="search-field">
             <input
               placeholder="Найти слайд"
@@ -745,16 +716,16 @@ function Presenter({ course, lecture, base, profile, session, initialSlide, onEx
                 <li key={s.id}>
                   <button
                     aria-current={s.id === selected ? 'step' : undefined}
-                    onClick={() => setSelected(s.id)}
+                    onClick={() => {change(s.id);setOutlineOpen(false)}}
                   >
                     <b>{String(i + 1).padStart(2, '0')}</b>
-                    {s.title}
+                    {s.kind==='section'?`${s.kicker} · ${s.title}`:s.title}
                   </button>
                 </li>
               ))}
           </ol>
-        </aside>
-      </div>
+        </div></Modal>}
+      {resultsOpen&&<Modal title="Самопроверка" onClose={()=>setResultsOpen(false)}><AssessmentResults lecture={lecture} onGo={i=>{change(lecture.slides[i].id);setResultsOpen(false)}}/></Modal>}
     </main>
   )
 }

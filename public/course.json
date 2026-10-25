@@ -191,7 +191,7 @@
         {
           "id": "s05-system-boundary-case",
           "kind": "example",
-          "title": "Самостоятельный разбор",
+          "title": "Информационная система как комплекс. Границы системы",
           "kicker": "",
           "learning": {
             "id": "s05-system-boundary-case",
@@ -394,7 +394,7 @@
         {
           "id": "s05-structure-case",
           "kind": "example",
-          "title": "Самостоятельный разбор",
+          "title": "Базовая структура информационной системы",
           "kicker": "",
           "learning": {
             "id": "s05-structure-case",
@@ -569,7 +569,7 @@
         {
           "id": "s05-classification-case",
           "kind": "example",
-          "title": "Самостоятельный разбор",
+          "title": "Классификация информационных систем",
           "kicker": "",
           "learning": {
             "id": "s05-classification-case",
@@ -748,7 +748,7 @@
         {
           "id": "s05-accounting-supply-case",
           "kind": "example",
-          "title": "Самостоятельный разбор",
+          "title": "Информационные системы учёта и материально-технического снабжения",
           "kicker": "",
           "learning": {
             "id": "s05-accounting-supply-case",
@@ -958,7 +958,7 @@
         {
           "id": "s05-production-quality-case",
           "kind": "example",
-          "title": "Самостоятельный разбор",
+          "title": "Информационные системы управления производством и качеством",
           "kicker": "",
           "learning": {
             "id": "s05-production-quality-case",
@@ -1145,7 +1145,7 @@
         {
           "id": "s05-reference-library-case",
           "kind": "example",
-          "title": "Самостоятельный разбор",
+          "title": "Справочно-информационные и библиотечные системы",
           "kicker": "",
           "learning": {
             "id": "s05-reference-library-case",
@@ -1364,7 +1364,7 @@
         {
           "id": "s05-building-media-case",
           "kind": "example",
-          "title": "Самостоятельный разбор",
+          "title": "Системы управления зданием и многозонным мультимедийным пространством",
           "kicker": "",
           "learning": {
             "id": "s05-building-media-case",
@@ -1583,7 +1583,7 @@
         {
           "id": "s05-integration-case",
           "kind": "example",
-          "title": "Самостоятельный разбор",
+          "title": "Оборудование системной интеграции. Схема подключения",
           "kicker": "",
           "learning": {
             "id": "s05-integration-case",
@@ -1770,7 +1770,7 @@
         {
           "id": "s05-lan-case",
           "kind": "example",
-          "title": "Самостоятельный разбор",
+          "title": "Локальная сеть информационной системы",
           "kicker": "",
           "learning": {
             "id": "s05-lan-case",
@@ -1962,7 +1962,7 @@
         {
           "id": "s05-documentation-case",
           "kind": "example",
-          "title": "Самостоятельный разбор",
+          "title": "Документация на информационную систему",
           "kicker": "",
           "learning": {
             "id": "s05-documentation-case",
@@ -2101,7 +2101,7 @@
         {
           "id": "s05-lab-system-map-case",
           "kind": "example",
-          "title": "Самостоятельный разбор",
+          "title": "Составление схемы состава информационной системы предприятия",
           "kicker": "",
           "learning": {
             "id": "s05-lab-system-map-case",
@@ -2239,7 +2239,7 @@
         {
           "id": "s05-lab-compare-case",
           "kind": "example",
-          "title": "Самостоятельный разбор",
+          "title": "Сравнительный анализ информационных систем одного назначения",
           "kicker": "",
           "learning": {
             "id": "s05-lab-compare-case",
@@ -2384,7 +2384,7 @@
         {
           "id": "s05-lab-display-case",
           "kind": "example",
-          "title": "Самостоятельный разбор",
+          "title": "Обслуживание системы отображения информации",
           "kicker": "",
           "learning": {
             "id": "s05-lab-display-case",
@@ -2529,7 +2529,7 @@
         {
           "id": "s05-lab-cctv-case",
           "kind": "example",
-          "title": "Самостоятельный разбор",
+          "title": "Обслуживание системы видеонаблюдения",
           "kicker": "",
           "learning": {
             "id": "s05-lab-cctv-case",
@@ -2674,7 +2674,7 @@
         {
           "id": "s05-lab-lan-case",
           "kind": "example",
-          "title": "Самостоятельный разбор",
+          "title": "Обслуживание локальной сети информационной системы",
           "kicker": "",
           "learning": {
             "id": "s05-lab-lan-case",
@@ -2819,7 +2819,7 @@
         {
           "id": "s05-lab-expansion-case",
           "kind": "example",
-          "title": "Самостоятельный разбор",
+          "title": "Разработка предложений о расширении информационной системы",
           "kicker": "",
           "learning": {
             "id": "s05-lab-expansion-case",
@@ -2966,7 +2966,7 @@
         {
           "id": "s05-lab-passport-case",
           "kind": "example",
-          "title": "Самостоятельный разбор",
+          "title": "Составление паспорта информационной системы",
           "kicker": "",
           "learning": {
             "id": "s05-lab-passport-case",
@@ -3159,7 +3159,7 @@
         {
           "id": "s06-reliability-foundations-case",
           "kind": "example",
-          "title": "Самостоятельный разбор",
+          "title": "Надёжность информационной системы. Основания расчёта",
           "kicker": "",
           "learning": {
             "id": "s06-reliability-foundations-case",
@@ -3348,7 +3348,7 @@
         {
           "id": "s06-single-metrics-case",
           "kind": "example",
-          "title": "Самостоятельный разбор",
+          "title": "Единичные показатели надёжности",
           "kicker": "",
           "learning": {
             "id": "s06-single-metrics-case",
@@ -3536,7 +3536,7 @@
         {
           "id": "s06-availability-case",
           "kind": "example",
-          "title": "Самостоятельный разбор",
+          "title": "Комплексные показатели надёжности",
           "kicker": "",
           "learning": {
             "id": "s06-availability-case",
@@ -3719,7 +3719,7 @@
         {
           "id": "s06-system-reliability-case",
           "kind": "example",
-          "title": "Самостоятельный разбор",
+          "title": "Надёжность системы из нескольких элементов. Резервирование",
           "kicker": "",
           "learning": {
             "id": "s06-system-reliability-case",
@@ -3912,7 +3912,7 @@
         {
           "id": "s06-information-integrity-case",
           "kind": "example",
-          "title": "Самостоятельный разбор",
+          "title": "Достоверность информации в системе",
           "kicker": "",
           "learning": {
             "id": "s06-information-integrity-case",
@@ -4099,7 +4099,7 @@
         {
           "id": "s06-performance-case",
           "kind": "example",
-          "title": "Самостоятельный разбор",
+          "title": "Производительность информационной системы",
           "kicker": "",
           "learning": {
             "id": "s06-performance-case",
@@ -4286,7 +4286,7 @@
         {
           "id": "s06-improvement-case",
           "kind": "example",
-          "title": "Самостоятельный разбор",
+          "title": "Повышение надёжности и обоснование выбора меры",
           "kicker": "",
           "learning": {
             "id": "s06-improvement-case",
@@ -4424,7 +4424,7 @@
         {
           "id": "s06-lab-single-case",
           "kind": "example",
-          "title": "Самостоятельный разбор",
+          "title": "Расчёт единичных показателей надёжности",
           "kicker": "",
           "learning": {
             "id": "s06-lab-single-case",
@@ -4562,7 +4562,7 @@
         {
           "id": "s06-lab-availability-case",
           "kind": "example",
-          "title": "Самостоятельный разбор",
+          "title": "Расчёт комплексных показателей надёжности",
           "kicker": "",
           "learning": {
             "id": "s06-lab-availability-case",
@@ -4700,7 +4700,7 @@
         {
           "id": "s06-lab-redundancy-case",
           "kind": "example",
-          "title": "Самостоятельный разбор",
+          "title": "Расчёт надёжности системы и эффекта резервирования",
           "kicker": "",
           "learning": {
             "id": "s06-lab-redundancy-case",
@@ -4838,7 +4838,7 @@
         {
           "id": "s06-lab-integrity-case",
           "kind": "example",
-          "title": "Самостоятельный разбор",
+          "title": "Определение показателей достоверности информации",
           "kicker": "",
           "learning": {
             "id": "s06-lab-integrity-case",
@@ -4983,7 +4983,7 @@
         {
           "id": "s06-lab-performance-case",
           "kind": "example",
-          "title": "Самостоятельный разбор",
+          "title": "Измерение производительности и выявление узкого места",
           "kicker": "",
           "learning": {
             "id": "s06-lab-performance-case",

@@ -20,6 +20,8 @@ import { useMobile } from './responsive'
 import { EditorLogin } from './EditorLogin'
 import { SlideView } from './SlideView'
 import { AssessmentProvider, AssessmentResults } from './Assessment'
+import {PresentationMenu,ThemePicker,resolveTheme} from './PresentationChrome'
+import type {ThemeMode} from './PresentationChrome'
 import './reference.css'
 import './template.css'
 import './assessment.css'
@@ -45,7 +47,10 @@ export function LectureSite({ course, base = '/' }: { course: Course; base?: str
   }, [])
   const prefix = `lecture:${base}:${course.id}`
   const [query, setQuery] = useState(() => new URLSearchParams(location.search))
-  const [theme, setTheme] = useState<'light' | 'dark'>(() => read(`${prefix}:theme`, 'light'))
+  const [themeMode,setThemeMode]=useState<ThemeMode>(()=>read(`${prefix}:theme-mode`,read(`${prefix}:theme`,'light')))
+  const [theme, setTheme] = useState<'light' | 'dark'>(() => resolveTheme(read(`${prefix}:theme-mode`,read(`${prefix}:theme`,'light'))))
+  const applyTheme=(mode:ThemeMode)=>{setThemeMode(mode);setTheme(resolveTheme(mode));save(`${prefix}:theme-mode`,mode)}
+  useEffect(()=>{const media=matchMedia('(prefers-color-scheme: dark)');const change=()=>{if(themeMode==='auto')setTheme(resolveTheme('auto'))};media.addEventListener('change',change);change();return()=>media.removeEventListener('change',change)},[themeMode])
   const [profile, setProfile] = useState<Profile>(() => read(`${prefix}:profile`, blankProfile))
   const [materials, setMaterials] = useState(() => read(`${prefix}:materials`, course.materialsUrl))
   const [modal, setModal] = useState('')
@@ -140,7 +145,7 @@ export function LectureSite({ course, base = '/' }: { course: Course; base?: str
     const key = (e: KeyboardEvent) => {
       const target = e.target as HTMLElement
         if (target.closest('.ufis-practice') || (target.closest('button') && (!target.closest('.deck-controls') || e.key === ' '))) return
-      if (modal || target.closest('input,textarea,select,a,[contenteditable="true"],.readable-diagram,.template-dialog')) return
+      if (modal || target.closest('input,textarea,select,a,[contenteditable="true"],.readable-diagram,.template-dialog,.lw-dialog,.pd-more')) return
       const next = ['ArrowRight', 'PageDown', ' '].includes(e.key)
       const previous = ['ArrowLeft', 'PageUp'].includes(e.key)
       if (next || previous || ['Home', 'End'].includes(e.key)) {
@@ -194,7 +199,7 @@ export function LectureSite({ course, base = '/' }: { course: Course; base?: str
   const themeButton = icon(
     theme === 'light' ? 'Включить тёмную тему' : 'Включить светлую тему',
     theme === 'light' ? <Moon size={19} /> : <Sun size={19} />,
-    () => setTheme(theme === 'light' ? 'dark' : 'light'),
+    () => applyTheme(theme === 'light' ? 'dark' : 'light'),
   )
   if (modal === 'editor' && editorLoggedIn)
     return (
@@ -220,7 +225,11 @@ export function LectureSite({ course, base = '/' }: { course: Course; base?: str
           mode={mode}
           session={query.get('session') || ''}
           initialSlide={slide!.id}
-          onExit={() => navigate({ lecture: lecture.id, slide: slide!.id })}
+          onExit={id => navigate({ lecture: lecture.id, slide: id||slide!.id })}
+          onCatalog={()=>navigate({})}
+          themeMode={themeMode}
+          onThemeChange={applyTheme}
+          onProfileChange={p=>{setProfile(p);save(`${prefix}:profile`,p)}}
         />
       </Suspense>
     )
@@ -257,23 +266,20 @@ export function LectureSite({ course, base = '/' }: { course: Course; base?: str
   return (
     <AssessmentProvider course={course} base={base}>
       {!lecture ? (
-        <CourseCatalog course={course} base={base} profile={profile} materials={materials} theme={theme} storagePrefix={prefix} onOpenLecture={open} onPrint={print} onProfileChange={p=>{setProfile(p);save(`${prefix}:profile`,p)}} onMaterialsChange={url=>{setMaterials(url);save(`${prefix}:materials`,url)}} onThemeChange={setTheme} invalidLecture={query.has('lecture')}/>
+        <CourseCatalog course={course} base={base} profile={profile} materials={materials} theme={theme} storagePrefix={prefix} onOpenLecture={open} onPrint={print} onProfileChange={p=>{setProfile(p);save(`${prefix}:profile`,p)}} onMaterialsChange={url=>{setMaterials(url);save(`${prefix}:materials`,url)}} onThemeChange={applyTheme} invalidLecture={query.has('lecture')}/>
       ) : (
         <main className={`deck-shell ${animations ? 'motion-on' : ''}`}>
-          <header className="deck-toolbar">
+          <header className="deck-toolbar pd-toolbar">
             <button className="button ghost" onClick={() => navigate({})}>
               <ArrowLeft size={18} />
               Каталог
             </button>
-            <div className="deck-topic">
-              <strong>{lecture.title}</strong>
-              <span>{lecture.semester} семестр</span>
-            </div>
-            <div className="toolbar-actions">
+            <div className="pd-brand"><small>{course.code} · {lecture.semester} семестр</small><strong>{lecture.title}</strong></div>
+            <div className="pd-tools">
               {icon('Открыть содержание',<List size={19}/>,()=>{setSearch('');setModal('toc')})}
               {icon('Указка',<MousePointer2 size={19}/>,()=>{setPointerEnabled(!pointerEnabled);setPointer(null)},pointerEnabled)}
               {icon('Полноэкранный режим',fullscreen?<Minimize size={19}/>:<Maximize size={19}/>,toggleFull)}
-              <button className="button ghost" onClick={()=>setModal('more')}>Ещё</button>
+              <PresentationMenu><ThemePicker value={themeMode} onChange={applyTheme}/><button className="button ghost" onClick={()=>setModal('settings')}>Преподаватель</button><button className="button ghost" onClick={()=>setModal('results')}>Самопроверка</button><button className="button ghost" onClick={()=>setModal('download')}>Скачать PDF</button></PresentationMenu>
               <button className="button primary presentation-start" aria-label="Начать занятие в двух окнах" onClick={startTeaching}><MonitorPlay size={18}/>Режим показа</button>
             </div>
           </header>
@@ -421,7 +427,7 @@ export function LectureSite({ course, base = '/' }: { course: Course; base?: str
                     }}
                   >
                     <b>{String(i + 1).padStart(2, '0')}</b>
-                    {s.title}
+                    {s.kind==='section'?`${s.kicker} · ${s.title}`:s.title}
                   </button>
                 </li>
               ))}

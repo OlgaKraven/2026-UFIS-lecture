@@ -1,0 +1,40 @@
+{
+  "long": [
+    {
+      "id": "s05-lan-question",
+      "overflow": 2,
+      "font": "46.6598px"
+    },
+    {
+      "id": "s05-lab-display-question",
+      "overflow": 0,
+      "font": "46.6598px"
+    },
+    {
+      "id": "s05-lab-cctv-question",
+      "overflow": 0,
+      "font": "46.6598px"
+    },
+    {
+      "id": "s06-reliability-foundations-question",
+      "overflow": 0,
+      "font": "46.6598px"
+    },
+    {
+      "id": "s06-single-metrics-question",
+      "overflow": 2,
+      "font": "46.6598px"
+    },
+    {
+      "id": "s06-information-integrity-question",
+      "overflow": 0,
+      "font": "46.6598px"
+    }
+  ],
+  "autoTheme": true,
+  "assessmentGroups": 1,
+  "nextTask": true,
+  "menuFocus": true,
+  "outlineSync": true,
+  "exitPreservesSlide": true
+}

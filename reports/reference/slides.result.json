@@ -1,0 +1,15 @@
+{
+  "checked": 237,
+  "issues": [
+    {
+      "id": "s05-lan-question",
+      "width": 978.078125,
+      "copyOverflow": 20,
+      "contentOverflow": 8,
+      "footerBottom": 657.1875,
+      "window": 720,
+      "bodyOverflow": 0
+    }
+  ],
+  "errors": []
+}

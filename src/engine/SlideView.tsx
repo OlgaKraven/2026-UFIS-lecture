@@ -6,6 +6,7 @@ import { DiagramControl,Infographic } from './Infographic'
 import type {DiagramView} from './Infographic'
 import { TaskView } from './Assessment'
 import {Practice} from '../practice'
+import {questionLabel} from './PresentationChrome'
 import {QuestionTitle} from '../question-title'
 import {LearningWorkbench} from '../learning-workbench'
 export function SlideView({
@@ -31,30 +32,30 @@ export function SlideView({
   const mode=new URLSearchParams(location.search).get('mode')
   const canControl=interactive&&mode!=='audience'&&mode!=='print'
   const hasDiagram=Boolean(slide.visual||slide.steps)
-  const source=(slide.source||'').split('Авторское объяснение')[0].trim()
   return (
     <article
       className={`slide-frame kind-${slide.kind} ${slide.visual || slide.image || slide.steps || slide.rows ? 'has-visual' : ''}`}
       data-slide-id={slide.id}
+      data-long-question={slide.kind==='section'&&slide.title.length>65?'true':undefined}
     >
-      <div className="ufis-circles" aria-hidden="true"/>
+      <div className="presentation-circles" aria-hidden="true"/>
       <img className="side-ornament" src={assetUrl(course.ornament, base)} alt="" />
       <header className="slide-header">
         <div className="slide-brand">
-          {slide.kind==='title'&&<img src={assetUrl(course.logo, base)} alt="Синергия" />}
+          {slide.kind==='title'&&<img className="presentation-wordmark" src={assetUrl(course.logo, base)} alt="Университет Синергия" />}
           <span>
             {course.code} · {lecture.semester}-й семестр
           </span>
         </div>
         <div className="slide-header-actions">
           {hasDiagram&&canControl&&<button className="diagram-header-button" onClick={()=>control.setView('diagram')}>Развернуть схему</button>}
-          {slide.kind!=='title'&&<><span className="slide-topic">Тема {String(course.lectures.indexOf(lecture)+1).padStart(2,'0')}</span><img className="slide-mark" src={assetUrl(course.mark||course.logo,base)} alt=""/></>}
+          {<><span className="presentation-topic">Тема {String(course.lectures.indexOf(lecture)+1).padStart(2,'0')}</span>{slide.kind!=='title'&&<img className="presentation-mark" src={assetUrl(course.mark||course.logo,base)} alt=""/>}</>}
         </div>
       </header>
       <div className="slide-content">
         <div className="slide-copy">
-          <p className="slide-kicker">{slide.kicker}</p>
-          {slide.kind==='section'?<QuestionTitle text={slide.title}/>:<h2>{slide.title}</h2>}
+          <p className="slide-kicker">{slide.kind==='title'?(lecture.title.match(/^Лабораторная работа № \d+/)?.[0]||'Лекция'):(slide.kicker||questionLabel(lecture,slide))}</p>
+          {slide.kind==='section'?<QuestionTitle text={slide.title}/>:<h2>{slide.kind==='title'?slide.title.replace(/^Лабораторная работа № \d+\. /,''):slide.title}</h2>}
           {(slide.kind === 'literature' || slide.kind === 'materials') && (
             <Resources course={course} slide={slide} base={base} />
           )}
@@ -158,21 +159,15 @@ export function SlideView({
             </div>
           )}
           {slide.kind === 'title' && (
-            <div className="title-profile">
-              <span className="teacher-label">Преподаватель</span>
+            <><p className="presentation-discipline">{course.discipline}</p><div className="title-profile">
+              <small>Преподаватель</small>
               <strong>{profile.fullName}</strong>
               <span>{profile.position}</span>
               <span>{profile.department}</span>
-            </div>
+            </div></>
           )}
         </div>
-        {slide.kind === 'section' && (
-          <img
-            className="topic-arrow"
-            src={assetUrl(course.topicArrow || 'brand/topic-arrow.webp', base)}
-            alt=""
-          />
-        )}
+        {slide.kind === 'section' && <div className="topic-arrow presentation-chevron" aria-hidden="true"/>}
         {slide.kind === 'title' && (
           <img
             className="title-mascot"
@@ -182,9 +177,8 @@ export function SlideView({
         )}
       </div>
       <footer className="slide-footer">
-        <span className="slide-source">{source}</span>
-        <span className="slide-discipline">{course.discipline}</span>
-        <span className="slide-number">{String(number).padStart(2,'0')}</span>
+        <span>{questionLabel(lecture,slide)}</span>
+        <span className="presentation-page">{String(number).padStart(2,'0')}</span>
       </footer>
     </article>
   )

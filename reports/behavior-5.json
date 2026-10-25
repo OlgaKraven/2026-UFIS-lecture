@@ -1,5 +1,9 @@
 {
   "count": 34,
+  "provenance": {
+    "initialRun": "Both scenarios and all assertions completed for the first 15 units; stopped at immediate focus assertion in s05-lab-expansion. Last two units rerun with focus readiness wait.",
+    "rerun": "reference/cases5-final.result.json"
+  },
   "results": [
     {
       "id": "s05-system-boundary",

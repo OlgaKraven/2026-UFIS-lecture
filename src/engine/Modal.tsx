@@ -22,7 +22,7 @@ export function Modal({
     return () => {
       dialog?.close()
       requestAnimationFrame(() => {
-        if (origin?.isConnected) origin.focus()
+        if (origin?.isConnected) {const details=origin.closest('details');if(details&&!details.open)(details.querySelector('summary') as HTMLElement|null)?.focus();else origin.focus()}
       })
     }
   }, [])

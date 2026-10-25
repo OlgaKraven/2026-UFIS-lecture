@@ -1,0 +1,22 @@
+{
+  "initialRunError": "Error: Focus not restored s05-lab-expansion-case",
+  "completedBeforeStop": [
+    "s05-system-boundary",
+    "s05-structure",
+    "s05-classification",
+    "s05-accounting-supply",
+    "s05-production-quality",
+    "s05-reference-library",
+    "s05-building-media",
+    "s05-integration",
+    "s05-lan",
+    "s05-documentation",
+    "s05-lab-system-map",
+    "s05-lab-compare",
+    "s05-lab-display",
+    "s05-lab-cctv",
+    "s05-lab-lan"
+  ],
+  "basis": "cases.js pushes each result only after two scenarios, correct/incorrect checks, solution visibility, reload, close, Escape and restored focus. Execution reached the following unit. Final two units were then run separately and passed.",
+  "rerun": "cases5-final.result.json"
+}
