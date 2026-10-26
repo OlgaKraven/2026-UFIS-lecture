@@ -15,12 +15,13 @@ export type Visual =
       lanes: { title: string; steps: { title: string; text: string }[] }[]
       caption: string
     }
-  | { type: 'process' | 'timeline'; items: { title: string; text: string }[]; caption: string }
+  | { type: 'process' | 'timeline'; items: { title: string; text: string; duration?: number }[]; caption: string }
   | { type: 'tree'; root: string; branches: { title: string; items: string[] }[]; caption: string }
   | {
       type: 'network'
-      nodes: { id: string; title: string; text: string }[]
-      edges: { from: string; to: string; label: string }[]
+      nodes: { id: string; title: string; text: string; x?: number; y?: number }[]
+      edges: { from: string; to: string; label: string; directed?: boolean }[]
+      boundary?: { title: string; x: number; y: number; width: number; height: number }
       caption: string
     }
   | {

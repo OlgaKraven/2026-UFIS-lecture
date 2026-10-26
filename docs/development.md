@@ -1,6 +1,6 @@
 # Работа с курсом
 
-Исходники содержания находятся в authoring/topics.py, reliability.py и labs.py. Генерация: `python scripts/generate.py`. Проверка и сборка: `npm ci`, `npm run build`. Локальный запуск: `npm run dev`.
+Исходники содержания находятся в authoring/topics.py, reliability.py, depth_*.py и review_*.py. Генерация: `python scripts/generate.py`. Проверка и сборка: `npm ci`, `npm run build`. Локальный запуск: `npm run dev`.
 
 Публичный каталог и README содержат темы по семестрам. Методические Markdown и карты соответствия хранятся отдельно в BrainM. Сайт читает подготовленные JSON; авторские ответы показываются отдельным действием. Хранение в JSON не является механизмом защиты экзаменационных секретов.
 

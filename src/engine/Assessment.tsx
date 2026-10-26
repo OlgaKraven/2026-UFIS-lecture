@@ -28,6 +28,7 @@ type Context = {
   reset: () => void
 }
 const AssessmentContext = createContext<Context | null>(null)
+const initialSeed=(t:Task)=>Array.from(t.id).reduce((hash,c)=>(Math.imul(hash,31)+c.charCodeAt(0))>>>0,2166136261)
 const fresh = (t: Task): Attempt => ({
   draft: t.type === 'matching' ? {} : t.type === 'short' ? '' : [],
   seed: crypto.getRandomValues(new Uint32Array(1))[0],
@@ -114,7 +115,7 @@ export function AssessmentProvider({
         },
         change: (t, a) => {
           setError('')
-          put(t.id, { ...(attempts[t.id] || {...fresh(t),seed:0}), draft: a })
+          put(t.id, { ...(attempts[t.id] || {...fresh(t),seed:initialSeed(t)}), draft: a })
         },
         submit,
         retry: (t) => {
@@ -142,8 +143,8 @@ export function AssessmentProvider({
 export function TaskView({ task: t }: { task: Task }) {
   const ctx = useContext(AssessmentContext)!
   const a = ctx.attempts[t.id]
-  const options = shuffle(t.options || [],a?.seed||0)
-  const items = shuffle(t.items||[],(a?.seed||0)^0x9e3779b9)
+  const options = shuffle(t.options || [],a?.seed??initialSeed(t))
+  const items = shuffle(t.items||[],(a?.seed??initialSeed(t))^0x9e3779b9)
   const done = Boolean(a?.result)
   const show = Boolean(a?.reveal)
   const disabled = done || ctx.readonly

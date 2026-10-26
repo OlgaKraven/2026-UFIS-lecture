@@ -1,0 +1,52 @@
+[
+  {
+    "id": "s05-system-boundary-literature",
+    "semester": 5,
+    "page": 2
+  },
+  {
+    "id": "s05-system-boundary-additional",
+    "semester": 5,
+    "page": 3
+  },
+  {
+    "id": "s05-system-boundary-purpose-matching",
+    "semester": 5,
+    "page": 18
+  },
+  {
+    "id": "s05-system-boundary-responsibility-scheme",
+    "semester": 5,
+    "page": 56
+  },
+  {
+    "id": "s05-system-boundary-boundary-scheme",
+    "semester": 5,
+    "page": 67
+  },
+  {
+    "id": "s05-classification-comparison-scheme",
+    "semester": 5,
+    "page": 199
+  },
+  {
+    "id": "s06-reliability-foundations-restoration-scheme",
+    "semester": 6,
+    "page": 41
+  },
+  {
+    "id": "s06-system-reliability-parallel-scheme",
+    "semester": 6,
+    "page": 254
+  },
+  {
+    "id": "s06-system-reliability-mixed-scheme",
+    "semester": 6,
+    "page": 266
+  },
+  {
+    "id": "s06-performance-latency-case",
+    "semester": 6,
+    "page": 389
+  }
+]

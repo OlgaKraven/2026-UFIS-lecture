@@ -4,7 +4,7 @@ import sys,json,hashlib,math,re
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'authoring'))
 from topics import TOPICS
-import reliability,labs
+import reliability
 
 def load(name):return json.loads((ROOT/name).read_text(encoding='utf-8'))
 def put(name,data):
@@ -14,6 +14,7 @@ def book(citation,url):return dict(citation=citation,url=url)
 ARCH=book('Алексахин А. Н., Вершинина Н. М., Джебилов А. В. и др. Архитектура вычислительных систем и компьютерных сетей / под ред. А. М. Нечаева, Н. М. Вершининой, Е. В. Устинова. Москва: Университет «Синергия», 2025. 436 с. ISBN 978-5-4257-0681-2.','https://www.iprbookshop.ru/books/156708/details')
 SYSTEMS=book('Цехановский В. В., Водяхо А. И. Проектирование информационных систем: архитектуры и платформы. Москва: Ай Пи Ар Медиа, 2023. 240 с. ISBN 978-5-4497-1786-3.','https://www.iprbookshop.ru/books/123568/details')
 QUALITY=book('Юсупова С. М. Управление качеством. Москва: Ай Пи Ар Медиа, 2026. 301 с. ISBN 978-5-4497-5034-1.','https://www.iprbookshop.ru/books/156513/details')
+GREKUL=book('Грекул В. И., Денищенко Г. Н., Коровкина Н. Л. Проектирование информационных систем. 4-е изд. Москва: ИНТУИТ, Ай Пи Ар Медиа, 2024. 299 с. ISBN 978-5-4497-3335-1.','https://www.iprbookshop.ru/books/142298/details')
 NIST=book('NIST/SEMATECH e-Handbook of Statistical Methods. Assessing Product Reliability: модели времени до отказа и надёжности систем.','https://www.itl.nist.gov/div898/handbook/apr/section1/apr1.htm')
 SOURCES={
  'architecture':(ARCH,book('Microsoft Learn. Test-NetConnection: проверка TCP и маршрута.','https://learn.microsoft.com/en-us/powershell/module/nettcpip/test-netconnection')),
@@ -47,6 +48,7 @@ SOURCE_TOPICS=[
 'Повышение надёжности: резервирование, отказоустойчивость, регламентное обслуживание. Обоснование выбора меры по результатам расчёта']
 
 course=dict(schemaVersion=1,contentVersion='1.0.0',id='ufis',code='МДК.06.03',discipline='Устройство и функционирование информационной системы',heroTitle='Устройство и функционирование',heroAccent='информационной системы',slogan='МДК.06.03',mascot='brand/rhino-ufis.png',mascotAlt='Носорог проверяет соединение коммутатора и серверного оборудования',logo='brand/synergy-wordmark.jpg',mark='brand/synergy-mark.png',ornament='brand/side-ornament.png',font='fonts/raleway-cyrillic.woff2',materialsUrl='https://disk.yandex.ru/d/2vxjVFzQ5k5NdQ',topicArrow='brand/topic-arrow.webp',demo=False,semesters=[5,6],lectures=[],literature=dict(primary=[ARCH,SYSTEMS],additional=[QUALITY,NIST]))
+course['literature']=dict(primary=[ARCH,SYSTEMS],additional=[QUALITY,GREKUL])
 notes={};keys={};models={};explanations={};coverage=[];source_index=0
 course['assessment']=dict(mode='autonomous',url='assessment.json')
 for n,t in enumerate(TOPICS):
@@ -66,9 +68,9 @@ for n,t in enumerate(TOPICS):
         notes[sid]=dict(script=script,preparation='Учебные данные этой темы; используйте только разрешённый стенд.' if lab else 'Прочитайте исходные данные примера и проверьте принятые ограничения.',notebook=notebook,questions=t['question'] if kind=='section' else '',answer=answer,estimatedSeconds=estimated)
         return s
     add('title','title',t['title'],t['intro'])
-    refs=SOURCES[t['reading']]
-    add('literature','literature','Основная литература','Этот источник нужен для понятий и устройства систем. Сначала используйте объяснение и учебные примеры темы; доступ к полному тексту книги может требовать учётную запись библиотеки.',readingGroup='primary',references=[refs[0]])
-    add('additional','literature','Дополнительные источники','В дополнительном источнике проверяйте детали соответствующего механизма. Документация конкретного оборудования имеет приоритет для его настройки; не переносите параметры другого устройства без проверки.',readingGroup='additional',references=[refs[1]])
+    refs=(ARCH,SYSTEMS,QUALITY,GREKUL)
+    add('literature','literature','Основная литература','Первая книга помогает разобраться в составе вычислительной инфраструктуры, вторая — в архитектуре информационной системы и связях её частей. Сопоставляйте определения с примерами темы; доступ к полным текстам предоставляется библиотекой.',readingGroup='primary',references=[refs[0],refs[1]])
+    add('additional','literature','Дополнительная литература','Дополнительные книги раскрывают проверку качества и проектные решения ИС. Технические документы производителей используются для уточнения конкретных устройств и отдельно перечислены в источниках курса.',readingGroup='additional',references=[refs[2],refs[3]])
     add('materials','materials','Материалы','Ссылка открывает папку дисциплины. Условия всех заданий этой темы приведены на слайдах, поэтому выполнение не зависит от наличия файлов во внешней папке.',**(dict(resourceUrl='labs/passport.html',resourceLabel='Паспорт системы — шаблон') if t['slug']=='lab-passport' else {}))
     add('question','section',t['question'],t['intro']+' '+('Сначала изучите условия и выполните работу самостоятельно, затем сверяйте разбор.' if lab else 'Проследим объяснение и проверим вывод на изменённых условиях.'))
     for i,c in enumerate(t['contents']):
@@ -130,7 +132,7 @@ for n,t in enumerate(TOPICS):
 course['lectures'].sort(key=lambda l:(l['semester'],'-lab-' in l['id']))
 from expansion import expand
 expand(course,notes,keys,models,coverage)
-course['curriculum']=[dict(topic=c['sourceTitle'],outcome=c['outcome'],source='Программа тем и лабораторных работ, предоставленная пользователем.',slideIds=c['slideIds'],taskIds=c['taskIds']) for c in coverage]
+course['curriculum']=[dict(topic=c['sourceTitle'],outcome=c['outcome'],source='Программа учебных тем, предоставленная пользователем.',slideIds=c['slideIds'],taskIds=c['taskIds']) for c in coverage]
 put(Path('public/course.json'),course)
 put(Path('public/teacher-pack.json'),dict(schemaVersion=1,courseId=course['id'],contentVersion=course['contentVersion'],notes=notes))
 put(Path('public/assessment.json'),dict(courseId=course['id'],contentVersion=course['contentVersion'],keys=keys))

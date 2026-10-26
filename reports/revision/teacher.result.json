@@ -1,0 +1,107 @@
+{
+  "results": [
+    {
+      "id": "s05-system-boundary",
+      "checked": 86,
+      "notes": true,
+      "audience": true
+    },
+    {
+      "id": "s05-structure",
+      "checked": 71,
+      "notes": true,
+      "audience": true
+    },
+    {
+      "id": "s05-classification",
+      "checked": 61,
+      "notes": true,
+      "audience": true
+    },
+    {
+      "id": "s05-accounting-supply",
+      "checked": 72,
+      "notes": true,
+      "audience": true
+    },
+    {
+      "id": "s05-production-quality",
+      "checked": 72,
+      "notes": true,
+      "audience": true
+    },
+    {
+      "id": "s05-reference-library",
+      "checked": 61,
+      "notes": true,
+      "audience": true
+    },
+    {
+      "id": "s05-building-media",
+      "checked": 72,
+      "notes": true,
+      "audience": true
+    },
+    {
+      "id": "s05-integration",
+      "checked": 78,
+      "notes": true,
+      "audience": true
+    },
+    {
+      "id": "s05-lan",
+      "checked": 79,
+      "notes": true,
+      "audience": true
+    },
+    {
+      "id": "s05-documentation",
+      "checked": 71,
+      "notes": true,
+      "audience": true
+    },
+    {
+      "id": "s06-reliability-foundations",
+      "checked": 72,
+      "notes": true,
+      "audience": true
+    },
+    {
+      "id": "s06-single-metrics",
+      "checked": 81,
+      "notes": true,
+      "audience": true
+    },
+    {
+      "id": "s06-availability",
+      "checked": 71,
+      "notes": true,
+      "audience": true
+    },
+    {
+      "id": "s06-system-reliability",
+      "checked": 71,
+      "notes": true,
+      "audience": true
+    },
+    {
+      "id": "s06-information-integrity",
+      "checked": 72,
+      "notes": true,
+      "audience": true
+    },
+    {
+      "id": "s06-performance",
+      "checked": 81,
+      "notes": true,
+      "audience": true
+    },
+    {
+      "id": "s06-improvement",
+      "checked": 71,
+      "notes": true,
+      "audience": true
+    }
+  ],
+  "issues": []
+}

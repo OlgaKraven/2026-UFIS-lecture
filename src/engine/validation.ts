@@ -317,8 +317,8 @@ export function validateStructure(value: unknown): asserts value is Course {
         choice(t.type, q + '.task.type', ['single', 'multiple', 'short', 'matching'])
         if (t.type !== 'short') {
           const opts = options(t.options, q + '.task.options')
-          if (opts.length < 3 || opts.length > 8)
-            fail(q + '.task.options', 'нужно от 3 до 8 содержательных вариантов')
+          if (opts.length !== 4)
+            fail(q + '.task.options', 'нужно ровно 4 содержательных варианта')
         }
         if (t.type === 'multiple') {
           num(t.choose, q + '.task.choose', 2)

@@ -3,16 +3,16 @@ import {createPortal} from 'react-dom';
 import './learning-workbench.css';
 
 export type Frame={label:string;line?:number;variables:Record<string,string>;console?:string[];condition?:string;branch?:'yes'|'no';objects?:{id:string;fields:Record<string,string>}[];links?:{name:string;target:string}[];tiles?:number[]};
-export type Scenario={id:string;title:string;given:string;frames:Frame[];review:string;accepted:string[];hint:string;code?:string};
-export type LearningModel={id:string;title:string;mode:'flow'|'code'|'objects'|'table'|'tiles';code?:string;condition?:string;yes?:string;no?:string;task:string;output:string;scenarios:Scenario[]};
+export type Scenario={id:string;title:string;given:string;baseline?:string;frames:Frame[];review:string;accepted:string[];hint:string;code?:string;discussion?:boolean;precision?:number};
+export type LearningModel={id:string;lectureId?:string;slideId?:string;title:string;mode:'flow'|'code'|'objects'|'table'|'tiles';code?:string;condition?:string;yes?:string;no?:string;task:string;output:string;scenarios:Scenario[]};
 type Snapshot={scenario:string;step:number;playing:boolean;expanded:boolean;input:string;checked:boolean;reveal:boolean;menu:boolean;comparisons:{title:string;result:string}[];sequence:number};
 let models:Record<string,LearningModel>={};
 export function setLearningModels(value:Record<string,LearningModel>){models=value}
 const initial=(model:LearningModel):Snapshot=>({scenario:model.scenarios[0].id,step:0,playing:false,expanded:false,input:'',checked:false,reveal:false,menu:false,comparisons:[],sequence:0});
-const normalize=(value:string)=>value.trim().toLocaleLowerCase('ru').replace(/\s+/g,' ').replace(',','.');
-const matches=(answer:string,expected:string)=>{
+const normalize=(value:string)=>value.trim().toLocaleLowerCase('ru').replace(/\s+/g,' ').replace(',','.').replace('−','-');
+const matches=(answer:string,expected:string,precision=0)=>{
  const a=normalize(answer),e=normalize(expected);
- return a===e||(a!==''&&e!==''&&Number.isFinite(Number(a))&&Number.isFinite(Number(e))&&Number(a)===Number(e));
+ return a===e||(a!==''&&e!==''&&Number.isFinite(Number(a))&&Number.isFinite(Number(e))&&Math.abs(Number(a)-Number(e))<=(precision?Math.pow(10,-precision)/2:0));
 };
 
 function Flow({model,frame}:{model:LearningModel;frame:Frame}){
@@ -104,18 +104,19 @@ function LearningWorkbenchContent({model,passport,interactive}:{model:LearningMo
  </div>;
  const menu=state.menu&&<ul className="lw-options" role="listbox" aria-label="Сценарии">{model.scenarios.map(s=><li key={s.id} role="option" aria-selected={s.id===scenario.id}><button type="button" disabled={readonly} onClick={()=>selectScenario(s.id)}>{s.title}</button></li>)}</ul>;
  const lesson=<div className="lw-work" onKeyDown={e=>e.stopPropagation()}>
-  <p className="lw-given">{scenario.given}</p>{controls}{menu}<p className="lw-step" role="status">Шаг {state.step} из {max}. {frame.label}</p>
+  {scenario.baseline&&<p className="lw-given"><strong>Исходный случай для сравнения.</strong> {scenario.baseline}</p>}<p className="lw-given">{scenario.given}</p>{controls}{menu}<p className="lw-step" role="status">Шаг {state.step} из {max}. {frame.label}</p>
   <Scene model={model} scenario={scenario} step={state.step}/>
   <section className="lw-task"><h3>Самостоятельное решение</h3><p>{model.task}</p><p>{model.output}</p>
+   {!!scenario.precision&&<p>Числовой результат округлите до {scenario.precision} знаков после запятой.</p>}
    <label>Ваш результат<input value={state.input} readOnly={readonly} tabIndex={readonly?-1:undefined} onChange={e=>update({input:e.target.value,checked:false,reveal:false})}/></label>
-   {!readonly&&<div className="lw-actions"><button type="button" onClick={()=>update({checked:true})}>Проверить</button><button type="button" onClick={()=>update({reveal:!state.reveal,playing:false})}>{state.reveal?'Скрыть разбор':'Показать разбор'}</button><button type="button" disabled={state.step!==max} onClick={()=>update({comparisons:[...state.comparisons.slice(-2),{title:scenario.title,result:Object.entries(frame.variables).map(([k,v])=>`${k}: ${v}`).join('; ')}]})}>Сохранить результат для сравнения</button></div>}
-   {state.checked&&<p className="lw-feedback" role="status">{!state.input.trim()?'Сначала запишите результат.':scenario.accepted.some(value=>matches(state.input,value))?'Верно. Обоснуйте ответ наблюдаемым состоянием.':scenario.hint}</p>}
+   {!readonly&&<div className="lw-actions">{!scenario.discussion&&<button type="button" onClick={()=>update({checked:true})}>Проверить</button>}<button type="button" onClick={()=>update({reveal:!state.reveal,playing:false})}>{state.reveal?'Скрыть разбор':'Показать разбор'}</button><button type="button" disabled={state.step!==max} onClick={()=>update({comparisons:[...state.comparisons.slice(-2),{title:scenario.title,result:Object.entries(frame.variables).map(([k,v])=>`${k}: ${v}`).join('; ')}]})}>Сохранить результат для сравнения</button></div>}
+   {state.checked&&<p className="lw-feedback" role="status">{!state.input.trim()?'Сначала запишите результат.':scenario.accepted.some(value=>matches(state.input,value,scenario.precision))?'Верно. Обоснуйте ответ наблюдаемым состоянием.':scenario.hint}</p>}
    {state.reveal&&<div className="lw-review"><h4>Разбор решения</h4><p>{scenario.review}</p></div>}
   </section>
   {!!state.comparisons.length&&<table className="lw-comparisons"><caption>Сравнение запусков</caption><thead><tr><th>Сценарий</th><th>Наблюдение</th></tr></thead><tbody>{state.comparisons.map((run,i)=><tr key={i}><th scope="row">{run.title}</th><td>{run.result}</td></tr>)}</tbody></table>}
  </div>;
  const passportContent=<><div className="ufis-passport-grid"><section><span>Задача</span><p>{model.task}</p></section><section><span>Что проверить</span><p>{model.output}</p><p>Сравните два набора условий и объясните, какое изменение повлияло на результат.</p></section></div><div className="ufis-case-givens">{model.scenarios.map(s=><p key={s.id}><strong>{s.title}.</strong> {s.given}</p>)}</div></>;
- if(print)return <div className="lw-print">{passport?<>{passportContent}<a href={'https://olgakraven.github.io/2026-UFIS-lecture/?lecture='+model.id.replace(/-case$/,'')+'&slide='+model.id}>Разбор задачи</a></>:<><p>{model.task}</p><Scene model={model} scenario={scenario} step={max} print/><table><caption>Варианты условий</caption><thead><tr><th>Сценарий</th><th>Исходные данные</th><th>Результат</th></tr></thead><tbody>{model.scenarios.map(s=><tr key={s.id}><th>{s.title}</th><td>{s.given}</td><td>{Object.entries(s.frames.at(-1)!.variables).map(([k,v])=>`${k}=${v}`).join('; ')}</td></tr>)}</tbody></table></>}</div>;
+ if(print)return <div className="lw-print">{passport?<>{passportContent}<a href={'https://olgakraven.github.io/2026-UFIS-lecture/?lecture='+(model.lectureId||model.id.replace(/-case$/,''))+'&slide='+(model.slideId||model.id)}>Разбор задачи</a></>:<><p>{model.task}</p><Scene model={model} scenario={scenario} step={max} print/><table><caption>Варианты условий</caption><thead><tr><th>Сценарий</th><th>Исходные данные</th><th>Результат</th></tr></thead><tbody>{model.scenarios.map(s=><tr key={s.id}><th>{s.title}</th><td>{s.given}</td><td>{Object.entries(s.frames.at(-1)!.variables).map(([k,v])=>`${k}=${v}`).join('; ')}</td></tr>)}</tbody></table></>}</div>;
  return <div ref={root} className={`learning-workbench ${passport?'lw-passport':''}`}>
   {passport?<>{passportContent}{!readonly&&<button className="lw-open" type="button" onClick={()=>update({expanded:true,playing:false})}>Разбор задачи</button>}</>:<><Scene model={model} scenario={scenario} step={state.step}/><p className="lw-step">{frame.label}</p>{controls}{menu}</>}
   {headerHost&&createPortal(<button className="diagram-header-button" type="button" onClick={()=>update({expanded:true,playing:false})}>Развернуть схему</button>,headerHost)}

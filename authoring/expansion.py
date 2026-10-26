@@ -1,4 +1,6 @@
 from depth import DEPTH
+from review_blocks import BLOCKS
+import hashlib
 
 def expand(course,notes,keys,models,coverage):
     for lecture in course['lectures']:
@@ -29,16 +31,43 @@ def expand(course,notes,keys,models,coverage):
                 add(key,item.get('kind','theory'),item['title'],body=item['body'],speech=item['body'] if item.get('visual') else item['body']+' '+item['speech'],notebook=item.get('notebook',''),answer=item.get('answer',''))
                 if item.get('visual'):
                     add(key+'-view','example',item['title']+' — разбор',speech=item['speech'],visual=item['visual'])
-            check=q['check'];tid=lid+'-task-'+q['key']+'-check'
-            multiple=isinstance(check['correct'],list)
-            correct=check['correct'] if multiple else [check['correct']]
-            options=[dict(id=f'option-{i+1}',text=v) for i,v in enumerate(check['options'])]
-            task=dict(id=tid,type='multiple' if multiple else 'single',prompt=check['prompt'],options=options)
-            if multiple:task['choose']=len(correct)
-            keys[tid]=dict(type=task['type'],correct=[f'option-{i+1}' for i in correct],explanation=check['explanation'])
-            add(q['key']+'-check','test','Проверьте понимание',speech='Прочитайте условия задачи на экране. '+('Выберите '+str(len(correct))+' ответа.' if multiple else 'Выберите один ответ.')+' Сначала сформулируйте основание выбора; после проверки разберём, какое условие исключает остальные варианты.',answer='; '.join(check['options'][i] for i in correct)+'. '+check['explanation'],task=task)
-        # Keep stable links to the existing applied case and its two independent tasks.
-        slides.extend(old[k] for k in ['case','test','transfer'])
+            block=BLOCKS[(lid[4:],q['key'])]
+            add(q['key']+'-scheme','example',q['title']+' — связи и условия',speech=q['takeaway']+' '+block['visual']['caption']+' '+ ' '.join(a+': '+b+'.' for a,b in block['pairs']),visual=block['visual'])
+            mid=lid+'-'+q['key']+'-case';scenarios=[]
+            for v in block['variants']:
+                given=v['given']+' Задача: '+v['rule']
+                numeric=bool(__import__('re').fullmatch(r'[−\-]?\d+(?:[,.]\d+)?',v['result']))
+                frames=[dict(label='Исходные данные',variables={'Условие':v['given']}),dict(label='Правило решения',variables={'Условие':v['given'],'Правило':v['rule']}),dict(label='Применение правила',variables={'Правило':v['rule'],'Обоснование':v['review']}),dict(label='Вывод и границы',variables={'Результат':v['result'],'Обоснование':v['review']})]
+                digits=len(v['result'].replace('.',',').split(',')[1]) if ',' in v['result'] or '.' in v['result'] else 0
+                scenarios.append(dict(id=v['id'],title=v['title'],given=given,baseline=block['variants'][0]['given'] if v['id']=='changed' else '',frames=frames,review=v['review']+' Итог: '+v['result']+'.',accepted=[v['result']],discussion=not numeric,precision=digits,hint='Повторите расчёт по приведённому правилу; проверьте единицы и состав исходных данных.'))
+            models[mid]=dict(id=mid,lectureId=lid,slideId=mid,title='Кейс: '+q['title'],mode='table',task='Примените правило к данным выбранного случая. Сначала запишите решение и основание, затем сверяйте разбор.',output='Для расчёта укажите искомое число в единицах условия. Для качественного случая сформулируйте вывод и подтвердите его наблюдениями.',scenarios=scenarios)
+            case_answer='\n\n'.join(v['title']+'. '+v['given']+'\nПравило: '+v['rule']+'\nРезультат: '+v['result']+'. '+v['review'] for v in block['variants'])
+            add(q['key']+'-case','example','Кейс для разбора',speech='Прочитайте оба набора условий на экране. '+q['takeaway']+' Откройте разбор после собственной попытки. Во втором случае назовите изменившееся условие и заново примените правило; не переносите прежний вывод автоматически.',answer=case_answer,learning=dict(id=mid,passport=True))
+            check=q['check'];indices=check['correct'] if isinstance(check['correct'],list) else [check['correct']]
+            correct='; '.join(check['options'][i] for i in indices)
+            prompt=check['prompt'] if len(indices)==1 else check['prompt']+' Выберите один вариант, содержащий полный правильный набор.'
+            def task_slide(kind,title,prompt,**fields):
+                tid=lid+'-review-'+q['key']+'-'+kind
+                task=dict(id=tid,type=kind,prompt=prompt,**fields)
+                return tid,task
+            option_values=[correct,*block['wrong']]
+            rotation=int(hashlib.sha256((lid+q['key']).encode()).hexdigest()[:4],16)%4
+            option_values=option_values[rotation:]+option_values[:rotation]
+            options=[dict(id='option-'+str(i+1),text=value) for i,value in enumerate(option_values)]
+            tid,task=task_slide('single','Один правильный ответ',prompt,options=options)
+            keys[tid]=dict(type='single',correct=[options[option_values.index(correct)]['id']],explanation=check['explanation'])
+            add(q['key']+'-check','test','Один правильный ответ',speech='Решите новое условие на экране. Выберите один из четырёх вариантов и укажите правило, исключающее остальные.',answer=correct+'. '+check['explanation'],task=task)
+            tid,task=task_slide('multiple','Несколько правильных ответов','Выберите два верных утверждения по теме «'+q['title']+'».',choose=2,options=[dict(id='option-'+str(i+1),text=value) for i,value in enumerate(block['multi'])])
+            explanation='Верны утверждения: '+block['multi'][0]+' '+block['multi'][1]+' В двух других подменены роли. Правильные связи: '+block['pairs'][2][0]+' — '+block['pairs'][2][1]+'; '+block['pairs'][3][0]+' — '+block['pairs'][3][1]+'.'
+            keys[tid]=dict(type='multiple',correct=['option-1','option-2'],explanation=explanation)
+            add(q['key']+'-multiple','test','Несколько правильных ответов',speech='Оцените каждое из четырёх утверждений независимо. Выберите два верных. Объясните, почему похожие термины не позволяют подменить роли.',answer=explanation.replace('первые два','два'),task=task)
+            prompt,answer,why=block['short'];tid,task=task_slide('short','Краткий ответ',prompt)
+            keys[tid]=dict(type='short',accepted=list(dict.fromkeys([answer,answer.replace(',','.'),answer.replace('−','-')])),explanation=why)
+            add(q['key']+'-short','test','Краткий ответ',speech='Ответьте без вариантов выбора. Все исходные данные и формат ответа указаны на экране. Перед отправкой проверьте единицу либо точное название термина.',answer=answer+'. '+why,task=task)
+            tid,task=task_slide('matching','Сопоставление','Сопоставьте четыре понятия с их значениями. Каждое значение используется один раз.',items=[dict(id='item-'+str(i+1),text=a) for i,(a,b) in enumerate(block['pairs'])],options=[dict(id='option-'+str(i+1),text=b) for i,(a,b) in enumerate(block['pairs'])])
+            why='\n'.join(a+' → '+b for a,b in block['pairs'])
+            keys[tid]=dict(type='matching',pairs={'item-'+str(i+1):'option-'+str(i+1) for i in range(4)},explanation='Различайте предметные роли:\n'+why)
+            add(q['key']+'-matching','test','Сопоставление',speech='Для каждого понятия выберите одно значение. Сначала определите смысл каждой роли, затем проверьте все четыре пары. Сходство слов не заменяет смысловое соответствие.',answer=why,task=task)
         takeaways=[q['takeaway'] for q in plan['sections']]
         for start in range(0,len(takeaways),4):
             add('summary' if start==0 else 'summary-'+str(start//4+1),'summary','Итоги лекции' if start==0 else 'Итоги: применение и ограничения',speech=' '.join(takeaways[start:start+4]),bullets=takeaways[start:start+4])
@@ -54,3 +83,9 @@ def expand(course,notes,keys,models,coverage):
                 c['slideIds']=[s['id'] for s in slides]
                 c['taskIds']=[s['task']['id'] for s in slides if 'task' in s]
                 c['questions']=[dict(title=q['title'],outcome=q['takeaway']) for q in plan['sections']]
+                c['caseIds']=[s['learning']['id'] for s in slides if s.get('learning')]
+    slide_ids={s['id'] for l in course['lectures'] for s in l['slides']}
+    task_ids={s['task']['id'] for l in course['lectures'] for s in l['slides'] if s.get('task')}
+    model_ids={s['learning']['id'] for l in course['lectures'] for s in l['slides'] if s.get('learning')}
+    for values,keep in [(notes,slide_ids),(keys,task_ids),(models,model_ids)]:
+        for key in set(values)-keep:del values[key]

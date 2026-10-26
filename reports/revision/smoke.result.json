@@ -1,0 +1,86 @@
+[
+  {
+    "id": "s05-system-boundary-responsibility-scheme",
+    "type": "conceptMap",
+    "copy": {
+      "height": 462,
+      "scroll": 462
+    },
+    "svg": {
+      "x": 137.890625,
+      "y": 334.171875,
+      "width": 1003.875,
+      "height": 299.921875
+    }
+  },
+  {
+    "id": "s05-system-boundary-purpose-scheme",
+    "type": "process",
+    "copy": {
+      "height": 462,
+      "scroll": 462
+    },
+    "svg": {
+      "x": 137.890625,
+      "y": 334.171875,
+      "width": 1003.875,
+      "height": 259.25
+    }
+  },
+  {
+    "id": "s05-system-boundary-technical-scheme",
+    "type": "network",
+    "copy": {
+      "height": 462,
+      "scroll": 462
+    },
+    "svg": {
+      "x": 137.890625,
+      "y": 334.171875,
+      "width": 1003.875,
+      "height": 299.921875
+    }
+  },
+  {
+    "id": "s05-classification-comparison-scheme",
+    "type": "bars",
+    "copy": {
+      "height": 462,
+      "scroll": 462
+    },
+    "svg": {
+      "x": 137.890625,
+      "y": 334.171875,
+      "width": 1003.875,
+      "height": 299.921875
+    }
+  },
+  {
+    "id": "s06-reliability-foundations-events-scheme",
+    "type": "timeline",
+    "copy": {
+      "height": 462,
+      "scroll": 462
+    },
+    "svg": {
+      "x": 137.890625,
+      "y": 334.171875,
+      "width": 1003.875,
+      "height": 259.25
+    }
+  },
+  {
+    "id": "s05-system-boundary-boundary-scheme",
+    "type": "decision",
+    "copy": {
+      "height": 462,
+      "scroll": 462
+    },
+    "svg": {
+      "x": 137.890625,
+      "y": 334.171875,
+      "width": 1003.875,
+      "height": 299.921875
+    }
+  }
+]

@@ -1,0 +1,3374 @@
+{
+  "count": 420,
+  "results": [
+    {
+      "id": "s05-system-boundary-review-purpose-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-system-boundary-review-purpose-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-system-boundary-review-purpose-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-system-boundary-review-purpose-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-system-boundary-review-technical-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-system-boundary-review-technical-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-system-boundary-review-technical-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-system-boundary-review-technical-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-system-boundary-review-software-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-system-boundary-review-software-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-system-boundary-review-software-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-system-boundary-review-software-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-system-boundary-review-information-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-system-boundary-review-information-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-system-boundary-review-information-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-system-boundary-review-information-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-system-boundary-review-responsibility-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-system-boundary-review-responsibility-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-system-boundary-review-responsibility-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-system-boundary-review-responsibility-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-system-boundary-review-boundary-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-system-boundary-review-boundary-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-system-boundary-review-boundary-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-system-boundary-review-boundary-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-system-boundary-review-operation-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-system-boundary-review-operation-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-system-boundary-review-operation-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-system-boundary-review-operation-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-structure-review-workplace-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-structure-review-workplace-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-structure-review-workplace-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-structure-review-workplace-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-structure-review-servers-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-structure-review-servers-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-structure-review-servers-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-structure-review-servers-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-structure-review-data-path-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-structure-review-data-path-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-structure-review-data-path-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-structure-review-data-path-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-structure-review-storage-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-structure-review-storage-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-structure-review-storage-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-structure-review-storage-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-structure-review-peripherals-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-structure-review-peripherals-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-structure-review-peripherals-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-structure-review-peripherals-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-structure-review-power-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-structure-review-power-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-structure-review-power-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-structure-review-power-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-classification-review-purpose-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-classification-review-purpose-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-classification-review-purpose-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-classification-review-purpose-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-classification-review-scale-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-classification-review-scale-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-classification-review-scale-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-classification-review-scale-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-classification-review-placement-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-classification-review-placement-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-classification-review-placement-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-classification-review-placement-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-classification-review-comparison-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-classification-review-comparison-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-classification-review-comparison-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-classification-review-comparison-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-classification-review-selection-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-classification-review-selection-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-classification-review-selection-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-classification-review-selection-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-accounting-supply-review-objects-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-accounting-supply-review-objects-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-accounting-supply-review-objects-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-accounting-supply-review-objects-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-accounting-supply-review-documents-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-accounting-supply-review-documents-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-accounting-supply-review-documents-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-accounting-supply-review-documents-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-accounting-supply-review-stock-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-accounting-supply-review-stock-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-accounting-supply-review-stock-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-accounting-supply-review-stock-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-accounting-supply-review-planning-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-accounting-supply-review-planning-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-accounting-supply-review-planning-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-accounting-supply-review-planning-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-accounting-supply-review-integration-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-accounting-supply-review-integration-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-accounting-supply-review-integration-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-accounting-supply-review-integration-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-accounting-supply-review-exploitation-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-accounting-supply-review-exploitation-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-accounting-supply-review-exploitation-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-accounting-supply-review-exploitation-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-production-quality-review-levels-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-production-quality-review-levels-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-production-quality-review-levels-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-production-quality-review-levels-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-production-quality-review-routing-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-production-quality-review-routing-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-production-quality-review-routing-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-production-quality-review-routing-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-production-quality-review-trace-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-production-quality-review-trace-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-production-quality-review-trace-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-production-quality-review-trace-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-production-quality-review-measurement-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-production-quality-review-measurement-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-production-quality-review-measurement-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-production-quality-review-measurement-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-production-quality-review-nonconformity-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-production-quality-review-nonconformity-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-production-quality-review-nonconformity-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-production-quality-review-nonconformity-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-production-quality-review-service-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-production-quality-review-service-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-production-quality-review-service-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-production-quality-review-service-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-reference-library-review-records-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-reference-library-review-records-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-reference-library-review-records-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-reference-library-review-records-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-reference-library-review-search-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-reference-library-review-search-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-reference-library-review-search-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-reference-library-review-search-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-reference-library-review-circulation-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-reference-library-review-circulation-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-reference-library-review-circulation-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-reference-library-review-circulation-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-reference-library-review-access-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-reference-library-review-access-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-reference-library-review-access-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-reference-library-review-access-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-reference-library-review-maintenance-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-reference-library-review-maintenance-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-reference-library-review-maintenance-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-reference-library-review-maintenance-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-building-media-review-field-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-building-media-review-field-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-building-media-review-field-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-building-media-review-field-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-building-media-review-controllers-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-building-media-review-controllers-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-building-media-review-controllers-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-building-media-review-controllers-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-building-media-review-media-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-building-media-review-media-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-building-media-review-media-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-building-media-review-media-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-building-media-review-zones-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-building-media-review-zones-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-building-media-review-zones-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-building-media-review-zones-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-building-media-review-diagnostics-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-building-media-review-diagnostics-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-building-media-review-diagnostics-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-building-media-review-diagnostics-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-building-media-review-maintenance-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-building-media-review-maintenance-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-building-media-review-maintenance-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-building-media-review-maintenance-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-integration-review-groups-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-integration-review-groups-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-integration-review-groups-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-integration-review-groups-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-integration-review-switching-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-integration-review-switching-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-integration-review-switching-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-integration-review-switching-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-integration-review-display-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-integration-review-display-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-integration-review-display-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-integration-review-display-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-integration-review-audio-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-integration-review-audio-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-integration-review-audio-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-integration-review-audio-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-integration-review-surveillance-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-integration-review-surveillance-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-integration-review-surveillance-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-integration-review-surveillance-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-integration-review-ports-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-integration-review-ports-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-integration-review-ports-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-integration-review-ports-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-integration-review-acceptance-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-integration-review-acceptance-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-integration-review-acceptance-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-integration-review-acceptance-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-lan-review-topology-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-lan-review-topology-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-lan-review-topology-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-lan-review-topology-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-lan-review-switches-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-lan-review-switches-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-lan-review-switches-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-lan-review-switches-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-lan-review-address-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-lan-review-address-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-lan-review-address-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-lan-review-address-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-lan-review-services-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-lan-review-services-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-lan-review-services-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-lan-review-services-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-lan-review-checks-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-lan-review-checks-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-lan-review-checks-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-lan-review-checks-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-lan-review-faults-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-lan-review-faults-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-lan-review-faults-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-lan-review-faults-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-lan-review-records-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-lan-review-records-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-lan-review-records-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-lan-review-records-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-documentation-review-set-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-documentation-review-set-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-documentation-review-set-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-documentation-review-set-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-documentation-review-passport-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-documentation-review-passport-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-documentation-review-passport-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-documentation-review-passport-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-documentation-review-schemes-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-documentation-review-schemes-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-documentation-review-schemes-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-documentation-review-schemes-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-documentation-review-instructions-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-documentation-review-instructions-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-documentation-review-instructions-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-documentation-review-instructions-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-documentation-review-changes-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-documentation-review-changes-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-documentation-review-changes-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-documentation-review-changes-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-documentation-review-usability-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-documentation-review-usability-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-documentation-review-usability-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s05-documentation-review-usability-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-reliability-foundations-review-object-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-reliability-foundations-review-object-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-reliability-foundations-review-object-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-reliability-foundations-review-object-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-reliability-foundations-review-conditions-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-reliability-foundations-review-conditions-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-reliability-foundations-review-conditions-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-reliability-foundations-review-conditions-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-reliability-foundations-review-events-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-reliability-foundations-review-events-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-reliability-foundations-review-events-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-reliability-foundations-review-events-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-reliability-foundations-review-restoration-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-reliability-foundations-review-restoration-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-reliability-foundations-review-restoration-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-reliability-foundations-review-restoration-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-reliability-foundations-review-journal-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-reliability-foundations-review-journal-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-reliability-foundations-review-journal-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-reliability-foundations-review-journal-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-reliability-foundations-review-exposure-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-reliability-foundations-review-exposure-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-reliability-foundations-review-exposure-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-reliability-foundations-review-exposure-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-single-metrics-review-probability-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-single-metrics-review-probability-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-single-metrics-review-probability-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-single-metrics-review-probability-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-single-metrics-review-operating-mean-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-single-metrics-review-operating-mean-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-single-metrics-review-operating-mean-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-single-metrics-review-operating-mean-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-single-metrics-review-repair-mean-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-single-metrics-review-repair-mean-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-single-metrics-review-repair-mean-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-single-metrics-review-repair-mean-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-single-metrics-review-rate-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-single-metrics-review-rate-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-single-metrics-review-rate-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-single-metrics-review-rate-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-single-metrics-review-exponential-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-single-metrics-review-exponential-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-single-metrics-review-exponential-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-single-metrics-review-exponential-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-single-metrics-review-calculation-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-single-metrics-review-calculation-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-single-metrics-review-calculation-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-single-metrics-review-calculation-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-single-metrics-review-limits-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-single-metrics-review-limits-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-single-metrics-review-limits-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-single-metrics-review-limits-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-availability-review-readiness-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-availability-review-readiness-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-availability-review-readiness-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-availability-review-readiness-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-availability-review-utilization-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-availability-review-utilization-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-availability-review-utilization-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-availability-review-utilization-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-availability-review-fund-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-availability-review-fund-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-availability-review-fund-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-availability-review-fund-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-availability-review-effect-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-availability-review-effect-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-availability-review-effect-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-availability-review-effect-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-availability-review-comparison-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-availability-review-comparison-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-availability-review-comparison-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-availability-review-comparison-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-availability-review-procedure-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-availability-review-procedure-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-availability-review-procedure-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-availability-review-procedure-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-system-reliability-review-success-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-system-reliability-review-success-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-system-reliability-review-success-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-system-reliability-review-success-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-system-reliability-review-series-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-system-reliability-review-series-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-system-reliability-review-series-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-system-reliability-review-series-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-system-reliability-review-parallel-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-system-reliability-review-parallel-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-system-reliability-review-parallel-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-system-reliability-review-parallel-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-system-reliability-review-mixed-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-system-reliability-review-mixed-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-system-reliability-review-mixed-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-system-reliability-review-mixed-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-system-reliability-review-dependence-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-system-reliability-review-dependence-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-system-reliability-review-dependence-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-system-reliability-review-dependence-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-system-reliability-review-decision-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-system-reliability-review-decision-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-system-reliability-review-decision-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-system-reliability-review-decision-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-information-integrity-review-distortion-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-information-integrity-review-distortion-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-information-integrity-review-distortion-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-information-integrity-review-distortion-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-information-integrity-review-denominator-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-information-integrity-review-denominator-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-information-integrity-review-denominator-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-information-integrity-review-denominator-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-information-integrity-review-validation-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-information-integrity-review-validation-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-information-integrity-review-validation-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-information-integrity-review-validation-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-information-integrity-review-representation-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-information-integrity-review-representation-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-information-integrity-review-representation-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-information-integrity-review-representation-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-information-integrity-review-reconciliation-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-information-integrity-review-reconciliation-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-information-integrity-review-reconciliation-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-information-integrity-review-reconciliation-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-information-integrity-review-correction-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-information-integrity-review-correction-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-information-integrity-review-correction-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-information-integrity-review-correction-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-performance-review-measures-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-performance-review-measures-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-performance-review-measures-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-performance-review-measures-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-performance-review-latency-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-performance-review-latency-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-performance-review-latency-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-performance-review-latency-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-performance-review-statistics-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-performance-review-statistics-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-performance-review-statistics-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-performance-review-statistics-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-performance-review-load-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-performance-review-load-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-performance-review-load-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-performance-review-load-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-performance-review-resources-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-performance-review-resources-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-performance-review-resources-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-performance-review-resources-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-performance-review-experiment-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-performance-review-experiment-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-performance-review-experiment-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-performance-review-experiment-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-performance-review-report-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-performance-review-report-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-performance-review-report-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-performance-review-report-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-improvement-review-baseline-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-improvement-review-baseline-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-improvement-review-baseline-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-improvement-review-baseline-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-improvement-review-methods-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-improvement-review-methods-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-improvement-review-methods-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-improvement-review-methods-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-improvement-review-recovery-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-improvement-review-recovery-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-improvement-review-recovery-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-improvement-review-recovery-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-improvement-review-maintenance-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-improvement-review-maintenance-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-improvement-review-maintenance-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-improvement-review-maintenance-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-improvement-review-justification-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-improvement-review-justification-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-improvement-review-justification-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-improvement-review-justification-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-improvement-review-verification-single",
+      "type": "single",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-improvement-review-verification-multiple",
+      "type": "multiple",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-improvement-review-verification-short",
+      "type": "short",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    },
+    {
+      "id": "s06-improvement-review-verification-matching",
+      "type": "matching",
+      "wrong": true,
+      "correct": true,
+      "review": true,
+      "synchronized": true
+    }
+  ],
+  "issues": [],
+  "runs": [
+    "tasks-main.result.json: 406 completed records",
+    "tasks-tail.result.json: 14 remaining records"
+  ],
+  "harnessCorrections": [
+    "Строка сопоставления определяется по полному aria-label; PoE не путается с Бюджет PoE.",
+    "Сохранённый ранее открытый разбор закрывается перед новой попыткой."
+  ]
+}

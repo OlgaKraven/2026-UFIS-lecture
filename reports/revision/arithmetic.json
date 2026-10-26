@@ -1,0 +1,720 @@
+{
+  "cases": 74,
+  "checks": 119,
+  "results": [
+    {
+      "question": "system-boundary/purpose",
+      "kind": "short",
+      "authored": 25.0,
+      "independent": 25
+    },
+    {
+      "question": "system-boundary/information",
+      "kind": "base",
+      "authored": 48.0,
+      "independent": 48
+    },
+    {
+      "question": "system-boundary/information",
+      "kind": "changed",
+      "authored": 36.0,
+      "independent": 36
+    },
+    {
+      "question": "structure/power",
+      "kind": "short",
+      "authored": 9.0,
+      "independent": 9
+    },
+    {
+      "question": "classification/comparison",
+      "kind": "base",
+      "authored": 60.0,
+      "independent": 60
+    },
+    {
+      "question": "classification/comparison",
+      "kind": "changed",
+      "authored": 45.0,
+      "independent": 45
+    },
+    {
+      "question": "classification/comparison",
+      "kind": "short",
+      "authored": 49.0,
+      "independent": 49
+    },
+    {
+      "question": "accounting-supply/documents",
+      "kind": "base",
+      "authored": 82.0,
+      "independent": 82
+    },
+    {
+      "question": "accounting-supply/documents",
+      "kind": "changed",
+      "authored": 110.0,
+      "independent": 110
+    },
+    {
+      "question": "accounting-supply/documents",
+      "kind": "short",
+      "authored": 69.0,
+      "independent": 69
+    },
+    {
+      "question": "accounting-supply/stock",
+      "kind": "base",
+      "authored": 64.0,
+      "independent": 64
+    },
+    {
+      "question": "accounting-supply/stock",
+      "kind": "changed",
+      "authored": 74.0,
+      "independent": 74
+    },
+    {
+      "question": "accounting-supply/stock",
+      "kind": "short",
+      "authored": 70.0,
+      "independent": 70
+    },
+    {
+      "question": "accounting-supply/planning",
+      "kind": "base",
+      "authored": 45.0,
+      "independent": 45
+    },
+    {
+      "question": "accounting-supply/planning",
+      "kind": "changed",
+      "authored": 70.0,
+      "independent": 70
+    },
+    {
+      "question": "accounting-supply/planning",
+      "kind": "short",
+      "authored": 45.0,
+      "independent": 45
+    },
+    {
+      "question": "accounting-supply/integration",
+      "kind": "base",
+      "authored": 52.0,
+      "independent": 52
+    },
+    {
+      "question": "accounting-supply/integration",
+      "kind": "changed",
+      "authored": 57.0,
+      "independent": 57
+    },
+    {
+      "question": "accounting-supply/integration",
+      "kind": "short",
+      "authored": 47.0,
+      "independent": 47
+    },
+    {
+      "question": "production-quality/levels",
+      "kind": "base",
+      "authored": 115.0,
+      "independent": 115
+    },
+    {
+      "question": "production-quality/levels",
+      "kind": "changed",
+      "authored": 129.0,
+      "independent": 129
+    },
+    {
+      "question": "production-quality/levels",
+      "kind": "short",
+      "authored": 88.0,
+      "independent": 88
+    },
+    {
+      "question": "production-quality/trace",
+      "kind": "short",
+      "authored": 2.0,
+      "independent": 2
+    },
+    {
+      "question": "production-quality/nonconformity",
+      "kind": "base",
+      "authored": 1.0,
+      "independent": 1
+    },
+    {
+      "question": "production-quality/nonconformity",
+      "kind": "changed",
+      "authored": 0.0,
+      "independent": 0
+    },
+    {
+      "question": "production-quality/nonconformity",
+      "kind": "short",
+      "authored": 2.0,
+      "independent": 2
+    },
+    {
+      "question": "production-quality/service",
+      "kind": "base",
+      "authored": 23.0,
+      "independent": 23
+    },
+    {
+      "question": "production-quality/service",
+      "kind": "changed",
+      "authored": 30.0,
+      "independent": 30
+    },
+    {
+      "question": "production-quality/service",
+      "kind": "short",
+      "authored": 25.0,
+      "independent": 25
+    },
+    {
+      "question": "reference-library/records",
+      "kind": "base",
+      "authored": 1.0,
+      "independent": 1
+    },
+    {
+      "question": "reference-library/records",
+      "kind": "changed",
+      "authored": 0.0,
+      "independent": 0
+    },
+    {
+      "question": "reference-library/records",
+      "kind": "short",
+      "authored": 2.0,
+      "independent": 2
+    },
+    {
+      "question": "integration/switching",
+      "kind": "short",
+      "authored": 12.0,
+      "independent": 12
+    },
+    {
+      "question": "integration/surveillance",
+      "kind": "base",
+      "authored": 1.5,
+      "independent": 1.5
+    },
+    {
+      "question": "integration/surveillance",
+      "kind": "changed",
+      "authored": 2.5,
+      "independent": 2.5
+    },
+    {
+      "question": "integration/surveillance",
+      "kind": "short",
+      "authored": 3.0,
+      "independent": 3.0
+    },
+    {
+      "question": "reliability-foundations/events",
+      "kind": "base",
+      "authored": 1.0,
+      "independent": 1
+    },
+    {
+      "question": "reliability-foundations/events",
+      "kind": "changed",
+      "authored": 2.0,
+      "independent": 2
+    },
+    {
+      "question": "reliability-foundations/events",
+      "kind": "short",
+      "authored": 2.0,
+      "independent": 2
+    },
+    {
+      "question": "reliability-foundations/restoration",
+      "kind": "base",
+      "authored": 45.0,
+      "independent": 45
+    },
+    {
+      "question": "reliability-foundations/restoration",
+      "kind": "changed",
+      "authored": 35.0,
+      "independent": 35
+    },
+    {
+      "question": "reliability-foundations/restoration",
+      "kind": "short",
+      "authored": 40.0,
+      "independent": 40
+    },
+    {
+      "question": "reliability-foundations/journal",
+      "kind": "base",
+      "authored": 60.0,
+      "independent": 60
+    },
+    {
+      "question": "reliability-foundations/journal",
+      "kind": "changed",
+      "authored": 75.0,
+      "independent": 75
+    },
+    {
+      "question": "reliability-foundations/journal",
+      "kind": "short",
+      "authored": 70.0,
+      "independent": 70
+    },
+    {
+      "question": "reliability-foundations/exposure",
+      "kind": "base",
+      "authored": 9.0,
+      "independent": 9
+    },
+    {
+      "question": "reliability-foundations/exposure",
+      "kind": "short",
+      "authored": 11.0,
+      "independent": 11
+    },
+    {
+      "question": "single-metrics/probability",
+      "kind": "base",
+      "authored": 0.9,
+      "independent": 0.9
+    },
+    {
+      "question": "single-metrics/probability",
+      "kind": "changed",
+      "authored": 0.95,
+      "independent": 0.95
+    },
+    {
+      "question": "single-metrics/probability",
+      "kind": "short",
+      "authored": 0.9,
+      "independent": 0.9
+    },
+    {
+      "question": "single-metrics/operating-mean",
+      "kind": "base",
+      "authored": 200.0,
+      "independent": 200.0
+    },
+    {
+      "question": "single-metrics/operating-mean",
+      "kind": "changed",
+      "authored": 300.0,
+      "independent": 300.0
+    },
+    {
+      "question": "single-metrics/operating-mean",
+      "kind": "short",
+      "authored": 300.0,
+      "independent": 300.0
+    },
+    {
+      "question": "single-metrics/repair-mean",
+      "kind": "base",
+      "authored": 40.0,
+      "independent": 40.0
+    },
+    {
+      "question": "single-metrics/repair-mean",
+      "kind": "changed",
+      "authored": 50.0,
+      "independent": 50.0
+    },
+    {
+      "question": "single-metrics/repair-mean",
+      "kind": "short",
+      "authored": 1.0,
+      "independent": 1.0
+    },
+    {
+      "question": "single-metrics/rate",
+      "kind": "short",
+      "authored": 0.005,
+      "independent": 0.005
+    },
+    {
+      "question": "single-metrics/exponential",
+      "kind": "base",
+      "authored": 0.9048,
+      "independent": 0.9048
+    },
+    {
+      "question": "single-metrics/exponential",
+      "kind": "changed",
+      "authored": 0.8187,
+      "independent": 0.8187
+    },
+    {
+      "question": "single-metrics/exponential",
+      "kind": "short",
+      "authored": 0.9048,
+      "independent": 0.9048
+    },
+    {
+      "question": "single-metrics/calculation",
+      "kind": "base",
+      "authored": -0.003125,
+      "independent": -0.003125
+    },
+    {
+      "question": "single-metrics/calculation",
+      "kind": "changed",
+      "authored": -0.00625,
+      "independent": -0.00625
+    },
+    {
+      "question": "single-metrics/calculation",
+      "kind": "short",
+      "authored": 0.0025,
+      "independent": 0.0025
+    },
+    {
+      "question": "single-metrics/limits",
+      "kind": "changed",
+      "authored": 0.9901,
+      "independent": 0.9901
+    },
+    {
+      "question": "single-metrics/limits",
+      "kind": "short",
+      "authored": 2.0,
+      "independent": 2
+    },
+    {
+      "question": "availability/readiness",
+      "kind": "base",
+      "authored": 0.989,
+      "independent": 0.989
+    },
+    {
+      "question": "availability/readiness",
+      "kind": "changed",
+      "authored": 0.9945,
+      "independent": 0.9945
+    },
+    {
+      "question": "availability/readiness",
+      "kind": "short",
+      "authored": 0.99,
+      "independent": 0.99
+    },
+    {
+      "question": "availability/utilization",
+      "kind": "base",
+      "authored": 0.9,
+      "independent": 0.9
+    },
+    {
+      "question": "availability/utilization",
+      "kind": "changed",
+      "authored": 0.95,
+      "independent": 0.95
+    },
+    {
+      "question": "availability/utilization",
+      "kind": "short",
+      "authored": 0.9,
+      "independent": 0.9
+    },
+    {
+      "question": "availability/fund",
+      "kind": "base",
+      "authored": 20.0,
+      "independent": 20
+    },
+    {
+      "question": "availability/fund",
+      "kind": "changed",
+      "authored": 560.0,
+      "independent": 560
+    },
+    {
+      "question": "availability/fund",
+      "kind": "short",
+      "authored": 25.0,
+      "independent": 25
+    },
+    {
+      "question": "availability/effect",
+      "kind": "short",
+      "authored": 0.98,
+      "independent": 0.98
+    },
+    {
+      "question": "availability/comparison",
+      "kind": "base",
+      "authored": 3.0,
+      "independent": 3.0000000000000027
+    },
+    {
+      "question": "availability/comparison",
+      "kind": "changed",
+      "authored": 1.5,
+      "independent": 1.5000000000000013
+    },
+    {
+      "question": "availability/comparison",
+      "kind": "short",
+      "authored": 2.5,
+      "independent": 2.500000000000002
+    },
+    {
+      "question": "availability/procedure",
+      "kind": "changed",
+      "authored": 0.96,
+      "independent": 0.96
+    },
+    {
+      "question": "availability/procedure",
+      "kind": "short",
+      "authored": 0.86,
+      "independent": 0.86
+    },
+    {
+      "question": "system-reliability/series",
+      "kind": "base",
+      "authored": 0.855,
+      "independent": 0.855
+    },
+    {
+      "question": "system-reliability/series",
+      "kind": "changed",
+      "authored": 0.8379,
+      "independent": 0.8379
+    },
+    {
+      "question": "system-reliability/series",
+      "kind": "short",
+      "authored": 0.56,
+      "independent": 0.5599999999999999
+    },
+    {
+      "question": "system-reliability/parallel",
+      "kind": "base",
+      "authored": 0.98,
+      "independent": 0.98
+    },
+    {
+      "question": "system-reliability/parallel",
+      "kind": "changed",
+      "authored": 0.97,
+      "independent": 0.97
+    },
+    {
+      "question": "system-reliability/parallel",
+      "kind": "short",
+      "authored": 0.96,
+      "independent": 0.96
+    },
+    {
+      "question": "system-reliability/mixed",
+      "kind": "base",
+      "authored": 0.9405,
+      "independent": 0.9405
+    },
+    {
+      "question": "system-reliability/mixed",
+      "kind": "changed",
+      "authored": 0.9702,
+      "independent": 0.9702
+    },
+    {
+      "question": "system-reliability/mixed",
+      "kind": "short",
+      "authored": 0.864,
+      "independent": 0.864
+    },
+    {
+      "question": "system-reliability/dependence",
+      "kind": "base",
+      "authored": 0.9405,
+      "independent": 0.9405
+    },
+    {
+      "question": "system-reliability/dependence",
+      "kind": "changed",
+      "authored": 0.949905,
+      "independent": 0.949905
+    },
+    {
+      "question": "information-integrity/distortion",
+      "kind": "base",
+      "authored": 120.0,
+      "independent": 120
+    },
+    {
+      "question": "information-integrity/distortion",
+      "kind": "changed",
+      "authored": 72.0,
+      "independent": 72
+    },
+    {
+      "question": "information-integrity/distortion",
+      "kind": "short",
+      "authored": 84.0,
+      "independent": 84
+    },
+    {
+      "question": "information-integrity/denominator",
+      "kind": "base",
+      "authored": 0.8,
+      "independent": 0.8
+    },
+    {
+      "question": "information-integrity/denominator",
+      "kind": "changed",
+      "authored": 0.9,
+      "independent": 0.9
+    },
+    {
+      "question": "information-integrity/denominator",
+      "kind": "short",
+      "authored": 0.625,
+      "independent": 0.625
+    },
+    {
+      "question": "information-integrity/representation",
+      "kind": "short",
+      "authored": 4.0,
+      "independent": 4
+    },
+    {
+      "question": "information-integrity/reconciliation",
+      "kind": "base",
+      "authored": 2.0,
+      "independent": 2
+    },
+    {
+      "question": "information-integrity/reconciliation",
+      "kind": "changed",
+      "authored": 0.0,
+      "independent": 0
+    },
+    {
+      "question": "information-integrity/reconciliation",
+      "kind": "short",
+      "authored": 2.0,
+      "independent": 2
+    },
+    {
+      "question": "information-integrity/correction",
+      "kind": "base",
+      "authored": 5.0,
+      "independent": 5
+    },
+    {
+      "question": "information-integrity/correction",
+      "kind": "short",
+      "authored": 8.0,
+      "independent": 8
+    },
+    {
+      "question": "performance/measures",
+      "kind": "base",
+      "authored": 25.0,
+      "independent": 25.0
+    },
+    {
+      "question": "performance/measures",
+      "kind": "changed",
+      "authored": 27.0,
+      "independent": 27.0
+    },
+    {
+      "question": "performance/measures",
+      "kind": "short",
+      "authored": 30.0,
+      "independent": 30.0
+    },
+    {
+      "question": "performance/latency",
+      "kind": "base",
+      "authored": 260.0,
+      "independent": 260
+    },
+    {
+      "question": "performance/latency",
+      "kind": "changed",
+      "authored": 180.0,
+      "independent": 180
+    },
+    {
+      "question": "performance/latency",
+      "kind": "short",
+      "authored": 220.0,
+      "independent": 220
+    },
+    {
+      "question": "performance/statistics",
+      "kind": "base",
+      "authored": 30.0,
+      "independent": 30
+    },
+    {
+      "question": "performance/statistics",
+      "kind": "changed",
+      "authored": 80.0,
+      "independent": 80
+    },
+    {
+      "question": "performance/statistics",
+      "kind": "short",
+      "authored": 19.0,
+      "independent": 19
+    },
+    {
+      "question": "improvement/baseline",
+      "kind": "changed",
+      "authored": 1.75,
+      "independent": 1.75
+    },
+    {
+      "question": "improvement/baseline",
+      "kind": "short",
+      "authored": 2.5,
+      "independent": 2.5
+    },
+    {
+      "question": "improvement/recovery",
+      "kind": "base",
+      "authored": 16.0,
+      "independent": 16
+    },
+    {
+      "question": "improvement/recovery",
+      "kind": "changed",
+      "authored": 0.25,
+      "independent": 0.25
+    },
+    {
+      "question": "improvement/recovery",
+      "kind": "short",
+      "authored": 8.5,
+      "independent": 8.5
+    },
+    {
+      "question": "improvement/verification",
+      "kind": "base",
+      "authored": 35.0,
+      "independent": 35
+    },
+    {
+      "question": "improvement/verification",
+      "kind": "short",
+      "authored": 42.0,
+      "independent": 42
+    }
+  ]
+}

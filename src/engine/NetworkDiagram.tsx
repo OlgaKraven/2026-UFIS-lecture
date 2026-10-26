@@ -9,15 +9,18 @@ export function NetworkDiagram({visual:v}:{visual:Network}){
  const ids=new Set(v.nodes.map(n=>n.id));
  const flat=ids.has('supplier')||ids.has('scanner');
  const width=flat?180:260,height=100;
- const positions:Record<string,[number,number]>=flat?Object.fromEntries(v.nodes.map((n,i)=>[n.id,[i*220+20,120] as [number,number]])):
+ let positions:Record<string,[number,number]>=flat?Object.fromEntries(v.nodes.map((n,i)=>[n.id,[i*220+20,120] as [number,number]])):
   ids.has('cam')?{cam:[20,30],sw:[350,30],nvr:[680,30],src:[20,240],screen:[350,240],pc:[680,240]}:
   ids.has('sensor')?{source:[20,30],matrix:[350,30],display:[680,30],sensor:[20,240],ctrl:[350,240],amp:[680,240]}:
   {raw:[20,30],order:[350,30],test:[680,30],machine:[350,240],ship:[680,240]};
- const fullWidth=flat?v.nodes.length*220:980,fullHeight=flat?320:390;
+ if(v.nodes.every(n=>Number.isFinite(n.x)&&Number.isFinite(n.y)))positions=Object.fromEntries(v.nodes.map(n=>[n.id,[n.x!,n.y!] as [number,number]]));
+ else if(v.nodes.some(n=>!positions[n.id]))positions=Object.fromEntries(v.nodes.map((n,i)=>[n.id,[20+(i%3)*330,30+Math.floor(i/3)*210] as [number,number]]));
+ const fullWidth=Math.max(...Object.values(positions).map(p=>p[0]+width+20),v.boundary?v.boundary.x+v.boundary.width:0),fullHeight=Math.max(...Object.values(positions).map(p=>p[1]+height+70),v.boundary?v.boundary.y+v.boundary.height:0);
  const marker='ufis-arrow-'+v.nodes.map(n=>n.id).join('-');
  const endpoint=(cx:number,cy:number,dx:number,dy:number)=>{const factor=Math.min(dx?width/2/Math.abs(dx):Infinity,dy?height/2/Math.abs(dy):Infinity);return [cx+dx*factor,cy+dy*factor]};
  return <svg className="ufis-network" viewBox={`0 -40 ${fullWidth} ${fullHeight+40}`} role="img" aria-label={v.caption}>
   <title>{v.caption}</title><defs><marker id={marker} viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10z" fill="var(--muted)"/></marker></defs>
+  {v.boundary&&<g><rect x={v.boundary.x} y={v.boundary.y} width={v.boundary.width} height={v.boundary.height} fill="none" stroke="var(--muted)" strokeDasharray="8 5"/><text x={v.boundary.x+12} y={v.boundary.y+24} fill="var(--text)" fontSize="20">{v.boundary.title}</text></g>}
   {ids.has('supplier')&&<g><rect x="220" y="78" width={fullWidth-230} height="190" rx="4" fill="none" stroke="var(--muted)" strokeWidth="1.5" strokeDasharray="7 5"/><text x="234" y="102" fill="var(--muted)" fontSize="18">Система склада</text></g>}
   {v.edges.map((e,i)=>{
    const a=positions[e.from],b=positions[e.to];if(!a||!b)return null;
@@ -26,7 +29,7 @@ export function NetworkDiagram({visual:v}:{visual:Network}){
    if(e.from==='sw'&&e.to==='cam')return <g key={i}><path d={`M${sx} ${sy+28} L${tx} ${ty+28}`} fill="none" stroke="var(--muted)" strokeWidth="2" markerEnd={`url(#${marker})`}/><text x={(sx+tx)/2} y={ay+height/2+27} textAnchor="middle" fill="var(--text)" fontSize="20">{e.label}</text></g>;
    const horizontal=Math.abs(ay-by)<1,vertical=Math.abs(ax-bx)<1;
    const label=lines(e.label,flat?15:24),x=(sx+tx)/2-(vertical?12:0),y=horizontal?ay-height/2-12-(label.length-1)*23:(sy+ty)/2-14;
-   return <g key={i}><path d={`M${sx} ${sy} L${tx} ${ty}`} fill="none" stroke="var(--muted)" strokeWidth="2" markerEnd={`url(#${marker})`}/><text x={x} y={y} textAnchor={vertical?'end':'middle'} fill="var(--text)" stroke="var(--surface)" strokeWidth="4" paintOrder="stroke" fontSize={flat?18:20}>{label.map((l,j)=><tspan x={x} dy={j?23:0} key={j}>{l}</tspan>)}</text></g>
+   return <g key={i}><path d={`M${sx} ${sy} L${tx} ${ty}`} fill="none" stroke="var(--muted)" strokeWidth="2" markerEnd={e.directed===false?undefined:`url(#${marker})`}/><text x={x} y={y} textAnchor={vertical?'end':'middle'} fill="var(--text)" stroke="var(--surface)" strokeWidth="4" paintOrder="stroke" fontSize={flat?18:20}>{label.map((l,j)=><tspan x={x} dy={j?23:0} key={j}>{l}</tspan>)}</text></g>
   })}
   {v.nodes.map(n=>{
    const p=positions[n.id];if(!p)return null;const title=lines(n.title,flat?16:23),detail=lines(n.text,flat?20:28);

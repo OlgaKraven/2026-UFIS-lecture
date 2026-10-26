@@ -12,22 +12,26 @@
       "public/explanations.json",
       "public/brand",
       "public/fonts",
-      "public/labs",
       "scripts/generate.py",
       "scripts/audit_gate.py",
       "scripts/check-audit-groups.py",
       "scripts/narrative-structure.mjs",
       "scripts/validate-content.mjs",
-      "authoring/topics.py",
-      "authoring/reliability.py",
-      "authoring/labs.py",
-      "authoring/expansion.py",
       "authoring/depth.py",
-      "authoring/depth_systems.py",
       "authoring/depth_applications.py",
       "authoring/depth_equipment.py",
+      "authoring/depth_metrics.py",
       "authoring/depth_reliability.py",
-      "authoring/depth_metrics.py"
+      "authoring/depth_systems.py",
+      "authoring/expansion.py",
+      "authoring/reliability.py",
+      "authoring/review_applications.py",
+      "authoring/review_blocks.py",
+      "authoring/review_equipment.py",
+      "authoring/review_metrics.py",
+      "authoring/review_reliability.py",
+      "authoring/review_systems.py",
+      "authoring/topics.py"
     ]
   },
   "runtimeHashes": {
@@ -35,7 +39,7 @@
     "src/course-catalog.css": "3542e11b71f4bbb5c0c6b702978908263d57d5bb68a35b88ea0fe7b66f976a06",
     "src/CourseCatalog.tsx": "1b1e910b5ddfd3e4c8840452b56a4b5057bd0b8fcaf8154adfc55004c62d7ae6",
     "src/engine/assessment.css": "02b428c63358b7180e82a884b9376f71d43a9a9acb69ed1a98dccf16cfe46a1f",
-    "src/engine/Assessment.tsx": "dc5542f9a6e4b0eea364067fd0a86023c492548419c1f6f554ed49ce94f4d617",
+    "src/engine/Assessment.tsx": "3ff87dbe8038668092791f139b0abc8b23082f1e068193d3ce1a1f319ba1b4cc",
     "src/engine/backup.ts": "6c8100f1788c6921b83aa842be3a491791661d3dba0d7844494b58fa5bf8f7dd",
     "src/engine/CourseCatalog.tsx": "fd04f0e3bdf4ff903265631330300d1ff44bdd5f286ac8de4e73a97892f5a428",
     "src/engine/CourseEditor.tsx": "dd12d7ed4be3f751a6bf67603813c9acfb18ed75e83d86cdda3fd53b1bdeb174",
@@ -52,13 +56,14 @@
     "src/engine/layout-final.css": "ab015c89f335380b8cae26f6a62e05ad02599c03ee3e5a28d438377b68df0757",
     "src/engine/LectureSite.tsx": "ef81cb806810e6fed2cd3b90bb622b562e005d1b524b2cb5d8fc894107b6c4c2",
     "src/engine/Modal.tsx": "73ff1c22154978a2c2c10d33d9108dcc51ccae4a1b32606a796d2e74a9ce817d",
-    "src/engine/model.ts": "3f6e7f4c86eb5c48c3cb4cd0002395a1c2abe86755d0876493cc668411d82a39",
-    "src/engine/NetworkDiagram.tsx": "d0e62a10333149f22b59f8ec5d8659ae6eee2466c86d20a24fd98644987bc05a",
+    "src/engine/model.ts": "9f680c9f4f069327d49cc9ff9f804eff28d8fc8e3ef8fd5a7a7a671fda3735eb",
+    "src/engine/NativeInfographic.tsx": "410fd2e73d827349bc221c8db0fa7ac12d1cf0b84822ec3a631e131695e55811",
+    "src/engine/NetworkDiagram.tsx": "dab8690c54220b1dad9021578979237c80f75374c265a0d506a5c0e4cc8f68a5",
     "src/engine/offline.ts": "5f08d4aaa448e11e0aa1a0eadb6aa7a6570ac2a9283583b8833756b179d71dd7",
     "src/engine/PanelLayout.tsx": "911e47c071e7b781878f17e20c1aa435f34eafb8fd757669f17a802f882ff657",
     "src/engine/presentation-pirip.css": "41672d1083fb87d7f92c3b6f9442a61f464f309523a80ac9a61625746489ad85",
     "src/engine/PresentationChrome.tsx": "a2c73aef11ede24cb69aea22aa5d5a2c5ff9449863ea4c71fb62778c9c7f9b22",
-    "src/engine/ReadableDiagram.tsx": "9904a31356c6019fc2627116ccd4bc649c19371c23220af544194490281d3565",
+    "src/engine/ReadableDiagram.tsx": "e57fa273955ad7fb3338e089909c58fb7a6ed2b19c8c0b722c8c0e41be5767bb",
     "src/engine/Recovery.tsx": "caa024009b4d6a2b615fa6f9a0ed9b0f69c87a1e6558784b3557194be3e7532e",
     "src/engine/reference.css": "f7618aaf6125c8dcdec7ea4d50dc6edc0c395c1547a8c6193daadb780505d3a5",
     "src/engine/Resources.tsx": "6cbc2761fca3c12ff0790e259ed358a2faada9b1605d10202efd6bff71aaf7a7",
@@ -70,19 +75,19 @@
     "src/engine/Teaching.tsx": "2777a54c0906ebc2266e5b9dd90e3fc187d3711a5acc1ea4c54c738172b38d3c",
     "src/engine/template.css": "e891fce84a47f6463587a7c95d22797fb5e958384e896e951fbe1343f9f9509a",
     "src/engine/TimingPlan.tsx": "69d6f038f485502bd538abe03fba81207867a025203f36f80b8e2efeb43f4018",
-    "src/engine/validation.ts": "3cf3e569ac91e56e3f09389039f6ca3279d45881bc4a199dc25bc6d0ecdcfb81",
+    "src/engine/validation.ts": "5c36f2c1376218e89829ed0142c3c8b1ad1548a9d87b034d2174750ae1adf523",
     "src/learning-workbench.css": "825819fcf3a1f6be7bc9db1b78f18011d5d8e231118832eabd810b9de096b9e4",
-    "src/learning-workbench.tsx": "e6d6d1bbddbceb27c56da6708c653eaa0dd3e184fa7c59b270ef5ea73d27b854",
+    "src/learning-workbench.tsx": "31585ef318708e8c146c6cb8edaf9a13298987c9ed51b21186953d3c7660c9db",
     "src/main.tsx": "06d73f873bfa242db8269002bb67b962a12b027e7ee75735467ff4dd8854b7a4",
     "src/practice.tsx": "6f49c09a30322b57f564855b6f29cb43222efba5589c9d24752356cd3274707c",
     "src/presentation-design.css": "17aac4ebcc60da14b81203c2f0fd558738619934be942d9bb68289596491c9c2",
     "src/question-title.tsx": "d344fef4d79d6c8e497eb33fe1f5c13a17d82a37354de9942fdd2de165bbd309",
     "src/reference-adapter.css": "9a564c5213e20f05e12450dbd317df3c9ec6464e33c2a76ae86c0aa54b1c9965",
     "src/typography.css": "03c9cfbd0a8c6d4540b12633451270a790500f8372972be61d052004176e1193",
-    "src/ufis.css": "ef6be740fd61441039ef0602b57318299452c4511448d62eca9da409d0445cf6",
-    "public/workbenches.json": "754299390e884b30c4b121db52f80f00a34903e44fe451b243711e2627f858a0",
-    "public/assessment.json": "95c6c99e6576c0c6a4d4a03a4db5766b319c1ff86692e294f4918a61a0ec9904",
-    "public/explanations.json": "b66b79a821882a8506bd7b14557ba8e4e446d8e3e6136c895718e8acbd5cca55",
+    "src/ufis.css": "4dfd5b3894d7ec288484bfada972fbecb68a1c09225f6f7c57c0655309300273",
+    "public/workbenches.json": "ce7886c0f630792eb2f474b21bf1b4478705ce07635b80ffe8ab8288ac2c6629",
+    "public/assessment.json": "b9d0bdbb1436c922bdf396ecca871bbe81e0d17b6fe500c931a9545ad9189024",
+    "public/explanations.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
     "public/brand/rhino-ufis.png": "c5568867296553608b02457f88e9798b5df4fcb8c3d143ad3c13b19a6bf1f061",
     "public/brand/side-ornament.png": "bd69f172225f9a547ee399e768d54b812fcda7145bb6b31289f26fa52f19c5a1",
     "public/brand/synergy-mark.png": "f34cfbd179d8a192cbd609dc424ea8babbcad53a3afe9b4e2ac987d6c4881dc7",
@@ -90,22 +95,26 @@
     "public/brand/topic-arrow.webp": "87d8009bc3c69e4d7a79c6932c0a92bbd89e66e967ef14e256049825b2678bb3",
     "public/fonts/OFL.txt": "c62d0f4b78825cbf2d99ac7ea3dd163f645210efa032243731184c9f86a6eab6",
     "public/fonts/raleway-cyrillic.woff2": "ac99ad1c437b60ef445a7c13c958d4d574ef98050de2ccf182ba6ccdb3bfbdfd",
-    "public/labs/passport.html": "0c5cd5ec43612c6e2e848fc34083f3d2fd5f2fdaee2d99157d88981bd23e2be6",
-    "scripts/generate.py": "7ee43d53232513f1f7e3068a29fed332a290e362637025d936e40d831707f211",
+    "scripts/generate.py": "f67f315aea4b96781ab8a582a9e6a130ade9c736f63b67a70c832b88cf3106fd",
     "scripts/audit_gate.py": "0d223813aee724b542887dbe072147fae656894b07fa45c391ed6f25176cdbe9",
     "scripts/check-audit-groups.py": "7533d8d89b63fa5dc8949c130292be44299c55d02fab3d11096101c86dc84419",
-    "scripts/narrative-structure.mjs": "d2129d0945341b7eedcdffbd3b17dabaa4f9b3349b716f357b16a5b54008029b",
-    "scripts/validate-content.mjs": "b15f12415f7382dddbd231326575f57d0a2dfe24a8002b070248de1940458433",
-    "authoring/topics.py": "67c2bc2dd5eb5a6cf6adc574a18760bcd5c06e4f919adf8fed7be9bbda5431ca",
-    "authoring/reliability.py": "0eeef2adf2deabf4887b87062fc82491f8749dd0ac22547a859e0d98205f66bb",
-    "authoring/labs.py": "e7fa7037ac8150077089c361ad49d1f6267700aa91fb3058470ccd3a66b8f433",
-    "authoring/expansion.py": "7ef3dadc188cfa0c022a43d7b6124c26f17df1e2247c4a3876de8b7fd42f3916",
+    "scripts/narrative-structure.mjs": "98b43a560f5b94b80d3eabc5dfecbb2a304fbb7ff37dead46d5d8d74d283049f",
+    "scripts/validate-content.mjs": "eeea86d35f3717ed17cbd14f5e6e97de4c82a9e1fb569906abaad30cb38b177b",
     "authoring/depth.py": "fa0155602f852fc71f34db51ec6a9f41c9f8212f97dd16a99594ae760acf9213",
-    "authoring/depth_systems.py": "74a3ec10f7e32197a2efd850cb17b04915846bd1a2368a6ec15eaa48f75fb30f",
     "authoring/depth_applications.py": "cbdbe796b98a3cd4eecd286da6c72957a4e64c03982c24bc96305f303083c716",
     "authoring/depth_equipment.py": "fd571ac8a824cd57205232e1f016d348de49f5d8d7625a2cbe83252aa4ac2afc",
+    "authoring/depth_metrics.py": "86530839fa03aa1ad786f833ccae5ae7cdfc75caa7cd692776e4f71e5d980b96",
     "authoring/depth_reliability.py": "c5d40d49c1864f5b1fc57010c0dd6d5cb57fb8e73d6560c19e8eb841231fd2fd",
-    "authoring/depth_metrics.py": "86530839fa03aa1ad786f833ccae5ae7cdfc75caa7cd692776e4f71e5d980b96"
+    "authoring/depth_systems.py": "74a3ec10f7e32197a2efd850cb17b04915846bd1a2368a6ec15eaa48f75fb30f",
+    "authoring/expansion.py": "43ec0c81c30844c5c03587f3078ab45c365039b9891ca8442a119c7c68a27085",
+    "authoring/reliability.py": "0eeef2adf2deabf4887b87062fc82491f8749dd0ac22547a859e0d98205f66bb",
+    "authoring/review_applications.py": "66acac2cf6316b786c8acd5181493f8bbec6d24e09c0f2fa0a959aef3a72092c",
+    "authoring/review_blocks.py": "b6479e4ca3146bc4a2dd1f08f8c8d7003166170f0ee483c1ef5137dd3f6e2684",
+    "authoring/review_equipment.py": "b67897d2dceab74d7cf2a91092d2c9d2fd40c824da20c51bf4759f5d16f23955",
+    "authoring/review_metrics.py": "d5b8cf7f14b9528564a32c1b744d1d7b96b9f58c12dd9868a89fcebc0865ad62",
+    "authoring/review_reliability.py": "7bc204a48207576a0e5780906d502ede36fc09f0013b7ecca2ae10cd206edbb9",
+    "authoring/review_systems.py": "c74777b60e16e2e5a05bc3672bb92c41673f6684d71e91f9493445bfdea3a3f9",
+    "authoring/topics.py": "67c2bc2dd5eb5a6cf6adc574a18760bcd5c06e4f919adf8fed7be9bbda5431ca"
   },
   "units": [
     {
@@ -123,7 +132,7 @@
         "teacher"
       ],
       "artifacts": {},
-      "fingerprint": "3258d8d9e3bc3e22dfbb8e74868deebd4bd420d7d5f0a850af079ec5c8005df0"
+      "fingerprint": "46e33dd895ebe0de023796d13d3b7c4f152ddcf01f554599b72751feef196d6a"
     },
     {
       "id": "s05-system-boundary:question",
@@ -136,7 +145,12 @@
         "s05-system-boundary-purpose-3-view",
         "s05-system-boundary-content-2",
         "s05-system-boundary-diagram-2",
-        "s05-system-boundary-purpose-check"
+        "s05-system-boundary-purpose-scheme",
+        "s05-system-boundary-purpose-case",
+        "s05-system-boundary-purpose-check",
+        "s05-system-boundary-purpose-multiple",
+        "s05-system-boundary-purpose-short",
+        "s05-system-boundary-purpose-matching"
       ],
       "needs": [
         "student",
@@ -145,7 +159,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "6cdfe158b7a5428793a22dc6589e7a2b0be5658e9cf5dde25c3d569a50a79abd"
+      "fingerprint": "dd7f7b905ad27553f1e79e13c9954eee8f14f5a0666284e36ce00162ab249912"
     },
     {
       "id": "s05-system-boundary:question-technical",
@@ -155,15 +169,21 @@
         "s05-system-boundary-technical-1",
         "s05-system-boundary-technical-2",
         "s05-system-boundary-technical-3",
-        "s05-system-boundary-technical-check"
+        "s05-system-boundary-technical-scheme",
+        "s05-system-boundary-technical-case",
+        "s05-system-boundary-technical-check",
+        "s05-system-boundary-technical-multiple",
+        "s05-system-boundary-technical-short",
+        "s05-system-boundary-technical-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "4f241b646b288a2ec907cfba479ce8f01f74bc1fd3b7ae87f0822ea94854da2c"
+      "fingerprint": "8403ac5a1c9d5fe9e91ba17e836b57ab1cc554c1e617de31b599f45ab308c820"
     },
     {
       "id": "s05-system-boundary:question-software",
@@ -174,7 +194,12 @@
         "s05-system-boundary-software-2",
         "s05-system-boundary-software-2-view",
         "s05-system-boundary-software-3",
-        "s05-system-boundary-software-check"
+        "s05-system-boundary-software-scheme",
+        "s05-system-boundary-software-case",
+        "s05-system-boundary-software-check",
+        "s05-system-boundary-software-multiple",
+        "s05-system-boundary-software-short",
+        "s05-system-boundary-software-matching"
       ],
       "needs": [
         "student",
@@ -183,7 +208,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "8438febd82a7f3681331b72b2ef199ce8a35694bbcec7513b5dff27befcc1db9"
+      "fingerprint": "e9258935bfcb14ef0d59782c21fad3b6e1e0526fc48399750958842bf5cbfe89"
     },
     {
       "id": "s05-system-boundary:question-information",
@@ -193,15 +218,21 @@
         "s05-system-boundary-information-1",
         "s05-system-boundary-information-2",
         "s05-system-boundary-information-3",
-        "s05-system-boundary-information-check"
+        "s05-system-boundary-information-scheme",
+        "s05-system-boundary-information-case",
+        "s05-system-boundary-information-check",
+        "s05-system-boundary-information-multiple",
+        "s05-system-boundary-information-short",
+        "s05-system-boundary-information-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "17bd128c08a2af66af851ccde5a66b40ca6d7b9cf11254832f840a9d4b6480a6"
+      "fingerprint": "1d758ef4392f19cdef3ea7f4553d8275fe152dccff921c6a95dde65360c1b842"
     },
     {
       "id": "s05-system-boundary:question-responsibility",
@@ -213,7 +244,12 @@
         "s05-system-boundary-responsibility-3",
         "s05-system-boundary-responsibility-4",
         "s05-system-boundary-responsibility-4-view",
-        "s05-system-boundary-responsibility-check"
+        "s05-system-boundary-responsibility-scheme",
+        "s05-system-boundary-responsibility-case",
+        "s05-system-boundary-responsibility-check",
+        "s05-system-boundary-responsibility-multiple",
+        "s05-system-boundary-responsibility-short",
+        "s05-system-boundary-responsibility-matching"
       ],
       "needs": [
         "student",
@@ -222,7 +258,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "cadabbe35ae039490b00fdee3c6177611199ed2d31da7471e7376f94b8b18fad"
+      "fingerprint": "e6113f8e065ad331f6aece08ac90431c4362226874582a8cf3b242601513ed6a"
     },
     {
       "id": "s05-system-boundary:question-boundary",
@@ -233,7 +269,12 @@
         "s05-system-boundary-diagram-3",
         "s05-system-boundary-boundary-2",
         "s05-system-boundary-boundary-3",
-        "s05-system-boundary-boundary-check"
+        "s05-system-boundary-boundary-scheme",
+        "s05-system-boundary-boundary-case",
+        "s05-system-boundary-boundary-check",
+        "s05-system-boundary-boundary-multiple",
+        "s05-system-boundary-boundary-short",
+        "s05-system-boundary-boundary-matching"
       ],
       "needs": [
         "student",
@@ -242,7 +283,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "642b02a19c99742d0edbc9c75c75cf43d4272b7ecb1e94d5b804a882e2a44e7c"
+      "fingerprint": "7a7ff053c3d1dbd4f336f2d7b98d7d78b54d69dca4d95dfbe9ff2113f6e1cf2f"
     },
     {
       "id": "s05-system-boundary:question-operation",
@@ -252,18 +293,21 @@
         "s05-system-boundary-content-4",
         "s05-system-boundary-operation-2",
         "s05-system-boundary-operation-3",
+        "s05-system-boundary-operation-scheme",
+        "s05-system-boundary-operation-case",
         "s05-system-boundary-operation-check",
-        "s05-system-boundary-case",
-        "s05-system-boundary-test",
-        "s05-system-boundary-transfer"
+        "s05-system-boundary-operation-multiple",
+        "s05-system-boundary-operation-short",
+        "s05-system-boundary-operation-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "466fb44987b96baec047dcd991dbef15a6b0a472a75d2ca6d8d9306732d33fcd"
+      "fingerprint": "c1ee4d29a6bd0eb4b686d811bb73107d45df255467c912f5375f9d9ccb6d3730"
     },
     {
       "id": "s05-system-boundary:closing",
@@ -279,7 +323,7 @@
         "teacher"
       ],
       "artifacts": {},
-      "fingerprint": "8be3e6b163a6f5c06a9b978feccafb647e36b220696613226250561a969160d1"
+      "fingerprint": "25b5cb3b6fcd4fbf17257b025dfa692beecb740838c9b7f1427fc332df424781"
     },
     {
       "id": "s05-structure:intro",
@@ -296,7 +340,7 @@
         "teacher"
       ],
       "artifacts": {},
-      "fingerprint": "66def64d40c7726f373015b13b9c9dc0ceef2078164a82e7f703fb17865ac327"
+      "fingerprint": "c7667e1eeca228d6237b8f8dfb3fd4de04551ba948cc942206b64593e9d72da2"
     },
     {
       "id": "s05-structure:question",
@@ -306,15 +350,21 @@
         "s05-structure-content-1",
         "s05-structure-workplace-2",
         "s05-structure-workplace-3",
-        "s05-structure-workplace-check"
+        "s05-structure-workplace-scheme",
+        "s05-structure-workplace-case",
+        "s05-structure-workplace-check",
+        "s05-structure-workplace-multiple",
+        "s05-structure-workplace-short",
+        "s05-structure-workplace-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "edafc373350c10e651771978c6640ed2002ef1f449b227b6351e42a78b3d52ce"
+      "fingerprint": "006c9b2f06ffb8004d88fc72f24c7fbc0a73d7151dc6702ae5fb509bb99ac0a1"
     },
     {
       "id": "s05-structure:question-servers",
@@ -325,7 +375,12 @@
         "s05-structure-servers-2",
         "s05-structure-servers-3",
         "s05-structure-servers-3-view",
-        "s05-structure-servers-check"
+        "s05-structure-servers-scheme",
+        "s05-structure-servers-case",
+        "s05-structure-servers-check",
+        "s05-structure-servers-multiple",
+        "s05-structure-servers-short",
+        "s05-structure-servers-matching"
       ],
       "needs": [
         "student",
@@ -334,7 +389,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "6f80123bf4c264f010860b5fdb4b9ef9004677ed60b2471bdb2743c28ecc25bc"
+      "fingerprint": "4f7642c02c54a06baa06a62b63c506ca33c07ea56d4c4131208d176127b08389"
     },
     {
       "id": "s05-structure:question-data-path",
@@ -345,7 +400,12 @@
         "s05-structure-diagram-2",
         "s05-structure-data-path-2",
         "s05-structure-data-path-3",
-        "s05-structure-data-path-check"
+        "s05-structure-data-path-scheme",
+        "s05-structure-data-path-case",
+        "s05-structure-data-path-check",
+        "s05-structure-data-path-multiple",
+        "s05-structure-data-path-short",
+        "s05-structure-data-path-matching"
       ],
       "needs": [
         "student",
@@ -354,7 +414,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "807cd51dbee5a94a640c699568cb29e62181bd17084a4c24aafc1e5569d81aac"
+      "fingerprint": "184700e2a4c30baa4893d27e5d0bccfb25a940c2d84ccc20988d8169ada95cf2"
     },
     {
       "id": "s05-structure:question-storage",
@@ -364,15 +424,21 @@
         "s05-structure-storage-1",
         "s05-structure-storage-2",
         "s05-structure-storage-3",
-        "s05-structure-storage-check"
+        "s05-structure-storage-scheme",
+        "s05-structure-storage-case",
+        "s05-structure-storage-check",
+        "s05-structure-storage-multiple",
+        "s05-structure-storage-short",
+        "s05-structure-storage-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "55749f2b97994dc2f4a5527be38f003bc619b3eb021a4b97f4ad1506bfa706f1"
+      "fingerprint": "127afecb0348c826b2bc6f0d2e5412b0f39031b3d83dd7d1d5e3d73c1211678b"
     },
     {
       "id": "s05-structure:question-peripherals",
@@ -382,15 +448,21 @@
         "s05-structure-peripherals-1",
         "s05-structure-content-4",
         "s05-structure-peripherals-3",
-        "s05-structure-peripherals-check"
+        "s05-structure-peripherals-scheme",
+        "s05-structure-peripherals-case",
+        "s05-structure-peripherals-check",
+        "s05-structure-peripherals-multiple",
+        "s05-structure-peripherals-short",
+        "s05-structure-peripherals-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "97f676798f2f76b45d7dd2ac90fa88d0dd7c1d29ff30b296c1efeed2ba8b467a"
+      "fingerprint": "c7162cce5260ee6bd998780db63da73e5190a417d58ae3cfe0fe7bf637bcc816"
     },
     {
       "id": "s05-structure:question-power",
@@ -400,18 +472,21 @@
         "s05-structure-content-3",
         "s05-structure-power-2",
         "s05-structure-power-3",
+        "s05-structure-power-scheme",
+        "s05-structure-power-case",
         "s05-structure-power-check",
-        "s05-structure-case",
-        "s05-structure-test",
-        "s05-structure-transfer"
+        "s05-structure-power-multiple",
+        "s05-structure-power-short",
+        "s05-structure-power-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "275c82128934ff99a2747131927f8f7c90718ef6fcef0d4c8aaf1dba0329de55"
+      "fingerprint": "cf15ff8c0b68196376deafc58e2291bd90265581996392cba775625eb1b2318a"
     },
     {
       "id": "s05-structure:closing",
@@ -427,7 +502,7 @@
         "teacher"
       ],
       "artifacts": {},
-      "fingerprint": "660883dab03ad531a3e2794956283ab91035b0f7a5877288f756546633c63361"
+      "fingerprint": "4c5fef83809b84db13444ad18db7dfb4dec795798efa93fe1e0ac81da47d9099"
     },
     {
       "id": "s05-classification:intro",
@@ -444,7 +519,7 @@
         "teacher"
       ],
       "artifacts": {},
-      "fingerprint": "982c101c12c63382d908f9f231d896affd683e3a1295b11813086a8a5b3dfeca"
+      "fingerprint": "398c8071fe3bb2f1043e6d4d6ea8ae045889013213de04babe17bd13bca30f18"
     },
     {
       "id": "s05-classification:question",
@@ -455,7 +530,12 @@
         "s05-classification-purpose-2",
         "s05-classification-purpose-3",
         "s05-classification-purpose-3-view",
-        "s05-classification-purpose-check"
+        "s05-classification-purpose-scheme",
+        "s05-classification-purpose-case",
+        "s05-classification-purpose-check",
+        "s05-classification-purpose-multiple",
+        "s05-classification-purpose-short",
+        "s05-classification-purpose-matching"
       ],
       "needs": [
         "student",
@@ -464,7 +544,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "57d654d068d08841869a4f3e08e1c3287bc2c2583788f9a238803a694a242abd"
+      "fingerprint": "423c512e476a8ccb6d5f79e2e785cbf58a17f68e6481d0fbafc07501767e6691"
     },
     {
       "id": "s05-classification:question-scale",
@@ -475,7 +555,12 @@
         "s05-classification-scale-2",
         "s05-classification-content-2",
         "s05-classification-diagram-2",
-        "s05-classification-scale-check"
+        "s05-classification-scale-scheme",
+        "s05-classification-scale-case",
+        "s05-classification-scale-check",
+        "s05-classification-scale-multiple",
+        "s05-classification-scale-short",
+        "s05-classification-scale-matching"
       ],
       "needs": [
         "student",
@@ -484,7 +569,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "c7280fc6e7d3d13f27127918b3277dd4f60db901dbf3c0e5eff74d48978783b4"
+      "fingerprint": "7947a3d86285f312c4a6910807be99e264d3184d314391bcafe03c0862c99710"
     },
     {
       "id": "s05-classification:question-placement",
@@ -494,15 +579,21 @@
         "s05-classification-content-3",
         "s05-classification-placement-2",
         "s05-classification-placement-3",
-        "s05-classification-placement-check"
+        "s05-classification-placement-scheme",
+        "s05-classification-placement-case",
+        "s05-classification-placement-check",
+        "s05-classification-placement-multiple",
+        "s05-classification-placement-short",
+        "s05-classification-placement-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "33dda1d9db449141192383c750b3633c76af67def3062ebd0e7b2797c434877f"
+      "fingerprint": "a2b5e14151279672e560af7e14365a7849da2b065022e746f04b0a6ab247d1a1"
     },
     {
       "id": "s05-classification:question-comparison",
@@ -512,15 +603,21 @@
         "s05-classification-comparison-1",
         "s05-classification-comparison-2",
         "s05-classification-comparison-3",
-        "s05-classification-comparison-check"
+        "s05-classification-comparison-scheme",
+        "s05-classification-comparison-case",
+        "s05-classification-comparison-check",
+        "s05-classification-comparison-multiple",
+        "s05-classification-comparison-short",
+        "s05-classification-comparison-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "6a7eaf51572201895610f968cacb1631b67a1dfc5070342b0b9e765f0250afaa"
+      "fingerprint": "88c51de17ca1303a1beabf16a5cc3711a9198bfb7dc8274783a95a75254eaedc"
     },
     {
       "id": "s05-classification:question-selection",
@@ -530,18 +627,21 @@
         "s05-classification-content-4",
         "s05-classification-selection-2",
         "s05-classification-selection-3",
+        "s05-classification-selection-scheme",
+        "s05-classification-selection-case",
         "s05-classification-selection-check",
-        "s05-classification-case",
-        "s05-classification-test",
-        "s05-classification-transfer"
+        "s05-classification-selection-multiple",
+        "s05-classification-selection-short",
+        "s05-classification-selection-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "386825fd01e1d51cbe919ef547442f9ab600bf85a1f22d172075aea125d4ac79"
+      "fingerprint": "09db981a2f3edf4848c0f70bbe182f03d4a114463251de5a4490369519e63764"
     },
     {
       "id": "s05-classification:closing",
@@ -557,7 +657,7 @@
         "teacher"
       ],
       "artifacts": {},
-      "fingerprint": "73f935c455b3b3d4acbfe439a78ee6e53990d2eb32691e34576f371d9735231c"
+      "fingerprint": "bd8c7f328b6bc2cdaa86be4cb96a6e61ff6321fa74f6a7596a9ff79bb635089e"
     },
     {
       "id": "s05-accounting-supply:intro",
@@ -574,7 +674,7 @@
         "teacher"
       ],
       "artifacts": {},
-      "fingerprint": "dc9b74b8cefd2c14a3189dd00dd1c0f2c1f3c2323d81702091ee50ec6a3ea1ff"
+      "fingerprint": "71f66493519d2b8a873d05eb3e07ee5f09e2f44af475f35f78274ec9ccc0f8e5"
     },
     {
       "id": "s05-accounting-supply:question",
@@ -584,15 +684,21 @@
         "s05-accounting-supply-content-1",
         "s05-accounting-supply-objects-2",
         "s05-accounting-supply-objects-3",
-        "s05-accounting-supply-objects-check"
+        "s05-accounting-supply-objects-scheme",
+        "s05-accounting-supply-objects-case",
+        "s05-accounting-supply-objects-check",
+        "s05-accounting-supply-objects-multiple",
+        "s05-accounting-supply-objects-short",
+        "s05-accounting-supply-objects-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "5351c8dc08e56c8b8a2415dbdd5b9434a252bd150db8d7a4788453db9472d107"
+      "fingerprint": "bd9142ddc5c2b4620c9b441722c360e1458ce529ed9c263e6b84c3c1fe040925"
     },
     {
       "id": "s05-accounting-supply:question-documents",
@@ -604,7 +710,12 @@
         "s05-accounting-supply-documents-2",
         "s05-accounting-supply-documents-3",
         "s05-accounting-supply-documents-3-view",
-        "s05-accounting-supply-documents-check"
+        "s05-accounting-supply-documents-scheme",
+        "s05-accounting-supply-documents-case",
+        "s05-accounting-supply-documents-check",
+        "s05-accounting-supply-documents-multiple",
+        "s05-accounting-supply-documents-short",
+        "s05-accounting-supply-documents-matching"
       ],
       "needs": [
         "student",
@@ -613,7 +724,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "13ba31fd47e2bbb835da6bdd5996fd3e4eafa03e38bea7c86cd78d78ab82a503"
+      "fingerprint": "1bf6c2490fd87df531bb2dcae71cd76d3b721a5b0c28ead1d05c054ce8e9421e"
     },
     {
       "id": "s05-accounting-supply:question-stock",
@@ -623,15 +734,21 @@
         "s05-accounting-supply-content-3",
         "s05-accounting-supply-stock-2",
         "s05-accounting-supply-stock-3",
-        "s05-accounting-supply-stock-check"
+        "s05-accounting-supply-stock-scheme",
+        "s05-accounting-supply-stock-case",
+        "s05-accounting-supply-stock-check",
+        "s05-accounting-supply-stock-multiple",
+        "s05-accounting-supply-stock-short",
+        "s05-accounting-supply-stock-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "26a6ad6372a5940a323ccfe100ea61f98764c79467b6858fa3cda9df0cbbb341"
+      "fingerprint": "a06d3c450298ea5b3d2920d1957c1c50a0b74a626c8ab6d251117b2f49a60273"
     },
     {
       "id": "s05-accounting-supply:question-planning",
@@ -641,15 +758,21 @@
         "s05-accounting-supply-content-4",
         "s05-accounting-supply-planning-2",
         "s05-accounting-supply-planning-3",
-        "s05-accounting-supply-planning-check"
+        "s05-accounting-supply-planning-scheme",
+        "s05-accounting-supply-planning-case",
+        "s05-accounting-supply-planning-check",
+        "s05-accounting-supply-planning-multiple",
+        "s05-accounting-supply-planning-short",
+        "s05-accounting-supply-planning-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "2c8d7c5be211e6ab9884b84e361f771f40a446e8425daf07a45ec19f5b136754"
+      "fingerprint": "42f0c947aa3a5ff55275c1d9b7e2a0e54377fd4fa32e21a90ff872c415695a18"
     },
     {
       "id": "s05-accounting-supply:question-integration",
@@ -660,7 +783,12 @@
         "s05-accounting-supply-integration-2",
         "s05-accounting-supply-integration-3",
         "s05-accounting-supply-integration-3-view",
-        "s05-accounting-supply-integration-check"
+        "s05-accounting-supply-integration-scheme",
+        "s05-accounting-supply-integration-case",
+        "s05-accounting-supply-integration-check",
+        "s05-accounting-supply-integration-multiple",
+        "s05-accounting-supply-integration-short",
+        "s05-accounting-supply-integration-matching"
       ],
       "needs": [
         "student",
@@ -669,7 +797,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "0e8603338175528e7ff1fbc5348987f24ef70433a4abaebb62a96f693aadad90"
+      "fingerprint": "14c95e26e3b79543a19d0e42c55571ee1ac55fdbd2624f2af536d97600a2372e"
     },
     {
       "id": "s05-accounting-supply:question-exploitation",
@@ -679,18 +807,21 @@
         "s05-accounting-supply-content-5",
         "s05-accounting-supply-exploitation-2",
         "s05-accounting-supply-exploitation-3",
+        "s05-accounting-supply-exploitation-scheme",
+        "s05-accounting-supply-exploitation-case",
         "s05-accounting-supply-exploitation-check",
-        "s05-accounting-supply-case",
-        "s05-accounting-supply-test",
-        "s05-accounting-supply-transfer"
+        "s05-accounting-supply-exploitation-multiple",
+        "s05-accounting-supply-exploitation-short",
+        "s05-accounting-supply-exploitation-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "51ae77660cfa21cd61a0b13320419cb2de5e89f54af200eab78ac74acfd57325"
+      "fingerprint": "d254674f1a6d93d8229e7c3995264a092e66822728319fa7373bb1894da116cb"
     },
     {
       "id": "s05-accounting-supply:closing",
@@ -706,7 +837,7 @@
         "teacher"
       ],
       "artifacts": {},
-      "fingerprint": "09b4baac4cc9f6b9aa5ff1a1c0eeaa20e36f919daa90ff05f922787a5a0dc9c9"
+      "fingerprint": "81c5f2275876da64f1f841fe1dd804cde25a2022d41c3f3ef72649e4e592f903"
     },
     {
       "id": "s05-production-quality:intro",
@@ -723,7 +854,7 @@
         "teacher"
       ],
       "artifacts": {},
-      "fingerprint": "7823fa2cf15dc4d204ba00368b09f6e01b3806ed4e12416ee792bc7e75f9f4e5"
+      "fingerprint": "96c54a2acb9a782396f4b5f8a0a3a5d935d64420c237dc39c88046a2d2a57f84"
     },
     {
       "id": "s05-production-quality:question",
@@ -734,7 +865,12 @@
         "s05-production-quality-levels-2",
         "s05-production-quality-levels-3",
         "s05-production-quality-levels-3-view",
-        "s05-production-quality-levels-check"
+        "s05-production-quality-levels-scheme",
+        "s05-production-quality-levels-case",
+        "s05-production-quality-levels-check",
+        "s05-production-quality-levels-multiple",
+        "s05-production-quality-levels-short",
+        "s05-production-quality-levels-matching"
       ],
       "needs": [
         "student",
@@ -743,7 +879,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "45df62f33e66203ed467cb77b97d756dfab560a1ebbd9b356f4d57f6ae469848"
+      "fingerprint": "62c66ffbec19b6e7a63e5d7bc428cba71acc2434eacd729ecb319bbfd3245ab4"
     },
     {
       "id": "s05-production-quality:question-routing",
@@ -754,7 +890,12 @@
         "s05-production-quality-routing-2",
         "s05-production-quality-routing-3",
         "s05-production-quality-routing-3-view",
-        "s05-production-quality-routing-check"
+        "s05-production-quality-routing-scheme",
+        "s05-production-quality-routing-case",
+        "s05-production-quality-routing-check",
+        "s05-production-quality-routing-multiple",
+        "s05-production-quality-routing-short",
+        "s05-production-quality-routing-matching"
       ],
       "needs": [
         "student",
@@ -763,7 +904,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "1576283d210d9c743e6342d9d064b69041c838a5694805b6f6f331cad35ce750"
+      "fingerprint": "9b72ec44b8c77461d4fab9952971b222a7034dd51d138104d4392324cafa62c3"
     },
     {
       "id": "s05-production-quality:question-trace",
@@ -774,7 +915,12 @@
         "s05-production-quality-diagram-2",
         "s05-production-quality-trace-2",
         "s05-production-quality-trace-3",
-        "s05-production-quality-trace-check"
+        "s05-production-quality-trace-scheme",
+        "s05-production-quality-trace-case",
+        "s05-production-quality-trace-check",
+        "s05-production-quality-trace-multiple",
+        "s05-production-quality-trace-short",
+        "s05-production-quality-trace-matching"
       ],
       "needs": [
         "student",
@@ -783,7 +929,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "433d8e482f34776ae1212b5853c56db7a121d519dd9d1f9a4f5150b23bb72730"
+      "fingerprint": "22d46c3d1418a59cb02bc2c5ec7b5e3b2c963e75cd83f2cf697bc58cb100b0b1"
     },
     {
       "id": "s05-production-quality:question-measurement",
@@ -793,15 +939,21 @@
         "s05-production-quality-content-3",
         "s05-production-quality-measurement-2",
         "s05-production-quality-measurement-3",
-        "s05-production-quality-measurement-check"
+        "s05-production-quality-measurement-scheme",
+        "s05-production-quality-measurement-case",
+        "s05-production-quality-measurement-check",
+        "s05-production-quality-measurement-multiple",
+        "s05-production-quality-measurement-short",
+        "s05-production-quality-measurement-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "1eff55dcd4edfd3d3089a3fd629a53b4cc2d34aaf410813e37422789f10ad255"
+      "fingerprint": "5587a7461f453a85dab2c2082d0e3130098653ae58fa8af1aae4fe02d9fc1095"
     },
     {
       "id": "s05-production-quality:question-nonconformity",
@@ -811,15 +963,21 @@
         "s05-production-quality-content-4",
         "s05-production-quality-nonconformity-2",
         "s05-production-quality-nonconformity-3",
-        "s05-production-quality-nonconformity-check"
+        "s05-production-quality-nonconformity-scheme",
+        "s05-production-quality-nonconformity-case",
+        "s05-production-quality-nonconformity-check",
+        "s05-production-quality-nonconformity-multiple",
+        "s05-production-quality-nonconformity-short",
+        "s05-production-quality-nonconformity-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "27871b137ae25356caaeee5993586bb596f07cc5b1125dd8b283a24c43341953"
+      "fingerprint": "df0857b21499feaa9683b541bfae337139dbda0aa8c03609a2c8916c419125d2"
     },
     {
       "id": "s05-production-quality:question-service",
@@ -829,18 +987,21 @@
         "s05-production-quality-content-5",
         "s05-production-quality-service-2",
         "s05-production-quality-service-3",
+        "s05-production-quality-service-scheme",
+        "s05-production-quality-service-case",
         "s05-production-quality-service-check",
-        "s05-production-quality-case",
-        "s05-production-quality-test",
-        "s05-production-quality-transfer"
+        "s05-production-quality-service-multiple",
+        "s05-production-quality-service-short",
+        "s05-production-quality-service-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "702c2a51b674452ab56056114e7f3690e4d9adbaaab69ccbb8ff78ad83c18133"
+      "fingerprint": "808e9401b4cd4de007a8bdcf4755340e7df0190a1abcaccbf8359cf748ea32a5"
     },
     {
       "id": "s05-production-quality:closing",
@@ -856,7 +1017,7 @@
         "teacher"
       ],
       "artifacts": {},
-      "fingerprint": "2fb0cc8f5f2f1c6ba9908157937014acd92a0ef67e8868a3f364bca5acf91c23"
+      "fingerprint": "4701d613de0e081b8eb6eaf8e9bf548532ce562686d3daa13f9b3a8fbe55d62a"
     },
     {
       "id": "s05-reference-library:intro",
@@ -873,7 +1034,7 @@
         "teacher"
       ],
       "artifacts": {},
-      "fingerprint": "7c0ca9128145b66bd14ab038bd69b8cde2e5a41b6fc4b36bbf5dc9b6e6751637"
+      "fingerprint": "97a0827b6e5a2aba8bd42d7d2288d62575258fb02aec21e80f2e28bd5aaf11ea"
     },
     {
       "id": "s05-reference-library:question",
@@ -884,7 +1045,12 @@
         "s05-reference-library-records-2",
         "s05-reference-library-records-3",
         "s05-reference-library-records-3-view",
-        "s05-reference-library-records-check"
+        "s05-reference-library-records-scheme",
+        "s05-reference-library-records-case",
+        "s05-reference-library-records-check",
+        "s05-reference-library-records-multiple",
+        "s05-reference-library-records-short",
+        "s05-reference-library-records-matching"
       ],
       "needs": [
         "student",
@@ -893,7 +1059,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "59734b2dabf53b6ec27cab986d7ef134ee66ac6234725cf27d9fbdf1baa0070d"
+      "fingerprint": "c0363d38797dc7effb4424a0e51a2de0aaef3e8e8f4c4520eff483391d75934d"
     },
     {
       "id": "s05-reference-library:question-search",
@@ -903,15 +1069,21 @@
         "s05-reference-library-search-1",
         "s05-reference-library-content-4",
         "s05-reference-library-search-3",
-        "s05-reference-library-search-check"
+        "s05-reference-library-search-scheme",
+        "s05-reference-library-search-case",
+        "s05-reference-library-search-check",
+        "s05-reference-library-search-multiple",
+        "s05-reference-library-search-short",
+        "s05-reference-library-search-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "b61760cf18eb61cd6a2a41b2771c400415d266a6fef0726a7bc63a26c10627ac"
+      "fingerprint": "e9cbd2670a762a77d63e4bb8f495c36119fe7fca2107358223c508972a6497fa"
     },
     {
       "id": "s05-reference-library:question-circulation",
@@ -922,7 +1094,12 @@
         "s05-reference-library-diagram-2",
         "s05-reference-library-circulation-2",
         "s05-reference-library-circulation-3",
-        "s05-reference-library-circulation-check"
+        "s05-reference-library-circulation-scheme",
+        "s05-reference-library-circulation-case",
+        "s05-reference-library-circulation-check",
+        "s05-reference-library-circulation-multiple",
+        "s05-reference-library-circulation-short",
+        "s05-reference-library-circulation-matching"
       ],
       "needs": [
         "student",
@@ -931,7 +1108,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "7ce2268ee4b52cd6e29b09a805ec72fe3a8904a48dc8d766e1f0df6323b9ed42"
+      "fingerprint": "172ebfeac46354917ecdaeec345e693b45966250262ec0aaa1f86623d9cf3c93"
     },
     {
       "id": "s05-reference-library:question-access",
@@ -941,15 +1118,21 @@
         "s05-reference-library-content-3",
         "s05-reference-library-access-2",
         "s05-reference-library-access-3",
-        "s05-reference-library-access-check"
+        "s05-reference-library-access-scheme",
+        "s05-reference-library-access-case",
+        "s05-reference-library-access-check",
+        "s05-reference-library-access-multiple",
+        "s05-reference-library-access-short",
+        "s05-reference-library-access-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "4f0fb64776066de917c423748be17969de6b62f07e722655379ac0579f9c119c"
+      "fingerprint": "027537566a987023ba4f4921ee8aaed8c703945c04edf31ba31b2d695cc23a6a"
     },
     {
       "id": "s05-reference-library:question-maintenance",
@@ -959,18 +1142,21 @@
         "s05-reference-library-content-5",
         "s05-reference-library-maintenance-2",
         "s05-reference-library-maintenance-3",
+        "s05-reference-library-maintenance-scheme",
+        "s05-reference-library-maintenance-case",
         "s05-reference-library-maintenance-check",
-        "s05-reference-library-case",
-        "s05-reference-library-test",
-        "s05-reference-library-transfer"
+        "s05-reference-library-maintenance-multiple",
+        "s05-reference-library-maintenance-short",
+        "s05-reference-library-maintenance-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "fef61d73e4b02cb52f30b0e8256445ec5ffdb8170100c5da59574f59e9f04198"
+      "fingerprint": "a9fc249cc465de3f07cc91edc0dc1de445de0c460f83d966387bcb42025c5515"
     },
     {
       "id": "s05-reference-library:closing",
@@ -986,7 +1172,7 @@
         "teacher"
       ],
       "artifacts": {},
-      "fingerprint": "c94b68e4ae6651de9570855b822a29f1a5f2419d34230ae0d845c16459fbe80d"
+      "fingerprint": "585632f65837ee542af8236dc195db7bdef4abc7fe53441bd3578625d7c45ad6"
     },
     {
       "id": "s05-building-media:intro",
@@ -1003,7 +1189,7 @@
         "teacher"
       ],
       "artifacts": {},
-      "fingerprint": "35a96c31be34278f2d4093f702f5a5be4b44bc0106a38599ad0cac8cd6a73d37"
+      "fingerprint": "79cf57aa533018e0a469d5fba4bdbab70cf18a54ee56549f45081c69a4f2b1f4"
     },
     {
       "id": "s05-building-media:question",
@@ -1013,15 +1199,21 @@
         "s05-building-media-content-1",
         "s05-building-media-field-2",
         "s05-building-media-field-3",
-        "s05-building-media-field-check"
+        "s05-building-media-field-scheme",
+        "s05-building-media-field-case",
+        "s05-building-media-field-check",
+        "s05-building-media-field-multiple",
+        "s05-building-media-field-short",
+        "s05-building-media-field-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "01616621fb2b8ea74e3224caae1456d653cfacfbcc8bd68399449fc60b48da6f"
+      "fingerprint": "e5494112dbb96a8e04f4598d36667f8c51d6a9cf8f834c632ab8702568a94719"
     },
     {
       "id": "s05-building-media:question-controllers",
@@ -1032,7 +1224,12 @@
         "s05-building-media-controllers-2",
         "s05-building-media-controllers-3",
         "s05-building-media-controllers-3-view",
-        "s05-building-media-controllers-check"
+        "s05-building-media-controllers-scheme",
+        "s05-building-media-controllers-case",
+        "s05-building-media-controllers-check",
+        "s05-building-media-controllers-multiple",
+        "s05-building-media-controllers-short",
+        "s05-building-media-controllers-matching"
       ],
       "needs": [
         "student",
@@ -1041,7 +1238,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "eeea9b992b96d37ee60c0e39705d49e0629cbe1c963d14dd23e84829fa0f7254"
+      "fingerprint": "5ac962e52101ee43fa1c2cf12388f82de323958aa84aef4f1ac966c02291d818"
     },
     {
       "id": "s05-building-media:question-media",
@@ -1053,7 +1250,12 @@
         "s05-building-media-media-2",
         "s05-building-media-media-3",
         "s05-building-media-media-3-view",
-        "s05-building-media-media-check"
+        "s05-building-media-media-scheme",
+        "s05-building-media-media-case",
+        "s05-building-media-media-check",
+        "s05-building-media-media-multiple",
+        "s05-building-media-media-short",
+        "s05-building-media-media-matching"
       ],
       "needs": [
         "student",
@@ -1062,7 +1264,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "87158739844ddb9a2536e6c3481c21827ad217938b7bcb1f009875f3a4e4e6cb"
+      "fingerprint": "e16bfc139361541ac02cd2427e1d81217f3e0f451b0b6dbae707b783931a26b4"
     },
     {
       "id": "s05-building-media:question-zones",
@@ -1072,15 +1274,21 @@
         "s05-building-media-content-3",
         "s05-building-media-zones-2",
         "s05-building-media-zones-3",
-        "s05-building-media-zones-check"
+        "s05-building-media-zones-scheme",
+        "s05-building-media-zones-case",
+        "s05-building-media-zones-check",
+        "s05-building-media-zones-multiple",
+        "s05-building-media-zones-short",
+        "s05-building-media-zones-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "fa16ae1a7ca31ed2d9bc5dceb3d0c203fa61098646ac5d836d1f879cc7356642"
+      "fingerprint": "55cfda5d996e45e04dc3fc2a7165e8fd3c6d953a9052d987c7f72fd178aab347"
     },
     {
       "id": "s05-building-media:question-diagnostics",
@@ -1090,15 +1298,21 @@
         "s05-building-media-content-4",
         "s05-building-media-diagnostics-2",
         "s05-building-media-diagnostics-3",
-        "s05-building-media-diagnostics-check"
+        "s05-building-media-diagnostics-scheme",
+        "s05-building-media-diagnostics-case",
+        "s05-building-media-diagnostics-check",
+        "s05-building-media-diagnostics-multiple",
+        "s05-building-media-diagnostics-short",
+        "s05-building-media-diagnostics-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "268731632499d220d807559e805092087b334158b85c7594e29a943e376c9adf"
+      "fingerprint": "86fdb2f56a5a691d76a8d3aa62b568c702e10593d785476d7c14705e7530c7ea"
     },
     {
       "id": "s05-building-media:question-maintenance",
@@ -1108,18 +1322,21 @@
         "s05-building-media-content-5",
         "s05-building-media-maintenance-2",
         "s05-building-media-maintenance-3",
+        "s05-building-media-maintenance-scheme",
+        "s05-building-media-maintenance-case",
         "s05-building-media-maintenance-check",
-        "s05-building-media-case",
-        "s05-building-media-test",
-        "s05-building-media-transfer"
+        "s05-building-media-maintenance-multiple",
+        "s05-building-media-maintenance-short",
+        "s05-building-media-maintenance-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "987de09ed5f448b7dc08db40bb86718b4a5d898dabcf34e9c93aaefce4158976"
+      "fingerprint": "b40a287e3a919ffaceeed41a7298155cb8c70160178f342635b3a8c0290d2607"
     },
     {
       "id": "s05-building-media:closing",
@@ -1135,7 +1352,7 @@
         "teacher"
       ],
       "artifacts": {},
-      "fingerprint": "ffb3476b2dd5062eb03ecd6de3cb158769a78a72c3689f4bcf7f2466c0327afa"
+      "fingerprint": "9b2c636c823d4fc3ab64b75eadd11cfece7bcd2a9927ec8c71b93786975cf821"
     },
     {
       "id": "s05-integration:intro",
@@ -1152,7 +1369,7 @@
         "teacher"
       ],
       "artifacts": {},
-      "fingerprint": "1a522a0153c9d6c52136bb75ed51890830305f3da8ce8402f21e3218893a9a1a"
+      "fingerprint": "9fb3b3aab81af68f24e1b59289c4fbb564931251743345b2bc659f1a827e1461"
     },
     {
       "id": "s05-integration:question",
@@ -1162,15 +1379,21 @@
         "s05-integration-content-1",
         "s05-integration-groups-2",
         "s05-integration-groups-3",
-        "s05-integration-groups-check"
+        "s05-integration-groups-scheme",
+        "s05-integration-groups-case",
+        "s05-integration-groups-check",
+        "s05-integration-groups-multiple",
+        "s05-integration-groups-short",
+        "s05-integration-groups-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "b332c4a951a43bb542f5bbde6850aa0bcbd51b347459714b1d5236a8c9cef5c0"
+      "fingerprint": "8ea19021a7cbe818f58025febb1bcc9c8ad977fc3313e82d4681a62414edf1df"
     },
     {
       "id": "s05-integration:question-switching",
@@ -1180,15 +1403,21 @@
         "s05-integration-switching-1",
         "s05-integration-switching-2",
         "s05-integration-content-4",
-        "s05-integration-switching-check"
+        "s05-integration-switching-scheme",
+        "s05-integration-switching-case",
+        "s05-integration-switching-check",
+        "s05-integration-switching-multiple",
+        "s05-integration-switching-short",
+        "s05-integration-switching-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "408997c1d71e15705d81902c145db96be4c447e373324a6966175c7e93040d91"
+      "fingerprint": "bafc4d8b0aa081e487390d4d2bbb89a9d800710d3f3e61c2a31bbda025a66b5d"
     },
     {
       "id": "s05-integration:question-display",
@@ -1197,15 +1426,21 @@
         "s05-integration-question-display",
         "s05-integration-display-1",
         "s05-integration-display-2",
-        "s05-integration-display-check"
+        "s05-integration-display-scheme",
+        "s05-integration-display-case",
+        "s05-integration-display-check",
+        "s05-integration-display-multiple",
+        "s05-integration-display-short",
+        "s05-integration-display-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "2ee99f624b8a91036e6f1eaa0743e9f3eb596e90bdb4c43b7bce62bc0bcce3b3"
+      "fingerprint": "3325a3b4cf682cf43b91f13c24458a026759fa926fdbc7b4c9968c6790f966ba"
     },
     {
       "id": "s05-integration:question-audio",
@@ -1215,15 +1450,21 @@
         "s05-integration-audio-1",
         "s05-integration-audio-2",
         "s05-integration-audio-3",
-        "s05-integration-audio-check"
+        "s05-integration-audio-scheme",
+        "s05-integration-audio-case",
+        "s05-integration-audio-check",
+        "s05-integration-audio-multiple",
+        "s05-integration-audio-short",
+        "s05-integration-audio-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "c9da0d98e730bfe6bec217e12b440268a220d17459f51f2cfafa83143ba39a98"
+      "fingerprint": "02a2c2b5f22d08129a1ec946a93007b3980efb3356fca7358d6e7a6bbda78ba8"
     },
     {
       "id": "s05-integration:question-surveillance",
@@ -1233,15 +1474,21 @@
         "s05-integration-surveillance-1",
         "s05-integration-surveillance-2",
         "s05-integration-content-5",
-        "s05-integration-surveillance-check"
+        "s05-integration-surveillance-scheme",
+        "s05-integration-surveillance-case",
+        "s05-integration-surveillance-check",
+        "s05-integration-surveillance-multiple",
+        "s05-integration-surveillance-short",
+        "s05-integration-surveillance-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "d53b9bec9bb122cde0ab0bad931ce0d07f06f3c415563505c29cc882dae2e771"
+      "fingerprint": "12a876b169b4a5b24a783e3260f9541ecc5709368f3c209d8c9042a0e917d70e"
     },
     {
       "id": "s05-integration:question-ports",
@@ -1252,7 +1499,12 @@
         "s05-integration-ports-2",
         "s05-integration-content-2",
         "s05-integration-diagram-2",
-        "s05-integration-ports-check"
+        "s05-integration-ports-scheme",
+        "s05-integration-ports-case",
+        "s05-integration-ports-check",
+        "s05-integration-ports-multiple",
+        "s05-integration-ports-short",
+        "s05-integration-ports-matching"
       ],
       "needs": [
         "student",
@@ -1261,7 +1513,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "3a36e9d593f1edd5e4a4b4865c2f2e7e5d60f08984800f88344ba3548ee5c1d4"
+      "fingerprint": "846d0266ffdd5be89ba7775e40ec7d7d10d83233fa23c3eefa8a0c32e5398f52"
     },
     {
       "id": "s05-integration:question-acceptance",
@@ -1270,18 +1522,21 @@
         "s05-integration-question-acceptance",
         "s05-integration-acceptance-1",
         "s05-integration-acceptance-2",
+        "s05-integration-acceptance-scheme",
+        "s05-integration-acceptance-case",
         "s05-integration-acceptance-check",
-        "s05-integration-case",
-        "s05-integration-test",
-        "s05-integration-transfer"
+        "s05-integration-acceptance-multiple",
+        "s05-integration-acceptance-short",
+        "s05-integration-acceptance-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "1a30df455fef9e6e8fc56ecbee257cefc5a6956bea9dfc53fff3d7425e799a10"
+      "fingerprint": "514833e93141cf544ba200ec9e24bdd49970b73e026915ca32d719e2f34c76a2"
     },
     {
       "id": "s05-integration:closing",
@@ -1297,7 +1552,7 @@
         "teacher"
       ],
       "artifacts": {},
-      "fingerprint": "0679a833a64a3afdd57c48202746b0ce718023118df5e22f9f301ccc11b4236d"
+      "fingerprint": "088eccab8fb046a984b380130b1ec7e19c8fd1a7e4712ae118f90b14626a3458"
     },
     {
       "id": "s05-lan:intro",
@@ -1314,7 +1569,7 @@
         "teacher"
       ],
       "artifacts": {},
-      "fingerprint": "0ebff3aa52a93306aa04de492dc0a3efbfdaa1119fc1f507a1f2a3f0dfa47e9d"
+      "fingerprint": "f68fb03509e635e16e30e884ca0380851ed7a2ffad3916e5e5b6eb3e7138d279"
     },
     {
       "id": "s05-lan:question",
@@ -1324,15 +1579,21 @@
         "s05-lan-content-1",
         "s05-lan-topology-2",
         "s05-lan-topology-3",
-        "s05-lan-topology-check"
+        "s05-lan-topology-scheme",
+        "s05-lan-topology-case",
+        "s05-lan-topology-check",
+        "s05-lan-topology-multiple",
+        "s05-lan-topology-short",
+        "s05-lan-topology-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "27c565ec27dad24d803c1cdd5fcd1fec63b241bc51c303423c8fd19b4c267b46"
+      "fingerprint": "1c7d5f788d1bc3849f29acc024b47ec4a28dfc5899bdcff57d050e2561ed4d92"
     },
     {
       "id": "s05-lan:question-switches",
@@ -1342,15 +1603,21 @@
         "s05-lan-switches-1",
         "s05-lan-switches-2",
         "s05-lan-switches-3",
-        "s05-lan-switches-check"
+        "s05-lan-switches-scheme",
+        "s05-lan-switches-case",
+        "s05-lan-switches-check",
+        "s05-lan-switches-multiple",
+        "s05-lan-switches-short",
+        "s05-lan-switches-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "e89a03ce59a43514db1be5713e67efaa707c11b2862f91b3a4fd21d70d0a5527"
+      "fingerprint": "45294e7b8fc996751562e50d87ee24fe4ab0d9ef9d4c28a063c448db626b1a58"
     },
     {
       "id": "s05-lan:question-address",
@@ -1361,7 +1628,12 @@
         "s05-lan-diagram-2",
         "s05-lan-address-2",
         "s05-lan-address-3",
-        "s05-lan-address-check"
+        "s05-lan-address-scheme",
+        "s05-lan-address-case",
+        "s05-lan-address-check",
+        "s05-lan-address-multiple",
+        "s05-lan-address-short",
+        "s05-lan-address-matching"
       ],
       "needs": [
         "student",
@@ -1370,7 +1642,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "a991112056cc919ed4dd2d60cdf6d57bff9cdc46177183ab3baf23e6307015f0"
+      "fingerprint": "f0154debc58a280dcef55691e17ced973610b6c5588ed2f0b6d556df131a51d5"
     },
     {
       "id": "s05-lan:question-services",
@@ -1380,15 +1652,21 @@
         "s05-lan-services-1",
         "s05-lan-services-2",
         "s05-lan-services-3",
-        "s05-lan-services-check"
+        "s05-lan-services-scheme",
+        "s05-lan-services-case",
+        "s05-lan-services-check",
+        "s05-lan-services-multiple",
+        "s05-lan-services-short",
+        "s05-lan-services-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "04ab1fb21da769defccfcab2dcbab9d9b89a80a699046fef4a64f65cc0f7d449"
+      "fingerprint": "90f0dccf7a5c5efd173e48cfcde3e872e0617cf05b7b21eeeb7532ee8319ec51"
     },
     {
       "id": "s05-lan:question-checks",
@@ -1398,15 +1676,21 @@
         "s05-lan-content-3",
         "s05-lan-checks-2",
         "s05-lan-checks-3",
-        "s05-lan-checks-check"
+        "s05-lan-checks-scheme",
+        "s05-lan-checks-case",
+        "s05-lan-checks-check",
+        "s05-lan-checks-multiple",
+        "s05-lan-checks-short",
+        "s05-lan-checks-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "7710ae9b502f43061c35074a9a79a7d98381f121e16f1e783ff1d9880b403f6e"
+      "fingerprint": "d01279f03dc382209cd5a249089a841281a0e01fe8d2b3feab563aa18a7ed850"
     },
     {
       "id": "s05-lan:question-faults",
@@ -1416,15 +1700,21 @@
         "s05-lan-content-4",
         "s05-lan-content-5",
         "s05-lan-faults-3",
-        "s05-lan-faults-check"
+        "s05-lan-faults-scheme",
+        "s05-lan-faults-case",
+        "s05-lan-faults-check",
+        "s05-lan-faults-multiple",
+        "s05-lan-faults-short",
+        "s05-lan-faults-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "fb6e9fd45ef4de0c40ece1ad4165b6370314584846b0ebe6e887f99fb48558d4"
+      "fingerprint": "f41de1dc1703b4a5bd7fb592356f9b9e966f42176999218010ecb330f3085773"
     },
     {
       "id": "s05-lan:question-records",
@@ -1433,18 +1723,21 @@
         "s05-lan-question-records",
         "s05-lan-records-1",
         "s05-lan-records-2",
+        "s05-lan-records-scheme",
+        "s05-lan-records-case",
         "s05-lan-records-check",
-        "s05-lan-case",
-        "s05-lan-test",
-        "s05-lan-transfer"
+        "s05-lan-records-multiple",
+        "s05-lan-records-short",
+        "s05-lan-records-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "55da47294b15649b99894050bc52233f6fa8cf1fbb3f6e8fd242e69b33e4d976"
+      "fingerprint": "4e424144aafcb1c63c5425832d0ecddd3495b432d00ff82d7e1820bf9d1d6dbc"
     },
     {
       "id": "s05-lan:closing",
@@ -1460,7 +1753,7 @@
         "teacher"
       ],
       "artifacts": {},
-      "fingerprint": "70ffb0212ad8ef1fa25f09228a689ab002582ee327fdb271ec3f6045f31ae8e8"
+      "fingerprint": "716e0027f1f2070d65aa47459d711c46bdb0d323799ce97992c5e5ab092d808b"
     },
     {
       "id": "s05-documentation:intro",
@@ -1477,7 +1770,7 @@
         "teacher"
       ],
       "artifacts": {},
-      "fingerprint": "8d97bd73a026a2b7a5e9981dec91990655c781bbffa29877a4dbc63c2c7f1be9"
+      "fingerprint": "37cd3beaff91b0bf3288bd6d797c769bfa30de096a93a1b40774889b3095f738"
     },
     {
       "id": "s05-documentation:question",
@@ -1487,15 +1780,21 @@
         "s05-documentation-content-1",
         "s05-documentation-set-2",
         "s05-documentation-set-3",
-        "s05-documentation-set-check"
+        "s05-documentation-set-scheme",
+        "s05-documentation-set-case",
+        "s05-documentation-set-check",
+        "s05-documentation-set-multiple",
+        "s05-documentation-set-short",
+        "s05-documentation-set-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "6fec64ff39a8b1280b5ab864376c56f4ba0e58b826ebd5c309d28f7fae4b9a7a"
+      "fingerprint": "acbac4c1a6c2afda143abda7d4a74b58da8280cd05f07041bb6d5aa9bb8587a0"
     },
     {
       "id": "s05-documentation:question-passport",
@@ -1507,7 +1806,12 @@
         "s05-documentation-passport-2",
         "s05-documentation-passport-3",
         "s05-documentation-passport-3-view",
-        "s05-documentation-passport-check"
+        "s05-documentation-passport-scheme",
+        "s05-documentation-passport-case",
+        "s05-documentation-passport-check",
+        "s05-documentation-passport-multiple",
+        "s05-documentation-passport-short",
+        "s05-documentation-passport-matching"
       ],
       "needs": [
         "student",
@@ -1516,7 +1820,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "ae0bf30c0f2c0b6bb680ec642423f2ad0e0fbef0dd069af46cbf0f17922073df"
+      "fingerprint": "788990eae7dbc5229bf3499fa87fa80a92ec84ee8a7d92447449d50a46e9c417"
     },
     {
       "id": "s05-documentation:question-schemes",
@@ -1526,15 +1830,21 @@
         "s05-documentation-content-3",
         "s05-documentation-schemes-2",
         "s05-documentation-schemes-3",
-        "s05-documentation-schemes-check"
+        "s05-documentation-schemes-scheme",
+        "s05-documentation-schemes-case",
+        "s05-documentation-schemes-check",
+        "s05-documentation-schemes-multiple",
+        "s05-documentation-schemes-short",
+        "s05-documentation-schemes-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "660c25f4a38151c213288af763ef2c8f6259ae302666aa33ad259179893a1264"
+      "fingerprint": "db87e199832095b80c1f4b22d1c0afcb0fee13d1260bd9b15644126cf3ccca8e"
     },
     {
       "id": "s05-documentation:question-instructions",
@@ -1544,15 +1854,21 @@
         "s05-documentation-instructions-1",
         "s05-documentation-instructions-2",
         "s05-documentation-instructions-3",
-        "s05-documentation-instructions-check"
+        "s05-documentation-instructions-scheme",
+        "s05-documentation-instructions-case",
+        "s05-documentation-instructions-check",
+        "s05-documentation-instructions-multiple",
+        "s05-documentation-instructions-short",
+        "s05-documentation-instructions-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "69e0bc64cf25974b081acbdb2488736e79efe1297c223c3095ac3ed1b581802e"
+      "fingerprint": "a19ff1f9cdaee8f46beef74967afead38bd964eec67d978295eaa3e50dfc7944"
     },
     {
       "id": "s05-documentation:question-changes",
@@ -1562,15 +1878,21 @@
         "s05-documentation-content-4",
         "s05-documentation-changes-2",
         "s05-documentation-changes-3",
-        "s05-documentation-changes-check"
+        "s05-documentation-changes-scheme",
+        "s05-documentation-changes-case",
+        "s05-documentation-changes-check",
+        "s05-documentation-changes-multiple",
+        "s05-documentation-changes-short",
+        "s05-documentation-changes-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "8863b63b2e5a8c4563d3c9e545324d73a870b9bde64bb0f62d4f25996278e0ca"
+      "fingerprint": "d0bd25740ac4a509b1ed9b0d3096a25603ad6750db382e14b58a8cc4be042902"
     },
     {
       "id": "s05-documentation:question-usability",
@@ -1580,18 +1902,21 @@
         "s05-documentation-content-5",
         "s05-documentation-usability-2",
         "s05-documentation-usability-3",
+        "s05-documentation-usability-scheme",
+        "s05-documentation-usability-case",
         "s05-documentation-usability-check",
-        "s05-documentation-case",
-        "s05-documentation-test",
-        "s05-documentation-transfer"
+        "s05-documentation-usability-multiple",
+        "s05-documentation-usability-short",
+        "s05-documentation-usability-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "48bc680613af852e1b363188dcf24dfeacf2a5abafc354b67d6f61d1a416adf8"
+      "fingerprint": "84e7f57d257261beedf07eaaab8064d915c783b857b8657bbad1f5c72a3c2c48"
     },
     {
       "id": "s05-documentation:closing",
@@ -1607,362 +1932,7 @@
         "teacher"
       ],
       "artifacts": {},
-      "fingerprint": "f80835a1e3b3cf470f3f943ed192c9cda47c73eb9e7c223af7e5753e8e8ead4c"
-    },
-    {
-      "id": "s05-lab-system-map:intro",
-      "lectureId": "s05-lab-system-map",
-      "slideIds": [
-        "s05-lab-system-map-title",
-        "s05-lab-system-map-literature",
-        "s05-lab-system-map-additional",
-        "s05-lab-system-map-materials"
-      ],
-      "needs": [
-        "student",
-        "teacher"
-      ],
-      "artifacts": {},
-      "fingerprint": "5b5f06f316ec21763e204bf9298572301094dfa230de5b2ff426cf839b14a4b9"
-    },
-    {
-      "id": "s05-lab-system-map:question",
-      "lectureId": "s05-lab-system-map",
-      "slideIds": [
-        "s05-lab-system-map-question",
-        "s05-lab-system-map-content-1",
-        "s05-lab-system-map-content-2",
-        "s05-lab-system-map-content-3",
-        "s05-lab-system-map-case",
-        "s05-lab-system-map-test",
-        "s05-lab-system-map-transfer"
-      ],
-      "needs": [
-        "student",
-        "teacher",
-        "behavior"
-      ],
-      "artifacts": {},
-      "fingerprint": "0eed299a62fbc73026c4c82c3b42bd1fdb7adfdecf70a78cdbae334c12e7da17"
-    },
-    {
-      "id": "s05-lab-system-map:closing",
-      "lectureId": "s05-lab-system-map",
-      "slideIds": [
-        "s05-lab-system-map-summary",
-        "s05-lab-system-map-audience"
-      ],
-      "needs": [
-        "student",
-        "teacher"
-      ],
-      "artifacts": {},
-      "fingerprint": "d6c1601894d8d4f636c8368448d48955581cc302d631d0d1921ef0593cde596e"
-    },
-    {
-      "id": "s05-lab-compare:intro",
-      "lectureId": "s05-lab-compare",
-      "slideIds": [
-        "s05-lab-compare-title",
-        "s05-lab-compare-literature",
-        "s05-lab-compare-additional",
-        "s05-lab-compare-materials"
-      ],
-      "needs": [
-        "student",
-        "teacher"
-      ],
-      "artifacts": {},
-      "fingerprint": "6cab6f1d19891e4ea5ef3ce73c8d1753ddbc2eff7a60faa408a94f084b1b9316"
-    },
-    {
-      "id": "s05-lab-compare:question",
-      "lectureId": "s05-lab-compare",
-      "slideIds": [
-        "s05-lab-compare-question",
-        "s05-lab-compare-content-1",
-        "s05-lab-compare-content-2",
-        "s05-lab-compare-content-3",
-        "s05-lab-compare-case",
-        "s05-lab-compare-test",
-        "s05-lab-compare-transfer"
-      ],
-      "needs": [
-        "student",
-        "teacher",
-        "behavior"
-      ],
-      "artifacts": {},
-      "fingerprint": "cebbd7cfaff551b5105e44306274e48e4421893761367d5cbd3fa22351bd1b04"
-    },
-    {
-      "id": "s05-lab-compare:closing",
-      "lectureId": "s05-lab-compare",
-      "slideIds": [
-        "s05-lab-compare-summary",
-        "s05-lab-compare-audience"
-      ],
-      "needs": [
-        "student",
-        "teacher"
-      ],
-      "artifacts": {},
-      "fingerprint": "864ceae068273c8d558af9b57f78744f300253e5821ade7f37a3888334748bed"
-    },
-    {
-      "id": "s05-lab-display:intro",
-      "lectureId": "s05-lab-display",
-      "slideIds": [
-        "s05-lab-display-title",
-        "s05-lab-display-literature",
-        "s05-lab-display-additional",
-        "s05-lab-display-materials"
-      ],
-      "needs": [
-        "student",
-        "teacher"
-      ],
-      "artifacts": {},
-      "fingerprint": "47761493d568832c321db129b87975f7c38c42dd61432db0f4676ea06fbbd2b9"
-    },
-    {
-      "id": "s05-lab-display:question",
-      "lectureId": "s05-lab-display",
-      "slideIds": [
-        "s05-lab-display-question",
-        "s05-lab-display-content-1",
-        "s05-lab-display-content-2",
-        "s05-lab-display-content-3",
-        "s05-lab-display-content-4",
-        "s05-lab-display-case",
-        "s05-lab-display-test",
-        "s05-lab-display-transfer"
-      ],
-      "needs": [
-        "student",
-        "teacher",
-        "behavior"
-      ],
-      "artifacts": {},
-      "fingerprint": "2c6bdd864bfd694466190e575dfa2470baa739cff95923cdffe395354242da4e"
-    },
-    {
-      "id": "s05-lab-display:closing",
-      "lectureId": "s05-lab-display",
-      "slideIds": [
-        "s05-lab-display-summary",
-        "s05-lab-display-audience"
-      ],
-      "needs": [
-        "student",
-        "teacher"
-      ],
-      "artifacts": {},
-      "fingerprint": "a6c3ff4ff32a1b3517c1365633804b1595bb8227817276cf95fc100846526dea"
-    },
-    {
-      "id": "s05-lab-cctv:intro",
-      "lectureId": "s05-lab-cctv",
-      "slideIds": [
-        "s05-lab-cctv-title",
-        "s05-lab-cctv-literature",
-        "s05-lab-cctv-additional",
-        "s05-lab-cctv-materials"
-      ],
-      "needs": [
-        "student",
-        "teacher"
-      ],
-      "artifacts": {},
-      "fingerprint": "c102312a6f0cfaa7a11f16e12cfaba08b13a34a19d6f4c758f378bd589764300"
-    },
-    {
-      "id": "s05-lab-cctv:question",
-      "lectureId": "s05-lab-cctv",
-      "slideIds": [
-        "s05-lab-cctv-question",
-        "s05-lab-cctv-content-1",
-        "s05-lab-cctv-content-2",
-        "s05-lab-cctv-content-3",
-        "s05-lab-cctv-content-4",
-        "s05-lab-cctv-case",
-        "s05-lab-cctv-test",
-        "s05-lab-cctv-transfer"
-      ],
-      "needs": [
-        "student",
-        "teacher",
-        "behavior"
-      ],
-      "artifacts": {},
-      "fingerprint": "4ac0c506338e228d367317dcf1c1261c6a48273b9f3c4fdbf5f37ad2e86f0c5b"
-    },
-    {
-      "id": "s05-lab-cctv:closing",
-      "lectureId": "s05-lab-cctv",
-      "slideIds": [
-        "s05-lab-cctv-summary",
-        "s05-lab-cctv-audience"
-      ],
-      "needs": [
-        "student",
-        "teacher"
-      ],
-      "artifacts": {},
-      "fingerprint": "6f25c0b0d50cd1fffcf2da5bc2d590c08d6b870f9833c9ad85fd89c9a9caea5c"
-    },
-    {
-      "id": "s05-lab-lan:intro",
-      "lectureId": "s05-lab-lan",
-      "slideIds": [
-        "s05-lab-lan-title",
-        "s05-lab-lan-literature",
-        "s05-lab-lan-additional",
-        "s05-lab-lan-materials"
-      ],
-      "needs": [
-        "student",
-        "teacher"
-      ],
-      "artifacts": {},
-      "fingerprint": "0c44f76b0653c94f4e3f70322e98f89375d4ee1e9408f1f2654fc339e4c9c8a5"
-    },
-    {
-      "id": "s05-lab-lan:question",
-      "lectureId": "s05-lab-lan",
-      "slideIds": [
-        "s05-lab-lan-question",
-        "s05-lab-lan-content-1",
-        "s05-lab-lan-content-2",
-        "s05-lab-lan-content-3",
-        "s05-lab-lan-content-4",
-        "s05-lab-lan-case",
-        "s05-lab-lan-test",
-        "s05-lab-lan-transfer"
-      ],
-      "needs": [
-        "student",
-        "teacher",
-        "behavior"
-      ],
-      "artifacts": {},
-      "fingerprint": "1f47fcac574c4315a0a8fda54e075c442b58bb2262336259651638d02c91222b"
-    },
-    {
-      "id": "s05-lab-lan:closing",
-      "lectureId": "s05-lab-lan",
-      "slideIds": [
-        "s05-lab-lan-summary",
-        "s05-lab-lan-audience"
-      ],
-      "needs": [
-        "student",
-        "teacher"
-      ],
-      "artifacts": {},
-      "fingerprint": "dacb451c3418dd127c828a806f3f011d84166fb1b1cc59adcdd207760c472e84"
-    },
-    {
-      "id": "s05-lab-expansion:intro",
-      "lectureId": "s05-lab-expansion",
-      "slideIds": [
-        "s05-lab-expansion-title",
-        "s05-lab-expansion-literature",
-        "s05-lab-expansion-additional",
-        "s05-lab-expansion-materials"
-      ],
-      "needs": [
-        "student",
-        "teacher"
-      ],
-      "artifacts": {},
-      "fingerprint": "a49ebe087648e1a480ab074c416037d5c69327fa00ffd54e26e565b752602d9c"
-    },
-    {
-      "id": "s05-lab-expansion:question",
-      "lectureId": "s05-lab-expansion",
-      "slideIds": [
-        "s05-lab-expansion-question",
-        "s05-lab-expansion-content-1",
-        "s05-lab-expansion-content-2",
-        "s05-lab-expansion-content-3",
-        "s05-lab-expansion-content-4",
-        "s05-lab-expansion-case",
-        "s05-lab-expansion-test",
-        "s05-lab-expansion-transfer"
-      ],
-      "needs": [
-        "student",
-        "teacher",
-        "behavior"
-      ],
-      "artifacts": {},
-      "fingerprint": "43538fc9384039a7877bcb4e4b4df915d502c4f90ede04a111894a38ab6cc640"
-    },
-    {
-      "id": "s05-lab-expansion:closing",
-      "lectureId": "s05-lab-expansion",
-      "slideIds": [
-        "s05-lab-expansion-summary",
-        "s05-lab-expansion-audience"
-      ],
-      "needs": [
-        "student",
-        "teacher"
-      ],
-      "artifacts": {},
-      "fingerprint": "a6537b955c74f4a43526972b2a1af73272713405de686f4a5380c4623c42f74a"
-    },
-    {
-      "id": "s05-lab-passport:intro",
-      "lectureId": "s05-lab-passport",
-      "slideIds": [
-        "s05-lab-passport-title",
-        "s05-lab-passport-literature",
-        "s05-lab-passport-additional",
-        "s05-lab-passport-materials"
-      ],
-      "needs": [
-        "student",
-        "teacher"
-      ],
-      "artifacts": {},
-      "fingerprint": "e02a0502dbba8380981c6065f651e21d83c0e9c836c4167c6efd19a5f9c80984"
-    },
-    {
-      "id": "s05-lab-passport:question",
-      "lectureId": "s05-lab-passport",
-      "slideIds": [
-        "s05-lab-passport-question",
-        "s05-lab-passport-content-1",
-        "s05-lab-passport-content-2",
-        "s05-lab-passport-content-3",
-        "s05-lab-passport-content-4",
-        "s05-lab-passport-case",
-        "s05-lab-passport-test",
-        "s05-lab-passport-transfer"
-      ],
-      "needs": [
-        "student",
-        "teacher",
-        "behavior"
-      ],
-      "artifacts": {},
-      "fingerprint": "aedb6e754d79fcef378d174f778d878ee5a288bf9ee60211805b58c336de00cc"
-    },
-    {
-      "id": "s05-lab-passport:closing",
-      "lectureId": "s05-lab-passport",
-      "slideIds": [
-        "s05-lab-passport-summary",
-        "s05-lab-passport-audience"
-      ],
-      "needs": [
-        "student",
-        "teacher"
-      ],
-      "artifacts": {},
-      "fingerprint": "97604333c772fc9ef01ab6ab9e0215de4c3bd64c56f402460e35ba8261149b30"
+      "fingerprint": "b3f0a2ccc9918bbb241fa0e0b326cd5ee36e812cf9d7a77f8147bbbbef656705"
     },
     {
       "id": "s06-reliability-foundations:intro",
@@ -1979,7 +1949,7 @@
         "teacher"
       ],
       "artifacts": {},
-      "fingerprint": "38fdd9c044da8e2476c9e625cd7a91bee97843fb0e8d92835e79a57b835729e0"
+      "fingerprint": "ce1d64c7fda2648412bc1a8d44dbb65b49a30aed8431e58fde47c93a36219a29"
     },
     {
       "id": "s06-reliability-foundations:question",
@@ -1989,15 +1959,21 @@
         "s06-reliability-foundations-content-1",
         "s06-reliability-foundations-object-2",
         "s06-reliability-foundations-object-3",
-        "s06-reliability-foundations-object-check"
+        "s06-reliability-foundations-object-scheme",
+        "s06-reliability-foundations-object-case",
+        "s06-reliability-foundations-object-check",
+        "s06-reliability-foundations-object-multiple",
+        "s06-reliability-foundations-object-short",
+        "s06-reliability-foundations-object-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "9da47448a574542c9d70497a4d20f075ab59e821bb3ae4f81059a362cb7ce173"
+      "fingerprint": "61c53e01c0fafb4d43f29691219d41ec591ffc1904ba9748e24b0dcbd9ee906c"
     },
     {
       "id": "s06-reliability-foundations:question-conditions",
@@ -2007,15 +1983,21 @@
         "s06-reliability-foundations-conditions-1",
         "s06-reliability-foundations-conditions-2",
         "s06-reliability-foundations-conditions-3",
-        "s06-reliability-foundations-conditions-check"
+        "s06-reliability-foundations-conditions-scheme",
+        "s06-reliability-foundations-conditions-case",
+        "s06-reliability-foundations-conditions-check",
+        "s06-reliability-foundations-conditions-multiple",
+        "s06-reliability-foundations-conditions-short",
+        "s06-reliability-foundations-conditions-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "afafaaee594155b05f59d5b59b91b4c5f9d671381401ce69afab1401568c4a16"
+      "fingerprint": "079be01df29f400fed0d0ffd728c2f39844f28ea1d32b5b1151f6d9e6adee7db"
     },
     {
       "id": "s06-reliability-foundations:question-events",
@@ -2026,7 +2008,12 @@
         "s06-reliability-foundations-events-2",
         "s06-reliability-foundations-events-3",
         "s06-reliability-foundations-events-3-view",
-        "s06-reliability-foundations-events-check"
+        "s06-reliability-foundations-events-scheme",
+        "s06-reliability-foundations-events-case",
+        "s06-reliability-foundations-events-check",
+        "s06-reliability-foundations-events-multiple",
+        "s06-reliability-foundations-events-short",
+        "s06-reliability-foundations-events-matching"
       ],
       "needs": [
         "student",
@@ -2035,7 +2022,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "da819d5ef7b1eec9b30698a6e7554d03a116641a1874f4b1e7b1368f7e59331b"
+      "fingerprint": "423495a7b70a47df089ba992859aac48a36c71d125899c8da5f180eab48aa32b"
     },
     {
       "id": "s06-reliability-foundations:question-restoration",
@@ -2045,15 +2032,21 @@
         "s06-reliability-foundations-restoration-1",
         "s06-reliability-foundations-restoration-2",
         "s06-reliability-foundations-restoration-3",
-        "s06-reliability-foundations-restoration-check"
+        "s06-reliability-foundations-restoration-scheme",
+        "s06-reliability-foundations-restoration-case",
+        "s06-reliability-foundations-restoration-check",
+        "s06-reliability-foundations-restoration-multiple",
+        "s06-reliability-foundations-restoration-short",
+        "s06-reliability-foundations-restoration-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "99dde75ad180eaf5c282618c6ecd65ee5e2c1a4b1f610eaa574362343ff1e925"
+      "fingerprint": "379001de306b0f4ab0d8f41fc8ab354cb4c70252e2c25185fbb42a854206e444"
     },
     {
       "id": "s06-reliability-foundations:question-journal",
@@ -2064,7 +2057,12 @@
         "s06-reliability-foundations-diagram-3",
         "s06-reliability-foundations-journal-2",
         "s06-reliability-foundations-journal-3",
-        "s06-reliability-foundations-journal-check"
+        "s06-reliability-foundations-journal-scheme",
+        "s06-reliability-foundations-journal-case",
+        "s06-reliability-foundations-journal-check",
+        "s06-reliability-foundations-journal-multiple",
+        "s06-reliability-foundations-journal-short",
+        "s06-reliability-foundations-journal-matching"
       ],
       "needs": [
         "student",
@@ -2073,7 +2071,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "a1a26e733a5661c6ec3a1bb7c1f9acad50c332a334cabfc62398fcbdc275eb6e"
+      "fingerprint": "d4d2163f30623a27b9705ac9e7b3ef944b0e8c44efda77a66286d267c61bea51"
     },
     {
       "id": "s06-reliability-foundations:question-exposure",
@@ -2084,18 +2082,21 @@
         "s06-reliability-foundations-content-5",
         "s06-reliability-foundations-exposure-3",
         "s06-reliability-foundations-exposure-4",
+        "s06-reliability-foundations-exposure-scheme",
+        "s06-reliability-foundations-exposure-case",
         "s06-reliability-foundations-exposure-check",
-        "s06-reliability-foundations-case",
-        "s06-reliability-foundations-test",
-        "s06-reliability-foundations-transfer"
+        "s06-reliability-foundations-exposure-multiple",
+        "s06-reliability-foundations-exposure-short",
+        "s06-reliability-foundations-exposure-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "e7e08a8c06cd049bcb30600256d6ff6fb7d8d0e007167bfa0b3114d41ead17ed"
+      "fingerprint": "2aa4e437ab576305b0de4a8c8bc872ef82289442722a37e0965ac5aed1f9e031"
     },
     {
       "id": "s06-reliability-foundations:closing",
@@ -2111,7 +2112,7 @@
         "teacher"
       ],
       "artifacts": {},
-      "fingerprint": "a2fadb2ebe9940e6fc3009ab2e07be695e1f14b65315aedeef93d352f0accd6a"
+      "fingerprint": "157737b342ad6493e2087c3dd3510b526fb4af90c64f7b27a49cf0ce5033d51e"
     },
     {
       "id": "s06-single-metrics:intro",
@@ -2128,7 +2129,7 @@
         "teacher"
       ],
       "artifacts": {},
-      "fingerprint": "e6b18b9d22c7b169cb03f2747121d7133e0df5407c0268d2d0712bafc4144ee1"
+      "fingerprint": "83c06ace87112c1be40e295d3f1d55d45e0e286a78a243886276ec9bf42b399d"
     },
     {
       "id": "s06-single-metrics:question",
@@ -2138,15 +2139,21 @@
         "s06-single-metrics-content-1",
         "s06-single-metrics-probability-2",
         "s06-single-metrics-probability-3",
-        "s06-single-metrics-probability-check"
+        "s06-single-metrics-probability-scheme",
+        "s06-single-metrics-probability-case",
+        "s06-single-metrics-probability-check",
+        "s06-single-metrics-probability-multiple",
+        "s06-single-metrics-probability-short",
+        "s06-single-metrics-probability-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "0a9eb7bda9250756956d212eb1ca755bc8d21cba29094aae6d3baae258dbfa6b"
+      "fingerprint": "f9bf3068aff8257fe00e22605a0b89d1bf739a309bd68f2f806dc8e83f2a0dbf"
     },
     {
       "id": "s06-single-metrics:question-operating-mean",
@@ -2156,15 +2163,21 @@
         "s06-single-metrics-content-2",
         "s06-single-metrics-operating-mean-2",
         "s06-single-metrics-operating-mean-3",
-        "s06-single-metrics-operating-mean-check"
+        "s06-single-metrics-operating-mean-scheme",
+        "s06-single-metrics-operating-mean-case",
+        "s06-single-metrics-operating-mean-check",
+        "s06-single-metrics-operating-mean-multiple",
+        "s06-single-metrics-operating-mean-short",
+        "s06-single-metrics-operating-mean-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "8c05549f0a7ebc569c73a433d21b175ad8da036548262de372a7341e45c64ea3"
+      "fingerprint": "55bd92496b786656a6f1e81e1bed61aafc4bc59e3a01597d194da745e470ddc7"
     },
     {
       "id": "s06-single-metrics:question-repair-mean",
@@ -2174,15 +2187,21 @@
         "s06-single-metrics-repair-mean-1",
         "s06-single-metrics-repair-mean-2",
         "s06-single-metrics-repair-mean-3",
-        "s06-single-metrics-repair-mean-check"
+        "s06-single-metrics-repair-mean-scheme",
+        "s06-single-metrics-repair-mean-case",
+        "s06-single-metrics-repair-mean-check",
+        "s06-single-metrics-repair-mean-multiple",
+        "s06-single-metrics-repair-mean-short",
+        "s06-single-metrics-repair-mean-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "89caf40b343032c7a10ba3ec4663219af20ecd0820dc7e89ae2c828c6ac18de7"
+      "fingerprint": "6195ea1252215a8cee3b3aaa9d735d772f036bfee896a784b5db6a1ee65c6df4"
     },
     {
       "id": "s06-single-metrics:question-rate",
@@ -2192,15 +2211,21 @@
         "s06-single-metrics-rate-1",
         "s06-single-metrics-rate-2",
         "s06-single-metrics-rate-3",
-        "s06-single-metrics-rate-check"
+        "s06-single-metrics-rate-scheme",
+        "s06-single-metrics-rate-case",
+        "s06-single-metrics-rate-check",
+        "s06-single-metrics-rate-multiple",
+        "s06-single-metrics-rate-short",
+        "s06-single-metrics-rate-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "f57c6747f8a9d9989fc8a3b8156c0695c33372e724fc1dc8dd6613d2ee52ba72"
+      "fingerprint": "a0912a744be61a036e29eb28823a8262a6f377f49a036892f9d7dac2dc72cbb4"
     },
     {
       "id": "s06-single-metrics:question-exponential",
@@ -2211,7 +2236,12 @@
         "s06-single-metrics-exponential-2",
         "s06-single-metrics-exponential-3",
         "s06-single-metrics-exponential-3-view",
-        "s06-single-metrics-exponential-check"
+        "s06-single-metrics-exponential-scheme",
+        "s06-single-metrics-exponential-case",
+        "s06-single-metrics-exponential-check",
+        "s06-single-metrics-exponential-multiple",
+        "s06-single-metrics-exponential-short",
+        "s06-single-metrics-exponential-matching"
       ],
       "needs": [
         "student",
@@ -2220,7 +2250,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "3e991a8d7d3fe555d4a1a4aa8bbaa6b39bd5267136e971e36778dae3767ba0cf"
+      "fingerprint": "cd84ed0f288c8f3a0b6df18575b63456247ea02304cbf37c7aab20009dd42f9a"
     },
     {
       "id": "s06-single-metrics:question-calculation",
@@ -2231,7 +2261,12 @@
         "s06-single-metrics-diagram-4",
         "s06-single-metrics-calculation-2",
         "s06-single-metrics-calculation-3",
-        "s06-single-metrics-calculation-check"
+        "s06-single-metrics-calculation-scheme",
+        "s06-single-metrics-calculation-case",
+        "s06-single-metrics-calculation-check",
+        "s06-single-metrics-calculation-multiple",
+        "s06-single-metrics-calculation-short",
+        "s06-single-metrics-calculation-matching"
       ],
       "needs": [
         "student",
@@ -2240,7 +2275,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "51ba5befd1ffc3fadb5f5f214938648a76be1edd9040db40d9b49cf27fe2fc5f"
+      "fingerprint": "fc647bfbfb0d7a7dc37f36ad91f3064106ad55d8822f66d243ceb56242cc4f40"
     },
     {
       "id": "s06-single-metrics:question-limits",
@@ -2250,18 +2285,21 @@
         "s06-single-metrics-content-5",
         "s06-single-metrics-limits-2",
         "s06-single-metrics-limits-3",
+        "s06-single-metrics-limits-scheme",
+        "s06-single-metrics-limits-case",
         "s06-single-metrics-limits-check",
-        "s06-single-metrics-case",
-        "s06-single-metrics-test",
-        "s06-single-metrics-transfer"
+        "s06-single-metrics-limits-multiple",
+        "s06-single-metrics-limits-short",
+        "s06-single-metrics-limits-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "fe88bd226ffbdcaa8ffaccc724782ef9b1c7bf1ffc064a30d89443467cfcbfa1"
+      "fingerprint": "c5668920a6ff62c41ed030b1c50fd449609a39ce1078b33d55ae87a951e8d0f6"
     },
     {
       "id": "s06-single-metrics:closing",
@@ -2277,7 +2315,7 @@
         "teacher"
       ],
       "artifacts": {},
-      "fingerprint": "65696a502ed23f403a9178d17cba400dd4cd7f15ed38211a31db2bee78821740"
+      "fingerprint": "a1cdb56a6fca5f50654831f135dc465725b9fa51ce998ffe0a772f519b763b7e"
     },
     {
       "id": "s06-availability:intro",
@@ -2294,7 +2332,7 @@
         "teacher"
       ],
       "artifacts": {},
-      "fingerprint": "114cbc0d48ceef0e262ddd7a78eea9b57be99ca3183f53f743c6d2dc0769b18c"
+      "fingerprint": "0a5f30d66e374280a37f304c54bc39ceff449d5babe2bf597f7bc82723f91927"
     },
     {
       "id": "s06-availability:question",
@@ -2304,15 +2342,21 @@
         "s06-availability-content-1",
         "s06-availability-readiness-2",
         "s06-availability-readiness-3",
-        "s06-availability-readiness-check"
+        "s06-availability-readiness-scheme",
+        "s06-availability-readiness-case",
+        "s06-availability-readiness-check",
+        "s06-availability-readiness-multiple",
+        "s06-availability-readiness-short",
+        "s06-availability-readiness-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "7e2cb49f2840a9b363f4991d7f8b7deeaaa2780af14df2d789d807ee0d75d861"
+      "fingerprint": "30c9d6d72d832f9b22ed15266768e332a5881d5c7a438cd8bdd9171f3eee88f9"
     },
     {
       "id": "s06-availability:question-utilization",
@@ -2322,15 +2366,21 @@
         "s06-availability-content-2",
         "s06-availability-utilization-2",
         "s06-availability-utilization-3",
-        "s06-availability-utilization-check"
+        "s06-availability-utilization-scheme",
+        "s06-availability-utilization-case",
+        "s06-availability-utilization-check",
+        "s06-availability-utilization-multiple",
+        "s06-availability-utilization-short",
+        "s06-availability-utilization-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "38dd9b560a413ba44d17f3c67b03c638d4ac0e1374fb83670d48b9a9477c1c06"
+      "fingerprint": "ff6663c09f100cd2e640535e30c24dd580c45a9db9fa49b39572d6cd4461dadb"
     },
     {
       "id": "s06-availability:question-fund",
@@ -2341,7 +2391,12 @@
         "s06-availability-diagram-3",
         "s06-availability-fund-2",
         "s06-availability-fund-3",
-        "s06-availability-fund-check"
+        "s06-availability-fund-scheme",
+        "s06-availability-fund-case",
+        "s06-availability-fund-check",
+        "s06-availability-fund-multiple",
+        "s06-availability-fund-short",
+        "s06-availability-fund-matching"
       ],
       "needs": [
         "student",
@@ -2350,7 +2405,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "d5d27185dfe21bbf2c698cbe25827d91feaa70c090d65a803196c6dbdf2aec78"
+      "fingerprint": "0bb992646719010d46d6ac4174bf2defdd41b56320800b1154948ded712e2458"
     },
     {
       "id": "s06-availability:question-effect",
@@ -2360,15 +2415,21 @@
         "s06-availability-content-4",
         "s06-availability-effect-2",
         "s06-availability-effect-3",
-        "s06-availability-effect-check"
+        "s06-availability-effect-scheme",
+        "s06-availability-effect-case",
+        "s06-availability-effect-check",
+        "s06-availability-effect-multiple",
+        "s06-availability-effect-short",
+        "s06-availability-effect-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "fb3a928560193db9a117292675dd6affc1720ed94680ddee25cd018a658de3bd"
+      "fingerprint": "04f681c30612dc2269d4173738acf9fab5cb7953d676cbf6987bd4a20a41deb2"
     },
     {
       "id": "s06-availability:question-comparison",
@@ -2379,7 +2440,12 @@
         "s06-availability-comparison-2",
         "s06-availability-comparison-2-view",
         "s06-availability-comparison-3",
-        "s06-availability-comparison-check"
+        "s06-availability-comparison-scheme",
+        "s06-availability-comparison-case",
+        "s06-availability-comparison-check",
+        "s06-availability-comparison-multiple",
+        "s06-availability-comparison-short",
+        "s06-availability-comparison-matching"
       ],
       "needs": [
         "student",
@@ -2388,7 +2454,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "a50742cc3705b8e80bcb3fa77aed1722f6dd273bd56a82461f406cf3b3937b2f"
+      "fingerprint": "aaac6f35ac19bcbff17b776cdff287ae972cc1037fe91fef5e29e581731390a8"
     },
     {
       "id": "s06-availability:question-procedure",
@@ -2398,18 +2464,21 @@
         "s06-availability-content-5",
         "s06-availability-procedure-2",
         "s06-availability-procedure-3",
+        "s06-availability-procedure-scheme",
+        "s06-availability-procedure-case",
         "s06-availability-procedure-check",
-        "s06-availability-case",
-        "s06-availability-test",
-        "s06-availability-transfer"
+        "s06-availability-procedure-multiple",
+        "s06-availability-procedure-short",
+        "s06-availability-procedure-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "8f2e581ef68a5052f4f4f50fd59e50f8828e5d3f51e6e84d9d763f7b84e1ada7"
+      "fingerprint": "ded03cc32c35c61314db4d228100482bf6c4af3bee6e377bf6203fdbaf51d014"
     },
     {
       "id": "s06-availability:closing",
@@ -2425,7 +2494,7 @@
         "teacher"
       ],
       "artifacts": {},
-      "fingerprint": "1249db35c4f0fd002f47fa7da0603876ba93fe12ec3ab2d034d99262f104ffc5"
+      "fingerprint": "aa53a284b47bd8c6272579d1f32eca6bb1164fa71d00d6c44d669837d4c3434f"
     },
     {
       "id": "s06-system-reliability:intro",
@@ -2442,7 +2511,7 @@
         "teacher"
       ],
       "artifacts": {},
-      "fingerprint": "6447df6b8f545175620acc7ce8e1304ad57d737d659f5b326bdcbcb388ca6913"
+      "fingerprint": "24d7895f719bc5c6b4fd66eb20e49c029d3d4ab9ab3bcd4227dc366d000d5b91"
     },
     {
       "id": "s06-system-reliability:question",
@@ -2452,15 +2521,21 @@
         "s06-system-reliability-success-1",
         "s06-system-reliability-success-2",
         "s06-system-reliability-success-3",
-        "s06-system-reliability-success-check"
+        "s06-system-reliability-success-scheme",
+        "s06-system-reliability-success-case",
+        "s06-system-reliability-success-check",
+        "s06-system-reliability-success-multiple",
+        "s06-system-reliability-success-short",
+        "s06-system-reliability-success-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "2a15cf5c72622f3ba8b79a308ccbefe9bdecb48f967c12dc6c24abeeab97b054"
+      "fingerprint": "78e08f0478d616caa83b96d9f76f720b0008529ca91e648d70a14cf4dfca2388"
     },
     {
       "id": "s06-system-reliability:question-series",
@@ -2470,15 +2545,21 @@
         "s06-system-reliability-content-1",
         "s06-system-reliability-series-2",
         "s06-system-reliability-series-3",
-        "s06-system-reliability-series-check"
+        "s06-system-reliability-series-scheme",
+        "s06-system-reliability-series-case",
+        "s06-system-reliability-series-check",
+        "s06-system-reliability-series-multiple",
+        "s06-system-reliability-series-short",
+        "s06-system-reliability-series-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "6e8ee183657b4b2f22072f0b4067a3810df9b65ca9cb97eac01a55c1250b6eba"
+      "fingerprint": "87bd9c48422b7f6aaacca401e0b9b4b3b8dda799eb6a5c2b4fff802b79da7a02"
     },
     {
       "id": "s06-system-reliability:question-parallel",
@@ -2488,15 +2569,21 @@
         "s06-system-reliability-content-2",
         "s06-system-reliability-parallel-2",
         "s06-system-reliability-parallel-3",
-        "s06-system-reliability-parallel-check"
+        "s06-system-reliability-parallel-scheme",
+        "s06-system-reliability-parallel-case",
+        "s06-system-reliability-parallel-check",
+        "s06-system-reliability-parallel-multiple",
+        "s06-system-reliability-parallel-short",
+        "s06-system-reliability-parallel-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "05c3fc6abd0de7a725ff52b55cf33089c4d49183b52c42c31f50dbd0790f93c2"
+      "fingerprint": "1d719232878bdb49eccdbd89a087f8f1294a8db6f5398fefcef84a3c533f80ce"
     },
     {
       "id": "s06-system-reliability:question-mixed",
@@ -2508,7 +2595,12 @@
         "s06-system-reliability-mixed-2",
         "s06-system-reliability-mixed-2-view",
         "s06-system-reliability-mixed-3",
-        "s06-system-reliability-mixed-check"
+        "s06-system-reliability-mixed-scheme",
+        "s06-system-reliability-mixed-case",
+        "s06-system-reliability-mixed-check",
+        "s06-system-reliability-mixed-multiple",
+        "s06-system-reliability-mixed-short",
+        "s06-system-reliability-mixed-matching"
       ],
       "needs": [
         "student",
@@ -2517,7 +2609,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "edfe34f3ce0f908633fe6858450ac88a3dbb589c9f991475c66c853c4f6335c0"
+      "fingerprint": "da729626359ea8fc67f60920b7a52c0f31880a69ccf11410840e262af514773b"
     },
     {
       "id": "s06-system-reliability:question-dependence",
@@ -2527,15 +2619,21 @@
         "s06-system-reliability-content-4",
         "s06-system-reliability-dependence-2",
         "s06-system-reliability-dependence-3",
-        "s06-system-reliability-dependence-check"
+        "s06-system-reliability-dependence-scheme",
+        "s06-system-reliability-dependence-case",
+        "s06-system-reliability-dependence-check",
+        "s06-system-reliability-dependence-multiple",
+        "s06-system-reliability-dependence-short",
+        "s06-system-reliability-dependence-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "d8df81147afbbf7bf22983467630ce9aac84c6728d4954a9ad696e51df43b70f"
+      "fingerprint": "e9826a58dba833ea123d822b2db3ce6e8846340e2ec7c129cc29b46c440077fa"
     },
     {
       "id": "s06-system-reliability:question-decision",
@@ -2545,18 +2643,21 @@
         "s06-system-reliability-content-5",
         "s06-system-reliability-decision-2",
         "s06-system-reliability-decision-3",
+        "s06-system-reliability-decision-scheme",
+        "s06-system-reliability-decision-case",
         "s06-system-reliability-decision-check",
-        "s06-system-reliability-case",
-        "s06-system-reliability-test",
-        "s06-system-reliability-transfer"
+        "s06-system-reliability-decision-multiple",
+        "s06-system-reliability-decision-short",
+        "s06-system-reliability-decision-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "260517be5b6e695b944f1559885447487ccd9281ceabd6d4e20a8b0ad7c00471"
+      "fingerprint": "ddbd08f65150c2bdb1ff52d98a8af590349f8268a48c3be79ef114a473fe3adf"
     },
     {
       "id": "s06-system-reliability:closing",
@@ -2572,7 +2673,7 @@
         "teacher"
       ],
       "artifacts": {},
-      "fingerprint": "e86171b14bc36cc334b4159a18cb52540b214737fa8b0d6c073164f44117a002"
+      "fingerprint": "f036c660b419cfe83bb83518d6ed25573b194305c3796bd61efbd79662346ee7"
     },
     {
       "id": "s06-information-integrity:intro",
@@ -2589,7 +2690,7 @@
         "teacher"
       ],
       "artifacts": {},
-      "fingerprint": "120c31ebca56dbb7a646a3290b679c08e50c4505f76a8e17127589b101d857b1"
+      "fingerprint": "de74ae52b7f9cfeeb8356200eb54bf41c2a5a09b44834a4cfc7532a48a3ab07e"
     },
     {
       "id": "s06-information-integrity:question",
@@ -2599,15 +2700,21 @@
         "s06-information-integrity-content-1",
         "s06-information-integrity-distortion-2",
         "s06-information-integrity-distortion-3",
-        "s06-information-integrity-distortion-check"
+        "s06-information-integrity-distortion-scheme",
+        "s06-information-integrity-distortion-case",
+        "s06-information-integrity-distortion-check",
+        "s06-information-integrity-distortion-multiple",
+        "s06-information-integrity-distortion-short",
+        "s06-information-integrity-distortion-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "f3d54c192d1ecd2500bcf89c6732511fabe36708fd231de7690341524119640e"
+      "fingerprint": "c39fcf04d11700a624aa2491ab270a1529200d2ceef13e3049c81aa98e0c5f61"
     },
     {
       "id": "s06-information-integrity:question-denominator",
@@ -2619,7 +2726,12 @@
         "s06-information-integrity-denominator-3",
         "s06-information-integrity-denominator-4",
         "s06-information-integrity-denominator-4-view",
-        "s06-information-integrity-denominator-check"
+        "s06-information-integrity-denominator-scheme",
+        "s06-information-integrity-denominator-case",
+        "s06-information-integrity-denominator-check",
+        "s06-information-integrity-denominator-multiple",
+        "s06-information-integrity-denominator-short",
+        "s06-information-integrity-denominator-matching"
       ],
       "needs": [
         "student",
@@ -2628,7 +2740,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "f1ef2e2218f1d85e50d0ebcaa0d4d8fc81374985360bedbae40dedfde2ce6a82"
+      "fingerprint": "56528180eaaab05d3383e1e39743a0b9bea9329d423c1a96e446b58b043dab23"
     },
     {
       "id": "s06-information-integrity:question-validation",
@@ -2639,7 +2751,12 @@
         "s06-information-integrity-diagram-3",
         "s06-information-integrity-validation-2",
         "s06-information-integrity-validation-3",
-        "s06-information-integrity-validation-check"
+        "s06-information-integrity-validation-scheme",
+        "s06-information-integrity-validation-case",
+        "s06-information-integrity-validation-check",
+        "s06-information-integrity-validation-multiple",
+        "s06-information-integrity-validation-short",
+        "s06-information-integrity-validation-matching"
       ],
       "needs": [
         "student",
@@ -2648,7 +2765,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "2dcba2eed855ff889f24c2685eec8b80979bdb5c80371d1fc510d8370e4fc21a"
+      "fingerprint": "122c080f04fa749737b3d574000c51f7063bfbb3e64c3bc31c7a641eecff5170"
     },
     {
       "id": "s06-information-integrity:question-representation",
@@ -2658,15 +2775,21 @@
         "s06-information-integrity-representation-1",
         "s06-information-integrity-representation-2",
         "s06-information-integrity-representation-3",
-        "s06-information-integrity-representation-check"
+        "s06-information-integrity-representation-scheme",
+        "s06-information-integrity-representation-case",
+        "s06-information-integrity-representation-check",
+        "s06-information-integrity-representation-multiple",
+        "s06-information-integrity-representation-short",
+        "s06-information-integrity-representation-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "63ac771921edf246810f511e8315be97022f55ec4f58e0e797de6b7be42e0747"
+      "fingerprint": "b7c1f756772811b228438152ff41e30ff7b783f5370e4c419c1192699ac8f72d"
     },
     {
       "id": "s06-information-integrity:question-reconciliation",
@@ -2676,15 +2799,21 @@
         "s06-information-integrity-reconciliation-1",
         "s06-information-integrity-reconciliation-2",
         "s06-information-integrity-reconciliation-3",
-        "s06-information-integrity-reconciliation-check"
+        "s06-information-integrity-reconciliation-scheme",
+        "s06-information-integrity-reconciliation-case",
+        "s06-information-integrity-reconciliation-check",
+        "s06-information-integrity-reconciliation-multiple",
+        "s06-information-integrity-reconciliation-short",
+        "s06-information-integrity-reconciliation-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "17276d71c9c8c847b8ed2c40cc41ab998711b3ba234e4ff91d7acc16a22b2c81"
+      "fingerprint": "94143c6ae60e9191eff911b3ee6d917f51ae01346d81a348682efecb8d7b37f7"
     },
     {
       "id": "s06-information-integrity:question-correction",
@@ -2694,18 +2823,21 @@
         "s06-information-integrity-content-5",
         "s06-information-integrity-correction-2",
         "s06-information-integrity-correction-3",
+        "s06-information-integrity-correction-scheme",
+        "s06-information-integrity-correction-case",
         "s06-information-integrity-correction-check",
-        "s06-information-integrity-case",
-        "s06-information-integrity-test",
-        "s06-information-integrity-transfer"
+        "s06-information-integrity-correction-multiple",
+        "s06-information-integrity-correction-short",
+        "s06-information-integrity-correction-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "b0625d85f7326aab0e61f8cc35f8cce93e23cd45cdc4e17504072f5f5595390c"
+      "fingerprint": "f4dbf0f006e6e855ee5f421bee1070bec50cd29f79233c913566c186bab920df"
     },
     {
       "id": "s06-information-integrity:closing",
@@ -2721,7 +2853,7 @@
         "teacher"
       ],
       "artifacts": {},
-      "fingerprint": "b0e11f2601d330b5e9cf43d1468a319d4a923e12b964c54d30b80ce512208382"
+      "fingerprint": "418b099dadcb345025da79ea58bf4abe635646c47dbd214c29b943cbff061272"
     },
     {
       "id": "s06-performance:intro",
@@ -2738,7 +2870,7 @@
         "teacher"
       ],
       "artifacts": {},
-      "fingerprint": "aba6e367003cc1ec1abb078c3091f48d6a85008554951165d05cf8d1e62eb079"
+      "fingerprint": "d2c1c534e7580779c3bda8f923fc47332e106f6d0bf1ec447a9bf3fdaff3a3e1"
     },
     {
       "id": "s06-performance:question",
@@ -2748,15 +2880,21 @@
         "s06-performance-content-1",
         "s06-performance-measures-2",
         "s06-performance-measures-3",
-        "s06-performance-measures-check"
+        "s06-performance-measures-scheme",
+        "s06-performance-measures-case",
+        "s06-performance-measures-check",
+        "s06-performance-measures-multiple",
+        "s06-performance-measures-short",
+        "s06-performance-measures-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "70b3a9f8d52784d435ce4a5b5c6963073dad373e710b5ee2a711479813d8752b"
+      "fingerprint": "cb78d099004f70dda6fb416d0852baad8a1161af696303a1b73cc1440946ad70"
     },
     {
       "id": "s06-performance:question-latency",
@@ -2767,7 +2905,12 @@
         "s06-performance-latency-2",
         "s06-performance-latency-2-view",
         "s06-performance-latency-3",
-        "s06-performance-latency-check"
+        "s06-performance-latency-scheme",
+        "s06-performance-latency-case",
+        "s06-performance-latency-check",
+        "s06-performance-latency-multiple",
+        "s06-performance-latency-short",
+        "s06-performance-latency-matching"
       ],
       "needs": [
         "student",
@@ -2776,7 +2919,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "c6ccc8fc340e1c4cc04c60aa22a430826bdde4edbeee1248ffe6a6ab50eba427"
+      "fingerprint": "9a39658f0b3009867f9ee6440e12b68e532646717528f6e68ba45ed0f87c9d46"
     },
     {
       "id": "s06-performance:question-statistics",
@@ -2787,7 +2930,12 @@
         "s06-performance-diagram-2",
         "s06-performance-statistics-2",
         "s06-performance-statistics-3",
-        "s06-performance-statistics-check"
+        "s06-performance-statistics-scheme",
+        "s06-performance-statistics-case",
+        "s06-performance-statistics-check",
+        "s06-performance-statistics-multiple",
+        "s06-performance-statistics-short",
+        "s06-performance-statistics-matching"
       ],
       "needs": [
         "student",
@@ -2796,7 +2944,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "3162a9fb7e8ff9975bfd575e50753afcf962c245a1a52d2f93085c90a076ed1e"
+      "fingerprint": "a65325f9e051371568cc8b00a1b5b13b1bf6f24d6648489c57517817e715e4b3"
     },
     {
       "id": "s06-performance:question-load",
@@ -2806,15 +2954,21 @@
         "s06-performance-load-1",
         "s06-performance-load-2",
         "s06-performance-load-3",
-        "s06-performance-load-check"
+        "s06-performance-load-scheme",
+        "s06-performance-load-case",
+        "s06-performance-load-check",
+        "s06-performance-load-multiple",
+        "s06-performance-load-short",
+        "s06-performance-load-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "c180116f50893c1a0d5c4c199c8a671eb9f4d7dfe0a0715ea5d2c48c32dea91a"
+      "fingerprint": "e35fbf280e7f911a85501a38f977bcdbb5c883db25867c8bece41d56cb7f7e2f"
     },
     {
       "id": "s06-performance:question-resources",
@@ -2824,15 +2978,21 @@
         "s06-performance-content-3",
         "s06-performance-resources-2",
         "s06-performance-resources-3",
-        "s06-performance-resources-check"
+        "s06-performance-resources-scheme",
+        "s06-performance-resources-case",
+        "s06-performance-resources-check",
+        "s06-performance-resources-multiple",
+        "s06-performance-resources-short",
+        "s06-performance-resources-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "c40cc1fbc41d73669c09646db933da0702fbc501e71183aa5a7529b504b73ee5"
+      "fingerprint": "7b2466f023ba0296067e4fb36e725c7e098085af9c5de1242e74cf9d7210b61d"
     },
     {
       "id": "s06-performance:question-experiment",
@@ -2842,15 +3002,21 @@
         "s06-performance-content-4",
         "s06-performance-experiment-2",
         "s06-performance-experiment-3",
-        "s06-performance-experiment-check"
+        "s06-performance-experiment-scheme",
+        "s06-performance-experiment-case",
+        "s06-performance-experiment-check",
+        "s06-performance-experiment-multiple",
+        "s06-performance-experiment-short",
+        "s06-performance-experiment-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "e0f09d1a6d44662c5a933c39694c09cdbe32446eab9a85dbacb9fa6367e56a5e"
+      "fingerprint": "7cffa9272706aee6abbb57d17fb9a02a88289e109cc65fb23b7ad50ee33784e0"
     },
     {
       "id": "s06-performance:question-report",
@@ -2860,18 +3026,21 @@
         "s06-performance-content-5",
         "s06-performance-report-2",
         "s06-performance-report-3",
+        "s06-performance-report-scheme",
+        "s06-performance-report-case",
         "s06-performance-report-check",
-        "s06-performance-case",
-        "s06-performance-test",
-        "s06-performance-transfer"
+        "s06-performance-report-multiple",
+        "s06-performance-report-short",
+        "s06-performance-report-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "0c9cb1d1a76cb7e2de7fac325a8e6a164ef4627aa5a5ba0373ef5c0b2e091c5f"
+      "fingerprint": "5b5054459919b39a0fbf77ad633198d6766aa59e70db9ba3b6a56ccff4a83f84"
     },
     {
       "id": "s06-performance:closing",
@@ -2887,7 +3056,7 @@
         "teacher"
       ],
       "artifacts": {},
-      "fingerprint": "5e4274fcb71dcf4ce9ce0c3f19fdf9cb8241d7d6353b9cf5713a5d1b4e16a033"
+      "fingerprint": "194ddbb055cd835f0374c1aedeb3ad8ef00af8414ff45939c6b6d6b350b148ef"
     },
     {
       "id": "s06-improvement:intro",
@@ -2904,7 +3073,7 @@
         "teacher"
       ],
       "artifacts": {},
-      "fingerprint": "b9c0addcd12962778b6329c7713f34ce91de6c058d0a8819dd775b3578c5caa1"
+      "fingerprint": "285b30d6505bdbd4c654cf6ad823feaa6bf7fe52068f0a680a490baf60300746"
     },
     {
       "id": "s06-improvement:question",
@@ -2914,15 +3083,21 @@
         "s06-improvement-baseline-1",
         "s06-improvement-baseline-2",
         "s06-improvement-baseline-3",
-        "s06-improvement-baseline-check"
+        "s06-improvement-baseline-scheme",
+        "s06-improvement-baseline-case",
+        "s06-improvement-baseline-check",
+        "s06-improvement-baseline-multiple",
+        "s06-improvement-baseline-short",
+        "s06-improvement-baseline-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "7e5fa911664bdeb248e9a9f78263feafea9527ade641856b07807aa0bd257f30"
+      "fingerprint": "c44edae9255d7bd220af85229a1cf70f5c2fed4179d0c40050bf6f9612cc9abf"
     },
     {
       "id": "s06-improvement:question-methods",
@@ -2932,15 +3107,21 @@
         "s06-improvement-content-1",
         "s06-improvement-methods-2",
         "s06-improvement-methods-3",
-        "s06-improvement-methods-check"
+        "s06-improvement-methods-scheme",
+        "s06-improvement-methods-case",
+        "s06-improvement-methods-check",
+        "s06-improvement-methods-multiple",
+        "s06-improvement-methods-short",
+        "s06-improvement-methods-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "97dc3dad7884d39cd078d3e377d6d736b800682d5183fe66f573a3c16e66d8fb"
+      "fingerprint": "798ed0e01e637e1f95e02a92becffd3dd47218c9357fe0f0dc5b8ba13f8caea8"
     },
     {
       "id": "s06-improvement:question-recovery",
@@ -2950,15 +3131,21 @@
         "s06-improvement-recovery-1",
         "s06-improvement-recovery-2",
         "s06-improvement-recovery-3",
-        "s06-improvement-recovery-check"
+        "s06-improvement-recovery-scheme",
+        "s06-improvement-recovery-case",
+        "s06-improvement-recovery-check",
+        "s06-improvement-recovery-multiple",
+        "s06-improvement-recovery-short",
+        "s06-improvement-recovery-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "fdc9af1d0846b33ce6ed7b3296384b5a97748589c8f95e20cd738b3ef0b644d2"
+      "fingerprint": "5944534cdaceb368a520494b1d17cb85ef133db599e4c3d84234586406b4d213"
     },
     {
       "id": "s06-improvement:question-maintenance",
@@ -2969,7 +3156,12 @@
         "s06-improvement-diagram-2",
         "s06-improvement-maintenance-2",
         "s06-improvement-maintenance-3",
-        "s06-improvement-maintenance-check"
+        "s06-improvement-maintenance-scheme",
+        "s06-improvement-maintenance-case",
+        "s06-improvement-maintenance-check",
+        "s06-improvement-maintenance-multiple",
+        "s06-improvement-maintenance-short",
+        "s06-improvement-maintenance-matching"
       ],
       "needs": [
         "student",
@@ -2978,7 +3170,7 @@
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "d2d88a4b8435ff1b3cc7e6d988511eae942e0728d86810ae6a01d430b07e04cc"
+      "fingerprint": "4503e1f8a77ed52bd9f8a8cb495f2e2d39733823ca57b6a65ee28f987cc52ea2"
     },
     {
       "id": "s06-improvement:question-justification",
@@ -2989,15 +3181,21 @@
         "s06-improvement-content-4",
         "s06-improvement-justification-3",
         "s06-improvement-justification-4",
-        "s06-improvement-justification-check"
+        "s06-improvement-justification-scheme",
+        "s06-improvement-justification-case",
+        "s06-improvement-justification-check",
+        "s06-improvement-justification-multiple",
+        "s06-improvement-justification-short",
+        "s06-improvement-justification-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "1992e2c0a834e254117c347fcd25546cd98b1714ff4c9a87ba1742b241a65b97"
+      "fingerprint": "6a56e927c18255d9fcf5685d40ce77cd1149af8558ab736e7f70a49fd674367a"
     },
     {
       "id": "s06-improvement:question-verification",
@@ -3007,18 +3205,21 @@
         "s06-improvement-content-5",
         "s06-improvement-verification-2",
         "s06-improvement-verification-3",
+        "s06-improvement-verification-scheme",
+        "s06-improvement-verification-case",
         "s06-improvement-verification-check",
-        "s06-improvement-case",
-        "s06-improvement-test",
-        "s06-improvement-transfer"
+        "s06-improvement-verification-multiple",
+        "s06-improvement-verification-short",
+        "s06-improvement-verification-matching"
       ],
       "needs": [
         "student",
         "teacher",
+        "visual",
         "behavior"
       ],
       "artifacts": {},
-      "fingerprint": "986cacc9a142e5e3d844ad28f50ca753c1e872d2779cd938bc8f006f89c875b1"
+      "fingerprint": "ac5300d5856bfba1de338494b0060a84eecf9b9d14c69287a99e660d7b19bae3"
     },
     {
       "id": "s06-improvement:closing",
@@ -3034,263 +3235,12 @@
         "teacher"
       ],
       "artifacts": {},
-      "fingerprint": "36f2d0ea118c6a3fff7275e39355db10b55dfe9ea3989e454f98b04865239ccd"
-    },
-    {
-      "id": "s06-lab-single:intro",
-      "lectureId": "s06-lab-single",
-      "slideIds": [
-        "s06-lab-single-title",
-        "s06-lab-single-literature",
-        "s06-lab-single-additional",
-        "s06-lab-single-materials"
-      ],
-      "needs": [
-        "student",
-        "teacher"
-      ],
-      "artifacts": {},
-      "fingerprint": "a92464621e35d11b7c26a40d46b1cd971ff5f3f92b3ddb2daab5f7b33932cfb5"
-    },
-    {
-      "id": "s06-lab-single:question",
-      "lectureId": "s06-lab-single",
-      "slideIds": [
-        "s06-lab-single-question",
-        "s06-lab-single-content-1",
-        "s06-lab-single-content-2",
-        "s06-lab-single-content-3",
-        "s06-lab-single-case",
-        "s06-lab-single-test",
-        "s06-lab-single-transfer"
-      ],
-      "needs": [
-        "student",
-        "teacher",
-        "behavior"
-      ],
-      "artifacts": {},
-      "fingerprint": "0e65f4f392351f2794ff158a0481a4c1b68eb7bdfd9492fb40d2489d169a1343"
-    },
-    {
-      "id": "s06-lab-single:closing",
-      "lectureId": "s06-lab-single",
-      "slideIds": [
-        "s06-lab-single-summary",
-        "s06-lab-single-audience"
-      ],
-      "needs": [
-        "student",
-        "teacher"
-      ],
-      "artifacts": {},
-      "fingerprint": "e582bfc5d57c652ffc671c1e9939b4b9fdcd8e7bc99bb2384cccbe10f6f9f4cf"
-    },
-    {
-      "id": "s06-lab-availability:intro",
-      "lectureId": "s06-lab-availability",
-      "slideIds": [
-        "s06-lab-availability-title",
-        "s06-lab-availability-literature",
-        "s06-lab-availability-additional",
-        "s06-lab-availability-materials"
-      ],
-      "needs": [
-        "student",
-        "teacher"
-      ],
-      "artifacts": {},
-      "fingerprint": "f141db2ec116b724ba96cedcbde109847e17b258ba77b31e9f212a1e75a3f90c"
-    },
-    {
-      "id": "s06-lab-availability:question",
-      "lectureId": "s06-lab-availability",
-      "slideIds": [
-        "s06-lab-availability-question",
-        "s06-lab-availability-content-1",
-        "s06-lab-availability-content-2",
-        "s06-lab-availability-content-3",
-        "s06-lab-availability-case",
-        "s06-lab-availability-test",
-        "s06-lab-availability-transfer"
-      ],
-      "needs": [
-        "student",
-        "teacher",
-        "behavior"
-      ],
-      "artifacts": {},
-      "fingerprint": "b461228a884218922d60a1347a22909802e14fe7d7e68bac0e425d5e7c0b361e"
-    },
-    {
-      "id": "s06-lab-availability:closing",
-      "lectureId": "s06-lab-availability",
-      "slideIds": [
-        "s06-lab-availability-summary",
-        "s06-lab-availability-audience"
-      ],
-      "needs": [
-        "student",
-        "teacher"
-      ],
-      "artifacts": {},
-      "fingerprint": "3972e6ec17ca8ba7708d21334feae08629fc2a8c0e6e6279609c702c466df30d"
-    },
-    {
-      "id": "s06-lab-redundancy:intro",
-      "lectureId": "s06-lab-redundancy",
-      "slideIds": [
-        "s06-lab-redundancy-title",
-        "s06-lab-redundancy-literature",
-        "s06-lab-redundancy-additional",
-        "s06-lab-redundancy-materials"
-      ],
-      "needs": [
-        "student",
-        "teacher"
-      ],
-      "artifacts": {},
-      "fingerprint": "8f85d257a8f787f871ff8958ec23b185c52d1fa50244c90bdb96cfb7a00da573"
-    },
-    {
-      "id": "s06-lab-redundancy:question",
-      "lectureId": "s06-lab-redundancy",
-      "slideIds": [
-        "s06-lab-redundancy-question",
-        "s06-lab-redundancy-content-1",
-        "s06-lab-redundancy-content-2",
-        "s06-lab-redundancy-content-3",
-        "s06-lab-redundancy-case",
-        "s06-lab-redundancy-test",
-        "s06-lab-redundancy-transfer"
-      ],
-      "needs": [
-        "student",
-        "teacher",
-        "behavior"
-      ],
-      "artifacts": {},
-      "fingerprint": "1364594df7663ee76aba766e1266676ace0bc8f95661de03dbd91e62c51dccfc"
-    },
-    {
-      "id": "s06-lab-redundancy:closing",
-      "lectureId": "s06-lab-redundancy",
-      "slideIds": [
-        "s06-lab-redundancy-summary",
-        "s06-lab-redundancy-audience"
-      ],
-      "needs": [
-        "student",
-        "teacher"
-      ],
-      "artifacts": {},
-      "fingerprint": "0e77bdd460b9012408877d9854ac58ab77e71628007a6054969c77b5f2d44056"
-    },
-    {
-      "id": "s06-lab-integrity:intro",
-      "lectureId": "s06-lab-integrity",
-      "slideIds": [
-        "s06-lab-integrity-title",
-        "s06-lab-integrity-literature",
-        "s06-lab-integrity-additional",
-        "s06-lab-integrity-materials"
-      ],
-      "needs": [
-        "student",
-        "teacher"
-      ],
-      "artifacts": {},
-      "fingerprint": "4864fc04e4eaf1c451c841d3593b5e8231a998b42f085c9fee3b8a87952f4d94"
-    },
-    {
-      "id": "s06-lab-integrity:question",
-      "lectureId": "s06-lab-integrity",
-      "slideIds": [
-        "s06-lab-integrity-question",
-        "s06-lab-integrity-content-1",
-        "s06-lab-integrity-content-2",
-        "s06-lab-integrity-content-3",
-        "s06-lab-integrity-case",
-        "s06-lab-integrity-test",
-        "s06-lab-integrity-transfer"
-      ],
-      "needs": [
-        "student",
-        "teacher",
-        "behavior"
-      ],
-      "artifacts": {},
-      "fingerprint": "82bd2114d4428ea778af0a5513d072dfa8edd8fec3faf82c069a81465aa2e0eb"
-    },
-    {
-      "id": "s06-lab-integrity:closing",
-      "lectureId": "s06-lab-integrity",
-      "slideIds": [
-        "s06-lab-integrity-summary",
-        "s06-lab-integrity-audience"
-      ],
-      "needs": [
-        "student",
-        "teacher"
-      ],
-      "artifacts": {},
-      "fingerprint": "72f48f59aa3a92f01eff9ecf9f80832291678d976a9f15cde3718986f52e24a3"
-    },
-    {
-      "id": "s06-lab-performance:intro",
-      "lectureId": "s06-lab-performance",
-      "slideIds": [
-        "s06-lab-performance-title",
-        "s06-lab-performance-literature",
-        "s06-lab-performance-additional",
-        "s06-lab-performance-materials"
-      ],
-      "needs": [
-        "student",
-        "teacher"
-      ],
-      "artifacts": {},
-      "fingerprint": "0753c660fee8b8e10a90f2b7a4ff9e69dfa19e23789934dd4d04a36a88fef372"
-    },
-    {
-      "id": "s06-lab-performance:question",
-      "lectureId": "s06-lab-performance",
-      "slideIds": [
-        "s06-lab-performance-question",
-        "s06-lab-performance-content-1",
-        "s06-lab-performance-content-2",
-        "s06-lab-performance-content-3",
-        "s06-lab-performance-content-4",
-        "s06-lab-performance-case",
-        "s06-lab-performance-test",
-        "s06-lab-performance-transfer"
-      ],
-      "needs": [
-        "student",
-        "teacher",
-        "behavior"
-      ],
-      "artifacts": {},
-      "fingerprint": "9b0d4993db99211adeb72bbe53f91113b30388acd9a61a23df337ac4e1eb0e68"
-    },
-    {
-      "id": "s06-lab-performance:closing",
-      "lectureId": "s06-lab-performance",
-      "slideIds": [
-        "s06-lab-performance-summary",
-        "s06-lab-performance-audience"
-      ],
-      "needs": [
-        "student",
-        "teacher"
-      ],
-      "artifacts": {},
-      "fingerprint": "f9c3d4a8ae1ea466c4cb22bd907cfa8fe63f8fea7c6cf1004ea6f2c2a9299fbf"
+      "fingerprint": "9e66db864e4030675f305f91b98eb7086a014600a6f1c4009106430ea1ee0f2f"
     }
   ],
   "counts": {
-    "lectures": 29,
-    "slides": 930,
-    "units": 175
+    "lectures": 17,
+    "slides": 1242,
+    "units": 139
   }
 }

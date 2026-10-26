@@ -13,6 +13,9 @@ export function validateNarrative(lecture,outline){
   const block=lecture.slides.slice(start+1,end);
   assert.ok(block.some(s=>s.kind==='theory'&&s.body),sections[i].id+': missing explanation');
   assert.ok(block.some(s=>s.kind==='example'||s.visual),sections[i].id+': missing application');
-  assert.ok(block.some(s=>s.task),sections[i].id+': missing check');
+  const tasks=block.filter(s=>s.task);
+  assert.deepEqual(tasks.map(s=>s.task.type),['single','multiple','short','matching'],sections[i].id+': four ordered task types required');
+  assert.ok(block[block.indexOf(tasks[0])-1]?.learning,sections[i].id+': case immediately before the task set required');
+  assert.ok(block.some(s=>s.visual&&!['matrix','comparison','codeParts'].includes(s.visual.type)),sections[i].id+': missing subject diagram');
  }
 }

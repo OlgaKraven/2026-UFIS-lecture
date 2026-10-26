@@ -1,0 +1,1686 @@
+{
+  "count": 210,
+  "results": [
+    {
+      "id": "s05-system-boundary-purpose-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-system-boundary-purpose-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-system-boundary-technical-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-system-boundary-technical-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-system-boundary-software-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-system-boundary-software-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-system-boundary-information-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s05-system-boundary-information-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s05-system-boundary-responsibility-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-system-boundary-responsibility-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-system-boundary-boundary-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-system-boundary-boundary-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-system-boundary-operation-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-system-boundary-operation-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-structure-workplace-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-structure-workplace-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-structure-servers-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-structure-servers-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-structure-data-path-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-structure-data-path-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-structure-storage-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-structure-storage-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-structure-peripherals-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-structure-peripherals-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-structure-power-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-structure-power-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-classification-purpose-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-classification-purpose-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-classification-scale-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-classification-scale-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-classification-placement-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-classification-placement-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-classification-comparison-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s05-classification-comparison-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s05-classification-selection-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-classification-selection-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-accounting-supply-objects-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-accounting-supply-objects-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-accounting-supply-documents-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s05-accounting-supply-documents-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s05-accounting-supply-stock-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s05-accounting-supply-stock-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s05-accounting-supply-planning-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s05-accounting-supply-planning-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s05-accounting-supply-integration-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s05-accounting-supply-integration-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s05-accounting-supply-exploitation-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-accounting-supply-exploitation-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-production-quality-levels-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s05-production-quality-levels-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s05-production-quality-routing-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-production-quality-routing-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-production-quality-trace-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-production-quality-trace-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-production-quality-measurement-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-production-quality-measurement-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-production-quality-nonconformity-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s05-production-quality-nonconformity-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s05-production-quality-service-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s05-production-quality-service-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s05-reference-library-records-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s05-reference-library-records-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s05-reference-library-search-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-reference-library-search-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-reference-library-circulation-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-reference-library-circulation-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-reference-library-access-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-reference-library-access-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-reference-library-maintenance-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-reference-library-maintenance-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-building-media-field-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-building-media-field-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-building-media-controllers-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-building-media-controllers-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-building-media-media-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-building-media-media-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-building-media-zones-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-building-media-zones-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-building-media-diagnostics-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-building-media-diagnostics-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-building-media-maintenance-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-building-media-maintenance-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-integration-groups-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-integration-groups-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-integration-switching-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-integration-switching-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-integration-display-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-integration-display-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-integration-audio-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-integration-audio-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-integration-surveillance-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s05-integration-surveillance-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s05-integration-ports-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-integration-ports-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-integration-acceptance-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-integration-acceptance-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-lan-topology-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-lan-topology-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-lan-switches-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-lan-switches-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-lan-address-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-lan-address-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-lan-services-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-lan-services-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-lan-checks-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-lan-checks-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-lan-faults-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-lan-faults-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-lan-records-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-lan-records-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-documentation-set-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-documentation-set-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-documentation-passport-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-documentation-passport-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-documentation-schemes-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-documentation-schemes-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-documentation-instructions-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-documentation-instructions-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-documentation-changes-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-documentation-changes-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-documentation-usability-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s05-documentation-usability-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s06-reliability-foundations-object-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s06-reliability-foundations-object-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s06-reliability-foundations-conditions-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s06-reliability-foundations-conditions-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s06-reliability-foundations-events-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s06-reliability-foundations-events-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s06-reliability-foundations-restoration-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s06-reliability-foundations-restoration-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s06-reliability-foundations-journal-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s06-reliability-foundations-journal-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s06-reliability-foundations-exposure-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s06-reliability-foundations-exposure-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s06-single-metrics-probability-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s06-single-metrics-probability-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s06-single-metrics-operating-mean-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s06-single-metrics-operating-mean-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s06-single-metrics-repair-mean-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s06-single-metrics-repair-mean-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s06-single-metrics-rate-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s06-single-metrics-rate-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s06-single-metrics-exponential-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s06-single-metrics-exponential-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s06-single-metrics-calculation-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s06-single-metrics-calculation-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s06-single-metrics-limits-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s06-single-metrics-limits-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s06-availability-readiness-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s06-availability-readiness-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s06-availability-utilization-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s06-availability-utilization-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s06-availability-fund-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s06-availability-fund-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s06-availability-effect-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s06-availability-effect-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s06-availability-comparison-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s06-availability-comparison-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s06-availability-procedure-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s06-availability-procedure-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s06-system-reliability-success-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s06-system-reliability-success-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s06-system-reliability-series-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s06-system-reliability-series-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s06-system-reliability-parallel-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s06-system-reliability-parallel-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s06-system-reliability-mixed-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s06-system-reliability-mixed-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s06-system-reliability-dependence-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s06-system-reliability-dependence-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s06-system-reliability-decision-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s06-system-reliability-decision-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s06-information-integrity-distortion-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s06-information-integrity-distortion-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s06-information-integrity-denominator-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s06-information-integrity-denominator-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s06-information-integrity-validation-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s06-information-integrity-validation-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s06-information-integrity-representation-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s06-information-integrity-representation-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s06-information-integrity-reconciliation-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s06-information-integrity-reconciliation-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s06-information-integrity-correction-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s06-information-integrity-correction-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s06-performance-measures-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s06-performance-measures-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s06-performance-latency-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s06-performance-latency-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s06-performance-statistics-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s06-performance-statistics-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s06-performance-load-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s06-performance-load-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s06-performance-resources-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s06-performance-resources-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s06-performance-experiment-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s06-performance-experiment-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s06-performance-report-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s06-performance-report-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s06-improvement-baseline-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s06-improvement-baseline-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s06-improvement-methods-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s06-improvement-methods-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s06-improvement-recovery-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s06-improvement-recovery-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s06-improvement-maintenance-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s06-improvement-maintenance-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s06-improvement-justification-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s06-improvement-justification-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    },
+    {
+      "id": "s06-improvement-verification-case",
+      "scenario": "base",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": true
+    },
+    {
+      "id": "s06-improvement-verification-case",
+      "scenario": "changed",
+      "steps": 4,
+      "review": true,
+      "synchronized": true,
+      "numeric": false
+    }
+  ],
+  "issues": []
+}

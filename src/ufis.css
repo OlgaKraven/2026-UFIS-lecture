@@ -68,6 +68,12 @@ button:focus-visible,a:focus-visible,input:focus-visible,textarea:focus-visible,
 .title-profile:has(strong:empty){display:none}
 .presenter-notes .note-text{overflow:auto;white-space:pre-wrap}
 .ufis-solution,.note-text{overflow-wrap:anywhere}
+.native-infographic{width:100%;height:auto;max-height:32cqw;display:block;overflow:visible}
+.rd-expanded .native-infographic{max-height:none;min-width:850px}
+.rd-expanded .ufis-network{height:auto;max-height:none;min-width:850px}
+.rd-expanded{overflow:auto}
+@media(max-width:650px){.native-infographic{max-height:none;min-width:700px}.rd-body:has(.native-infographic){overflow-x:auto}}
+@media print{.native-infographic{max-height:490px;width:100%;break-inside:avoid}}
 @media(max-width:650px){
  .approved-catalog{padding:14px!important}
  .approved-catalog .catalog-header{flex-wrap:wrap}

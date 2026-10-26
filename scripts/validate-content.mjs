@@ -10,14 +10,17 @@ validateCourse(course);validateTeacherPack(pack,course);validateBank(bank,course
 assert.deepEqual(course.semesters,[5,6]);assert.ok(!course.year);
 assert.deepEqual(course.assessment,{mode:'autonomous',url:'assessment.json'});
 assert.equal(coverage.filter(c=>c.category==='lecture').length,17);
-assert.equal(coverage.filter(c=>c.category==='laboratory').length,12);
-for(const [semester,lectures,labs] of [[5,10,7],[6,7,5]]){
+assert.equal(coverage.filter(c=>c.category==='laboratory').length,0);
+assert.equal(course.lectures.length,17);
+assert.ok(!JSON.stringify(course).match(/лабораторн|s0[56]-lab-/i));
+for(const [semester,lectures,labs] of [[5,10,0],[6,7,0]]){
  assert.equal(coverage.filter(c=>c.semester===semester&&c.category==='lecture').length,lectures);
  assert.equal(coverage.filter(c=>c.semester===semester&&c.category==='laboratory').length,labs);
 }
 for(const path of courseAssets(course))if(!/^https?:/.test(path))assert.ok(fs.existsSync('public/'+path),path);
 for(const lecture of course.lectures){
  assert.equal(lecture.slides[0].kind,'title');
+ assert.deepEqual(lecture.slides.filter(s=>s.kind==='literature').map(s=>s.references.length),[2,2]);
  const outline=coverage.find(c=>c.lectureId===lecture.id);
  if(outline.category==='lecture'){
   validateNarrative(lecture,outline);
@@ -31,7 +34,7 @@ for(const lecture of course.lectures){
   }
   if(slide.task){
    const key=bank.keys[slide.task.id];
-   const answer=slide.task.type==='multiple'?key.correct:(key.correct?.[0]??key.accepted?.[0]);assert.equal(evaluate(slide.task,key,answer).status,'correct');
+   const answer=slide.task.type==='matching'?key.pairs:slide.task.type==='multiple'?key.correct:(key.correct?.[0]??key.accepted?.[0]);assert.equal(evaluate(slide.task,key,answer).status,'correct');
    assert.equal(evaluate(slide.task,key,'несуществующий ответ').status,'incorrect');
   }
  }
@@ -54,4 +57,11 @@ assert.equal(1-8/200,.96);
 const a=[120,120,130,130,140,150,160,180,300,900],b=[100,100,110,110,120,120,130,140,160,300];
 assert.equal(a.reduce((x,y)=>x+y)/a.length,233);assert.equal(b.reduce((x,y)=>x+y)/b.length,139);
 assert.equal(a[Math.ceil(.95*a.length)-1],900);
-console.log(JSON.stringify({lectures:17,laboratories:12,slides:Object.keys(pack.notes).length,models:Object.keys(models).length,tasks:Object.keys(bank.keys).length}));
+// Counterexamples to the exact defects reported by the reader.
+const missingType=structuredClone(sample);missingType.slides=missingType.slides.filter(s=>s.task?.type!=='matching');
+assert.throws(()=>validateNarrative(missingType,planned),/four ordered task types/);
+const missingCase=structuredClone(sample);missingCase.slides=missingCase.slides.filter(s=>!s.learning);
+assert.throws(()=>validateNarrative(missingCase,planned),/case immediately before/);
+const threeOptions=structuredClone(course);threeOptions.lectures[0].slides.find(s=>s.task?.type==='single').task.options.pop();
+assert.throws(()=>validateCourse(threeOptions),/4 содержательных/);
+console.log(JSON.stringify({lectures:17,laboratories:0,slides:Object.keys(pack.notes).length,models:Object.keys(models).length,tasks:Object.keys(bank.keys).length}));
